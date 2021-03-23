@@ -1,8 +1,15 @@
 from sklearn import datasets
-import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn import svm
+from sklearn.metrics import accuracy_score
+
 
 iris = datasets.load_iris()
-# Split dateentries by features and labels
+# Split data entries by features and labels
 
-x = iris.data
+X = iris.data
 y = iris.target
+
+plt.plot(X, y)
+
