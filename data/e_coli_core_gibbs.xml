@@ -557,10 +557,10 @@
       </species>
       <species id="M_icit_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Isocitrate" metaid="M_icit_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C6H5O7">
        <notes>
-      "deltaG = 0.42906138 kcal/mol"
+      "deltaG = N/A"
           <body>
             <center><h2>GIBBS</h2></center>
-            <P>0.42906138 kcal/mol</p>
+            <P>N/A</p>
           </body>
       </notes>  <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -595,7 +595,8 @@
             <center><h2>GIBBS</h2></center>
             <P>-72.12645 kcal/mol</p>
           </body>
-      </notes>   <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+      </notes>   
+      <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_lac__D_c">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -624,7 +625,13 @@
         </sbml:annotation>
       </species>
       <species id="M_lac__D_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="D-Lactate" metaid="M_lac__D_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="-1" fbc:chemicalFormula="C3H5O3">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+      <notes>
+      "deltaG = -72.12645 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-72.12645 kcal/mol</p>
+          </body>
+      </notes>   <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_lac__D_e">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -653,7 +660,13 @@
         </sbml:annotation>
       </species>
       <species id="M_mal__L_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="L-Malate" metaid="M_mal__L_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C4H4O5">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+      <notes>
+      "deltaG = -161.16376 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-161.16376 kcal/mol</p>
+          </body>  
+          <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_mal__L_c">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -682,6 +695,13 @@
         </sbml:annotation>
       </species>
       <species id="M_mal__L_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="L-Malate" metaid="M_mal__L_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="-2" fbc:chemicalFormula="C4H4O5">
+      <notes>
+      "deltaG = -161.16376 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-161.16376 kcal/mol</p>
+          </body>
+      </notes>
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_mal__L_e">
@@ -710,8 +730,16 @@
           </rdf:RDF>
         </sbml:annotation>
       </species>
+      -338.38196 kcal/mol
       <species id="M_nad_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Nicotinamide adenine dinucleotide" metaid="M_nad_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+      <notes>
+      "deltaG = -338.38196 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-338.38196 kcal/mol</p>
+          </body>
+      </notes> 
+          <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_nad_c">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -747,6 +775,13 @@
         </sbml:annotation>
       </species>
       <species id="M_nadh_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Nicotinamide adenine dinucleotide - reduced" metaid="M_nadh_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2">
+      <notes>
+      "deltaG = -325.20697 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-325.20697 kcal/mol</p>
+          </body>
+      </notes> 
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_nadh_c">
@@ -778,6 +813,13 @@
         </sbml:annotation>
       </species>
       <species id="M_nadp_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Nicotinamide adenine dinucleotide phosphate" metaid="M_nadp_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C21H25N7O17P3">
+       <notes>
+      "deltaG = -563.64954 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-563.64954 kcal/mol</p>
+          </body>
+      </notes>   
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_nadp_c">
@@ -817,6 +859,13 @@
         </sbml:annotation>
       </species>
       <species id="M_nadph_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Nicotinamide adenine dinucleotide phosphate - reduced" metaid="M_nadph_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-4" fbc:chemicalFormula="C21H26N7O17P3">
+         <notes>
+      "deltaG = -551.72284 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-551.72284 kcal/mol</p>
+          </body>
+      </notes>    
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_nadph_c">
@@ -855,6 +904,13 @@
         </sbml:annotation>
       </species>
       <species id="M_nh4_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Ammonium" metaid="M_nh4_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="1" fbc:chemicalFormula="H4N">
+         <notes>
+      "deltaG = 21.812426 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>21.812426 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_nh4_c">
@@ -911,6 +967,13 @@
         </sbml:annotation>
       </species>
       <species id="M_13dpg_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="3-Phospho-D-glyceroyl phosphate" metaid="M_13dpg_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-4" fbc:chemicalFormula="C3H4O10P2">
+      <notes>
+      "deltaG = -547.3985 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-547.3985 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_13dpg_c">
@@ -937,6 +1000,13 @@
         </sbml:annotation>
       </species>
       <species id="M_nh4_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Ammonium" metaid="M_nh4_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="1" fbc:chemicalFormula="H4N">
+        <notes>
+      "deltaG = 21.812426 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>21.812426 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_nh4_e">
@@ -993,6 +1063,13 @@
         </sbml:annotation>
       </species>
       <species id="M_o2_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="O2 O2" metaid="M_o2_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="0" fbc:chemicalFormula="O2">
+      <notes>
+      "deltaG = 3.92 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>3.92 kcal/mol</p>
+          </body>
+      </notes>
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_o2_c">
@@ -1038,6 +1115,13 @@
         </sbml:annotation>
       </species>
       <species id="M_2pg_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="D-Glycerate 2-phosphate" metaid="M_2pg_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C3H4O7P">
+      <notes>
+      "deltaG = -329.7941 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-329.7941 kcal/mol</p>
+          </body>
+      </notes>
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_2pg_c">
@@ -1070,6 +1154,13 @@
         </sbml:annotation>
       </species>
       <species id="M_o2_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="O2 O2" metaid="M_o2_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="0" fbc:chemicalFormula="O2">
+       <notes>
+      "deltaG = 3.92 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>3.92 kcal/mol</p>
+          </body>
+      </notes>
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_o2_e">
@@ -1115,6 +1206,13 @@
         </sbml:annotation>
       </species>
       <species id="M_3pg_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="3-Phospho-D-glycerate" metaid="M_3pg_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C3H4O7P">
+      <notes>
+      "deltaG = -331.1141 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-331.1141 kcal/mol</p>
+          </body>
+      </notes>
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_3pg_c">
@@ -1144,6 +1242,13 @@
         </sbml:annotation>
       </species>
       <species id="M_oaa_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Oxaloacetate" metaid="M_oaa_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C4H2O5">
+        <notes>
+      "deltaG = -170.30602 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-170.30602 kcal/mol</p>
+          </body>
+      </notes>
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_oaa_c">
@@ -1181,6 +1286,13 @@
         </sbml:annotation>
       </species>
       <species id="M_pep_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Phosphoenolpyruvate" metaid="M_pep_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C3H2O6P">
+          <notes>
+      "deltaG = -293.83633 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-293.83633 kcal/mol</p>
+          </body>
+      </notes>
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_pep_c">
@@ -1211,6 +1323,13 @@
         </sbml:annotation>
       </species>
       <species id="M_6pgc_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="6-Phospho-D-gluconate" metaid="M_6pgc_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C6H10O10P">
+      <notes>
+      "deltaG = -381.25735 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-381.25735 kcal/mol</p>
+          </body>
+      </notes>
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_6pgc_c">
@@ -1241,6 +1360,13 @@
         </sbml:annotation>
       </species>
       <species id="M_pi_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Phosphate" metaid="M_pi_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="HO4P">
+      <notes>
+      "deltaG = -252.94714 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-252.94714 kcal/mol</p>
+          </body>
+      </notes>
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_pi_c">
@@ -1295,6 +1421,13 @@
         </sbml:annotation>
       </species>
       <species id="M_6pgl_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="6-phospho-D-glucono-1,5-lactone" metaid="M_6pgl_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C6H9O9P">
+      <notes>
+      "deltaG = -337.32812 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-337.32812 kcal/mol</p>
+          </body>
+      </notes> 
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_6pgl_c">
@@ -1323,6 +1456,13 @@
         </sbml:annotation>
       </species>
       <species id="M_pi_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Phosphate" metaid="M_pi_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="-2" fbc:chemicalFormula="HO4P">
+      <notes>
+      "deltaG = -252.94714 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-252.94714 kcal/mol</p>
+          </body>
+      </notes>
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_pi_e">
@@ -1377,6 +1517,13 @@
         </sbml:annotation>
       </species>
       <species id="M_ac_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Acetate" metaid="M_ac_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C2H3O2">
+      <notes>
+      "deltaG = 57.768696 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>57.768696 kcal/mol</p>
+          </body>
+      </notes> 
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_ac_c">
@@ -1419,6 +1566,13 @@
         </sbml:annotation>
       </species>
       <species id="M_pyr_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Pyruvate" metaid="M_pyr_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C3H3O3">
+      <notes>
+      "deltaG = -82.398705 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-82.398705 kcal/mol</p>
+          </body>
+      </notes> 
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_pyr_c">
@@ -1454,6 +1608,13 @@
         </sbml:annotation>
       </species>
       <species id="M_pyr_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Pyruvate" metaid="M_pyr_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="-1" fbc:chemicalFormula="C3H3O3">
+      <notes>
+      "deltaG = -82.398705 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-82.398705 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_pyr_e">
@@ -1489,6 +1650,13 @@
         </sbml:annotation>
       </species>
       <species id="M_q8_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Ubiquinone-8" metaid="M_q8_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="0" fbc:chemicalFormula="C49H74O4">
+      <notes>
+      "deltaG = 886.6629 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>886.6629 kcal/mol</p>
+          </body>
+      </notes>   
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_q8_c">
@@ -1509,6 +1677,13 @@
         </sbml:annotation>
       </species>
       <species id="M_q8h2_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Ubiquinol-8" metaid="M_q8h2_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="0" fbc:chemicalFormula="C49H76O4">
+      <notes>
+      "deltaG = 901.4052 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>901.4052 kcal/mol</p>
+          </body>
+      </notes>    
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_q8h2_c">
@@ -1529,6 +1704,13 @@
         </sbml:annotation>
       </species>
       <species id="M_r5p_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Alpha-D-Ribose 5-phosphate" metaid="M_r5p_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C5H9O8P">
+      <notes>
+      "deltaG = -302.92813 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-302.92813 kcal/mol</p>
+          </body>
+      </notes>    
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_r5p_c">
@@ -1552,6 +1734,13 @@
         </sbml:annotation>
       </species>
       <species id="M_ru5p__D_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="D-Ribulose 5-phosphate" metaid="M_ru5p__D_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C5H9O8P">
+      <notes>
+      "deltaG = -302.30817 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-302.30817 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_ru5p__D_c">
@@ -1585,6 +1774,13 @@
         </sbml:annotation>
       </species>
       <species id="M_ac_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Acetate" metaid="M_ac_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="-1" fbc:chemicalFormula="C2H3O2">
+      <notes>
+      "deltaG = -57.768696 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-57.768696 kcal/mol</p>
+          </body>
+      </notes>   
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_ac_e">
@@ -1627,6 +1823,13 @@
         </sbml:annotation>
       </species>
       <species id="M_acald_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Acetaldehyde" metaid="M_acald_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="0" fbc:chemicalFormula="C2H4O">
+       <notes>
+      "deltaG = 7.6844816 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>7.6844816 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_acald_c">
@@ -1660,6 +1863,13 @@
         </sbml:annotation>
       </species>
       <species id="M_s7p_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Sedoheptulose 7-phosphate" metaid="M_s7p_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C7H13O10P">
+        <notes>
+      "deltaG = -334.0637 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-334.0637 kcal/mol</p>
+          </body>
+      </notes>   
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_s7p_c">
@@ -1690,6 +1900,13 @@
         </sbml:annotation>
       </species>
       <species id="M_acald_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Acetaldehyde" metaid="M_acald_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="0" fbc:chemicalFormula="C2H4O">
+         <notes>
+      "deltaG = 7.6844816 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>7.6844816 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_acald_e">
@@ -1723,6 +1940,13 @@
         </sbml:annotation>
       </species>
       <species id="M_accoa_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Acetyl-CoA" metaid="M_accoa_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-4" fbc:chemicalFormula="C23H34N7O17P3S">
+      <notes>
+      "deltaG = -506.8639 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-506.8639 kcal/mol</p>
+          </body>
+      </notes>     
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_accoa_c">
@@ -1758,7 +1982,13 @@
         </sbml:annotation>
       </species>
       <species id="M_succ_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Succinate" metaid="M_succ_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C4H4O4">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+        <notes>
+      "deltaG = -125.16375 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-125.16375 kcal/mol</p>
+          </body>
+      </notes>    <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_succ_c">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -1801,7 +2031,13 @@
         </sbml:annotation>
       </species>
       <species id="M_succ_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Succinate" metaid="M_succ_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="-2" fbc:chemicalFormula="C4H4O4">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+        <notes>
+      "deltaG = -125.16375 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-125.16375 kcal/mol</p>
+          </body>
+      </notes>    <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_succ_e">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -1844,6 +2080,13 @@
         </sbml:annotation>
       </species>
       <species id="M_succoa_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Succinyl-CoA" metaid="M_succoa_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-5" fbc:chemicalFormula="C25H35N7O19P3S">
+         <notes>
+      "deltaG = -575.61127 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-575.61127 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_succoa_c">
@@ -1874,6 +2117,13 @@
         </sbml:annotation>
       </species>
       <species id="M_acon_C_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Cis-Aconitate" metaid="M_acon_C_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C6H3O6">
+          <notes>
+      "deltaG = -191.19519 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-191.19519 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_acon_C_c">
@@ -1902,6 +2152,13 @@
         </sbml:annotation>
       </species>
       <species id="M_xu5p__D_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="D-Xylulose 5-phosphate" metaid="M_xu5p__D_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C5H9O8P">
+          <notes>
+      "deltaG = -302.30817 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-302.30817 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_xu5p__D_c">
@@ -1930,6 +2187,13 @@
         </sbml:annotation>
       </species>
       <species id="M_actp_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Acetyl phosphate" metaid="M_actp_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C2H3O5P">
+          <notes>
+      "deltaG = -273.5149 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-273.5149 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_actp_c">
@@ -1955,6 +2219,13 @@
         </sbml:annotation>
       </species>
       <species id="M_adp_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="ADP C10H12N5O10P2" metaid="M_adp_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C10H12N5O10P2">
+          <notes>
+      "deltaG = -344.92508 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-344.92508 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_adp_c">
@@ -1993,6 +2264,13 @@
         </sbml:annotation>
       </species>
       <species id="M_akg_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="2-Oxoglutarate" metaid="M_akg_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C5H4O5">
+          <notes>
+      "deltaG = -149.76376 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-149.76376 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_akg_c">
@@ -2031,6 +2309,14 @@
         </sbml:annotation>
       </species>
       <species id="M_akg_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="2-Oxoglutarate" metaid="M_akg_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="-2" fbc:chemicalFormula="C5H4O5">
+        <notes>
+      "deltaG = -149.76376 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-149.76376 kcal/mol</p>
+          </body>
+      </notes>  
+
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_akg_e">
@@ -2069,6 +2355,13 @@
         </sbml:annotation>
       </species>
       <species id="M_amp_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="AMP C10H12N5O7P" metaid="M_amp_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P">
+          <notes>
+      "deltaG = -135.89479 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-135.89479 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_amp_c">
@@ -2113,6 +2406,13 @@
         </sbml:annotation>
       </species>
       <species id="M_atp_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="ATP C10H12N5O13P3" metaid="M_atp_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
+          <notes>
+      "deltaG = -553.6995 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-553.6995 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_atp_c">
@@ -2156,6 +2456,13 @@
       </species>
       <species id="M_cit_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Citrate" metaid="M_cit_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C6H5O7">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+            <notes>
+      "deltaG = -230.69292 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-230.69292 kcal/mol</p>
+          </body>
+      </notes>  
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_cit_c">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -2196,6 +2503,14 @@
         </sbml:annotation>
       </species>
       <species id="M_co2_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="CO2 CO2" metaid="M_co2_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="0" fbc:chemicalFormula="CO2">
+        
+          <notes>
+      "deltaG = -92.26 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-92.26 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_co2_c">
@@ -2236,6 +2551,14 @@
         </sbml:annotation>
       </species>
       <species id="M_co2_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="CO2 CO2" metaid="M_co2_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="0" fbc:chemicalFormula="CO2">
+        <notes>
+      "deltaG = -92.26 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-92.26 kcal/mol</p>
+          </body>
+      </notes>   
+       
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_co2_e">
@@ -2276,6 +2599,13 @@
         </sbml:annotation>
       </species>
       <species id="M_coa_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Coenzyme A" metaid="M_coa_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-4" fbc:chemicalFormula="C21H32N7O16P3S">
+       <notes>
+      "deltaG = -493.56613 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-493.56613 kcal/mol</p>
+          </body>
+      </notes>    
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_coa_c">
@@ -2317,6 +2647,13 @@
         </sbml:annotation>
       </species>
       <species id="M_dhap_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Dihydroxyacetone phosphate" metaid="M_dhap_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C3H5O6P">
+          <notes>
+      "deltaG = -267.48264 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-267.48264 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_dhap_c">
@@ -2348,6 +2685,13 @@
         </sbml:annotation>
       </species>
       <species id="M_e4p_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="D-Erythrose 4-phosphate" metaid="M_e4p_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C4H7O7P">
+          <notes>
+      "deltaG = -284.9704 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-284.9704 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_e4p_c">
@@ -2375,6 +2719,13 @@
         </sbml:annotation>
       </species>
       <species id="M_etoh_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Ethanol" metaid="M_etoh_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="0" fbc:chemicalFormula="C2H6O">
+          <notes>
+      "deltaG = 18.186724 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>18.186724 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_etoh_c">
@@ -2414,6 +2765,13 @@
         </sbml:annotation>
       </species>
       <species id="M_etoh_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Ethanol" metaid="M_etoh_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="0" fbc:chemicalFormula="C2H6O">
+          <notes>
+      "deltaG = 18.186724 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>18.186724 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_etoh_e">
@@ -2453,6 +2811,13 @@
         </sbml:annotation>
       </species>
       <species id="M_f6p_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="D-Fructose 6-phosphate" metaid="M_f6p_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C6H11O9P">
+          <notes>
+      "deltaG = -317.66592 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-317.66592 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_f6p_c">
@@ -2479,6 +2844,13 @@
         </sbml:annotation>
       </species>
       <species id="M_fdp_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="D-Fructose 1,6-bisphosphate" metaid="M_fdp_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-4" fbc:chemicalFormula="C6H10O12P2">
+          <notes>
+      "deltaG = -541.3618 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-541.3618 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_fdp_c">
@@ -2487,7 +2859,7 @@
                   <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/fdp"/>
                   <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:37736"/>
                   <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:49299"/>
-                  <rdf:li rdf:resource="http://identifiers.org/inchi_key/RNBGYGVWRKECFJ-VRPWFDPXSA-J"/>
+                  <rdf:li rdf:resource="http://identifiers.org/inchi_key/RNBGYGVWRKECFJ-ARQDHWQXSA-J"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00354"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM417"/>
                   <rdf:li rdf:resource="http://identifiers.org/sabiork/1465"/>
@@ -2499,6 +2871,13 @@
         </sbml:annotation>
       </species>
       <species id="M_for_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Formate" metaid="M_for_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-1" fbc:chemicalFormula="CH1O2">
+         <notes>
+      "deltaG =-73.93095 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-73.93095 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_for_c">
@@ -2542,6 +2921,13 @@
         </sbml:annotation>
       </species>
       <species id="M_for_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Formate" metaid="M_for_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="-1" fbc:chemicalFormula="CH1O2">
+         <notes>
+      "deltaG = -73.93095 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-73.93095 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_for_e">
@@ -2585,6 +2971,13 @@
         </sbml:annotation>
       </species>
       <species id="M_fru_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="D-Fructose" metaid="M_fru_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
+          <notes>
+      "deltaG = -95.91656 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-95.91656 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_fru_e">
@@ -2631,6 +3024,13 @@
         </sbml:annotation>
       </species>
       <species id="M_fum_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Fumarate" metaid="M_fum_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C4H2O4">
+         <notes>
+      "deltaG = -124.406006 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-124.406006 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_fum_c">
@@ -2669,6 +3069,13 @@
         </sbml:annotation>
       </species>
       <species id="M_fum_e" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Fumarate" metaid="M_fum_e" sboTerm="SBO:0000247" compartment="e" fbc:charge="-2" fbc:chemicalFormula="C4H2O4">
+          <notes>
+      "deltaG = -124.406006 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-124.406006 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_fum_e">
@@ -2707,6 +3114,13 @@
         </sbml:annotation>
       </species>
       <species id="M_g3p_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="Glyceraldehyde 3-phosphate" metaid="M_g3p_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C3H5O6P">
+          <notes>
+      "deltaG = -265.65268 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-265.65268 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_g3p_c">
@@ -2742,6 +3156,13 @@
         </sbml:annotation>
       </species>
       <species id="M_g6p_c" constant="false" boundaryCondition="false" hasOnlySubstanceUnits="false" name="D-Glucose 6-phosphate" metaid="M_g6p_c" sboTerm="SBO:0000247" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C6H11O9P">
+         <notes>
+      "deltaG = -319.04593 kcal/mol"
+          <body>
+            <center><h2>GIBBS</h2></center>
+            <P>-319.04593 kcal/mol</p>
+          </body>
+      </notes>  
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#M_g6p_c">
