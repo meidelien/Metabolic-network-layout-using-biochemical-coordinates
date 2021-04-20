@@ -1,4 +1,3 @@
-
 import pandas as pd
 import matplotlib
 # matplotlib.use('tkagg')
@@ -7,7 +6,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 import sklearn
-# from sklearn import datasets as datasets
+# from sklearn import datasets as dataset
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
