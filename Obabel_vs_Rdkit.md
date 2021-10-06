@@ -1,6 +1,6 @@
 # Obabel 
 
-<h3> Pros </h3>
+### Pros 
 
  - Has a GUI application
  - Supports SMARTS
@@ -8,7 +8,7 @@
  - Supports conversion of a wide range of formats
 
 
-<h3> Cons </h3>
+### Cons
 
   - Sub-par documentation
   - Not as easy to use for my purposes as RdKit is 
