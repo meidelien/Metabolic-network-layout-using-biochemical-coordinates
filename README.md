@@ -1,2 +1,2 @@
 # Master
- Metabolic network layout using biochemical coordinates
+Metabolic network layout using biochemical coordinates
