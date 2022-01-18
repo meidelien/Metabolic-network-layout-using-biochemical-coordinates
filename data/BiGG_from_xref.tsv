@@ -1,6 +1,6 @@
 Line	Source	BiGG	MNXM	Stuff	
 12: bigg.metabolite:	oh1	MNXM02	Hydroxideion
-43: bigg.metabolite:	h	MNXM1	H+
+43:	bigg.metabolite:	h	MNXM1	H+
 118: bigg.metabolite:	nadh	MNXM10	Nicotinamideadeninedinucleotide-reduced
 151: bigg.metabolite:	grdp	MNXM100	Geranyldiphosphate
 12228: bigg.metabolite:	mercplaccys	MNXM10053	3-mercaptolactate-cysteinedisulfide
