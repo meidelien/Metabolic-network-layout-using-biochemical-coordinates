@@ -1,0 +1,964 @@
+,#source,ID,description
+41,bigg.metabolite:h,MNXM1,H+
+116,bigg.metabolite:nadh,MNXM10,Nicotinamide adenine dinucleotide - reduced
+149,bigg.metabolite:grdp,MNXM100,Geranyl diphosphate
+39213,bigg.metabolite:btal,MNXM1017,Butanal
+46276,bigg.metabolite:dtbt,MNXM1020,Dethiobiotin
+98224,bigg.metabolite:dca,MNXM1043,Decanoate (n-C10:0)
+102851,bigg.metabolite:mana,MNXM1045,D-Mannonate
+140583,bigg.metabolite:acg5sa,MNXM1062,N-Acetyl-L-glutamate 5-semialdehyde
+158650,bigg.metabolite:no2,MNXM107,Nitrite
+180792,bigg.metabolite:hdca,MNXM108,Hexadecanoate (n-C16:0)
+198635,bigg.metabolite:oxur,MNXM1088,Oxalureate
+206275,bigg.metabolite:5fthf,MNXM1091982,5-Formyltetrahydrofolate
+208106,bigg.metabolite:acon_C,MNXM1092518,Cis-Aconitate
+208935,bigg.metabolite:cur,MNXM1092739,Curcumin
+209271,bigg.metabolite:dcacoa,MNXM1092836,Decanoyl-CoA (n-C10:0CoA)
+209390,bigg.metabolite:dhcholn,MNXM1092863,"3?,12?-dihydroxy-7-oxo-5?-cholan-24-oate"
+209753,bigg.metabolite:f,MNXM1092965,Fluoride
+210079,bigg.metabolite:glu5sa,MNXM1093051,L-Glutamate 5-semialdehyde
+210858,bigg.metabolite:lgt__S,MNXM1093274,(R)-S-Lactoylglutathione
+211163,bigg.metabolite:mercpeth,MNXM1093356,Mercaptoethanol
+211495,bigg.metabolite:3oocoa,MNXM1093448,3-Oxooctanoyl-CoA
+211628,bigg.metabolite:occoa,MNXM1093479,Octanoyl-CoA (n-C8:0CoA)
+214409,bigg.metabolite:teo2,MNXM1094276,Tellurite
+214491,bigg.metabolite:tma,MNXM1094294,Trimethylamine
+216219,bigg.metabolite:fgam,MNXM1094915,N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide
+216247,bigg.metabolite:fpram,MNXM1094916,2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine
+227928,bigg.metabolite:ppi,MNXM11,Diphosphate
+232305,bigg.metabolite:udpacgal,MNXM1100890,UDP-N-acetyl-D-galactosamine
+234001,bigg.metabolite:fcl__L,MNXM1101253,L-fuculose
+234051,bigg.metabolite:uacmam,MNXM1101258,UDP-N-acetyl-D-mannosamine
+234189,bigg.metabolite:agdpcbi,MNXM1101279,Adenosine-GDP-cobinamide
+234233,bigg.metabolite:gmp,MNXM1101285,GMP
+234273,bigg.metabolite:2mahmp,MNXM1101289,2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate
+234377,bigg.metabolite:kdolipid4,MNXM1101307,KDO-lipid IV(A)
+234469,bigg.metabolite:utp,MNXM1101474,UTP
+234719,bigg.metabolite:imp,MNXM1101868,IMP
+234933,bigg.metabolite:unaga,MNXM1101902,Undecaprenyl diphospho N-acetyl-glucosamine
+235123,bigg.metabolite:arbtn_fe3,MNXM1101937,Aerobactin
+235128,bigg.metabolite:arbtn,MNXM1101938,Aerobactin minus Fe3
+235317,bigg.metabolite:5mta,MNXM1101977,5-Methylthioadenosine
+235542,bigg.metabolite:gp4g,MNXM1102064,"P1,P4-Bis(5'-guanosyl) tetraphosphate"
+235580,bigg.metabolite:amet,MNXM1102072,S-Adenosyl-L-methionine
+235927,bigg.metabolite:udp,MNXM1102128,UDP
+236074,bigg.metabolite:mlthf,MNXM1102150,"5,10-Methylenetetrahydrofolate"
+236101,bigg.metabolite:xtp,MNXM1102152,XTP
+236175,bigg.metabolite:ahcys,MNXM1102167,S-Adenosyl-L-homocysteine
+236247,bigg.metabolite:3amp,MNXM1102173,3 AMP
+236298,bigg.metabolite:udpgalfur,MNXM1102185,"UDP-D-galacto-1,4-furanose"
+236318,bigg.metabolite:3ump,MNXM1102189,3 UMP
+236347,bigg.metabolite:cdp,MNXM1102191,CDP
+236652,bigg.metabolite:db4p,MNXM1102294,"3,4-dihydroxy-2-butanone 4-phosphate"
+236899,bigg.metabolite:10fthf,MNXM1102376,10-Formyltetrahydrofolate
+238894,bigg.metabolite:aps,MNXM1103086,Adenosine 5'-phosphosulfate
+238967,bigg.metabolite:uri,MNXM1103104,Uridine
+239245,bigg.metabolite:r1p,MNXM1103205,Alpha-D-Ribose 1-phosphate
+239470,bigg.metabolite:gdp,MNXM1103285,GDP
+239534,bigg.metabolite:dnad,MNXM1103300,Deamino-NAD+
+239562,bigg.metabolite:cmp,MNXM1103302,CMP
+239637,bigg.metabolite:dad_5,MNXM1103313,5'-Deoxyadenosine
+239661,bigg.metabolite:3hodcoa,MNXM1103315,(S)-3-Hydroxyoctadecanoyl-CoA
+239716,bigg.metabolite:ametam,MNXM1103325,S-Adenosylmethioninamine
+239799,bigg.metabolite:ins,MNXM1103335,Inosine
+239854,bigg.metabolite:frdp,MNXM1103344,Farnesyl diphosphate
+239985,bigg.metabolite:aicar,MNXM1103365,5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide
+240176,bigg.metabolite:gsn,MNXM1103400,Guanosine
+240327,bigg.metabolite:itp,MNXM1103428,ITP
+240364,bigg.metabolite:1ddecg3p,MNXM1103432,1-dodecanoyl-sn-glycerol 3-phosphate
+240458,bigg.metabolite:3mop,MNXM1103447,(S)-3-Methyl-2-oxopentanoate
+240552,bigg.metabolite:pap,MNXM1103458,"Adenosine 3',5'-bisphosphate"
+240968,bigg.metabolite:gtp,MNXM1103553,GTP
+241019,bigg.metabolite:orot5p,MNXM1103557,Orotidine 5'-phosphate
+241320,bigg.metabolite:hxcoa,MNXM1103616,Hexanoyl-CoA (n-C6:0CoA)
+241371,bigg.metabolite:dcamp,MNXM1103622,"N6-(1,2-Dicarboxyethyl)-AMP"
+241541,bigg.metabolite:kphphhlipa,MNXM1103668,Kdo-phospho-heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA
+241698,bigg.metabolite:mococdp,MNXM1103700,Molybdopterin cytosine dinucleotide
+241822,bigg.metabolite:adocbi,MNXM1103715,Adenosyl cobinamide
+241841,bigg.metabolite:ctp,MNXM1103718,CTP
+241928,bigg.metabolite:25drapp,MNXM1103734,"2,5-Diamino-6-(ribosylamino)-4-(3H)-pyrimidinone 5'-phosphate"
+242116,bigg.metabolite:xtsn,MNXM1103769,Xanthosine
+242159,bigg.metabolite:3otdcoa,MNXM1103776,3-Oxotetradecanoyl-CoA
+242323,bigg.metabolite:aacoa,MNXM1103802,Acetoacetyl-CoA
+242480,bigg.metabolite:ap4a,MNXM1103833,"P1,P4-Bis(5'-adenosyl) tetraphosphate"
+242612,bigg.metabolite:alac__S,MNXM1103847,(S)-2-Acetolactate
+242771,bigg.metabolite:glcur1p,MNXM1103867,D-Glucuronate 1-phosphate
+243145,bigg.metabolite:malthx,MNXM1103926,Maltohexaose
+243197,bigg.metabolite:tagdp__D,MNXM1103932,"D-Tagatose 1,6-biphosphate"
+243250,bigg.metabolite:thf,MNXM1103936,"5,6,7,8-Tetrahydrofolate"
+243449,bigg.metabolite:melib,MNXM1103964,Melibiose
+244003,bigg.metabolite:maltpt,MNXM1104039,Maltopentaose
+244062,bigg.metabolite:r5p,MNXM1104056,Alpha-D-Ribose 5-phosphate
+244100,bigg.metabolite:gam6p,MNXM1104065,D-Glucosamine 6-phosphate
+244402,bigg.metabolite:unagamuf,MNXM1104103,"Undecaprenyl-diphospho N-acetylglucosamine-N-acetylmannosaminuronate-N-acetamido-4,6-dideoxy-D-galactose"
+244614,bigg.metabolite:malthp,MNXM1104130,Maltoheptaose
+244778,bigg.metabolite:gdpddman,MNXM1104155,GDP-4-dehydro-6-deoxy-D-mannose
+244853,bigg.metabolite:td2coa,MNXM1104173,Trans-Tetradec-2-enoyl-CoA
+244956,bigg.metabolite:sucr,MNXM1104180,Sucrose
+245030,bigg.metabolite:rml1p,MNXM1104186,L-Rhamnulose 1-phosphate
+245050,bigg.metabolite:gdpmann,MNXM1104188,GDP-D-mannose
+245137,bigg.metabolite:micit,MNXM1104204,Methylisocitrate
+245164,bigg.metabolite:cytd,MNXM1104207,Cytidine
+245267,bigg.metabolite:2ommbl,MNXM1104227,"2-Octaprenyl-3-methyl-6-methoxy- 1,4-benzoquinol"
+245444,bigg.metabolite:accoa,MNXM1104266,Acetyl-CoA
+245487,bigg.metabolite:b2coa,MNXM1104270,Crotonoyl-CoA
+245549,bigg.metabolite:2omhmbl,MNXM1104278,"2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinol"
+245572,bigg.metabolite:tdcoa,MNXM1104283,Tetradecanoyl-CoA (n-C14:0CoA)
+245662,bigg.metabolite:btcoa,MNXM1104300,Butanoyl-CoA
+245734,bigg.metabolite:dtdp4d6dm,MNXM1104310,DTDP-4-dehydro-6-deoxy-L-mannose
+245770,bigg.metabolite:malt6p,MNXM1104316,Maltose 6'-phosphate
+245907,bigg.metabolite:hhlipa,MNXM1104340,Heptosyl-heptosyl-kdo2-lipidA
+245944,bigg.metabolite:stcoa,MNXM1104352,Stearoyl-CoA (n-C18:0CoA)
+246003,bigg.metabolite:3hadpcoa,MNXM1104364,(3S)-3-Hydroxyadipyl-CoA
+246035,bigg.metabolite:moco,MNXM1104368,Molybdenum cofactor
+246168,bigg.metabolite:xmp,MNXM1104385,Xanthosine 5'-phosphate
+246214,bigg.metabolite:4ampm,MNXM1104391,4-Amino-2-methyl-5-phosphomethylpyrimidine
+246236,bigg.metabolite:5mthf,MNXM1104393,5-Methyltetrahydrofolate
+246265,bigg.metabolite:preq1,MNXM1104395,7-aminomethyl-7-deazaguanine
+246310,bigg.metabolite:cdpdhdecg,MNXM1104403,"CDP-1,2-dihexadecanoylglycerol"
+246405,bigg.metabolite:lcts,MNXM1104432,Lactose
+246454,bigg.metabolite:ddcacoa,MNXM1104435,Dodecanoyl-CoA (n-C12:0CoA)
+246556,bigg.metabolite:prpp,MNXM1104453,5-Phospho-alpha-D-ribose 1-diphosphate
+246611,bigg.metabolite:sbt6p,MNXM1104463,D-Sorbitol 6-phosphate
+246741,bigg.metabolite:6pgl,MNXM1104491,"6-phospho-D-glucono-1,5-lactone"
+246870,bigg.metabolite:dtdp4d6dg,MNXM1104509,DTDP-4-dehydro-6-deoxy-D-glucose
+246928,bigg.metabolite:allul6p,MNXM1104516,Allulose 6-phosphate
+246942,bigg.metabolite:fprica,MNXM1104518,5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide
+246996,bigg.metabolite:gar,MNXM1104522,N1-(5-Phospho-D-ribosyl)glycinamide
+247023,bigg.metabolite:malttr,MNXM1104527,Maltotriose
+247049,bigg.metabolite:uacgam,MNXM1104529,UDP-N-acetyl-D-glucosamine
+247193,bigg.metabolite:dpcoa,MNXM1104543,Dephospho-CoA
+247219,bigg.metabolite:adprib,MNXM1104545,ADPribose
+247247,bigg.metabolite:pram,MNXM1104549,5-Phospho-beta-D-ribosylamine
+247276,bigg.metabolite:adocbl,MNXM1104551,Adenosylcobalamin
+247317,bigg.metabolite:paps,MNXM1104555,3'-Phosphoadenylyl sulfate
+247354,bigg.metabolite:idp,MNXM1104559,IDP
+247402,bigg.metabolite:phaccoa,MNXM1104563,Phenylacetyl-CoA
+247431,bigg.metabolite:3ohodcoa,MNXM1104572,3-Oxooctadecanoyl-CoA
+247535,bigg.metabolite:mnl,MNXM1104590,D-Mannitol
+247673,bigg.metabolite:maltttr,MNXM1104617,Maltotetraose
+247766,bigg.metabolite:dc2coa,MNXM1104631,Trans-Dec-2-enoyl-CoA
+247789,bigg.metabolite:hdd2coa,MNXM1104633,Trans-Hexadec-2-enoyl-CoA
+247837,bigg.metabolite:25aics,MNXM1104647,(S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate
+247953,bigg.metabolite:dd2coa,MNXM1104661,Trans-Dodec-2-enoyl-CoA
+248052,bigg.metabolite:prpncoa,MNXM1104673,Propenoyl-CoA
+248104,bigg.metabolite:alaala,MNXM1104679,D-Alanyl-D-alanine
+248132,bigg.metabolite:3hdcoa,MNXM1104681,(S)-3-Hydroxydecanoyl-CoA
+248159,bigg.metabolite:3odcoa,MNXM1104685,3-Oxodecanoyl-CoA
+248233,bigg.metabolite:3oddcoa,MNXM1104695,3-Oxododecanoyl-CoA
+248264,bigg.metabolite:3ohcoa,MNXM1104699,3-Oxohexanoyl-CoA
+248306,bigg.metabolite:udpg,MNXM1104702,UDPglucose
+248362,bigg.metabolite:3hddcoa,MNXM1104711,(S)-3-Hydroxydodecanoyl-CoA
+248387,bigg.metabolite:3ohdcoa,MNXM1104713,3-Oxohexadecanoyl-CoA
+248439,bigg.metabolite:hx2coa,MNXM1104717,Trans-Hex-2-enoyl-CoA
+248490,bigg.metabolite:3hhcoa,MNXM1104721,(S)-3-Hydroxyhexanoyl-CoA
+248520,bigg.metabolite:3hocoa,MNXM1104724,(S)-3-Hydroxyoctanoyl-CoA
+248550,bigg.metabolite:3htdcoa,MNXM1104726,(S)-3-Hydroxytetradecanoyl-CoA
+248638,bigg.metabolite:kdo2lipid4,MNXM1104740,KDO(2)-lipid IV(A)
+248675,bigg.metabolite:udpgal,MNXM1104754,UDPgalactose
+248714,bigg.metabolite:cbl1,MNXM1104756,Cob(I)alamin
+248871,bigg.metabolite:succoa,MNXM1104774,Succinyl-CoA
+248968,bigg.metabolite:od2coa,MNXM1104783,Trans-Octadec-2-enoyl-CoA
+249014,bigg.metabolite:f1p,MNXM1104787,D-Fructose 1-phosphate
+249181,bigg.metabolite:ump,MNXM1104823,UMP
+249329,bigg.metabolite:sheme,MNXM1104857,Siroheme
+249454,bigg.metabolite:adocbip,MNXM1104880,Adenosyl cobinamide phosphate
+249514,bigg.metabolite:udpglcur,MNXM1104890,UDP-D-glucuronate
+249576,bigg.metabolite:4ahmmp,MNXM1104899,4-Amino-5-hydroxymethyl-2-methylpyrimidine
+249893,bigg.metabolite:gam1p,MNXM1104944,D-Glucosamine 1-phosphate
+250431,bigg.metabolite:glc__D,MNXM1105029,D-Glucose
+250590,bigg.metabolite:dxylnt,MNXM1105052,D-Xylonate
+250742,bigg.metabolite:1pyr5c,MNXM1105060,1-Pyrroline-5-carboxylate
+253183,bigg.metabolite:gam,MNXM1105684,D-Glucosamine
+253402,bigg.metabolite:ala__D,MNXM1105731,D-Alanine
+253439,bigg.metabolite:ala__L,MNXM1105732,L-Alanine
+253506,bigg.metabolite:crn,MNXM1105737,L-Carnitine
+253581,bigg.metabolite:uacmamu,MNXM1105744,UDP-N-acetyl-D-mannosaminouronate
+253708,bigg.metabolite:adn,MNXM1105760,Adenosine
+253751,bigg.metabolite:fadh2,MNXM1105762,Flavin adenine dinucleotide reduced
+253792,bigg.metabolite:glcur,MNXM1105765,D-Glucuronate
+254106,bigg.metabolite:acgam1p,MNXM1105798,N-Acetyl-D-glucosamine 1-phosphate
+254154,bigg.metabolite:acgal1p,MNXM1105799,N-Acetyl-D-galactosamine 1-phosphate
+254292,bigg.metabolite:fru,MNXM1105810,D-Fructose
+254518,bigg.metabolite:man,MNXM1105842,D-Mannose
+254696,bigg.metabolite:man6p,MNXM1105857,D-Mannose 6-phosphate
+254722,bigg.metabolite:g6p,MNXM1105858,D-Glucose 6-phosphate
+254886,bigg.metabolite:acmana,MNXM1105881,N-Acetyl-D-mannosamine
+255163,bigg.metabolite:3hbcoa,MNXM1105912,(S)-3-Hydroxybutanoyl-CoA
+255328,bigg.metabolite:fmn,MNXM1105927,FMN
+255379,bigg.metabolite:acgal,MNXM1105933,N-Acetyl-D-galactosamine
+255419,bigg.metabolite:acgam,MNXM1105935,N-Acetyl-D-glucosamine
+255453,bigg.metabolite:fad,MNXM1105936,Flavin adenine dinucleotide oxidized
+255501,bigg.metabolite:oxadpcoa,MNXM1105939,3-Oxoadipyl-CoA
+255526,bigg.metabolite:inost,MNXM1105941,Myo-Inositol
+255615,bigg.metabolite:dtdpglu,MNXM1105949,DTDPglucose
+255698,bigg.metabolite:odecoa,MNXM1105956,Octadecenoyl-CoA (n-C18:1CoA)
+255806,bigg.metabolite:urate,MNXM1105965,Urate
+255892,bigg.metabolite:adpglc,MNXM1105977,ADPglucose
+255966,bigg.metabolite:air,MNXM1105983,5-amino-1-(5-phospho-D-ribosyl)imidazole
+256192,bigg.metabolite:acmanap,MNXM1105998,N-Acetyl-D-mannosamine 6-phosphate
+256206,bigg.metabolite:acgam6p,MNXM1105999,N-Acetyl-D-glucosamine 6-phosphate
+256240,bigg.metabolite:aact,MNXM1106,Aminoacetone
+256274,bigg.metabolite:malt,MNXM1106000,Maltose
+256340,bigg.metabolite:gdpfuc,MNXM1106003,GDP-L-fucose
+256406,bigg.metabolite:oc2coa,MNXM1106007,Trans-Oct-2-enoyl-CoA
+256579,bigg.metabolite:tre,MNXM1106022,Trehalose
+256814,bigg.metabolite:metsox_S__L,MNXM1106045,L-Methionine Sulfoxide
+256860,bigg.metabolite:acnam,MNXM1106047,N-Acetylneuraminate
+256976,bigg.metabolite:man1p,MNXM1106057,D-Mannose 1-phosphate
+257072,bigg.metabolite:g1p,MNXM1106065,D-Glucose 1-phosphate
+257127,bigg.metabolite:gal1p,MNXM1106067,Alpha-D-Galactose 1-phosphate
+257318,bigg.metabolite:g3pe,MNXM1106082,Sn-Glycero-3-phosphoethanolamine
+257426,bigg.metabolite:malcoa,MNXM1106093,Malonyl CoA
+257461,bigg.metabolite:fdp,MNXM1106095,"D-Fructose 1,6-bisphosphate"
+257583,bigg.metabolite:minohp,MNXM1106105,Myo-Inositol hexakisphosphate
+257652,bigg.metabolite:dtdprmn,MNXM1106112,DTDP-L-rhamnose
+257872,bigg.metabolite:hdcoa,MNXM1106135,Hexadecenoyl-CoA (n-C16:1CoA)
+258078,bigg.metabolite:ppcoa,MNXM1106156,Propanoyl-CoA
+258128,bigg.metabolite:pmtcoa,MNXM1106160,Palmitoyl-CoA (n-C16:0CoA)
+258184,bigg.metabolite:lys__L,MNXM1106164,L-Lysine
+258262,bigg.metabolite:3hhdcoa,MNXM1106166,(S)-3-Hydroxyhexadecanoyl-CoA
+260823,bigg.metabolite:g3pg,MNXM1106891,Glycerophosphoglycerol
+260914,bigg.metabolite:fuc__L,MNXM1106903,L-Fucose
+261798,bigg.metabolite:2dglc,MNXM1107111,2 Deoxy D glucose
+261936,bigg.metabolite:udcpdp,MNXM1107136,Undecaprenyl diphosphate
+262227,bigg.metabolite:mal__L,MNXM1107192,L-Malate
+263265,bigg.metabolite:uamr,MNXM1107410,UDP-N-acetylmuramate
+263347,bigg.metabolite:2fe2s,MNXM1107419,[2Fe-2S] iron-sulfur cluster
+264365,bigg.metabolite:fmnh2,MNXM1107623,Reduced FMN
+264686,bigg.metabolite:LalaDgluMdap,MNXM1107671,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate"
+264710,bigg.metabolite:appl,MNXM1107675,1-Aminopropan-2-ol
+264918,bigg.metabolite:galct__D,MNXM1107694,D-Galactarate
+264959,bigg.metabolite:glcr,MNXM1107695,D-Glucarate
+265033,bigg.metabolite:23ddhb,MNXM1107702,"2,3-Dihydro-2,3-dihydroxybenzoate"
+265056,bigg.metabolite:dtdp4addg,MNXM1107704,"DTDP-4-amino-4,6-dideoxy-D-galactose"
+265095,bigg.metabolite:ocdcea,MNXM1107708,Octadecenoate (n-C18:1)
+265385,bigg.metabolite:cpmp,MNXM1107741,Cyclic pyranopterin monophosphate
+265425,bigg.metabolite:hemeO,MNXM1107744,Heme O
+265501,bigg.metabolite:cit,MNXM1107753,Citrate
+265541,bigg.metabolite:dmlz,MNXM1107754,"6,7-Dimethyl-8-(1-D-ribityl)lumazine"
+265594,bigg.metabolite:u3aga,MNXM1107760,UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine
+265621,bigg.metabolite:u3hga,MNXM1107764,UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine
+265682,bigg.metabolite:his__L,MNXM1107769,L-Histidine
+266011,bigg.metabolite:6pgg,MNXM1107797,"6-Phospho-beta-D-glucosyl-(1,4)-D-glucose"
+266077,bigg.metabolite:fe3dcit,MNXM1107801,Fe(III)dicitrate
+266171,bigg.metabolite:asn__L,MNXM1107821,L-Asparagine
+266585,bigg.metabolite:murein4px4px4p,MNXM1107894,Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm->D-ala) & tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain)
+266617,bigg.metabolite:f6p,MNXM1107898,D-Fructose 6-phosphate
+266671,bigg.metabolite:hdcea,MNXM1107900,Hexadecenoate (n-C16:1)
+266709,bigg.metabolite:no,MNXM1107902,Nitric oxide
+266741,bigg.metabolite:mmcoa__S,MNXM1107904,(S)-Methylmalonyl-CoA
+266786,bigg.metabolite:o2s,MNXM1107906,Superoxide anion
+267074,bigg.metabolite:dhpmp,MNXM1107940,Dihydroneopterin monophosphate
+267136,bigg.metabolite:adphep_DD,MNXM1107947,ADP-D-glycero-D-manno-heptose
+267198,bigg.metabolite:gmhep1p,MNXM1107954,D-Glycero-D-manno-heptose 1-phosphate
+267370,bigg.metabolite:hkndd,MNXM1107974,"2-Hydroxy-6-oxonona-2,4-diene-1,9-dioate"
+267429,bigg.metabolite:ttdcea,MNXM1107981,Tetradecenoate (n-C14:1)
+267579,bigg.metabolite:3hcinnm,MNXM1107995,3-hydroxycinnamic acid
+267695,bigg.metabolite:nicrnt,MNXM1108016,Nicotinate D-ribonucleotide
+267731,bigg.metabolite:h2,MNXM1108018,Hydrogen
+267969,bigg.metabolite:rib__D,MNXM1108051,D-Ribose
+268022,bigg.metabolite:dhptd,MNXM1108056,"4,5-dihydroxy-2,3-pentanedione"
+268252,bigg.metabolite:13dpg,MNXM1108073,3-Phospho-D-glyceroyl phosphate
+268388,bigg.metabolite:etoh,MNXM1108092,Ethanol
+268659,bigg.metabolite:ppp9,MNXM1108136,Protoporphyrin
+268691,bigg.metabolite:2dr1p,MNXM1108138,2-Deoxy-D-ribose 1-phosphate
+268947,bigg.metabolite:gal,MNXM1108175,D-Galactose
+269224,bigg.metabolite:asp__L,MNXM1108206,L-Aspartate
+269827,bigg.metabolite:3sala,MNXM1108289,3-Sulfino-L-alanine
+271409,bigg.metabolite:adphep_LD,MNXM1108522,ADP-L-glycero-D-manno-heptose
+302341,bigg.metabolite:gal_bD,MNXM112,Beta D-Galactose
+344725,bigg.metabolite:pro__L,MNXM114,L-Proline
+344780,bigg.metabolite:dann,MNXM1140,"7,8-Diaminononanoate"
+344947,bigg.metabolite:2aobut,MNXM114087,L-2-Amino-3-oxobutanoate
+348215,bigg.metabolite:sucorn,MNXM1152,N2-Succinyl-L-ornithine
+350025,bigg.metabolite:slnt,MNXM1157,Selenite
+351291,bigg.metabolite:frulysp,MNXM11605,Fructoselysine Phosphate
+353888,bigg.metabolite:2mecdp,MNXM1168,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate"
+354552,bigg.metabolite:urea,MNXM117,Urea
+354598,bigg.metabolite:3dhgulnp,MNXM1170,3-keto-L-gulonate-6-phosphate
+356794,bigg.metabolite:4h2opntn,MNXM1176,4-Hydroxy-2-oxopentanoate
+357153,bigg.metabolite:4pasp,MNXM1177,4-Phospho-L-aspartate
+357515,bigg.metabolite:5aprbu,MNXM1178,5-Amino-6-(5'-phosphoribitylamino)uracil
+358145,bigg.metabolite:hacolipa,MNXM11799,Hepta-acylated core oligosaccharide lipid A (E. coli)
+358182,bigg.metabolite:ptrc,MNXM118,Putrescine
+359605,bigg.metabolite:ara5p,MNXM1184,D-Arabinose 5-phosphate
+361265,bigg.metabolite:ppgpp,MNXM1189,"Guanosine 3',5'-bis(diphosphate)"
+362293,bigg.metabolite:mpt,MNXM1193,Molybdopterin
+364816,bigg.metabolite:23dhmp,MNXM1202,"(R)-2,3-Dihydroxy-3-methylpentanoate"
+367962,bigg.metabolite:sucbz,MNXM1212,O-Succinylbenzoate
+368720,bigg.metabolite:mercppyr,MNXM1214,Mercaptopyruvate
+370673,bigg.metabolite:2dda7p,MNXM1219,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate
+372785,bigg.metabolite:5prdmbz,MNXM1224,"N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole"
+375245,bigg.metabolite:hcys__L,MNXM123,L-Homocysteine
+376482,bigg.metabolite:galt,MNXM1233,Galactitol
+378695,bigg.metabolite:xu5p__L,MNXM1238,L-Xylulose 5-phosphate
+379315,bigg.metabolite:spmd,MNXM124,Spermidine
+382374,bigg.metabolite:h2s,MNXM124865,Hydrogen sulfide
+383957,bigg.metabolite:12ppd__S,MNXM1255,"(S)-Propane-1,2-diol"
+387033,bigg.metabolite:skm5p,MNXM1265,Shikimate 5-phosphate
+389682,bigg.metabolite:met__D,MNXM1275,D-Methionine
+391208,bigg.metabolite:ca2,MNXM128,Calcium
+391266,bigg.metabolite:glu5p,MNXM1280,L-Glutamate 5-phosphate
+391571,bigg.metabolite:histd,MNXM1281,L-Histidinol
+396912,bigg.metabolite:co2,MNXM13,CO2
+403550,bigg.metabolite:dmpp,MNXM132,Dimethylallyl diphosphate
+409699,bigg.metabolite:phom,MNXM1334,O-Phospho-L-homoserine
+411862,bigg.metabolite:selnp,MNXM1339,Selenophosphate
+422565,bigg.metabolite:3psme,MNXM1365,5-O-(1-Carboxyvinyl)-3-phosphoshikimate
+427034,bigg.metabolite:ghb,MNXM13761,Gamma-hydroxybutyrate
+427834,bigg.metabolite:ggbutal,MNXM1378,Gamma-glutamyl-gamma-butyraldehyde
+428626,bigg.metabolite:cbp,MNXM138,Carbamoyl phosphate
+430341,bigg.metabolite:acg5p,MNXM1384,N-Acetyl-L-glutamyl 5-phosphate
+435436,bigg.metabolite:prfp,MNXM1397,1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide
+436788,bigg.metabolite:34dhpac,MNXM1401,"3,4-Dihydroxyphenylacetaldehyde"
+437260,bigg.metabolite:pppn,MNXM1403,Phenylpropanoate
+438310,bigg.metabolite:gg4abut,MNXM1406,Gamma-glutamyl-gamma aminobutyric acid
+438694,bigg.metabolite:4per,MNXM1407,4-Phospho-D-erythronate
+439099,bigg.metabolite:prlp,MNXM1408,5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide
+443610,bigg.metabolite:thr__L,MNXM142,L-Threonine
+444481,bigg.metabolite:eig3p,MNXM1422,D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate
+451600,bigg.metabolite:ala_B,MNXM144,Beta-Alanine
+454222,bigg.metabolite:ugmd,MNXM1446,"UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate"
+455505,bigg.metabolite:ru5p__D,MNXM145,D-Ribulose 5-phosphate
+456409,bigg.metabolite:glu1sa,MNXM1453,L-Glutamate 1-semialdehyde
+456991,bigg.metabolite:2cpr5p,MNXM1455,1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate
+457226,bigg.metabolite:imacp,MNXM1456,3-(Imidazol-4-yl)-2-oxopropyl phosphate
+458095,bigg.metabolite:4adcho,MNXM1458,4-amino-4-deoxychorismate
+464523,bigg.metabolite:um4p,MNXM147329,"UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate-D-alanine"
+467809,bigg.metabolite:hisp,MNXM1482,L-Histidinol phosphate
+468876,bigg.metabolite:mso3,MNXM1485,Methanesulfonate
+470244,bigg.metabolite:pran,MNXM1489,N-(5-Phospho-D-ribosyl)anthranilate
+471311,bigg.metabolite:thrp,MNXM1492,L-Threonine O-3-phosphate
+473315,bigg.metabolite:ppap,MNXM1499,Propanoyl phosphate
+474827,bigg.metabolite:udpLa4o,MNXM1505,UDP-4-keto-pyranose
+477306,bigg.metabolite:ohpb,MNXM1514,2-Oxo-3-hydroxy-4-phosphobutanoate
+478056,bigg.metabolite:g3pi,MNXM1517,Sn-Glycero-3-phospho-1-inositol
+478896,bigg.metabolite:dtdp,MNXM152,DTDP
+480809,bigg.metabolite:3hppnl,MNXM1526,3-Hydroxypropanal
+482074,bigg.metabolite:34hpp,MNXM153,3-(4-Hydroxyphenyl)pyruvate
+482515,bigg.metabolite:dmbzid,MNXM1531,"5,6-Dimethylbenzimidazole"
+482848,bigg.metabolite:5apru,MNXM1532,5-Amino-6-(5'-phosphoribosylamino)uracil
+490127,bigg.metabolite:gdptp,MNXM1561,Guanosine 3'-diphosphate 5'-triphosphate
+490452,bigg.metabolite:hg2,MNXM1562,Mercury charged 2
+490742,bigg.metabolite:sl2a6o,MNXM1563,N-Succinyl-2-L-amino-6-oxoheptanedioate
+491282,bigg.metabolite:idon__L,MNXM1565,L-Idonate
+495760,bigg.metabolite:ura,MNXM158,Uracil
+498665,bigg.metabolite:2obut,MNXM159,2-Oxobutanoate
+502412,bigg.metabolite:3c4mop,MNXM1602,3-Carboxy-4-methyl-2-oxopentanoate
+504131,bigg.metabolite:mal__D,MNXM1608,D-Malate
+504850,bigg.metabolite:pydx5p,MNXM161,Pyridoxal 5'-phosphate
+509002,bigg.metabolite:3amac,MNXM162288,3-Aminoacrylate
+510158,bigg.metabolite:2dh3dgal,MNXM1627,2-Dehydro-3-deoxy-D-galactonate
+510998,bigg.metabolite:isetac,MNXM1630,Isethionic acid
+512241,bigg.metabolite:3hpppn,MNXM1634,3-(3-hydroxy-phenyl)propionate
+512653,bigg.metabolite:2ohph,MNXM1635,2-Octaprenyl-6-hydroxyphenol
+514203,bigg.metabolite:4hbz,MNXM164,4-Hydroxybenzoate
+514590,bigg.metabolite:2p4c2me,MNXM1641,2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+518106,bigg.metabolite:hxa,MNXM1653,Hexanoate (n-C6:0)
+524207,bigg.metabolite:n8aspmd,MNXM1679,N8-Acetylspermidine
+524425,bigg.metabolite:ade,MNXM168,Adenine
+530290,bigg.metabolite:2ippm,MNXM1706,2-Isopropylmaleate
+530543,bigg.metabolite:2omph,MNXM1707,2-Octaprenyl-6-methoxyphenol
+533451,bigg.metabolite:sucsal,MNXM172,Succinic semialdehyde
+536589,bigg.metabolite:galctn__D,MNXM1734,D-Galactonate
+537995,bigg.metabolite:xan,MNXM174,Xanthine
+538565,bigg.metabolite:frulys,MNXM1742,Fructoselysine
+539055,bigg.metabolite:acetol,MNXM1744,Acetol cytosol
+541544,bigg.metabolite:sucarg,MNXM1756,N2-Succinyl-L-arginine
+541766,bigg.metabolite:sucglu,MNXM1757,N2-Succinyl-L-glutamate
+543029,bigg.metabolite:sucgsa,MNXM1763,N2-Succinyl-L-glutamate 5-semialdehyde
+544725,bigg.metabolite:pg120,MNXM1771,"Phosphatidylglycerol (didodecanoyl, n-C12:0)"
+547909,bigg.metabolite:udpLa4n,MNXM1786,Uridine 5''-diphospho-{beta}-4-deoxy-4-amino-L-arabinose
+549134,bigg.metabolite:2mcacn,MNXM1792,Cis-2-Methylaconitate
+551336,bigg.metabolite:4hthr,MNXM1802,4-Hydroxy-L-threonine
+564002,bigg.metabolite:xu5p__D,MNXM186,D-Xylulose 5-phosphate
+565186,bigg.metabolite:36dahx,MNXM1865,"(3S)-3,6-Diaminohexanoate"
+568625,bigg.metabolite:anth,MNXM188,Anthranilate
+570103,bigg.metabolite:2oph,MNXM1886,2-Octaprenylphenol
+575526,bigg.metabolite:q8h2,MNXM191,Ubiquinol-8
+577710,bigg.metabolite:4abut,MNXM192,4-Aminobutanoate
+578179,bigg.metabolite:dimp,MNXM1922,DIMP
+582031,bigg.metabolite:acanth,MNXM1939,N-Acetylanthranilate
+584321,bigg.metabolite:sulfac,MNXM1949,Sulfoacetate
+590597,bigg.metabolite:23dhba,MNXM1978,"(2,3-Dihydroxybenzoyl)adenylate"
+591915,bigg.metabolite:dhgly,MNXM1984,Dehydroglycine
+593174,bigg.metabolite:val__L,MNXM199,L-Valine
+595367,bigg.metabolite:akg,MNXM20,2-Oxoglutarate
+597577,bigg.metabolite:altrn,MNXM2011,D-Altronate
+601091,bigg.metabolite:pg141,MNXM2029,"Phosphatidylglycerol (ditetradec-7-enoyl, n-C14:1)"
+605396,bigg.metabolite:dopa,MNXM205,Dopamine
+610171,bigg.metabolite:2pglyc,MNXM2074,2-Phosphoglycolate
+618015,bigg.metabolite:cys__D,MNXM2112,D-Cysteine
+620623,bigg.metabolite:2amsa,MNXM2124,2-Aminomalonate semialdehyde
+620869,bigg.metabolite:athr__L,MNXM2125,L-Allo-threonine
+626614,bigg.metabolite:pe181,MNXM2150,"Phosphatidylethanolamine (dioctadec-11-enoyl, n-C18:1)"
+629002,bigg.metabolite:ncam,MNXM216,Nicotinamide
+632179,bigg.metabolite:didp,MNXM2174,DIDP||2'-deoxyinosine-5'-diphosphate(3-)
+633073,bigg.metabolite:2dmmq8,MNXM2178,2-Demethylmenaquinone 8
+633494,bigg.metabolite:etha,MNXM218,Ethanolamine
+633983,bigg.metabolite:3cmp,MNXM2182,3 CMP
+634221,bigg.metabolite:3gmp,MNXM2183,Guanosine 3 phosphate
+636606,bigg.metabolite:3ophb,MNXM2195,3-Octaprenyl-4-hydroxybenzoate
+639973,bigg.metabolite:aacald,MNXM2212,Aminoacetaldehyde
+641776,bigg.metabolite:glyclt,MNXM222,Glycolate
+643968,bigg.metabolite:mql8,MNXM223,Menaquinol 8
+647095,bigg.metabolite:metsox_R__L,MNXM2245,L-methionine-R-sulfoxide
+649384,bigg.metabolite:mn2,MNXM2255,Manganese
+654279,bigg.metabolite:psd5p,MNXM2276,Pseudouridine 5 phosphate
+655660,bigg.metabolite:sel,MNXM2282,Selenate
+657508,bigg.metabolite:tdecoa,MNXM2290,Tetradecenoyl-CoA (n-C14:1CoA)
+659808,bigg.metabolite:pyr,MNXM23,Pyruvate
+660854,bigg.metabolite:uracp,MNXM2304,Ureidoacrylate peracid
+661328,bigg.metabolite:14dhncoa,MNXM2306,"1,4-dihydroxy-2-napthoyl-CoA"
+664627,bigg.metabolite:q8,MNXM232,Ubiquinone-8
+669267,bigg.metabolite:dump,MNXM234,DUMP
+671431,bigg.metabolite:orot,MNXM235,Orotate
+673585,bigg.metabolite:ocdca,MNXM236,Octadecanoate (n-C18:0)
+685211,bigg.metabolite:ap5a,MNXM2412,"P1,P5-Bis(5'-adenosyl) pentaphosphate"
+689355,bigg.metabolite:camp,MNXM243,CAMP
+691687,bigg.metabolite:msa,MNXM244,Malonate semialdehyde
+703113,bigg.metabolite:pheme,MNXM249,Protoheme
+705467,bigg.metabolite:succ,MNXM25,Succinate
+710029,bigg.metabolite:dhor__S,MNXM252,(S)-Dihydroorotate
+711622,bigg.metabolite:glyc2p,MNXM2527,Glycerol 2-phosphate
+719062,bigg.metabolite:thmpp,MNXM256,Thiamine diphosphate
+721324,bigg.metabolite:dtmp,MNXM257,DTMP
+723475,bigg.metabolite:e4p,MNXM258,D-Erythrose 4-phosphate
+727169,bigg.metabolite:23camp,MNXM2598,"2',3'-Cyclic AMP"
+727564,bigg.metabolite:ac,MNXM26,Acetate
+740276,bigg.metabolite:dcmp,MNXM266,DCMP
+744498,bigg.metabolite:hlipa,MNXM2680,Heptosyl-kdo2-lipidA
+748657,bigg.metabolite:na1,MNXM27,Sodium
+748700,bigg.metabolite:ribflv,MNXM270,Riboflavin
+757730,bigg.metabolite:nac,MNXM274,Nicotinate
+760014,bigg.metabolite:2pg,MNXM275,D-Glycerate 2-phosphate
+771078,bigg.metabolite:actp,MNXM280,Acetyl phosphate
+772315,bigg.metabolite:arbt6p,MNXM2806,Arbutin 6-phosphate
+773204,bigg.metabolite:dhf,MNXM281,"7,8-Dihydrofolate"
+775334,bigg.metabolite:taur,MNXM282,Taurine
+783919,bigg.metabolite:datp,MNXM286,DATP
+784172,bigg.metabolite:13ppd,MNXM2861,"1,3-Propanediol"
+790839,bigg.metabolite:glyb,MNXM289,Glycine betaine
+793175,bigg.metabolite:gly,MNXM29,Glycine
+793671,bigg.metabolite:12dgr140,MNXM2902,"1,2-Diacyl-sn-glycerol (ditetradecanoyl, n-C14:0)"
+795453,bigg.metabolite:oxa,MNXM291,Oxalate
+797548,bigg.metabolite:rephaccoa,MNXM2919,"Ring 1,2-epoxyphenylacetyl-CoA"
+814546,bigg.metabolite:cpgn_un,MNXM2999,Coprogen unloaded (no Fe(III))
+814783,bigg.metabolite:atp,MNXM3,ATP
+814833,bigg.metabolite:sarcs,MNXM300,Sarcosine
+824126,bigg.metabolite:btn,MNXM304,Biotin
+827132,bigg.metabolite:mptamp,MNXM3054,Adenylated molybdopterin
+828502,bigg.metabolite:anhgm,MNXM3060,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid
+834902,bigg.metabolite:mththf,MNXM30887,"(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran"
+837519,bigg.metabolite:mthgxl,MNXM310,Methylglyoxal
+839944,bigg.metabolite:pydx,MNXM311,Pyridoxal
+845089,bigg.metabolite:12dgr160,MNXM3132,"1,2-Diacyl-sn-glycerol (dihexadecanoyl, n-C16:0)"
+847001,bigg.metabolite:ttdca,MNXM314,Tetradecanoate (n-C14:0)
+849011,bigg.metabolite:23ccmp,MNXM3148,"2',3'-Cyclic CMP"
+849491,bigg.metabolite:23cump,MNXM3150,"2',3'-Cyclic UMP"
+859133,bigg.metabolite:cyst__L,MNXM319,L-Cystathionine
+860038,bigg.metabolite:cph4,MNXM3194,"6-carboxy-5,6,7,8-tetrahydropterin"
+865607,bigg.metabolite:pe160,MNXM32178,"Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)"
+873708,bigg.metabolite:1agpe160,MNXM32511,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0)
+878325,bigg.metabolite:1agpe120,MNXM32692,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0)
+878363,bigg.metabolite:1agpe140,MNXM32693,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0)
+878418,bigg.metabolite:1agpg120,MNXM32695,1-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0)
+880784,bigg.metabolite:agm,MNXM328,Agmatine
+887943,bigg.metabolite:glu__D,MNXM331,D-Glutamate
+890404,bigg.metabolite:pppi,MNXM332,Inorganic triphosphate
+892511,bigg.metabolite:oxam,MNXM3329,Oxamate
+902413,bigg.metabolite:chor,MNXM337,Chorismate
+911692,bigg.metabolite:glcn,MNXM341,D-Gluconate
+911956,bigg.metabolite:crnDcoa,MNXM3411,D-carnitinyl-CoA
+912890,bigg.metabolite:poaac,MNXM3415,Peroxyaminoacrylate
+919238,bigg.metabolite:dgtp,MNXM344,DGTP
+921043,bigg.metabolite:2agpe141,MNXM3447,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1)
+921615,bigg.metabolite:2agpe181,MNXM3449,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1)
+922389,bigg.metabolite:2agpg141,MNXM3452,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1)
+923160,bigg.metabolite:2agpg181,MNXM3455,2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1)
+927861,bigg.metabolite:2agpg140,MNXM34739,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0)
+927908,bigg.metabolite:2agpg160,MNXM34740,2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0)
+929509,bigg.metabolite:2agpe120,MNXM34808,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0)
+929540,bigg.metabolite:2agpe140,MNXM34809,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0)
+929577,bigg.metabolite:2agpe160,MNXM34810,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0)
+929618,bigg.metabolite:2agpe180,MNXM34811,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0)
+937012,bigg.metabolite:pppg9,MNXM351,Protoporphyrinogen IX
+942235,bigg.metabolite:hom__L,MNXM353,L-Homoserine
+947045,bigg.metabolite:nmn,MNXM355,NMN
+949484,bigg.metabolite:ppa,MNXM356,Propionate (n-C3:0)
+959256,bigg.metabolite:dctp,MNXM360,DCTP
+961816,bigg.metabolite:aspsa,MNXM361,L-Aspartate 4-semialdehyde
+966748,bigg.metabolite:LalaDglu,MNXM3630,L-alanine-D-glutamate
+974361,bigg.metabolite:pyam5p,MNXM366,Pyridoxamine 5'-phosphate
+977016,bigg.metabolite:g3pc,MNXM367,Sn-Glycero-3-phosphocholine
+982588,bigg.metabolite:pe141,MNXM3693,"Phosphatidylethanolamine (ditetradec-7-enoyl, n-C14:1)"
+984402,bigg.metabolite:gln__L,MNXM37,L-Glutamine
+991731,bigg.metabolite:pan4p,MNXM373,Pantetheine 4'-phosphate
+999325,bigg.metabolite:hqn,MNXM376,Hydroquinone
+1002896,bigg.metabolite:12dgr161,MNXM3774,"1,2-Diacyl-sn-glycerol (dihexadec-9-enoyl, n-C16:1)"
+1003149,bigg.metabolite:12dgr181,MNXM3775,"1,2-Diacyl-sn-glycerol (dioctadec-11-enoyl, n-C18:1)"
+1023782,bigg.metabolite:thym,MNXM386,Thymine
+1033486,bigg.metabolite:for,MNXM39,Formate
+1038409,bigg.metabolite:hpyr,MNXM392,Hydroxypyruvate
+1041363,bigg.metabolite:btnso,MNXM3932,D-biotin d-sulfoxide
+1043292,bigg.metabolite:dttp,MNXM394,DTTP
+1050481,bigg.metabolite:ahdt,MNXM397,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate"
+1062452,bigg.metabolite:ddca,MNXM402,Dodecanoate (n-C12:0)
+1063889,bigg.metabolite:LalaLglu,MNXM4026,L-alanine-L-glutamate
+1065633,bigg.metabolite:adp,MNXM40333,ADP
+1067279,bigg.metabolite:4mop,MNXM404,4-Methyl-2-oxopentanoate
+1069864,bigg.metabolite:5aop,MNXM405,5-Amino-4-oxopentanoate
+1084330,bigg.metabolite:dcdp,MNXM411,DCDP
+1089718,bigg.metabolite:xdp,MNXM4133,XDP
+1091305,bigg.metabolite:uppg3,MNXM414,Uroporphyrinogen III
+1101097,bigg.metabolite:acser,MNXM418,O-Acetyl-L-serine
+1103524,bigg.metabolite:pydxn,MNXM419,Pyridoxine
+1106077,bigg.metabolite:thymd,MNXM420,Thymidine
+1108581,bigg.metabolite:4abz,MNXM421,4-Aminobenzoate
+1110364,bigg.metabolite:12dgr180,MNXM4217,"1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)"
+1111120,bigg.metabolite:4abutn,MNXM422,4-Aminobutanal
+1135137,bigg.metabolite:damp,MNXM432,DAMP
+1142757,bigg.metabolite:glyald,MNXM435,D-Glyceraldehyde
+1145285,bigg.metabolite:dgdp,MNXM436,DGDP
+1154813,bigg.metabolite:2ddglcn,MNXM440,2-Dehydro-3-deoxy-D-gluconate
+1164664,bigg.metabolite:dms,MNXM444,Dimethyl sulfide
+1174360,bigg.metabolite:tre6p,MNXM448,"Alpha,alpha'-Trehalose 6-phosphate"
+1181326,bigg.metabolite:cdpdddecg,MNXM4507,"CDP-1,2-didodecanoylglycerol"
+1184326,bigg.metabolite:dutp,MNXM452,DUTP
+1189368,bigg.metabolite:pdx5p,MNXM454,Pyridoxine 5'-phosphate
+1191880,bigg.metabolite:23dhb,MNXM455,"2,3-Dihydroxybenzoate"
+1196685,bigg.metabolite:betald,MNXM457,Betaine aldehyde
+1199154,bigg.metabolite:but,MNXM458,Butyrate (n-C4:0)
+1204101,bigg.metabolite:oaa,MNXM46,Oxaloacetate
+1204138,bigg.metabolite:dha,MNXM460,Dihydroxyacetone
+1214559,bigg.metabolite:lyx__L,MNXM4641,L-Lyxose
+1216795,bigg.metabolite:cbasp,MNXM465,N-Carbamoyl-L-aspartate
+1236868,bigg.metabolite:pacald,MNXM473,Phenylacetaldehyde
+1241593,bigg.metabolite:2h3oppan,MNXM475,2-Hydroxy-3-oxopropanoate
+1245207,bigg.metabolite:colipa,MNXM47647,Core oligosaccharide lipid A
+1247043,bigg.metabolite:5pg35pg,MNXM4772,5-Phosphoguanylyl(3->5)guanosine
+1251608,bigg.metabolite:4hoxpacd,MNXM479,4-Hydroxyphenylacetaldehyde
+1254098,bigg.metabolite:thdp,MNXM480,"2,3,4,5-Tetrahydrodipicolinate"
+1262679,bigg.metabolite:so2,MNXM4835,Sulfur dioxide
+1280826,bigg.metabolite:gthrd,MNXM490899,Reduced glutathione
+1283811,bigg.metabolite:duri,MNXM492,Deoxyuridine
+1288870,bigg.metabolite:12dgr120,MNXM4939,"1,2-Diacyl-sn-glycerol (didodecanoyl, n-C12:0)"
+1289167,bigg.metabolite:12dgr141,MNXM4940,"1,2-Diacyl-sn-glycerol (ditetradec-7-enoyl, n-C14:1)"
+1304910,bigg.metabolite:nadp,MNXM5,Nicotinamide adenine dinucleotide phosphate
+1307766,bigg.metabolite:N1aspmd,MNXM501,N1-Acetylspermidine
+1321018,bigg.metabolite:56dura,MNXM506,"5,6-dihydrouracil"
+1325191,bigg.metabolite:s17bp,MNXM507505,"Sedoheptulose 1,7-bisphosphate"
+1325985,bigg.metabolite:clpn120,MNXM5078,"Cardiolipin (tetradodecanoyl, n-C12:0)"
+1326230,bigg.metabolite:clpn180,MNXM5079,"Cardiolipin (tetraoctadecanoyl, n-C18:0)"
+1328879,bigg.metabolite:mqn8,MNXM509,Menaquinone 8
+1333672,bigg.metabolite:methf,MNXM511,"5,10-Methenyltetrahydrofolate"
+1380969,bigg.metabolite:pgp120,MNXM5266,"Phosphatidylglycerophosphate (didodecanoyl, n-C12:0)"
+1381705,bigg.metabolite:pgp181,MNXM5269,"Phosphatidylglycerophosphate (dioctadec-11-enoyl, n-C18:1)"
+1382203,bigg.metabolite:pgp141,MNXM5271,"Phosphatidylglycerophosphate (ditetradec-7-enoyl, n-C14:1)"
+1382452,bigg.metabolite:pgp140,MNXM5272,"Phosphatidylglycerophosphate (ditetradecanoyl, n-C14:0)"
+1386971,bigg.metabolite:26dap__M,MNXM529,"Meso-2,6-Diaminoheptanedioate"
+1416746,bigg.metabolite:3php,MNXM541,3-Phosphohydroxypyruvate
+1423939,bigg.metabolite:arab__D,MNXM544,D Arabinose
+1429669,bigg.metabolite:2hdecg3p,MNXM5465,2-hexadecanoyl-sn-glycerol 3-phosphate
+1430823,bigg.metabolite:hmbil,MNXM547,Hydroxymethylbilane
+1433244,bigg.metabolite:pydam,MNXM548,Pyridoxamine
+1433486,bigg.metabolite:2odecg3p,MNXM5481,2-octadecanoyl-sn-glycerol 3-phosphate
+1443003,bigg.metabolite:dhna,MNXM552,"1,4-Dihydroxy-2-naphthoate"
+1447753,bigg.metabolite:ppbng,MNXM554,Porphobilinogen
+1450117,bigg.metabolite:quln,MNXM555,Quinolinate
+1457392,bigg.metabolite:2dmmql8,MNXM558,2-Demethylmenaquinol 8
+1466344,bigg.metabolite:hphhlipa,MNXM56168,Heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA
+1491145,bigg.metabolite:dudp,MNXM572,DUDP
+1510664,bigg.metabolite:so4,MNXM58,Sulfate
+1520242,bigg.metabolite:alltt,MNXM584,Allantoate
+1540998,bigg.metabolite:LalaDgluMdapDala,MNXM59271,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine"
+1541684,bigg.metabolite:pant__R,MNXM593,(R)-Pantoate
+1551232,bigg.metabolite:murein5px3p,MNXM5970,"Two disacharide linked murein units, pentapeptide corsslinked tripeptide (A2pm->A2pm) (middle of chain)"
+1556158,bigg.metabolite:iasp,MNXM599,Iminoaspartate
+1558639,bigg.metabolite:hco3,MNXM60,Bicarbonate
+1563434,bigg.metabolite:skm,MNXM602,Shikimate
+1565891,bigg.metabolite:tym,MNXM603,Tyramine
+1573191,bigg.metabolite:h2mb4p,MNXM606,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate
+1585711,bigg.metabolite:3dhsk,MNXM611,3-Dehydroshikimate
+1600664,bigg.metabolite:na15dap,MNXM6170,"N-3-aminopropyl-1,5-diaminopentane"
+1603079,bigg.metabolite:oxalcoa,MNXM618,Oxalyl-CoA
+1613030,bigg.metabolite:dxyl5p,MNXM622,1-deoxy-D-xylulose 5-phosphate
+1620156,bigg.metabolite:dad_2,MNXM625,Deoxyadenosine
+1643591,bigg.metabolite:anhgm3p,MNXM63489,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide
+1646272,bigg.metabolite:galctn__L,MNXM636,L-Galactonate
+1658436,bigg.metabolite:psclys,MNXM6409,Psicoselysine
+1665833,bigg.metabolite:26dap_LL,MNXM644,"LL-2,6-Diaminoheptanedioate"
+1668186,bigg.metabolite:34dhpha,MNXM645,3-4-Dihydroxyphenylacetate
+1673256,bigg.metabolite:dgsn,MNXM647,Deoxyguanosine
+1678072,bigg.metabolite:2ddg6p,MNXM649,2-Dehydro-3-deoxy-D-gluconate 6-phosphate
+1680716,bigg.metabolite:novbcn,MNXM65002,Novobiocin
+1683711,bigg.metabolite:aragund,MNXM65126,O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+1687986,bigg.metabolite:mg2,MNXM653,Magnesium
+1704337,bigg.metabolite:1agpe141,MNXM6599,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1)
+1704560,bigg.metabolite:glyc3p,MNXM66,Glycerol 3-phosphate
+1704591,bigg.metabolite:peamn,MNXM660,Phenethylamine
+1704850,bigg.metabolite:1agpe161,MNXM6601,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1)
+1705526,bigg.metabolite:1agpg141,MNXM6604,1-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1)
+1705753,bigg.metabolite:1agpg160,MNXM6605,1-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0)
+1705999,bigg.metabolite:1agpg161,MNXM6606,1-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1)
+1709498,bigg.metabolite:thmmp,MNXM662,Thiamin monophosphate
+1760486,bigg.metabolite:cgly,MNXM683,Cys Gly
+1776763,bigg.metabolite:glx,MNXM69,Glyoxylate
+1786797,bigg.metabolite:ser__D,MNXM694,D-Serine
+1806617,bigg.metabolite:apg141,MNXM7019,Acyl phosphatidylglycerol (n-C14:1)
+1807130,bigg.metabolite:apg161,MNXM7021,Acyl phosphatidylglycerol (n-C16:1)
+1807635,bigg.metabolite:apg181,MNXM7023,Acyl phosphatidylglycerol (n-C18:1)
+1811843,bigg.metabolite:dcyt,MNXM704,Deoxycytidine
+1839014,bigg.metabolite:clpn141,MNXM7149,"Cardiolipin (tetratetradec-7-enoyl, n-C14:1)"
+1858796,bigg.metabolite:dhpt,MNXM722728,Dihydropteroate
+1858829,bigg.metabolite:argsuc,MNXM722743,N(omega)-(L-Arginino)succinate
+1859015,bigg.metabolite:1agpe180,MNXM722840,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0)
+1859091,bigg.metabolite:acglc__D,MNXM722855,6-Acetyl-D-glucose
+1866327,bigg.metabolite:suc6p,MNXM725918,Sucrose 6-phosphate
+1867380,bigg.metabolite:mobd,MNXM726092,Molybdate
+1868382,bigg.metabolite:hmgth,MNXM726277,Hydroxymethylglutathione
+1868713,bigg.metabolite:so3,MNXM726339,Sulfite
+1870685,bigg.metabolite:fe2,MNXM726711,Fe2+ mitochondria
+1870738,bigg.metabolite:fe3,MNXM726712,Iron (Fe3+)
+1871020,bigg.metabolite:mmet,MNXM726752,S-Methyl-L-methionine
+1871366,bigg.metabolite:dhcinnm,MNXM726800,"2,3-dihydroxicinnamic acid"
+1871454,bigg.metabolite:sbzcoa,MNXM726805,O-Succinylbenzoyl-CoA
+1871505,bigg.metabolite:chtbs6p,MNXM726813,Diacetylchitobiose-6-phosphate
+1871802,bigg.metabolite:8aonn,MNXM726864,8-Amino-7-oxononanoate
+1871937,bigg.metabolite:cpgn,MNXM726879,Coprogen
+1871951,bigg.metabolite:hkntd,MNXM726882,2-hydroxy-6-ketononatrienedioate
+1872001,bigg.metabolite:cellb,MNXM726888,Cellobiose
+1872115,bigg.metabolite:2ahbut,MNXM726902,(S)-2-Aceto-2-hydroxybutanoate
+1872379,bigg.metabolite:seramp,MNXM726941,L-seryl-AMP
+1872985,bigg.metabolite:fe3dhbzs,MNXM727045,"Ferric 2,3-dihydroxybenzoylserine"
+1873134,bigg.metabolite:6hmhptpp,MNXM727068,6-hydroxymethyl-dihydropterin pyrophosphate
+1873953,bigg.metabolite:cynt,MNXM727224,Cyanate
+1874187,bigg.metabolite:u23ga,MNXM727269,"UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine"
+1874210,bigg.metabolite:coa,MNXM727276,Coenzyme A
+1874677,bigg.metabolite:lipidAds,MNXM727331,Lipid A Disaccharide
+1875599,bigg.metabolite:rbflvrd,MNXM727501,Reduced riboflavin
+1875708,bigg.metabolite:2shchc,MNXM727527,"2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate"
+1876151,bigg.metabolite:3pg,MNXM727604,3-Phospho-D-glycerate
+1876444,bigg.metabolite:cyan,MNXM727657,Hydrogen cyanide
+1876628,bigg.metabolite:pimACP,MNXM727687,Pimeloyl-[acyl-carrier protein]
+1877237,bigg.metabolite:mincyc,MNXM727814,Minocycline
+1877278,bigg.metabolite:xylu__L,MNXM727819,L-Xylulose
+1877601,bigg.metabolite:ascb__L,MNXM727871,L-Ascorbate
+1877752,bigg.metabolite:ag,MNXM727888,Silver
+1878536,bigg.metabolite:ditp,MNXM728062,DITP(4-)
+1878663,bigg.metabolite:gtspmd,MNXM728086,Glutathionylspermidine
+1878938,bigg.metabolite:prbatp,MNXM728132,1-(5-Phosphoribosyl)-ATP
+1879575,bigg.metabolite:acon_T,MNXM728255,Trans-Aconitate
+1879686,bigg.metabolite:udpLa4fn,MNXM728268,Uridine 5''-diphospho-{beta}-4-deoxy-4-formamido-L-arabinose
+1879878,bigg.metabolite:amp,MNXM728294,AMP
+1880033,bigg.metabolite:5caiz,MNXM728322,5-phosphoribosyl-5-carboxyaminoimidazole
+1880076,bigg.metabolite:ile__L,MNXM728337,L-Isoleucine
+1880166,bigg.metabolite:tagur,MNXM728349,D-Tagaturonate
+1880743,bigg.metabolite:crncoa,MNXM728470,L-Carnitinyl-CoA
+1881723,bigg.metabolite:6hmhpt,MNXM728662,6-hydroxymethyl dihydropterin
+1883409,bigg.metabolite:malcoame,MNXM728995,Malonyl-CoA methyl ester
+1884199,bigg.metabolite:lipoate,MNXM729132,Lipoate
+1884331,bigg.metabolite:23dhbzs,MNXM729151,"2,3-dihydroxybenzoylserine"
+1884478,bigg.metabolite:sl26da,MNXM729177,"N-Succinyl-LL-2,6-diaminoheptanedioate"
+1884693,bigg.metabolite:zn2,MNXM729215,Zinc
+1884754,bigg.metabolite:acmum6p,MNXM729216,N-acetylmuramate 6-phosphate
+1885125,bigg.metabolite:nh4,MNXM729302,Ammonium
+1885576,bigg.metabolite:gthox,MNXM729383,Oxidized glutathione
+1885755,bigg.metabolite:prbamp,MNXM729421,1-(5-Phosphoribosyl)-AMP
+1886583,bigg.metabolite:rdmbzi,MNXM729592,"N1-(alpha-D-ribosyl)-5,6-dimethylbenzimidazole"
+1886608,bigg.metabolite:acac,MNXM729595,Acetoacetate
+1886848,bigg.metabolite:cbi,MNXM729643,Cobinamide
+1887589,bigg.metabolite:meoh,MNXM729800,Methanol
+1888390,bigg.metabolite:5mtr,MNXM729972,5-Methylthio-D-ribose
+1888603,bigg.metabolite:pep,MNXM73,Phosphoenolpyruvate
+1888633,bigg.metabolite:acglu,MNXM730,N-Acetyl-L-glutamate
+1889413,bigg.metabolite:thm,MNXM730135,Thiamin
+1889776,bigg.metabolite:phpyr,MNXM730221,Phenylpyruvate
+1890306,bigg.metabolite:dhnpt,MNXM730300,Dihydroneopterin
+1890443,bigg.metabolite:manglyc,MNXM730319,2(alpha-D-Mannosyl)-D-glycerate
+1891119,bigg.metabolite:2me4p,MNXM730435,2-C-methyl-D-erythritol 4-phosphate
+1891635,bigg.metabolite:lipa,MNXM730505,KDO(2)-lipid (A)
+1891685,bigg.metabolite:feoxam,MNXM730514,Generic ferrioxamine-Fe-III
+1891815,bigg.metabolite:2doxg6p,MNXM730537,2 Deoxy D glucose 6 phosphate
+1891998,bigg.metabolite:butso3,MNXM730561,Butanesulfonate
+1892293,bigg.metabolite:acmalt,MNXM730607,Acetyl-maltose
+1892814,bigg.metabolite:cechddd,MNXM730693,"Cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol"
+1892896,bigg.metabolite:feenter,MNXM730707,Fe-enterobactin
+1893249,bigg.metabolite:3ig3p,MNXM730763,C'-(3-Indolyl)-glycerol 3-phosphate
+1894089,bigg.metabolite:4ppcys,MNXM730898,N-((R)-4-Phosphopantothenoyl)-L-cysteine
+1894271,bigg.metabolite:3c3hmp,MNXM730929,3-Carboxy-3-hydroxy-4-methylpentanoate
+1894304,bigg.metabolite:2sephchc,MNXM730931,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate
+1894378,bigg.metabolite:4c2me,MNXM730948,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+1894400,bigg.metabolite:cenchddd,MNXM730951,"Cis-3-(3-carboxyethenyl)-3,5-cyclohexadiene-1,2-diol"
+1894880,bigg.metabolite:tag6p__D,MNXM731056,D-Tagatose 6-phosphate
+1894919,bigg.metabolite:gdpofuc,MNXM731066,GDP-4-oxo-L-fucose
+1894973,bigg.metabolite:tsul,MNXM731077,Thiosulfate
+1895444,bigg.metabolite:cu2,MNXM731166,Copper
+1895553,bigg.metabolite:fruur,MNXM731183,D-Fructuronate
+1895606,bigg.metabolite:35cgmp,MNXM731192,"3',5'-Cyclic GMP"
+1895895,bigg.metabolite:enlipa,MNXM731245,Phosphoethanolamine KDO(2)-lipid (A)
+1895912,bigg.metabolite:galt1p,MNXM731248,Galactitol 1-phosphate
+1896019,bigg.metabolite:ggptrc,MNXM731265,Gamma-glutamyl-putrescine
+1896098,bigg.metabolite:xylu__D,MNXM731281,D-Xylulose
+1896726,bigg.metabolite:ppt,MNXM731416,Phosphonate
+1897076,bigg.metabolite:uaccg,MNXM731472,UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine
+1898430,bigg.metabolite:pa160,MNXM731668,"1,2-dihexadecanoyl-sn-glycerol 3-phosphate"
+1898573,bigg.metabolite:gmhep17bp,MNXM731697,"D-Glycero-D-manno-heptose 1,7-bisphosphate"
+1898643,bigg.metabolite:o16a2und,MNXM731709,(O16 antigen)x2 undecaprenyl diphosphate
+1898653,bigg.metabolite:o16a3und,MNXM731711,(O16 antigen)x3 undecaprenyl diphosphate
+1898823,bigg.metabolite:fc1p,MNXM731750,L-Fuculose 1-phosphate
+1898840,bigg.metabolite:rml,MNXM731755,L-Rhamnulose
+1898883,bigg.metabolite:lipidA,MNXM731760,"2,3,2'3'-Tetrakis(beta-hydroxymyristoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate"
+1899162,bigg.metabolite:pg181,MNXM731815,"Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)"
+1899165,bigg.metabolite:rhcys,MNXM731817,S-Ribosyl-L-homocysteine
+1899274,bigg.metabolite:lac__D,MNXM731834,D-Lactate
+1899309,bigg.metabolite:lac__L,MNXM731835,L-Lactate
+1899854,bigg.metabolite:lipidX,MNXM731934,"2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate"
+1899962,bigg.metabolite:ni2,MNXM731950,Nickel
+1900201,bigg.metabolite:4fe4s,MNXM732007,[4Fe-4S] iron-sulfur cluster
+1900445,bigg.metabolite:glyc__R,MNXM732052,(R)-Glycerate
+1900699,bigg.metabolite:all__D,MNXM732104,D-Allose
+1900832,bigg.metabolite:1odec11eg3p,MNXM732145,1-octadec-11-enoyl-sn-glycerol 3-phosphate
+1900901,bigg.metabolite:uama,MNXM732162,UDP-N-acetylmuramoyl-L-alanine
+1900927,bigg.metabolite:ugmda,MNXM732166,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine"
+1902014,bigg.metabolite:no3,MNXM732398,Nitrate
+1902458,bigg.metabolite:citr__L,MNXM732471,L-Citrulline
+1902556,bigg.metabolite:hxan,MNXM732487,Hypoxanthine
+1903137,bigg.metabolite:2dr5p,MNXM732594,2-Deoxy-D-ribose 5-phosphate
+1903331,bigg.metabolite:h2o2,MNXM732620,Hydrogen peroxide
+1903474,bigg.metabolite:preq0,MNXM732649,7-cyano-7-carbaguanine
+1903973,bigg.metabolite:acmum,MNXM732757,N-Acetylmuramate
+1903995,bigg.metabolite:uagmda,MNXM732761,"Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine"
+1904327,bigg.metabolite:ctbtcoa,MNXM732837,Crotonobetainyl-CoA
+1904491,bigg.metabolite:3mob,MNXM732866,3-Methyl-2-oxobutanoate
+1904603,bigg.metabolite:lald__L,MNXM732880,L-Lactaldehyde
+1905132,bigg.metabolite:dxyl,MNXM732961,1-deoxy-D-xylulose
+1905159,bigg.metabolite:1hdecg3p,MNXM732965,1-hexadecanoyl-sn-glycerol 3-phosphate
+1905521,bigg.metabolite:unagamu,MNXM733023,Undecaprenyl-diphospho-N-acetylglucosamine-N-acetylmannosaminuronate
+1905568,bigg.metabolite:udcpp,MNXM733031,Undecaprenyl phosphate
+1905968,bigg.metabolite:gua,MNXM733114,Guanine
+1906381,bigg.metabolite:cd2,MNXM733186,Cadmium
+1906817,bigg.metabolite:ascb6p,MNXM733261,L-ascorbate-6-phosphate
+1907044,bigg.metabolite:s7p,MNXM733314,Sedoheptulose 7-phosphate
+1907514,bigg.metabolite:2tpr3dpcoa,MNXM733374,2'-(5''-triphosphoribosyl)-3'-dephospho-CoA
+1907789,bigg.metabolite:fecrm,MNXM733434,Ferrichrome
+1907952,bigg.metabolite:pe120,MNXM733471,"Phosphatidylethanolamine (didodecanoyl, n-C12:0)"
+1907964,bigg.metabolite:pe140,MNXM733473,"Phosphatidylethanolamine (ditetradecanoyl, n-C14:0)"
+1908214,bigg.metabolite:14glucan,MNXM733515,"1,4-alpha-D-glucan"
+1908708,bigg.metabolite:rmn,MNXM733618,L-Rhamnose
+1908998,bigg.metabolite:dtdp4aaddg,MNXM733666,"DTDP-4-acetamido-4,6-dideoxy-D-galactose"
+1909039,bigg.metabolite:urdglyc,MNXM733673,(-)-Ureidoglycolate
+1909711,bigg.metabolite:Nmtrp,MNXM733784,N-Methyltryptophan
+1909872,bigg.metabolite:amob,MNXM733831,S-Adenosyl-4-methylthio-2-oxobutanoate
+1910111,bigg.metabolite:op4en,MNXM733877,2-Oxopent-4-enoate
+1910361,bigg.metabolite:eca2und,MNXM733908,(enterobacterial common antigen)x2 undecaprenyl-diphosphate
+1910369,bigg.metabolite:eca4und,MNXM733910,(enterobacterial common antigen)x4 undecaprenyl-diphosphate
+1910379,bigg.metabolite:23cgmp,MNXM733912,"2',3'-Cyclic GMP"
+1910428,bigg.metabolite:pe180,MNXM733922,"Phosphatidylethanolamine (dioctadecanoyl, n-C18:0)"
+1910978,bigg.metabolite:23dhmb,MNXM734,"(R)-2,3-Dihydroxy-3-methylbutanoate"
+1911199,bigg.metabolite:pg160,MNXM734041,"Phosphatidylglycerol (dihexadecanoyl, n-C16:0)"
+1911224,bigg.metabolite:pgp160,MNXM734044,"Phosphatidylglycerophosphate (dihexadecanoyl, n-C16:0)"
+1911241,bigg.metabolite:ps160,MNXM734047,"Phosphatidylserine (dihexadecanoyl, n-C16:0)"
+1911367,bigg.metabolite:anhm3p,MNXM734072,"1,6-anhydrous-N-Acetylmuramyl-tripeptide"
+1911393,bigg.metabolite:6pgc,MNXM734080,6-Phospho-D-gluconate
+1912125,bigg.metabolite:1odecg3p,MNXM734212,1-octadecanoyl-sn-glycerol 3-phosphate
+1912498,bigg.metabolite:tyrp,MNXM734272,Phosphotyrosine
+1912623,bigg.metabolite:ethso3,MNXM7343,Ethanesulfonate
+1913837,bigg.metabolite:1agpg140,MNXM734523,1-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0)
+1913838,bigg.metabolite:1tdecg3p,MNXM734523,1-tetradecanoyl-sn-glycerol 3-phosphate
+1914081,bigg.metabolite:man6pglyc,MNXM734566,2(alpha-D-Mannosyl-6-phosphate)-D-glycerate
+1914151,bigg.metabolite:xyl__D,MNXM734574,D-Xylose
+1914265,bigg.metabolite:gcald,MNXM734590,Glycolaldehyde
+1915081,bigg.metabolite:cu,MNXM734750,Cu+
+1915734,bigg.metabolite:arab__L,MNXM734859,L-Arabinose
+1915779,bigg.metabolite:pnto__R,MNXM734864,(R)-Pantothenate
+1915835,bigg.metabolite:kdo,MNXM734869,3-Deoxy-D-manno-2-octulosonate
+1916563,bigg.metabolite:doxrbcn,MNXM735003,Doxorubicin
+1916744,bigg.metabolite:acolipa,MNXM735042,4-Amino-4-deoxy-L-arabinose modified core oligosaccharide lipid A
+1916772,bigg.metabolite:dadp,MNXM735047,DADP
+1916862,bigg.metabolite:aconm,MNXM735058,E-3-carboxy-2-pentenedioate 6-methyl ester
+1917142,bigg.metabolite:indole,MNXM735090,Indole
+1918672,bigg.metabolite:all6p,MNXM735357,D-Allose 6-phosphate
+1919087,bigg.metabolite:o2,MNXM735438,O2
+1919367,bigg.metabolite:apg120,MNXM735474,Acyl phosphatidylglycerol (n-C12:0)
+1919375,bigg.metabolite:apg140,MNXM735476,Acyl phosphatidylglycerol (n-C14:0)
+1919383,bigg.metabolite:apg160,MNXM735478,Acyl phosphatidylglycerol (n-C16:0)
+1919395,bigg.metabolite:apg180,MNXM735480,Acyl phosphatidylglycerol (n-C18:0)
+1920002,bigg.metabolite:cholate,MNXM735592,Cholate c
+1920158,bigg.metabolite:cpppg3,MNXM735625,Coproporphyrinogen III
+1920346,bigg.metabolite:glucys,MNXM735669,Gamma-L-Glutamyl-L-cysteine
+1920490,bigg.metabolite:rbl__D,MNXM735687,D-Ribulose
+1920915,bigg.metabolite:4ppan,MNXM735771,D-4'-Phosphopantothenate
+1921965,bigg.metabolite:cl,MNXM735978,Chloride
+1922138,bigg.metabolite:3dhguln,MNXM736,3-Dehydro-L-gulonate
+1922535,bigg.metabolite:tmao,MNXM736072,Trimethylamine N-oxide
+1922711,bigg.metabolite:cinnm,MNXM736095,Trans-Cinnamate
+1922929,bigg.metabolite:5drib,MNXM736134,5'-deoxyribose
+1923402,bigg.metabolite:galur,MNXM736226,D-Galacturonate
+1923838,bigg.metabolite:clpn161,MNXM736306,"Cardiolipin (tetrahexadec-9-enoyl, n-C16:1)"
+1923864,bigg.metabolite:clpn181,MNXM736311,"Cardiolipin (tetraoctadec-11-enoyl, n-C18:1)"
+1923880,bigg.metabolite:cdpdhdec9eg,MNXM736316,"CDP-1,2-dihexadec-9-enoylglycerol"
+1923890,bigg.metabolite:cdpdodec11eg,MNXM736319,"CDP-1,2-dioctadec-11-enoylglycerol"
+1923900,bigg.metabolite:cdpdtdec7eg,MNXM736325,"CDP-1,2-ditetradec-7-enoylglycerol"
+1923908,bigg.metabolite:cdpdtdecg,MNXM736328,"CDP-1,2-ditetradecanoylglycerol"
+1923994,bigg.metabolite:cm,MNXM736341,Chloramphenicol
+1924371,bigg.metabolite:fald,MNXM736417,Formaldehyde
+1924425,bigg.metabolite:clpn160,MNXM736425,"Cardiolipin (tetrahexadecanoyl, n-C16:0)"
+1924575,bigg.metabolite:cdpdodecg,MNXM736453,"CDP-1,2-dioctadecanoylglycerol"
+1925609,bigg.metabolite:dgmp,MNXM736654,DGMP
+1925778,bigg.metabolite:sbt__D,MNXM736685,D-Sorbitol
+1926322,bigg.metabolite:quin,MNXM736788,Quinate
+1926769,bigg.metabolite:3dhq,MNXM736874,3-Dehydroquinate
+1927146,bigg.metabolite:cpe160,MNXM736944,"Cyclopropane phosphatidylethanolamine (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)"
+1927159,bigg.metabolite:cpe180,MNXM736947,"Cyclopropane phosphatidylethanolamine (dioctadec-11,12-cyclo-anoyl, n-C18:0 cyclo)"
+1927186,bigg.metabolite:cpg160,MNXM736952,"Cyclopropane phosphatidylglycerol (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)"
+1927197,bigg.metabolite:cpg180,MNXM736955,"Cyclopropane phosphatidylglycerol (dioctadec-11,12-cyclo-anoyl, n-C18:0 cyclo)"
+1927998,bigg.metabolite:4r5au,MNXM737103,4-(1-D-Ribitylamino)-5-aminouracil
+1928871,bigg.metabolite:pac,MNXM737265,Phenylacetic acid
+1929100,bigg.metabolite:cdg,MNXM737298,7-deaza-7-carboxyguanine
+1929180,bigg.metabolite:pphn,MNXM737312,Prephenate
+1929342,bigg.metabolite:fum,MNXM737340,Fumarate
+1929564,bigg.metabolite:5aizc,MNXM737371,5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate
+1929773,bigg.metabolite:pa140,MNXM737414,"1,2-ditetradecanoyl-sn-glycerol 3-phosphate"
+1929794,bigg.metabolite:pg140,MNXM737417,"Phosphatidylglycerol (ditetradecanoyl, n-C14:0)"
+1930052,bigg.metabolite:halipa,MNXM737466,Hepta-acylated KDO(2)-lipid (A)
+1930185,bigg.metabolite:pa180,MNXM737489,"1,2-dioctadecanoyl-sn-glycerol 3-phosphate"
+1930208,bigg.metabolite:pg180,MNXM737492,"Phosphatidylglycerol (dioctadecanoyl, n-C18:0)"
+1931622,bigg.metabolite:ser__L,MNXM737787,L-Serine
+1931794,bigg.metabolite:murein4px4p,MNXM737824,"Two disacharide linked murein units, tetrapeptide corsslinked tetrapeptide (A2pm->D-ala) (middle of chain)"
+1932030,bigg.metabolite:ckdo,MNXM737872,CMP-3-deoxy-D-manno-octulosonate
+1932308,bigg.metabolite:mi1p__D,MNXM737935,1D-myo-Inositol 1-phosphate
+1932409,bigg.metabolite:anhm4p,MNXM737948,"1,6-anhydrous-N-Acetylmuramyl-tetrapeptide"
+1932521,bigg.metabolite:gfgaragund,MNXM737969,Galactofuranosyl-glucosyl-O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+1932538,bigg.metabolite:gagicolipa,MNXM737974,Galactosyl-glucosyl-inner core oligosaccharide lipid A
+1932646,bigg.metabolite:tartr__L,MNXM737997,L-tartrate
+1932940,bigg.metabolite:cys__L,MNXM738068,L-Cysteine
+1933114,bigg.metabolite:ggagicolipa,MNXM738093,Glucosyl-galactosyl-glucosyl-inner core oligosaccharide lipid A
+1933122,bigg.metabolite:gggagicolipa,MNXM738096,Glucosyl-glucosyl-galactosyl-glucosyl-inner core oligosaccharide lipid A
+1933130,bigg.metabolite:gicolipa,MNXM738099,Glucosyl-inner core oligosaccharide lipid A
+1933151,bigg.metabolite:garagund,MNXM738102,Glucosyl-O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+1933263,bigg.metabolite:glycogen,MNXM738130,Glycogen
+1933539,bigg.metabolite:dhmptp,MNXM738182,Dihydromonapterin-triphosphate
+1933815,bigg.metabolite:forcoa,MNXM738242,Formyl-CoA(4-)
+1934433,bigg.metabolite:icolipa,MNXM738373,Inner core oligosaccharide lipid A (E coli)
+1934518,bigg.metabolite:bbtcoa,MNXM738399,Gamma-butyrobetainyl-CoA
+1934565,bigg.metabolite:fe3hox,MNXM738412,Fe(III)hydroxamate
+1934655,bigg.metabolite:n2o,MNXM738430,Nitrous oxide
+1935298,bigg.metabolite:kdo2lipid4p,MNXM738560,KDO(2)-lipid IV(A) with palmitoleoyl
+1935728,bigg.metabolite:murein5p4p,MNXM738657,"Two linked disacharide pentapeptide and tetrapeptide murein units (uncrosslinked, middle of chain)"
+1935758,bigg.metabolite:murein5p3p,MNXM738663,"Two linked disacharide pentapeptide and tripeptide murein units (uncrosslinked, middle of chain)"
+1935942,bigg.metabolite:nadph,MNXM738702,Nicotinamide adenine dinucleotide phosphate - reduced
+1936085,bigg.metabolite:lipa_cold,MNXM738728,Cold adapted KDO(2)-lipid (A)
+1936518,bigg.metabolite:met__L,MNXM738804,L-Methionine
+1936677,bigg.metabolite:alltn,MNXM738834,Allantoin
+1937553,bigg.metabolite:anhgm4p,MNXM739017,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide
+1938536,bigg.metabolite:o16aund,MNXM739235,O16 antigen undecaprenyl diphosphate
+1938575,bigg.metabolite:eca3und,MNXM739243,(enterobacterial common antigen)x3 undecaprenyl-diphosphate
+1938707,bigg.metabolite:aso3,MNXM739275,Arsenite
+1938819,bigg.metabolite:1agpg180,MNXM739301,1-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0)
+1939097,bigg.metabolite:dscl,MNXM739346,Dihydrosirohydrochlorin
+1940109,bigg.metabolite:arg__L,MNXM739527,L-Arginine
+1940500,bigg.metabolite:pe161,MNXM739592,"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)"
+1940793,bigg.metabolite:gmhep7p,MNXM739658,D-Glycero-D-manno-heptose 7-phosphate
+1940866,bigg.metabolite:kdo8p,MNXM739664,3-Deoxy-D-manno-octulosonate 8-phosphate
+1940892,bigg.metabolite:uaagmda,MNXM739668,"Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala"
+1942344,bigg.metabolite:1agpg181,MNXM739929,1-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1)
+1942417,bigg.metabolite:g3p,MNXM739945,Glyceraldehyde 3-phosphate
+1942564,bigg.metabolite:progly,MNXM739962,L-Prolinylglycine
+1942701,bigg.metabolite:pg161,MNXM739991,"Phosphatidylglycerol (dihexadec-9-enoyl, n-C16:1)"
+1942712,bigg.metabolite:pgp161,MNXM739994,"Phosphatidylglycerophosphate (dihexadec-9-enoyl, n-C16:1)"
+1942718,bigg.metabolite:pgp180,MNXM739997,"Phosphatidylglycerophosphate (dioctadecanoyl, n-C18:0)"
+1942737,bigg.metabolite:ps180,MNXM740000,"Phosphatidylserine (dioctadecanoyl, n-C18:0)"
+1943083,bigg.metabolite:tcynt,MNXM740078,Thiocyanate
+1943808,bigg.metabolite:murein5p5p5p,MNXM740231,"Three linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)"
+1944699,bigg.metabolite:rfamp,MNXM740424,Rifampin
+1946237,bigg.metabolite:clpn140,MNXM740794,"Cardiolipin (tetratetradecanoyl, n-C14:0)"
+1946564,bigg.metabolite:scl,MNXM740871,Sirohydrochlorin
+1947017,bigg.metabolite:r15bp,MNXM740983,"D-Ribose 1,5-bisphosphate"
+1947144,bigg.metabolite:tungs,MNXM741004,Tungstate
+1947185,bigg.metabolite:murein5p5p,MNXM741014,"Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)"
+1947191,bigg.metabolite:murein4p3p,MNXM741016,"Two linked disacharide tetrapeptide and tripeptide murein units (uncrosslinked, middle of chain)"
+1947199,bigg.metabolite:murein4p4p,MNXM741019,"Two linked disacharide tetrapeptide murein units (uncrosslinked, middle of chain)"
+1947207,bigg.metabolite:murein3p3p,MNXM741021,"Two linked disacharide tripeptide murein units (uncrosslinked, middle of chain)"
+1947282,bigg.metabolite:uLa4fn,MNXM741041,Undecaprenyl phosphate-4-amino-4-formyl-L-arabinose
+1947637,bigg.metabolite:3c2hmp,MNXM741109,3-Carboxy-2-hydroxy-4-methylpentanoate
+1948006,bigg.metabolite:glu__L,MNXM741173,L-Glutamate
+1948068,bigg.metabolite:orn,MNXM741175,Ornithine
+1948491,bigg.metabolite:2mcit,MNXM741276,2-Methylcitrate
+1949032,bigg.metabolite:23dappa,MNXM741395,"2,3-diaminopropionate"
+1949488,bigg.metabolite:seln,MNXM741486,Selenide
+1949780,bigg.metabolite:trp__L,MNXM741553,L-Tryptophan
+1950037,bigg.metabolite:Sfglutth,MNXM741595,S-Formylglutathione
+1950145,bigg.metabolite:uamag,MNXM741611,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+1950243,bigg.metabolite:23doguln,MNXM741619,"2,3-Dioxo-L-gulonate"
+1950464,bigg.metabolite:phe__L,MNXM741664,L-Phenylalanine
+1950609,bigg.metabolite:g3ps,MNXM741693,Glycerophosphoserine
+1951691,bigg.metabolite:cbm,MNXM742,Carbamate
+1961358,bigg.metabolite:dmso,MNXM745,Dimethyl sulfoxide
+1975967,bigg.metabolite:acald,MNXM75,Acetaldehyde
+1976006,bigg.metabolite:octa,MNXM750,Octanoate (n-C8:0)
+1979140,bigg.metabolite:phhlipa,MNXM75132,Phospho-heptosyl-heptosyl-kdo2-lipidA
+1979168,bigg.metabolite:phphhlipa,MNXM75133,Phospho-heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA
+1997341,bigg.metabolite:phthr,MNXM759,O-Phospho-4-hydroxy-L-threonine
+1999423,bigg.metabolite:tyr__L,MNXM76,L-Tyrosine
+2001628,bigg.metabolite:csn,MNXM761,Cytosine
+2011954,bigg.metabolite:ps120,MNXM7659,"Phosphatidylserine (didodecanoyl, n-C12:0)"
+2012162,bigg.metabolite:ps161,MNXM7660,"Phosphatidylserine (dihexadec-9-enoyl, n-C16:1)"
+2012569,bigg.metabolite:ps181,MNXM7662,"Phosphatidylserine (dioctadec-11-enoyl, n-C18:1)"
+2012917,bigg.metabolite:ps141,MNXM7664,"Phosphatidylserine (ditetradec-7-enoyl, n-C14:1)"
+2013156,bigg.metabolite:ps140,MNXM7665,"Phosphatidylserine (ditetradecanoyl, n-C14:0)"
+2020820,bigg.metabolite:dhap,MNXM77,Dihydroxyacetone phosphate
+2066415,bigg.metabolite:tartr__D,MNXM7948,D-tartrate
+2072749,bigg.metabolite:ichor,MNXM799,Isochorismate
+2074106,bigg.metabolite:nad,MNXM8,Nicotinamide adenine dinucleotide
+2083768,bigg.metabolite:23dhdp,MNXM807,"2,3-Dihydrodipicolinate"
+2084576,bigg.metabolite:ragund,MNXM80754,Rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+2089629,bigg.metabolite:octdp,MNXM811,All-trans-Octaprenyl diphosphate
+2101599,bigg.metabolite:acorn,MNXM817,N2-Acetyl-L-ornithine
+2110708,bigg.metabolite:suchms,MNXM820,O-Succinyl-L-homoserine
+2113007,bigg.metabolite:ppal,MNXM821,Propanal
+2124855,bigg.metabolite:dhpppn,MNXM826,"3-(2,3-Dihydroxyphenyl)propanoate"
+2129577,bigg.metabolite:4crsol,MNXM828,P-Cresol
+2134407,bigg.metabolite:ipdp,MNXM83,Isopentenyl diphosphate
+2145877,bigg.metabolite:bglycogen,MNXM8348,Branching glycogen
+2190934,bigg.metabolite:5dh4dglc,MNXM854,5-Dehydro-4-deoxy-D-glucarate
+2232484,bigg.metabolite:murein5px4px4p,MNXM87121,Three disacharide linked murein units (pentapeptide crosslinked tetrapeptide (A2pm->D-ala) tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain)
+2232512,bigg.metabolite:murein4px4p4p,MNXM87122,"Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm->D-ala), one uncrosslinked tetrapaptide) (middle of chain)"
+2234395,bigg.metabolite:3hpp,MNXM872,3-Hydroxypropanoate
+2260729,bigg.metabolite:enter,MNXM883,Enterochelin
+2261647,bigg.metabolite:murein5px4p,MNXM88338,"Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)"
+2261721,bigg.metabolite:murein3px4p,MNXM88341,"Two disacharide linked murein units, tripeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)"
+2261749,bigg.metabolite:murein3px3p,MNXM88342,"Two disacharide linked murein units, tripeptide crosslinked tripeptide (A2pm->A2pm) (middle of chain)"
+2291892,bigg.metabolite:glyc,MNXM89612,Glycerol
+2292941,bigg.metabolite:icit,MNXM89661,Isocitrate
+2299937,bigg.metabolite:pi,MNXM9,Phosphate
+2300019,bigg.metabolite:chol,MNXM90,Choline
+2302098,bigg.metabolite:ru5p__L,MNXM901,L-Ribulose 5-phosphate
+2302661,bigg.metabolite:mnl1p,MNXM90126,D-Mannitol 1-phosphate
+2302925,bigg.metabolite:2dh3dgal6p,MNXM90136,2-Dehydro-3-deoxy-D-galactonate 6-phosphate
+2304104,bigg.metabolite:12ppd__R,MNXM90191,"(R)-Propane-1,2-diol"
+2309397,bigg.metabolite:2ombzl,MNXM90444,"2-Octaprenyl-6-methoxy-1,4-benzoquinol"
+2310745,bigg.metabolite:pa120,MNXM90509,"1,2-didodecanoyl-sn-glycerol 3-phosphate"
+2310777,bigg.metabolite:pa161,MNXM90510,"1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate"
+2310803,bigg.metabolite:pa181,MNXM90511,"1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate"
+2310829,bigg.metabolite:pa141,MNXM90512,"1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate"
+2312317,bigg.metabolite:anhm,MNXM90585,"1,6-anhydrous-N-Acetylmuramate"
+2319000,bigg.metabolite:uLa4n,MNXM90891,Undecaprenyl phosphate-4-amino-4-deoxy-L-arabinose
+2319187,bigg.metabolite:lald__D,MNXM909,D-Lactaldehyde
+2320447,bigg.metabolite:cobalt2,MNXM90960,Co2+
+2322459,bigg.metabolite:1tdec7eg3p,MNXM91053,1-tetradec-7-enoyl-sn-glycerol 3-phosphate
+2357108,bigg.metabolite:cysi__L,MNXM927,L Cystine
+2373725,bigg.metabolite:din,MNXM935,Deoxyinosine
+2375850,bigg.metabolite:25dkglcn,MNXM936,"2,5-diketo-D-gluconate"
+2385672,bigg.metabolite:mdhdhf,MNXM9407,"(2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one"
+2390514,bigg.metabolite:15dap,MNXM943,"1,5-Diaminopentane"
+2405124,bigg.metabolite:k,MNXM95,Potassium
+2422969,bigg.metabolite:1agpe181,MNXM9584,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1)
+2424210,bigg.metabolite:2dhp,MNXM959,2-Dehydropantoate
+2426304,bigg.metabolite:4mpetz,MNXM960,4-Methyl-5-(2-phosphoethyl)-thiazole
+2430682,bigg.metabolite:4mhetz,MNXM962,4-Methyl-5-(2-hydroxyethyl)-thiazole
+2432841,bigg.metabolite:5dglcn,MNXM963,5-Dehydro-D-gluconate
+2447557,bigg.metabolite:aso4,MNXM970,Arsenate
+2461676,bigg.metabolite:ttrcyc,MNXM97613,Tetracycline
+2514003,bigg.metabolite:h2o,WATER,H2O
