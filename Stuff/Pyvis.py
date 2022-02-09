@@ -37,11 +37,26 @@ def get_data():
         return (data["alcuin_letters"])
 
 
+
+def map_algs(g, alg ="barnes"):
+    if alg =="barnes":
+        g.barnes_hut()
+    if alg =="forced":
+        g.force_atlas_2based()
+    if alg =="hr":
+        g.hrepulsion()
+
+
+   
+
 # bgcolor = "#222222"
 
 
-def map_data(letter_data, ep_color="#03DAC6", ms_color="#da03b3", edge_color="#018786", ep_shape= "ellipse", ms_shape = "box"):
-    g = Network(height = "1500px", width = "75%", bgcolor = "black", font_color ="white")
+def map_data(letter_data, ep_color="#03DAC6", ms_color="#da03b3", edge_color="#018786", ep_shape= "ellipse", ms_shape = "box", alg = "barnes", options = False):
+    g = Network(height = "1500px", width = "75%", bgcolor = "black", font_color ="white", directed = True)
+    if options == True:
+        g.width ="75%"
+        g.show_buttons()
     for letter in letter_data:
         ep = (letter["ep_num"])[0]
         mss = (letter["mss"])
@@ -49,12 +64,13 @@ def map_data(letter_data, ep_color="#03DAC6", ms_color="#da03b3", edge_color="#0
         for ms in mss:
             g.add_node(ms, color = ms_color, shape = ms_shape)
             g.add_edge(ep, ms, color = edge_color)
-    g.barnes_hut()
+    map_algs(g,  alg = alg)
+    g.set_edge_smooth("dynamic")
     g.show("letters.html")
 
 
 epp_data = get_data()
 
 
-map_data(letter_data = epp_data, ms_shape ="database", ep_shape = "text")
+map_data(letter_data = epp_data, ms_shape ="database", ep_shape = "text", alg = "forced", options = True)
 # print(epp_data)
