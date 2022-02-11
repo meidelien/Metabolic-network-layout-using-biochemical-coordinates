@@ -12,7 +12,7 @@
 <style type="text/css">
 
         #mynetwork {
-            width: 100%;
+            width: 75%;
             height: 750px;
             background-color: #222222;
             border: 1px solid lightgray;
@@ -23,6 +23,12 @@
         
 
         
+        #config {
+            float: left;
+            width: 400px;
+            height: 600px;
+        }
+        
 
         
 </style>
@@ -32,6 +38,8 @@
 <body>
 <div id = "mynetwork"></div>
 
+
+<div id = "config"></div>
 
 <script type="text/javascript">
 
@@ -58,15 +66,15 @@
 
         var options = {
     "configure": {
-        "enabled": false
+        "enabled": true
     },
     "edges": {
         "color": {
             "inherit": true
         },
         "smooth": {
-            "enabled": false,
-            "type": "continuous"
+            "enabled": true,
+            "type": "dynamic"
         }
     },
     "interaction": {
@@ -75,6 +83,14 @@
         "hideNodesOnDrag": false
     },
     "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 250
+        },
         "enabled": true,
         "stabilization": {
             "enabled": true,
@@ -88,6 +104,10 @@
         
         
 
+        
+        // if this network requires displaying the configure window,
+        // put it in its div
+        options.configure["container"] = document.getElementById("config");
         
 
         network = new vis.Network(container, data, options);

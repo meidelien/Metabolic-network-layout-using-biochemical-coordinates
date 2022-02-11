@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 900px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"id": "accoa", "label": "accoa", "shape": "dot", "title": "MNXM1104266", "x": -0.3161117678070667, "y": 3.5529909496208143}, {"id": "succoa", "label": "succoa", "shape": "dot", "title": "MNXM1104774", "x": -0.3044751959125918, "y": 4.136093289012364}, {"id": "cit", "label": "cit", "shape": "dot", "title": "MNXM1107753", "x": 0.2554291773216964, "y": -2.900509379333349}, {"id": "mal__D", "label": "mal__D", "shape": "dot", "title": "MNXM1608", "x": 0.1679954985930549, "y": -3.569842822597604}, {"id": "akg", "label": "akg", "shape": "dot", "title": "MNXM20", "x": 0.0737943726073415, "y": -3.373730530173366}, {"id": "pyr", "label": "pyr", "shape": "dot", "title": "MNXM23", "x": 0.0791613138638444, "y": -4.092546108593954}, {"id": "succ", "label": "succ", "shape": "dot", "title": "MNXM25", "x": 0.1970324643926196, "y": -3.758400925264014}, {"id": "oaa", "label": "oaa", "shape": "dot", "title": "MNXM46", "x": 0.0854990209630691, "y": -3.5143510602619465}, {"id": "pep", "label": "pep", "shape": "dot", "title": "MNXM73", "x": 0.0692595171008825, "y": -3.010374247593208}, {"id": "fum", "label": "fum", "shape": "dot", "title": "MNXM737340", "x": 0.1636658570565188, "y": -3.894409131149954}, {"id": "icit", "label": "icit", "shape": "dot", "title": "MNXM89661", "x": 0.2120745223518667, "y": -2.889970107370852}]);
+        edges = new vis.DataSet([]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
