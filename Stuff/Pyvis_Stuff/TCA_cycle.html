@@ -1,0 +1,123 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 50%;
+            height: 750px;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+        #config {
+            float: left;
+            width: 400px;
+            height: 600px;
+        }
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<div id = "config"></div>
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "white"}, "id": "pyr", "label": "pyr", "shape": "dot", "title": "pyr Neighbors:\u003cbr\u003eaccoa", "value": 1, "x": 0.6602039099931152, "y": 0.4310564641077183}, {"font": {"color": "white"}, "id": "accoa", "label": "accoa", "shape": "dot", "title": "accoa Neighbors:\u003cbr\u003ecit", "value": 1, "x": 0.6602039099931152, "y": 0.4310564641077183}, {"font": {"color": "white"}, "id": "cit", "label": "cit", "shape": "dot", "title": "cit Neighbors:\u003cbr\u003eicit", "value": 1, "x": -1.1508252062417546, "y": -1.2646801132794954}, {"font": {"color": "white"}, "id": "akg", "label": "akg", "shape": "dot", "title": "akg Neighbors:\u003cbr\u003esuccoa", "value": 1, "x": 0.5606669521455756, "y": 0.5833070188887776}, {"font": {"color": "white"}, "id": "succoa", "label": "succoa", "shape": "dot", "title": "succoa Neighbors:\u003cbr\u003esucc", "value": 1, "x": 0.5606669521455756, "y": 0.5833070188887776}, {"font": {"color": "white"}, "id": "oaa", "label": "oaa", "shape": "dot", "title": "oaa Neighbors:\u003cbr\u003ecit", "value": 1, "x": 0.4998243614291199, "y": 0.0677793435709933}, {"font": {"color": "white"}, "id": "succ", "label": "succ", "shape": "dot", "title": "succ Neighbors:\u003cbr\u003efum", "value": 1, "x": 0.7739261347982234, "y": 0.6519314442271734}, {"font": {"color": "white"}, "id": "fum", "label": "fum", "shape": "dot", "title": "fum Neighbors:\u003cbr\u003emal__D", "value": 1, "x": 0.7739261347982234, "y": 0.6519314442271734}, {"font": {"color": "white"}, "id": "pep", "label": "pep", "shape": "dot", "title": "pep Neighbors:\u003cbr\u003epyr", "value": 1, "x": -0.9242977452245305, "y": -0.1407637179919632}, {"font": {"color": "white"}, "id": "mal__D", "label": "mal__D", "shape": "dot", "title": "mal__D Neighbors:\u003cbr\u003eoaa", "value": 1, "x": 0.6958971628172376, "y": 0.4317823345868547}, {"font": {"color": "white"}, "id": "icit", "label": "icit", "shape": "dot", "title": "icit Neighbors:\u003cbr\u003eakg", "value": 1, "x": 0.0789881058783371, "y": 0.9413718570880352}]);
+        edges = new vis.DataSet([{"arrows": "to", "from": "pyr", "to": "accoa"}, {"arrows": "to", "from": "accoa", "to": "cit"}, {"arrows": "to", "from": "akg", "to": "succoa"}, {"arrows": "to", "from": "oaa", "to": "cit"}, {"arrows": "to", "from": "succ", "to": "fum"}, {"arrows": "to", "from": "pep", "to": "pyr"}, {"arrows": "to", "from": "succoa", "to": "succ"}, {"arrows": "to", "from": "fum", "to": "mal__D"}, {"arrows": "to", "from": "mal__D", "to": "oaa"}, {"arrows": "to", "from": "cit", "to": "icit"}, {"arrows": "to", "from": "icit", "to": "akg"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+        // if this network requires displaying the configure window,
+        // put it in its div
+        options.configure["container"] = document.getElementById("config");
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
