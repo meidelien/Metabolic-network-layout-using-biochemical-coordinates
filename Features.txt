@@ -1,0 +1,14 @@
+
+Graph descriptor
+
+mollogp
+molmr
+NumValenceElectrons
+
+NoCount
+NumHAcceptors
+
+The "num" family
+
+Min/Max partial Charge
+
