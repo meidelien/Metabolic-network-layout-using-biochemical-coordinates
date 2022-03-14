@@ -4,7 +4,8 @@ Department of Biotechnology and Food Science Services\
 [Machado lab](https://www.ntnu.edu/ibt/research/computational-biology/#/view/about) 
 
 
-Thesis supervisor: [Daniel Machado](https://github.com/cdanielmachado/) 
+Thesis supervisor: [Daniel Machado](https://github.com/cdanielmachado/)\
+Co-Supervisor: [Elise Marquez](https://github.com/cdanielmachado/)
 
 ### Dependencies
 - Tested with Python 3.9
