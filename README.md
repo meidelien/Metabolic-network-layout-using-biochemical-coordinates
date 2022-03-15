@@ -5,7 +5,7 @@ Department of Biotechnology and Food Science Services\
 
 
 Thesis supervisor: [Daniel Machado](https://github.com/cdanielmachado/)\
-Co-Supervisor: [Elise Marquez](https://github.com/cdanielmachado/)
+Co-Supervisor: [Elise Marquez](https://github.com/emarquezz/)
 
 ### Dependencies
 - Tested with Python 3.9
