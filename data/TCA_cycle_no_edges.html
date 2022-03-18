@@ -1,0 +1,128 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 75%;
+            height: 750px;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+        #config {
+            float: left;
+            width: 400px;
+            height: 600px;
+        }
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<div id = "config"></div>
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "white"}, "id": "pyr", "label": "pyr", "shape": "dot", "title": "pyr Neighbors:\u003cbr\u003e", "value": 0, "x": 0.0570289244736729, "y": -0.2136166150267464}, {"font": {"color": "white"}, "id": "accoa", "label": "accoa", "shape": "dot", "title": "accoa Neighbors:\u003cbr\u003e", "value": 0, "x": 0.0570289244736729, "y": -0.2136166150267464}, {"font": {"color": "white"}, "id": "cit", "label": "cit", "shape": "dot", "title": "cit Neighbors:\u003cbr\u003e", "value": 0, "x": 0.0450868185347277, "y": -0.5240855826179853}, {"font": {"color": "white"}, "id": "akg", "label": "akg", "shape": "dot", "title": "akg Neighbors:\u003cbr\u003e", "value": 0, "x": 0.0405681838551267, "y": -0.4992212262755444}, {"font": {"color": "white"}, "id": "succoa", "label": "succoa", "shape": "dot", "title": "succoa Neighbors:\u003cbr\u003e", "value": 0, "x": 0.0405681838551267, "y": -0.4992212262755444}, {"font": {"color": "white"}, "id": "oaa", "label": "oaa", "shape": "dot", "title": "oaa Neighbors:\u003cbr\u003e", "value": 0, "x": 0.0442261262148037, "y": -0.5740060019824557}, {"font": {"color": "white"}, "id": "succ", "label": "succ", "shape": "dot", "title": "succ Neighbors:\u003cbr\u003e", "value": 0, "x": 0.0405681838551267, "y": -0.4166148180414813}, {"font": {"color": "white"}, "id": "fum", "label": "fum", "shape": "dot", "title": "fum Neighbors:\u003cbr\u003e", "value": 0, "x": 0.0405681838551267, "y": -0.4166148180414813}, {"font": {"color": "white"}, "id": "pep", "label": "pep", "shape": "dot", "title": "pep Neighbors:\u003cbr\u003e", "value": 0, "x": 0.0570289244736729, "y": -0.4494158309188268}, {"font": {"color": "white"}, "id": "mal__D", "label": "mal__D", "shape": "dot", "title": "mal__D Neighbors:\u003cbr\u003e", "value": 0, "x": 0.0405681838551267, "y": -0.4595571142689823}, {"font": {"color": "white"}, "id": "icit", "label": "icit", "shape": "dot", "title": "icit Neighbors:\u003cbr\u003e", "value": 0, "x": 0.0405681838551267, "y": -0.8995239439212789}]);
+        edges = new vis.DataSet([]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": true
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 10000000
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+        // if this network requires displaying the configure window,
+        // put it in its div
+        options.configure["container"] = document.getElementById("config");
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
