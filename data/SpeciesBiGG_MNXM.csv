@@ -1,0 +1,964 @@
+,BiGG,MNXM,description
+0,M_h_c,MNXM1,H+
+1,M_nadh_c,MNXM10,Nicotinamide adenine dinucleotide - reduced
+2,M_grdp_c,MNXM100,Geranyl diphosphate
+3,M_btal_c,MNXM1017,Butanal
+4,M_dtbt_c,MNXM1020,Dethiobiotin
+5,M_dca_c,MNXM1043,Decanoate (n-C10:0)
+6,M_mana_c,MNXM1045,D-Mannonate
+7,M_acg5sa_c,MNXM1062,N-Acetyl-L-glutamate 5-semialdehyde
+8,M_no2_c,MNXM107,Nitrite
+9,M_hdca_c,MNXM108,Hexadecanoate (n-C16:0)
+10,M_oxur_c,MNXM1088,Oxalureate
+11,M_5fthf_c,MNXM1091982,5-Formyltetrahydrofolate
+12,M_acon_C_c,MNXM1092518,Cis-Aconitate
+13,M_cur_c,MNXM1092739,Curcumin
+14,M_dcacoa_c,MNXM1092836,Decanoyl-CoA (n-C10:0CoA)
+15,M_dhcholn_c,MNXM1092863,"3?,12?-dihydroxy-7-oxo-5?-cholan-24-oate"
+16,M_f_c,MNXM1092965,Fluoride
+17,M_glu5sa_c,MNXM1093051,L-Glutamate 5-semialdehyde
+18,M_lgt__S_c,MNXM1093274,(R)-S-Lactoylglutathione
+19,M_mercpeth_c,MNXM1093356,Mercaptoethanol
+20,M_3oocoa_c,MNXM1093448,3-Oxooctanoyl-CoA
+21,M_occoa_c,MNXM1093479,Octanoyl-CoA (n-C8:0CoA)
+22,M_teo2_c,MNXM1094276,Tellurite
+23,M_tma_c,MNXM1094294,Trimethylamine
+24,M_fgam_c,MNXM1094915,N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide
+25,M_fpram_c,MNXM1094916,2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine
+26,M_ppi_c,MNXM11,Diphosphate
+27,M_udpacgal_c,MNXM1100890,UDP-N-acetyl-D-galactosamine
+28,M_fcl__L_c,MNXM1101253,L-fuculose
+29,M_uacmam_c,MNXM1101258,UDP-N-acetyl-D-mannosamine
+30,M_agdpcbi_c,MNXM1101279,Adenosine-GDP-cobinamide
+31,M_gmp_c,MNXM1101285,GMP
+32,M_2mahmp_c,MNXM1101289,2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate
+33,M_kdolipid4_c,MNXM1101307,KDO-lipid IV(A)
+34,M_utp_c,MNXM1101474,UTP
+35,M_imp_c,MNXM1101868,IMP
+36,M_unaga_c,MNXM1101902,Undecaprenyl diphospho N-acetyl-glucosamine
+37,M_arbtn_fe3_c,MNXM1101937,Aerobactin
+38,M_arbtn_c,MNXM1101938,Aerobactin minus Fe3
+39,M_5mta_c,MNXM1101977,5-Methylthioadenosine
+40,M_gp4g_c,MNXM1102064,"P1,P4-Bis(5'-guanosyl) tetraphosphate"
+41,M_amet_c,MNXM1102072,S-Adenosyl-L-methionine
+42,M_udp_c,MNXM1102128,UDP
+43,M_mlthf_c,MNXM1102150,"5,10-Methylenetetrahydrofolate"
+44,M_xtp_c,MNXM1102152,XTP
+45,M_ahcys_c,MNXM1102167,S-Adenosyl-L-homocysteine
+46,M_3amp_c,MNXM1102173,3 AMP
+47,M_udpgalfur_c,MNXM1102185,"UDP-D-galacto-1,4-furanose"
+48,M_3ump_c,MNXM1102189,3 UMP
+49,M_cdp_c,MNXM1102191,CDP
+50,M_db4p_c,MNXM1102294,"3,4-dihydroxy-2-butanone 4-phosphate"
+51,M_10fthf_c,MNXM1102376,10-Formyltetrahydrofolate
+52,M_aps_c,MNXM1103086,Adenosine 5'-phosphosulfate
+53,M_uri_c,MNXM1103104,Uridine
+54,M_r1p_c,MNXM1103205,Alpha-D-Ribose 1-phosphate
+55,M_gdp_c,MNXM1103285,GDP
+56,M_dnad_c,MNXM1103300,Deamino-NAD+
+57,M_cmp_c,MNXM1103302,CMP
+58,M_dad_5_c,MNXM1103313,5'-Deoxyadenosine
+59,M_3hodcoa_c,MNXM1103315,(S)-3-Hydroxyoctadecanoyl-CoA
+60,M_ametam_c,MNXM1103325,S-Adenosylmethioninamine
+61,M_ins_c,MNXM1103335,Inosine
+62,M_frdp_c,MNXM1103344,Farnesyl diphosphate
+63,M_aicar_c,MNXM1103365,5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide
+64,M_gsn_c,MNXM1103400,Guanosine
+65,M_itp_c,MNXM1103428,ITP
+66,M_1ddecg3p_c,MNXM1103432,1-dodecanoyl-sn-glycerol 3-phosphate
+67,M_3mop_c,MNXM1103447,(S)-3-Methyl-2-oxopentanoate
+68,M_pap_c,MNXM1103458,"Adenosine 3',5'-bisphosphate"
+69,M_gtp_c,MNXM1103553,GTP
+70,M_orot5p_c,MNXM1103557,Orotidine 5'-phosphate
+71,M_hxcoa_c,MNXM1103616,Hexanoyl-CoA (n-C6:0CoA)
+72,M_dcamp_c,MNXM1103622,"N6-(1,2-Dicarboxyethyl)-AMP"
+73,M_kphphhlipa_c,MNXM1103668,Kdo-phospho-heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA
+74,M_mococdp_c,MNXM1103700,Molybdopterin cytosine dinucleotide
+75,M_adocbi_c,MNXM1103715,Adenosyl cobinamide
+76,M_ctp_c,MNXM1103718,CTP
+77,M_25drapp_c,MNXM1103734,"2,5-Diamino-6-(ribosylamino)-4-(3H)-pyrimidinone 5'-phosphate"
+78,M_xtsn_c,MNXM1103769,Xanthosine
+79,M_3otdcoa_c,MNXM1103776,3-Oxotetradecanoyl-CoA
+80,M_aacoa_c,MNXM1103802,Acetoacetyl-CoA
+81,M_ap4a_c,MNXM1103833,"P1,P4-Bis(5'-adenosyl) tetraphosphate"
+82,M_alac__S_c,MNXM1103847,(S)-2-Acetolactate
+83,M_glcur1p_c,MNXM1103867,D-Glucuronate 1-phosphate
+84,M_malthx_c,MNXM1103926,Maltohexaose
+85,M_tagdp__D_c,MNXM1103932,"D-Tagatose 1,6-biphosphate"
+86,M_thf_c,MNXM1103936,"5,6,7,8-Tetrahydrofolate"
+87,M_melib_c,MNXM1103964,Melibiose
+88,M_maltpt_c,MNXM1104039,Maltopentaose
+89,M_r5p_c,MNXM1104056,Alpha-D-Ribose 5-phosphate
+90,M_gam6p_c,MNXM1104065,D-Glucosamine 6-phosphate
+91,M_unagamuf_c,MNXM1104103,"Undecaprenyl-diphospho N-acetylglucosamine-N-acetylmannosaminuronate-N-acetamido-4,6-dideoxy-D-galactose"
+92,M_malthp_c,MNXM1104130,Maltoheptaose
+93,M_gdpddman_c,MNXM1104155,GDP-4-dehydro-6-deoxy-D-mannose
+94,M_td2coa_c,MNXM1104173,Trans-Tetradec-2-enoyl-CoA
+95,M_sucr_c,MNXM1104180,Sucrose
+96,M_rml1p_c,MNXM1104186,L-Rhamnulose 1-phosphate
+97,M_gdpmann_c,MNXM1104188,GDP-D-mannose
+98,M_micit_c,MNXM1104204,Methylisocitrate
+99,M_cytd_c,MNXM1104207,Cytidine
+100,M_2ommbl_c,MNXM1104227,"2-Octaprenyl-3-methyl-6-methoxy- 1,4-benzoquinol"
+101,M_accoa_c,MNXM1104266,Acetyl-CoA
+102,M_b2coa_c,MNXM1104270,Crotonoyl-CoA
+103,M_2omhmbl_c,MNXM1104278,"2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinol"
+104,M_tdcoa_c,MNXM1104283,Tetradecanoyl-CoA (n-C14:0CoA)
+105,M_btcoa_c,MNXM1104300,Butanoyl-CoA
+106,M_dtdp4d6dm_c,MNXM1104310,DTDP-4-dehydro-6-deoxy-L-mannose
+107,M_malt6p_c,MNXM1104316,Maltose 6'-phosphate
+108,M_hhlipa_c,MNXM1104340,Heptosyl-heptosyl-kdo2-lipidA
+109,M_stcoa_c,MNXM1104352,Stearoyl-CoA (n-C18:0CoA)
+110,M_3hadpcoa_c,MNXM1104364,(3S)-3-Hydroxyadipyl-CoA
+111,M_moco_c,MNXM1104368,Molybdenum cofactor
+112,M_xmp_c,MNXM1104385,Xanthosine 5'-phosphate
+113,M_4ampm_c,MNXM1104391,4-Amino-2-methyl-5-phosphomethylpyrimidine
+114,M_5mthf_c,MNXM1104393,5-Methyltetrahydrofolate
+115,M_preq1_c,MNXM1104395,7-aminomethyl-7-deazaguanine
+116,M_cdpdhdecg_c,MNXM1104403,"CDP-1,2-dihexadecanoylglycerol"
+117,M_lcts_c,MNXM1104432,Lactose
+118,M_ddcacoa_c,MNXM1104435,Dodecanoyl-CoA (n-C12:0CoA)
+119,M_prpp_c,MNXM1104453,5-Phospho-alpha-D-ribose 1-diphosphate
+120,M_sbt6p_c,MNXM1104463,D-Sorbitol 6-phosphate
+121,M_6pgl_c,MNXM1104491,"6-phospho-D-glucono-1,5-lactone"
+122,M_dtdp4d6dg_c,MNXM1104509,DTDP-4-dehydro-6-deoxy-D-glucose
+123,M_allul6p_c,MNXM1104516,Allulose 6-phosphate
+124,M_fprica_c,MNXM1104518,5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide
+125,M_gar_c,MNXM1104522,N1-(5-Phospho-D-ribosyl)glycinamide
+126,M_malttr_c,MNXM1104527,Maltotriose
+127,M_uacgam_c,MNXM1104529,UDP-N-acetyl-D-glucosamine
+128,M_dpcoa_c,MNXM1104543,Dephospho-CoA
+129,M_adprib_c,MNXM1104545,ADPribose
+130,M_pram_c,MNXM1104549,5-Phospho-beta-D-ribosylamine
+131,M_adocbl_c,MNXM1104551,Adenosylcobalamin
+132,M_paps_c,MNXM1104555,3'-Phosphoadenylyl sulfate
+133,M_idp_c,MNXM1104559,IDP
+134,M_phaccoa_c,MNXM1104563,Phenylacetyl-CoA
+135,M_3ohodcoa_c,MNXM1104572,3-Oxooctadecanoyl-CoA
+136,M_mnl_c,MNXM1104590,D-Mannitol
+137,M_maltttr_c,MNXM1104617,Maltotetraose
+138,M_dc2coa_c,MNXM1104631,Trans-Dec-2-enoyl-CoA
+139,M_hdd2coa_c,MNXM1104633,Trans-Hexadec-2-enoyl-CoA
+140,M_25aics_c,MNXM1104647,(S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate
+141,M_dd2coa_c,MNXM1104661,Trans-Dodec-2-enoyl-CoA
+142,M_prpncoa_c,MNXM1104673,Propenoyl-CoA
+143,M_alaala_c,MNXM1104679,D-Alanyl-D-alanine
+144,M_3hdcoa_c,MNXM1104681,(S)-3-Hydroxydecanoyl-CoA
+145,M_3odcoa_c,MNXM1104685,3-Oxodecanoyl-CoA
+146,M_3oddcoa_c,MNXM1104695,3-Oxododecanoyl-CoA
+147,M_3ohcoa_c,MNXM1104699,3-Oxohexanoyl-CoA
+148,M_udpg_c,MNXM1104702,UDPglucose
+149,M_3hddcoa_c,MNXM1104711,(S)-3-Hydroxydodecanoyl-CoA
+150,M_3ohdcoa_c,MNXM1104713,3-Oxohexadecanoyl-CoA
+151,M_hx2coa_c,MNXM1104717,Trans-Hex-2-enoyl-CoA
+152,M_3hhcoa_c,MNXM1104721,(S)-3-Hydroxyhexanoyl-CoA
+153,M_3hocoa_c,MNXM1104724,(S)-3-Hydroxyoctanoyl-CoA
+154,M_3htdcoa_c,MNXM1104726,(S)-3-Hydroxytetradecanoyl-CoA
+155,M_kdo2lipid4_c,MNXM1104740,KDO(2)-lipid IV(A)
+156,M_udpgal_c,MNXM1104754,UDPgalactose
+157,M_cbl1_c,MNXM1104756,Cob(I)alamin
+158,M_succoa_c,MNXM1104774,Succinyl-CoA
+159,M_od2coa_c,MNXM1104783,Trans-Octadec-2-enoyl-CoA
+160,M_f1p_c,MNXM1104787,D-Fructose 1-phosphate
+161,M_ump_c,MNXM1104823,UMP
+162,M_sheme_c,MNXM1104857,Siroheme
+163,M_adocbip_c,MNXM1104880,Adenosyl cobinamide phosphate
+164,M_udpglcur_c,MNXM1104890,UDP-D-glucuronate
+165,M_4ahmmp_c,MNXM1104899,4-Amino-5-hydroxymethyl-2-methylpyrimidine
+166,M_gam1p_c,MNXM1104944,D-Glucosamine 1-phosphate
+167,M_glc__D_c,MNXM1105029,D-Glucose
+168,M_dxylnt_c,MNXM1105052,D-Xylonate
+169,M_1pyr5c_c,MNXM1105060,1-Pyrroline-5-carboxylate
+170,M_gam_c,MNXM1105684,D-Glucosamine
+171,M_ala__D_c,MNXM1105731,D-Alanine
+172,M_ala__L_c,MNXM1105732,L-Alanine
+173,M_crn_c,MNXM1105737,L-Carnitine
+174,M_uacmamu_c,MNXM1105744,UDP-N-acetyl-D-mannosaminouronate
+175,M_adn_c,MNXM1105760,Adenosine
+176,M_fadh2_c,MNXM1105762,Flavin adenine dinucleotide reduced
+177,M_glcur_c,MNXM1105765,D-Glucuronate
+178,M_acgam1p_c,MNXM1105798,N-Acetyl-D-glucosamine 1-phosphate
+179,M_acgal1p_c,MNXM1105799,N-Acetyl-D-galactosamine 1-phosphate
+180,M_fru_c,MNXM1105810,D-Fructose
+181,M_man_c,MNXM1105842,D-Mannose
+182,M_man6p_c,MNXM1105857,D-Mannose 6-phosphate
+183,M_g6p_c,MNXM1105858,D-Glucose 6-phosphate
+184,M_acmana_c,MNXM1105881,N-Acetyl-D-mannosamine
+185,M_3hbcoa_c,MNXM1105912,(S)-3-Hydroxybutanoyl-CoA
+186,M_fmn_c,MNXM1105927,FMN
+187,M_acgal_c,MNXM1105933,N-Acetyl-D-galactosamine
+188,M_acgam_c,MNXM1105935,N-Acetyl-D-glucosamine
+189,M_fad_c,MNXM1105936,Flavin adenine dinucleotide oxidized
+190,M_oxadpcoa_c,MNXM1105939,3-Oxoadipyl-CoA
+191,M_inost_c,MNXM1105941,Myo-Inositol
+192,M_dtdpglu_c,MNXM1105949,DTDPglucose
+193,M_odecoa_c,MNXM1105956,Octadecenoyl-CoA (n-C18:1CoA)
+194,M_urate_c,MNXM1105965,Urate
+195,M_adpglc_c,MNXM1105977,ADPglucose
+196,M_air_c,MNXM1105983,5-amino-1-(5-phospho-D-ribosyl)imidazole
+197,M_acmanap_c,MNXM1105998,N-Acetyl-D-mannosamine 6-phosphate
+198,M_acgam6p_c,MNXM1105999,N-Acetyl-D-glucosamine 6-phosphate
+199,M_aact_c,MNXM1106,Aminoacetone
+200,M_malt_c,MNXM1106000,Maltose
+201,M_gdpfuc_c,MNXM1106003,GDP-L-fucose
+202,M_oc2coa_c,MNXM1106007,Trans-Oct-2-enoyl-CoA
+203,M_tre_c,MNXM1106022,Trehalose
+204,M_metsox_S__L_c,MNXM1106045,L-Methionine Sulfoxide
+205,M_acnam_c,MNXM1106047,N-Acetylneuraminate
+206,M_man1p_c,MNXM1106057,D-Mannose 1-phosphate
+207,M_g1p_c,MNXM1106065,D-Glucose 1-phosphate
+208,M_gal1p_c,MNXM1106067,Alpha-D-Galactose 1-phosphate
+209,M_g3pe_c,MNXM1106082,Sn-Glycero-3-phosphoethanolamine
+210,M_malcoa_c,MNXM1106093,Malonyl CoA
+211,M_fdp_c,MNXM1106095,"D-Fructose 1,6-bisphosphate"
+212,M_minohp_c,MNXM1106105,Myo-Inositol hexakisphosphate
+213,M_dtdprmn_c,MNXM1106112,DTDP-L-rhamnose
+214,M_hdcoa_c,MNXM1106135,Hexadecenoyl-CoA (n-C16:1CoA)
+215,M_ppcoa_c,MNXM1106156,Propanoyl-CoA
+216,M_pmtcoa_c,MNXM1106160,Palmitoyl-CoA (n-C16:0CoA)
+217,M_lys__L_c,MNXM1106164,L-Lysine
+218,M_3hhdcoa_c,MNXM1106166,(S)-3-Hydroxyhexadecanoyl-CoA
+219,M_g3pg_c,MNXM1106891,Glycerophosphoglycerol
+220,M_fuc__L_c,MNXM1106903,L-Fucose
+221,M_2dglc_c,MNXM1107111,2 Deoxy D glucose
+222,M_udcpdp_c,MNXM1107136,Undecaprenyl diphosphate
+223,M_mal__L_c,MNXM1107192,L-Malate
+224,M_uamr_c,MNXM1107410,UDP-N-acetylmuramate
+225,M_2fe2s_c,MNXM1107419,[2Fe-2S] iron-sulfur cluster
+226,M_fmnh2_c,MNXM1107623,Reduced FMN
+227,M_LalaDgluMdap_c,MNXM1107671,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate"
+228,M_appl_c,MNXM1107675,1-Aminopropan-2-ol
+229,M_galct__D_c,MNXM1107694,D-Galactarate
+230,M_glcr_c,MNXM1107695,D-Glucarate
+231,M_23ddhb_c,MNXM1107702,"2,3-Dihydro-2,3-dihydroxybenzoate"
+232,M_dtdp4addg_c,MNXM1107704,"DTDP-4-amino-4,6-dideoxy-D-galactose"
+233,M_ocdcea_c,MNXM1107708,Octadecenoate (n-C18:1)
+234,M_cpmp_c,MNXM1107741,Cyclic pyranopterin monophosphate
+235,M_hemeO_c,MNXM1107744,Heme O
+236,M_cit_c,MNXM1107753,Citrate
+237,M_dmlz_c,MNXM1107754,"6,7-Dimethyl-8-(1-D-ribityl)lumazine"
+238,M_u3aga_c,MNXM1107760,UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine
+239,M_u3hga_c,MNXM1107764,UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine
+240,M_his__L_c,MNXM1107769,L-Histidine
+241,M_6pgg_c,MNXM1107797,"6-Phospho-beta-D-glucosyl-(1,4)-D-glucose"
+242,M_fe3dcit_c,MNXM1107801,Fe(III)dicitrate
+243,M_asn__L_c,MNXM1107821,L-Asparagine
+244,M_murein4px4px4p_c,MNXM1107894,Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm->D-ala) & tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain)
+245,M_f6p_c,MNXM1107898,D-Fructose 6-phosphate
+246,M_hdcea_c,MNXM1107900,Hexadecenoate (n-C16:1)
+247,M_no_c,MNXM1107902,Nitric oxide
+248,M_mmcoa__S_c,MNXM1107904,(S)-Methylmalonyl-CoA
+249,M_o2s_c,MNXM1107906,Superoxide anion
+250,M_dhpmp_c,MNXM1107940,Dihydroneopterin monophosphate
+251,M_adphep_DD_c,MNXM1107947,ADP-D-glycero-D-manno-heptose
+252,M_gmhep1p_c,MNXM1107954,D-Glycero-D-manno-heptose 1-phosphate
+253,M_hkndd_c,MNXM1107974,"2-Hydroxy-6-oxonona-2,4-diene-1,9-dioate"
+254,M_ttdcea_c,MNXM1107981,Tetradecenoate (n-C14:1)
+255,M_3hcinnm_c,MNXM1107995,3-hydroxycinnamic acid
+256,M_nicrnt_c,MNXM1108016,Nicotinate D-ribonucleotide
+257,M_h2_c,MNXM1108018,Hydrogen
+258,M_rib__D_c,MNXM1108051,D-Ribose
+259,M_dhptd_c,MNXM1108056,"4,5-dihydroxy-2,3-pentanedione"
+260,M_13dpg_c,MNXM1108073,3-Phospho-D-glyceroyl phosphate
+261,M_etoh_c,MNXM1108092,Ethanol
+262,M_ppp9_c,MNXM1108136,Protoporphyrin
+263,M_2dr1p_c,MNXM1108138,2-Deoxy-D-ribose 1-phosphate
+264,M_gal_c,MNXM1108175,D-Galactose
+265,M_asp__L_c,MNXM1108206,L-Aspartate
+266,M_3sala_c,MNXM1108289,3-Sulfino-L-alanine
+267,M_adphep_LD_c,MNXM1108522,ADP-L-glycero-D-manno-heptose
+268,M_gal_bD_c,MNXM112,Beta D-Galactose
+269,M_pro__L_c,MNXM114,L-Proline
+270,M_dann_c,MNXM1140,"7,8-Diaminononanoate"
+271,M_2aobut_c,MNXM114087,L-2-Amino-3-oxobutanoate
+272,M_sucorn_c,MNXM1152,N2-Succinyl-L-ornithine
+273,M_slnt_c,MNXM1157,Selenite
+274,M_frulysp_c,MNXM11605,Fructoselysine Phosphate
+275,M_2mecdp_c,MNXM1168,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate"
+276,M_urea_c,MNXM117,Urea
+277,M_3dhgulnp_c,MNXM1170,3-keto-L-gulonate-6-phosphate
+278,M_4h2opntn_c,MNXM1176,4-Hydroxy-2-oxopentanoate
+279,M_4pasp_c,MNXM1177,4-Phospho-L-aspartate
+280,M_5aprbu_c,MNXM1178,5-Amino-6-(5'-phosphoribitylamino)uracil
+281,M_hacolipa_c,MNXM11799,Hepta-acylated core oligosaccharide lipid A (E. coli)
+282,M_ptrc_c,MNXM118,Putrescine
+283,M_ara5p_c,MNXM1184,D-Arabinose 5-phosphate
+284,M_ppgpp_c,MNXM1189,"Guanosine 3',5'-bis(diphosphate)"
+285,M_mpt_c,MNXM1193,Molybdopterin
+286,M_23dhmp_c,MNXM1202,"(R)-2,3-Dihydroxy-3-methylpentanoate"
+287,M_sucbz_c,MNXM1212,O-Succinylbenzoate
+288,M_mercppyr_c,MNXM1214,Mercaptopyruvate
+289,M_2dda7p_c,MNXM1219,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate
+290,M_5prdmbz_c,MNXM1224,"N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole"
+291,M_hcys__L_c,MNXM123,L-Homocysteine
+292,M_galt_c,MNXM1233,Galactitol
+293,M_xu5p__L_c,MNXM1238,L-Xylulose 5-phosphate
+294,M_spmd_c,MNXM124,Spermidine
+295,M_h2s_c,MNXM124865,Hydrogen sulfide
+296,M_12ppd__S_c,MNXM1255,"(S)-Propane-1,2-diol"
+297,M_skm5p_c,MNXM1265,Shikimate 5-phosphate
+298,M_met__D_c,MNXM1275,D-Methionine
+299,M_ca2_c,MNXM128,Calcium
+300,M_glu5p_c,MNXM1280,L-Glutamate 5-phosphate
+301,M_histd_c,MNXM1281,L-Histidinol
+302,M_co2_c,MNXM13,CO2
+303,M_dmpp_c,MNXM132,Dimethylallyl diphosphate
+304,M_phom_c,MNXM1334,O-Phospho-L-homoserine
+305,M_selnp_c,MNXM1339,Selenophosphate
+306,M_3psme_c,MNXM1365,5-O-(1-Carboxyvinyl)-3-phosphoshikimate
+307,M_ghb_c,MNXM13761,Gamma-hydroxybutyrate
+308,M_ggbutal_c,MNXM1378,Gamma-glutamyl-gamma-butyraldehyde
+309,M_cbp_c,MNXM138,Carbamoyl phosphate
+310,M_acg5p_c,MNXM1384,N-Acetyl-L-glutamyl 5-phosphate
+311,M_prfp_c,MNXM1397,1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide
+312,M_34dhpac_c,MNXM1401,"3,4-Dihydroxyphenylacetaldehyde"
+313,M_pppn_c,MNXM1403,Phenylpropanoate
+314,M_gg4abut_c,MNXM1406,Gamma-glutamyl-gamma aminobutyric acid
+315,M_4per_c,MNXM1407,4-Phospho-D-erythronate
+316,M_prlp_c,MNXM1408,5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide
+317,M_thr__L_c,MNXM142,L-Threonine
+318,M_eig3p_c,MNXM1422,D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate
+319,M_ala_B_c,MNXM144,Beta-Alanine
+320,M_ugmd_c,MNXM1446,"UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate"
+321,M_ru5p__D_c,MNXM145,D-Ribulose 5-phosphate
+322,M_glu1sa_c,MNXM1453,L-Glutamate 1-semialdehyde
+323,M_2cpr5p_c,MNXM1455,1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate
+324,M_imacp_c,MNXM1456,3-(Imidazol-4-yl)-2-oxopropyl phosphate
+325,M_4adcho_c,MNXM1458,4-amino-4-deoxychorismate
+326,M_um4p_c,MNXM147329,"UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate-D-alanine"
+327,M_hisp_c,MNXM1482,L-Histidinol phosphate
+328,M_mso3_c,MNXM1485,Methanesulfonate
+329,M_pran_c,MNXM1489,N-(5-Phospho-D-ribosyl)anthranilate
+330,M_thrp_c,MNXM1492,L-Threonine O-3-phosphate
+331,M_ppap_c,MNXM1499,Propanoyl phosphate
+332,M_udpLa4o_c,MNXM1505,UDP-4-keto-pyranose
+333,M_ohpb_c,MNXM1514,2-Oxo-3-hydroxy-4-phosphobutanoate
+334,M_g3pi_c,MNXM1517,Sn-Glycero-3-phospho-1-inositol
+335,M_dtdp_c,MNXM152,DTDP
+336,M_3hppnl_c,MNXM1526,3-Hydroxypropanal
+337,M_34hpp_c,MNXM153,3-(4-Hydroxyphenyl)pyruvate
+338,M_dmbzid_c,MNXM1531,"5,6-Dimethylbenzimidazole"
+339,M_5apru_c,MNXM1532,5-Amino-6-(5'-phosphoribosylamino)uracil
+340,M_gdptp_c,MNXM1561,Guanosine 3'-diphosphate 5'-triphosphate
+341,M_hg2_c,MNXM1562,Mercury charged 2
+342,M_sl2a6o_c,MNXM1563,N-Succinyl-2-L-amino-6-oxoheptanedioate
+343,M_idon__L_c,MNXM1565,L-Idonate
+344,M_ura_c,MNXM158,Uracil
+345,M_2obut_c,MNXM159,2-Oxobutanoate
+346,M_3c4mop_c,MNXM1602,3-Carboxy-4-methyl-2-oxopentanoate
+347,M_mal__D_c,MNXM1608,D-Malate
+348,M_pydx5p_c,MNXM161,Pyridoxal 5'-phosphate
+349,M_3amac_c,MNXM162288,3-Aminoacrylate
+350,M_2dh3dgal_c,MNXM1627,2-Dehydro-3-deoxy-D-galactonate
+351,M_isetac_c,MNXM1630,Isethionic acid
+352,M_3hpppn_c,MNXM1634,3-(3-hydroxy-phenyl)propionate
+353,M_2ohph_c,MNXM1635,2-Octaprenyl-6-hydroxyphenol
+354,M_4hbz_c,MNXM164,4-Hydroxybenzoate
+355,M_2p4c2me_c,MNXM1641,2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+356,M_hxa_c,MNXM1653,Hexanoate (n-C6:0)
+357,M_n8aspmd_c,MNXM1679,N8-Acetylspermidine
+358,M_ade_c,MNXM168,Adenine
+359,M_2ippm_c,MNXM1706,2-Isopropylmaleate
+360,M_2omph_c,MNXM1707,2-Octaprenyl-6-methoxyphenol
+361,M_sucsal_c,MNXM172,Succinic semialdehyde
+362,M_galctn__D_c,MNXM1734,D-Galactonate
+363,M_xan_c,MNXM174,Xanthine
+364,M_frulys_c,MNXM1742,Fructoselysine
+365,M_acetol_c,MNXM1744,Acetol cytosol
+366,M_sucarg_c,MNXM1756,N2-Succinyl-L-arginine
+367,M_sucglu_c,MNXM1757,N2-Succinyl-L-glutamate
+368,M_sucgsa_c,MNXM1763,N2-Succinyl-L-glutamate 5-semialdehyde
+369,M_pg120_c,MNXM1771,"Phosphatidylglycerol (didodecanoyl, n-C12:0)"
+370,M_udpLa4n_c,MNXM1786,Uridine 5''-diphospho-{beta}-4-deoxy-4-amino-L-arabinose
+371,M_2mcacn_c,MNXM1792,Cis-2-Methylaconitate
+372,M_4hthr_c,MNXM1802,4-Hydroxy-L-threonine
+373,M_xu5p__D_c,MNXM186,D-Xylulose 5-phosphate
+374,M_36dahx_c,MNXM1865,"(3S)-3,6-Diaminohexanoate"
+375,M_anth_c,MNXM188,Anthranilate
+376,M_2oph_c,MNXM1886,2-Octaprenylphenol
+377,M_q8h2_c,MNXM191,Ubiquinol-8
+378,M_4abut_c,MNXM192,4-Aminobutanoate
+379,M_dimp_c,MNXM1922,DIMP
+380,M_acanth_c,MNXM1939,N-Acetylanthranilate
+381,M_sulfac_c,MNXM1949,Sulfoacetate
+382,M_23dhba_c,MNXM1978,"(2,3-Dihydroxybenzoyl)adenylate"
+383,M_dhgly_c,MNXM1984,Dehydroglycine
+384,M_val__L_c,MNXM199,L-Valine
+385,M_akg_c,MNXM20,2-Oxoglutarate
+386,M_altrn_c,MNXM2011,D-Altronate
+387,M_pg141_c,MNXM2029,"Phosphatidylglycerol (ditetradec-7-enoyl, n-C14:1)"
+388,M_dopa_c,MNXM205,Dopamine
+389,M_2pglyc_c,MNXM2074,2-Phosphoglycolate
+390,M_cys__D_c,MNXM2112,D-Cysteine
+391,M_2amsa_c,MNXM2124,2-Aminomalonate semialdehyde
+392,M_athr__L_c,MNXM2125,L-Allo-threonine
+393,M_pe181_c,MNXM2150,"Phosphatidylethanolamine (dioctadec-11-enoyl, n-C18:1)"
+394,M_ncam_c,MNXM216,Nicotinamide
+395,M_didp_c,MNXM2174,DIDP||2'-deoxyinosine-5'-diphosphate(3-)
+396,M_2dmmq8_c,MNXM2178,2-Demethylmenaquinone 8
+397,M_etha_c,MNXM218,Ethanolamine
+398,M_3cmp_c,MNXM2182,3 CMP
+399,M_3gmp_c,MNXM2183,Guanosine 3 phosphate
+400,M_3ophb_c,MNXM2195,3-Octaprenyl-4-hydroxybenzoate
+401,M_aacald_c,MNXM2212,Aminoacetaldehyde
+402,M_glyclt_c,MNXM222,Glycolate
+403,M_mql8_c,MNXM223,Menaquinol 8
+404,M_metsox_R__L_c,MNXM2245,L-methionine-R-sulfoxide
+405,M_mn2_c,MNXM2255,Manganese
+406,M_psd5p_c,MNXM2276,Pseudouridine 5 phosphate
+407,M_sel_c,MNXM2282,Selenate
+408,M_tdecoa_c,MNXM2290,Tetradecenoyl-CoA (n-C14:1CoA)
+409,M_pyr_c,MNXM23,Pyruvate
+410,M_uracp_c,MNXM2304,Ureidoacrylate peracid
+411,M_14dhncoa_c,MNXM2306,"1,4-dihydroxy-2-napthoyl-CoA"
+412,M_q8_c,MNXM232,Ubiquinone-8
+413,M_dump_c,MNXM234,DUMP
+414,M_orot_c,MNXM235,Orotate
+415,M_ocdca_c,MNXM236,Octadecanoate (n-C18:0)
+416,M_ap5a_c,MNXM2412,"P1,P5-Bis(5'-adenosyl) pentaphosphate"
+417,M_camp_c,MNXM243,CAMP
+418,M_msa_c,MNXM244,Malonate semialdehyde
+419,M_pheme_c,MNXM249,Protoheme
+420,M_succ_c,MNXM25,Succinate
+421,M_dhor__S_c,MNXM252,(S)-Dihydroorotate
+422,M_glyc2p_c,MNXM2527,Glycerol 2-phosphate
+423,M_thmpp_c,MNXM256,Thiamine diphosphate
+424,M_dtmp_c,MNXM257,DTMP
+425,M_e4p_c,MNXM258,D-Erythrose 4-phosphate
+426,M_23camp_c,MNXM2598,"2',3'-Cyclic AMP"
+427,M_ac_c,MNXM26,Acetate
+428,M_dcmp_c,MNXM266,DCMP
+429,M_hlipa_c,MNXM2680,Heptosyl-kdo2-lipidA
+430,M_na1_c,MNXM27,Sodium
+431,M_ribflv_c,MNXM270,Riboflavin
+432,M_nac_c,MNXM274,Nicotinate
+433,M_2pg_c,MNXM275,D-Glycerate 2-phosphate
+434,M_actp_c,MNXM280,Acetyl phosphate
+435,M_arbt6p_c,MNXM2806,Arbutin 6-phosphate
+436,M_dhf_c,MNXM281,"7,8-Dihydrofolate"
+437,M_taur_c,MNXM282,Taurine
+438,M_datp_c,MNXM286,DATP
+439,M_13ppd_c,MNXM2861,"1,3-Propanediol"
+440,M_glyb_c,MNXM289,Glycine betaine
+441,M_gly_c,MNXM29,Glycine
+442,M_12dgr140_c,MNXM2902,"1,2-Diacyl-sn-glycerol (ditetradecanoyl, n-C14:0)"
+443,M_oxa_c,MNXM291,Oxalate
+444,M_rephaccoa_c,MNXM2919,"Ring 1,2-epoxyphenylacetyl-CoA"
+445,M_cpgn_un_c,MNXM2999,Coprogen unloaded (no Fe(III))
+446,M_atp_c,MNXM3,ATP
+447,M_sarcs_c,MNXM300,Sarcosine
+448,M_btn_c,MNXM304,Biotin
+449,M_mptamp_c,MNXM3054,Adenylated molybdopterin
+450,M_anhgm_c,MNXM3060,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid
+451,M_mththf_c,MNXM30887,"(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran"
+452,M_mthgxl_c,MNXM310,Methylglyoxal
+453,M_pydx_c,MNXM311,Pyridoxal
+454,M_12dgr160_c,MNXM3132,"1,2-Diacyl-sn-glycerol (dihexadecanoyl, n-C16:0)"
+455,M_ttdca_c,MNXM314,Tetradecanoate (n-C14:0)
+456,M_23ccmp_c,MNXM3148,"2',3'-Cyclic CMP"
+457,M_23cump_c,MNXM3150,"2',3'-Cyclic UMP"
+458,M_cyst__L_c,MNXM319,L-Cystathionine
+459,M_cph4_c,MNXM3194,"6-carboxy-5,6,7,8-tetrahydropterin"
+460,M_pe160_c,MNXM32178,"Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)"
+461,M_1agpe160_c,MNXM32511,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0)
+462,M_1agpe120_c,MNXM32692,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0)
+463,M_1agpe140_c,MNXM32693,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0)
+464,M_1agpg120_c,MNXM32695,1-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0)
+465,M_agm_c,MNXM328,Agmatine
+466,M_glu__D_c,MNXM331,D-Glutamate
+467,M_pppi_c,MNXM332,Inorganic triphosphate
+468,M_oxam_c,MNXM3329,Oxamate
+469,M_chor_c,MNXM337,Chorismate
+470,M_glcn_c,MNXM341,D-Gluconate
+471,M_crnDcoa_c,MNXM3411,D-carnitinyl-CoA
+472,M_poaac_c,MNXM3415,Peroxyaminoacrylate
+473,M_dgtp_c,MNXM344,DGTP
+474,M_2agpe141_c,MNXM3447,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1)
+475,M_2agpe181_c,MNXM3449,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1)
+476,M_2agpg141_c,MNXM3452,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1)
+477,M_2agpg181_c,MNXM3455,2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1)
+478,M_2agpg140_c,MNXM34739,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0)
+479,M_2agpg160_c,MNXM34740,2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0)
+480,M_2agpe120_c,MNXM34808,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0)
+481,M_2agpe140_c,MNXM34809,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0)
+482,M_2agpe160_c,MNXM34810,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0)
+483,M_2agpe180_c,MNXM34811,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0)
+484,M_pppg9_c,MNXM351,Protoporphyrinogen IX
+485,M_hom__L_c,MNXM353,L-Homoserine
+486,M_nmn_c,MNXM355,NMN
+487,M_ppa_c,MNXM356,Propionate (n-C3:0)
+488,M_dctp_c,MNXM360,DCTP
+489,M_aspsa_c,MNXM361,L-Aspartate 4-semialdehyde
+490,M_LalaDglu_c,MNXM3630,L-alanine-D-glutamate
+491,M_pyam5p_c,MNXM366,Pyridoxamine 5'-phosphate
+492,M_g3pc_c,MNXM367,Sn-Glycero-3-phosphocholine
+493,M_pe141_c,MNXM3693,"Phosphatidylethanolamine (ditetradec-7-enoyl, n-C14:1)"
+494,M_gln__L_c,MNXM37,L-Glutamine
+495,M_pan4p_c,MNXM373,Pantetheine 4'-phosphate
+496,M_hqn_c,MNXM376,Hydroquinone
+497,M_12dgr161_c,MNXM3774,"1,2-Diacyl-sn-glycerol (dihexadec-9-enoyl, n-C16:1)"
+498,M_12dgr181_c,MNXM3775,"1,2-Diacyl-sn-glycerol (dioctadec-11-enoyl, n-C18:1)"
+499,M_thym_c,MNXM386,Thymine
+500,M_for_c,MNXM39,Formate
+501,M_hpyr_c,MNXM392,Hydroxypyruvate
+502,M_btnso_c,MNXM3932,D-biotin d-sulfoxide
+503,M_dttp_c,MNXM394,DTTP
+504,M_ahdt_c,MNXM397,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate"
+505,M_ddca_c,MNXM402,Dodecanoate (n-C12:0)
+506,M_LalaLglu_c,MNXM4026,L-alanine-L-glutamate
+507,M_adp_c,MNXM40333,ADP
+508,M_4mop_c,MNXM404,4-Methyl-2-oxopentanoate
+509,M_5aop_c,MNXM405,5-Amino-4-oxopentanoate
+510,M_dcdp_c,MNXM411,DCDP
+511,M_xdp_c,MNXM4133,XDP
+512,M_uppg3_c,MNXM414,Uroporphyrinogen III
+513,M_acser_c,MNXM418,O-Acetyl-L-serine
+514,M_pydxn_c,MNXM419,Pyridoxine
+515,M_thymd_c,MNXM420,Thymidine
+516,M_4abz_c,MNXM421,4-Aminobenzoate
+517,M_12dgr180_c,MNXM4217,"1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)"
+518,M_4abutn_c,MNXM422,4-Aminobutanal
+519,M_damp_c,MNXM432,DAMP
+520,M_glyald_c,MNXM435,D-Glyceraldehyde
+521,M_dgdp_c,MNXM436,DGDP
+522,M_2ddglcn_c,MNXM440,2-Dehydro-3-deoxy-D-gluconate
+523,M_dms_c,MNXM444,Dimethyl sulfide
+524,M_tre6p_c,MNXM448,"Alpha,alpha'-Trehalose 6-phosphate"
+525,M_cdpdddecg_c,MNXM4507,"CDP-1,2-didodecanoylglycerol"
+526,M_dutp_c,MNXM452,DUTP
+527,M_pdx5p_c,MNXM454,Pyridoxine 5'-phosphate
+528,M_23dhb_c,MNXM455,"2,3-Dihydroxybenzoate"
+529,M_betald_c,MNXM457,Betaine aldehyde
+530,M_but_c,MNXM458,Butyrate (n-C4:0)
+531,M_oaa_c,MNXM46,Oxaloacetate
+532,M_dha_c,MNXM460,Dihydroxyacetone
+533,M_lyx__L_c,MNXM4641,L-Lyxose
+534,M_cbasp_c,MNXM465,N-Carbamoyl-L-aspartate
+535,M_pacald_c,MNXM473,Phenylacetaldehyde
+536,M_2h3oppan_c,MNXM475,2-Hydroxy-3-oxopropanoate
+537,M_colipa_c,MNXM47647,Core oligosaccharide lipid A
+538,M_5pg35pg_c,MNXM4772,5-Phosphoguanylyl(3->5)guanosine
+539,M_4hoxpacd_c,MNXM479,4-Hydroxyphenylacetaldehyde
+540,M_thdp_c,MNXM480,"2,3,4,5-Tetrahydrodipicolinate"
+541,M_so2_c,MNXM4835,Sulfur dioxide
+542,M_gthrd_c,MNXM490899,Reduced glutathione
+543,M_duri_c,MNXM492,Deoxyuridine
+544,M_12dgr120_c,MNXM4939,"1,2-Diacyl-sn-glycerol (didodecanoyl, n-C12:0)"
+545,M_12dgr141_c,MNXM4940,"1,2-Diacyl-sn-glycerol (ditetradec-7-enoyl, n-C14:1)"
+546,M_nadp_c,MNXM5,Nicotinamide adenine dinucleotide phosphate
+547,M_N1aspmd_c,MNXM501,N1-Acetylspermidine
+548,M_56dura_c,MNXM506,"5,6-dihydrouracil"
+549,M_s17bp_c,MNXM507505,"Sedoheptulose 1,7-bisphosphate"
+550,M_clpn120_c,MNXM5078,"Cardiolipin (tetradodecanoyl, n-C12:0)"
+551,M_clpn180_c,MNXM5079,"Cardiolipin (tetraoctadecanoyl, n-C18:0)"
+552,M_mqn8_c,MNXM509,Menaquinone 8
+553,M_methf_c,MNXM511,"5,10-Methenyltetrahydrofolate"
+554,M_pgp120_c,MNXM5266,"Phosphatidylglycerophosphate (didodecanoyl, n-C12:0)"
+555,M_pgp181_c,MNXM5269,"Phosphatidylglycerophosphate (dioctadec-11-enoyl, n-C18:1)"
+556,M_pgp141_c,MNXM5271,"Phosphatidylglycerophosphate (ditetradec-7-enoyl, n-C14:1)"
+557,M_pgp140_c,MNXM5272,"Phosphatidylglycerophosphate (ditetradecanoyl, n-C14:0)"
+558,M_26dap__M_c,MNXM529,"Meso-2,6-Diaminoheptanedioate"
+559,M_3php_c,MNXM541,3-Phosphohydroxypyruvate
+560,M_arab__D_c,MNXM544,D Arabinose
+561,M_2hdecg3p_c,MNXM5465,2-hexadecanoyl-sn-glycerol 3-phosphate
+562,M_hmbil_c,MNXM547,Hydroxymethylbilane
+563,M_pydam_c,MNXM548,Pyridoxamine
+564,M_2odecg3p_c,MNXM5481,2-octadecanoyl-sn-glycerol 3-phosphate
+565,M_dhna_c,MNXM552,"1,4-Dihydroxy-2-naphthoate"
+566,M_ppbng_c,MNXM554,Porphobilinogen
+567,M_quln_c,MNXM555,Quinolinate
+568,M_2dmmql8_c,MNXM558,2-Demethylmenaquinol 8
+569,M_hphhlipa_c,MNXM56168,Heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA
+570,M_dudp_c,MNXM572,DUDP
+571,M_so4_c,MNXM58,Sulfate
+572,M_alltt_c,MNXM584,Allantoate
+573,M_LalaDgluMdapDala_c,MNXM59271,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine"
+574,M_pant__R_c,MNXM593,(R)-Pantoate
+575,M_murein5px3p_c,MNXM5970,"Two disacharide linked murein units, pentapeptide corsslinked tripeptide (A2pm->A2pm) (middle of chain)"
+576,M_iasp_c,MNXM599,Iminoaspartate
+577,M_hco3_c,MNXM60,Bicarbonate
+578,M_skm_c,MNXM602,Shikimate
+579,M_tym_c,MNXM603,Tyramine
+580,M_h2mb4p_c,MNXM606,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate
+581,M_3dhsk_c,MNXM611,3-Dehydroshikimate
+582,M_na15dap_c,MNXM6170,"N-3-aminopropyl-1,5-diaminopentane"
+583,M_oxalcoa_c,MNXM618,Oxalyl-CoA
+584,M_dxyl5p_c,MNXM622,1-deoxy-D-xylulose 5-phosphate
+585,M_dad_2_c,MNXM625,Deoxyadenosine
+586,M_anhgm3p_c,MNXM63489,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide
+587,M_galctn__L_c,MNXM636,L-Galactonate
+588,M_psclys_c,MNXM6409,Psicoselysine
+589,M_26dap_LL_c,MNXM644,"LL-2,6-Diaminoheptanedioate"
+590,M_34dhpha_c,MNXM645,3-4-Dihydroxyphenylacetate
+591,M_dgsn_c,MNXM647,Deoxyguanosine
+592,M_2ddg6p_c,MNXM649,2-Dehydro-3-deoxy-D-gluconate 6-phosphate
+593,M_novbcn_c,MNXM65002,Novobiocin
+594,M_aragund_c,MNXM65126,O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+595,M_mg2_c,MNXM653,Magnesium
+596,M_1agpe141_c,MNXM6599,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1)
+597,M_glyc3p_c,MNXM66,Glycerol 3-phosphate
+598,M_peamn_c,MNXM660,Phenethylamine
+599,M_1agpe161_c,MNXM6601,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1)
+600,M_1agpg141_c,MNXM6604,1-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1)
+601,M_1agpg160_c,MNXM6605,1-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0)
+602,M_1agpg161_c,MNXM6606,1-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1)
+603,M_thmmp_c,MNXM662,Thiamin monophosphate
+604,M_cgly_c,MNXM683,Cys Gly
+605,M_glx_c,MNXM69,Glyoxylate
+606,M_ser__D_c,MNXM694,D-Serine
+607,M_apg141_c,MNXM7019,Acyl phosphatidylglycerol (n-C14:1)
+608,M_apg161_c,MNXM7021,Acyl phosphatidylglycerol (n-C16:1)
+609,M_apg181_c,MNXM7023,Acyl phosphatidylglycerol (n-C18:1)
+610,M_dcyt_c,MNXM704,Deoxycytidine
+611,M_clpn141_c,MNXM7149,"Cardiolipin (tetratetradec-7-enoyl, n-C14:1)"
+612,M_dhpt_c,MNXM722728,Dihydropteroate
+613,M_argsuc_c,MNXM722743,N(omega)-(L-Arginino)succinate
+614,M_1agpe180_c,MNXM722840,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0)
+615,M_acglc__D_c,MNXM722855,6-Acetyl-D-glucose
+616,M_suc6p_c,MNXM725918,Sucrose 6-phosphate
+617,M_mobd_c,MNXM726092,Molybdate
+618,M_hmgth_c,MNXM726277,Hydroxymethylglutathione
+619,M_so3_c,MNXM726339,Sulfite
+620,M_fe2_c,MNXM726711,Fe2+ mitochondria
+621,M_fe3_c,MNXM726712,Iron (Fe3+)
+622,M_mmet_c,MNXM726752,S-Methyl-L-methionine
+623,M_dhcinnm_c,MNXM726800,"2,3-dihydroxicinnamic acid"
+624,M_sbzcoa_c,MNXM726805,O-Succinylbenzoyl-CoA
+625,M_chtbs6p_c,MNXM726813,Diacetylchitobiose-6-phosphate
+626,M_8aonn_c,MNXM726864,8-Amino-7-oxononanoate
+627,M_cpgn_c,MNXM726879,Coprogen
+628,M_hkntd_c,MNXM726882,2-hydroxy-6-ketononatrienedioate
+629,M_cellb_c,MNXM726888,Cellobiose
+630,M_2ahbut_c,MNXM726902,(S)-2-Aceto-2-hydroxybutanoate
+631,M_seramp_c,MNXM726941,L-seryl-AMP
+632,M_fe3dhbzs_c,MNXM727045,"Ferric 2,3-dihydroxybenzoylserine"
+633,M_6hmhptpp_c,MNXM727068,6-hydroxymethyl-dihydropterin pyrophosphate
+634,M_cynt_c,MNXM727224,Cyanate
+635,M_u23ga_c,MNXM727269,"UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine"
+636,M_coa_c,MNXM727276,Coenzyme A
+637,M_lipidAds_c,MNXM727331,Lipid A Disaccharide
+638,M_rbflvrd_c,MNXM727501,Reduced riboflavin
+639,M_2shchc_c,MNXM727527,"2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate"
+640,M_3pg_c,MNXM727604,3-Phospho-D-glycerate
+641,M_cyan_c,MNXM727657,Hydrogen cyanide
+642,M_pimACP_c,MNXM727687,Pimeloyl-[acyl-carrier protein]
+643,M_mincyc_c,MNXM727814,Minocycline
+644,M_xylu__L_c,MNXM727819,L-Xylulose
+645,M_ascb__L_c,MNXM727871,L-Ascorbate
+646,M_ag_c,MNXM727888,Silver
+647,M_ditp_c,MNXM728062,DITP(4-)
+648,M_gtspmd_c,MNXM728086,Glutathionylspermidine
+649,M_prbatp_c,MNXM728132,1-(5-Phosphoribosyl)-ATP
+650,M_acon_T_c,MNXM728255,Trans-Aconitate
+651,M_udpLa4fn_c,MNXM728268,Uridine 5''-diphospho-{beta}-4-deoxy-4-formamido-L-arabinose
+652,M_amp_c,MNXM728294,AMP
+653,M_5caiz_c,MNXM728322,5-phosphoribosyl-5-carboxyaminoimidazole
+654,M_ile__L_c,MNXM728337,L-Isoleucine
+655,M_tagur_c,MNXM728349,D-Tagaturonate
+656,M_crncoa_c,MNXM728470,L-Carnitinyl-CoA
+657,M_6hmhpt_c,MNXM728662,6-hydroxymethyl dihydropterin
+658,M_malcoame_c,MNXM728995,Malonyl-CoA methyl ester
+659,M_lipoate_c,MNXM729132,Lipoate
+660,M_23dhbzs_c,MNXM729151,"2,3-dihydroxybenzoylserine"
+661,M_sl26da_c,MNXM729177,"N-Succinyl-LL-2,6-diaminoheptanedioate"
+662,M_zn2_c,MNXM729215,Zinc
+663,M_acmum6p_c,MNXM729216,N-acetylmuramate 6-phosphate
+664,M_nh4_c,MNXM729302,Ammonium
+665,M_gthox_c,MNXM729383,Oxidized glutathione
+666,M_prbamp_c,MNXM729421,1-(5-Phosphoribosyl)-AMP
+667,M_rdmbzi_c,MNXM729592,"N1-(alpha-D-ribosyl)-5,6-dimethylbenzimidazole"
+668,M_acac_c,MNXM729595,Acetoacetate
+669,M_cbi_c,MNXM729643,Cobinamide
+670,M_meoh_c,MNXM729800,Methanol
+671,M_5mtr_c,MNXM729972,5-Methylthio-D-ribose
+672,M_pep_c,MNXM73,Phosphoenolpyruvate
+673,M_acglu_c,MNXM730,N-Acetyl-L-glutamate
+674,M_thm_c,MNXM730135,Thiamin
+675,M_phpyr_c,MNXM730221,Phenylpyruvate
+676,M_dhnpt_c,MNXM730300,Dihydroneopterin
+677,M_manglyc_c,MNXM730319,2(alpha-D-Mannosyl)-D-glycerate
+678,M_2me4p_c,MNXM730435,2-C-methyl-D-erythritol 4-phosphate
+679,M_lipa_c,MNXM730505,KDO(2)-lipid (A)
+680,M_feoxam_c,MNXM730514,Generic ferrioxamine-Fe-III
+681,M_2doxg6p_c,MNXM730537,2 Deoxy D glucose 6 phosphate
+682,M_butso3_c,MNXM730561,Butanesulfonate
+683,M_acmalt_c,MNXM730607,Acetyl-maltose
+684,M_cechddd_c,MNXM730693,"Cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol"
+685,M_feenter_c,MNXM730707,Fe-enterobactin
+686,M_3ig3p_c,MNXM730763,C'-(3-Indolyl)-glycerol 3-phosphate
+687,M_4ppcys_c,MNXM730898,N-((R)-4-Phosphopantothenoyl)-L-cysteine
+688,M_3c3hmp_c,MNXM730929,3-Carboxy-3-hydroxy-4-methylpentanoate
+689,M_2sephchc_c,MNXM730931,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate
+690,M_4c2me_c,MNXM730948,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+691,M_cenchddd_c,MNXM730951,"Cis-3-(3-carboxyethenyl)-3,5-cyclohexadiene-1,2-diol"
+692,M_tag6p__D_c,MNXM731056,D-Tagatose 6-phosphate
+693,M_gdpofuc_c,MNXM731066,GDP-4-oxo-L-fucose
+694,M_tsul_c,MNXM731077,Thiosulfate
+695,M_cu2_c,MNXM731166,Copper
+696,M_fruur_c,MNXM731183,D-Fructuronate
+697,M_35cgmp_c,MNXM731192,"3',5'-Cyclic GMP"
+698,M_enlipa_c,MNXM731245,Phosphoethanolamine KDO(2)-lipid (A)
+699,M_galt1p_c,MNXM731248,Galactitol 1-phosphate
+700,M_ggptrc_c,MNXM731265,Gamma-glutamyl-putrescine
+701,M_xylu__D_c,MNXM731281,D-Xylulose
+702,M_ppt_c,MNXM731416,Phosphonate
+703,M_uaccg_c,MNXM731472,UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine
+704,M_pa160_c,MNXM731668,"1,2-dihexadecanoyl-sn-glycerol 3-phosphate"
+705,M_gmhep17bp_c,MNXM731697,"D-Glycero-D-manno-heptose 1,7-bisphosphate"
+706,M_o16a2und_c,MNXM731709,(O16 antigen)x2 undecaprenyl diphosphate
+707,M_o16a3und_c,MNXM731711,(O16 antigen)x3 undecaprenyl diphosphate
+708,M_fc1p_c,MNXM731750,L-Fuculose 1-phosphate
+709,M_rml_c,MNXM731755,L-Rhamnulose
+710,M_lipidA_c,MNXM731760,"2,3,2'3'-Tetrakis(beta-hydroxymyristoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate"
+711,M_pg181_c,MNXM731815,"Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)"
+712,M_rhcys_c,MNXM731817,S-Ribosyl-L-homocysteine
+713,M_lac__D_c,MNXM731834,D-Lactate
+714,M_lac__L_c,MNXM731835,L-Lactate
+715,M_lipidX_c,MNXM731934,"2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate"
+716,M_ni2_c,MNXM731950,Nickel
+717,M_4fe4s_c,MNXM732007,[4Fe-4S] iron-sulfur cluster
+718,M_glyc__R_c,MNXM732052,(R)-Glycerate
+719,M_all__D_c,MNXM732104,D-Allose
+720,M_1odec11eg3p_c,MNXM732145,1-octadec-11-enoyl-sn-glycerol 3-phosphate
+721,M_uama_c,MNXM732162,UDP-N-acetylmuramoyl-L-alanine
+722,M_ugmda_c,MNXM732166,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine"
+723,M_no3_c,MNXM732398,Nitrate
+724,M_citr__L_c,MNXM732471,L-Citrulline
+725,M_hxan_c,MNXM732487,Hypoxanthine
+726,M_2dr5p_c,MNXM732594,2-Deoxy-D-ribose 5-phosphate
+727,M_h2o2_c,MNXM732620,Hydrogen peroxide
+728,M_preq0_c,MNXM732649,7-cyano-7-carbaguanine
+729,M_acmum_c,MNXM732757,N-Acetylmuramate
+730,M_uagmda_c,MNXM732761,"Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine"
+731,M_ctbtcoa_c,MNXM732837,Crotonobetainyl-CoA
+732,M_3mob_c,MNXM732866,3-Methyl-2-oxobutanoate
+733,M_lald__L_c,MNXM732880,L-Lactaldehyde
+734,M_dxyl_c,MNXM732961,1-deoxy-D-xylulose
+735,M_1hdecg3p_c,MNXM732965,1-hexadecanoyl-sn-glycerol 3-phosphate
+736,M_unagamu_c,MNXM733023,Undecaprenyl-diphospho-N-acetylglucosamine-N-acetylmannosaminuronate
+737,M_udcpp_c,MNXM733031,Undecaprenyl phosphate
+738,M_gua_c,MNXM733114,Guanine
+739,M_cd2_c,MNXM733186,Cadmium
+740,M_ascb6p_c,MNXM733261,L-ascorbate-6-phosphate
+741,M_s7p_c,MNXM733314,Sedoheptulose 7-phosphate
+742,M_2tpr3dpcoa_c,MNXM733374,2'-(5''-triphosphoribosyl)-3'-dephospho-CoA
+743,M_fecrm_c,MNXM733434,Ferrichrome
+744,M_pe120_c,MNXM733471,"Phosphatidylethanolamine (didodecanoyl, n-C12:0)"
+745,M_pe140_c,MNXM733473,"Phosphatidylethanolamine (ditetradecanoyl, n-C14:0)"
+746,M_14glucan_c,MNXM733515,"1,4-alpha-D-glucan"
+747,M_rmn_c,MNXM733618,L-Rhamnose
+748,M_dtdp4aaddg_c,MNXM733666,"DTDP-4-acetamido-4,6-dideoxy-D-galactose"
+749,M_urdglyc_c,MNXM733673,(-)-Ureidoglycolate
+750,M_Nmtrp_c,MNXM733784,N-Methyltryptophan
+751,M_amob_c,MNXM733831,S-Adenosyl-4-methylthio-2-oxobutanoate
+752,M_op4en_c,MNXM733877,2-Oxopent-4-enoate
+753,M_eca2und_c,MNXM733908,(enterobacterial common antigen)x2 undecaprenyl-diphosphate
+754,M_eca4und_c,MNXM733910,(enterobacterial common antigen)x4 undecaprenyl-diphosphate
+755,M_23cgmp_c,MNXM733912,"2',3'-Cyclic GMP"
+756,M_pe180_c,MNXM733922,"Phosphatidylethanolamine (dioctadecanoyl, n-C18:0)"
+757,M_23dhmb_c,MNXM734,"(R)-2,3-Dihydroxy-3-methylbutanoate"
+758,M_pg160_c,MNXM734041,"Phosphatidylglycerol (dihexadecanoyl, n-C16:0)"
+759,M_pgp160_c,MNXM734044,"Phosphatidylglycerophosphate (dihexadecanoyl, n-C16:0)"
+760,M_ps160_c,MNXM734047,"Phosphatidylserine (dihexadecanoyl, n-C16:0)"
+761,M_anhm3p_c,MNXM734072,"1,6-anhydrous-N-Acetylmuramyl-tripeptide"
+762,M_6pgc_c,MNXM734080,6-Phospho-D-gluconate
+763,M_1odecg3p_c,MNXM734212,1-octadecanoyl-sn-glycerol 3-phosphate
+764,M_tyrp_c,MNXM734272,Phosphotyrosine
+765,M_ethso3_c,MNXM7343,Ethanesulfonate
+766,M_1agpg140_c,MNXM734523,1-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0)
+767,M_1tdecg3p_c,MNXM734523,1-tetradecanoyl-sn-glycerol 3-phosphate
+768,M_man6pglyc_c,MNXM734566,2(alpha-D-Mannosyl-6-phosphate)-D-glycerate
+769,M_xyl__D_c,MNXM734574,D-Xylose
+770,M_gcald_c,MNXM734590,Glycolaldehyde
+771,M_cu_c,MNXM734750,Cu+
+772,M_arab__L_c,MNXM734859,L-Arabinose
+773,M_pnto__R_c,MNXM734864,(R)-Pantothenate
+774,M_kdo_c,MNXM734869,3-Deoxy-D-manno-2-octulosonate
+775,M_doxrbcn_c,MNXM735003,Doxorubicin
+776,M_acolipa_c,MNXM735042,4-Amino-4-deoxy-L-arabinose modified core oligosaccharide lipid A
+777,M_dadp_c,MNXM735047,DADP
+778,M_aconm_c,MNXM735058,E-3-carboxy-2-pentenedioate 6-methyl ester
+779,M_indole_c,MNXM735090,Indole
+780,M_all6p_c,MNXM735357,D-Allose 6-phosphate
+781,M_o2_c,MNXM735438,O2
+782,M_apg120_c,MNXM735474,Acyl phosphatidylglycerol (n-C12:0)
+783,M_apg140_c,MNXM735476,Acyl phosphatidylglycerol (n-C14:0)
+784,M_apg160_c,MNXM735478,Acyl phosphatidylglycerol (n-C16:0)
+785,M_apg180_c,MNXM735480,Acyl phosphatidylglycerol (n-C18:0)
+786,M_cholate_c,MNXM735592,Cholate c
+787,M_cpppg3_c,MNXM735625,Coproporphyrinogen III
+788,M_glucys_c,MNXM735669,Gamma-L-Glutamyl-L-cysteine
+789,M_rbl__D_c,MNXM735687,D-Ribulose
+790,M_4ppan_c,MNXM735771,D-4'-Phosphopantothenate
+791,M_cl_c,MNXM735978,Chloride
+792,M_3dhguln_c,MNXM736,3-Dehydro-L-gulonate
+793,M_tmao_c,MNXM736072,Trimethylamine N-oxide
+794,M_cinnm_c,MNXM736095,Trans-Cinnamate
+795,M_5drib_c,MNXM736134,5'-deoxyribose
+796,M_galur_c,MNXM736226,D-Galacturonate
+797,M_clpn161_c,MNXM736306,"Cardiolipin (tetrahexadec-9-enoyl, n-C16:1)"
+798,M_clpn181_c,MNXM736311,"Cardiolipin (tetraoctadec-11-enoyl, n-C18:1)"
+799,M_cdpdhdec9eg_c,MNXM736316,"CDP-1,2-dihexadec-9-enoylglycerol"
+800,M_cdpdodec11eg_c,MNXM736319,"CDP-1,2-dioctadec-11-enoylglycerol"
+801,M_cdpdtdec7eg_c,MNXM736325,"CDP-1,2-ditetradec-7-enoylglycerol"
+802,M_cdpdtdecg_c,MNXM736328,"CDP-1,2-ditetradecanoylglycerol"
+803,M_cm_c,MNXM736341,Chloramphenicol
+804,M_fald_c,MNXM736417,Formaldehyde
+805,M_clpn160_c,MNXM736425,"Cardiolipin (tetrahexadecanoyl, n-C16:0)"
+806,M_cdpdodecg_c,MNXM736453,"CDP-1,2-dioctadecanoylglycerol"
+807,M_dgmp_c,MNXM736654,DGMP
+808,M_sbt__D_c,MNXM736685,D-Sorbitol
+809,M_quin_c,MNXM736788,Quinate
+810,M_3dhq_c,MNXM736874,3-Dehydroquinate
+811,M_cpe160_c,MNXM736944,"Cyclopropane phosphatidylethanolamine (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)"
+812,M_cpe180_c,MNXM736947,"Cyclopropane phosphatidylethanolamine (dioctadec-11,12-cyclo-anoyl, n-C18:0 cyclo)"
+813,M_cpg160_c,MNXM736952,"Cyclopropane phosphatidylglycerol (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)"
+814,M_cpg180_c,MNXM736955,"Cyclopropane phosphatidylglycerol (dioctadec-11,12-cyclo-anoyl, n-C18:0 cyclo)"
+815,M_4r5au_c,MNXM737103,4-(1-D-Ribitylamino)-5-aminouracil
+816,M_pac_c,MNXM737265,Phenylacetic acid
+817,M_cdg_c,MNXM737298,7-deaza-7-carboxyguanine
+818,M_pphn_c,MNXM737312,Prephenate
+819,M_fum_c,MNXM737340,Fumarate
+820,M_5aizc_c,MNXM737371,5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate
+821,M_pa140_c,MNXM737414,"1,2-ditetradecanoyl-sn-glycerol 3-phosphate"
+822,M_pg140_c,MNXM737417,"Phosphatidylglycerol (ditetradecanoyl, n-C14:0)"
+823,M_halipa_c,MNXM737466,Hepta-acylated KDO(2)-lipid (A)
+824,M_pa180_c,MNXM737489,"1,2-dioctadecanoyl-sn-glycerol 3-phosphate"
+825,M_pg180_c,MNXM737492,"Phosphatidylglycerol (dioctadecanoyl, n-C18:0)"
+826,M_ser__L_c,MNXM737787,L-Serine
+827,M_murein4px4p_c,MNXM737824,"Two disacharide linked murein units, tetrapeptide corsslinked tetrapeptide (A2pm->D-ala) (middle of chain)"
+828,M_ckdo_c,MNXM737872,CMP-3-deoxy-D-manno-octulosonate
+829,M_mi1p__D_c,MNXM737935,1D-myo-Inositol 1-phosphate
+830,M_anhm4p_c,MNXM737948,"1,6-anhydrous-N-Acetylmuramyl-tetrapeptide"
+831,M_gfgaragund_c,MNXM737969,Galactofuranosyl-glucosyl-O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+832,M_gagicolipa_c,MNXM737974,Galactosyl-glucosyl-inner core oligosaccharide lipid A
+833,M_tartr__L_c,MNXM737997,L-tartrate
+834,M_cys__L_c,MNXM738068,L-Cysteine
+835,M_ggagicolipa_c,MNXM738093,Glucosyl-galactosyl-glucosyl-inner core oligosaccharide lipid A
+836,M_gggagicolipa_c,MNXM738096,Glucosyl-glucosyl-galactosyl-glucosyl-inner core oligosaccharide lipid A
+837,M_gicolipa_c,MNXM738099,Glucosyl-inner core oligosaccharide lipid A
+838,M_garagund_c,MNXM738102,Glucosyl-O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+839,M_glycogen_c,MNXM738130,Glycogen
+840,M_dhmptp_c,MNXM738182,Dihydromonapterin-triphosphate
+841,M_forcoa_c,MNXM738242,Formyl-CoA(4-)
+842,M_icolipa_c,MNXM738373,Inner core oligosaccharide lipid A (E coli)
+843,M_bbtcoa_c,MNXM738399,Gamma-butyrobetainyl-CoA
+844,M_fe3hox_c,MNXM738412,Fe(III)hydroxamate
+845,M_n2o_c,MNXM738430,Nitrous oxide
+846,M_kdo2lipid4p_c,MNXM738560,KDO(2)-lipid IV(A) with palmitoleoyl
+847,M_murein5p4p_c,MNXM738657,"Two linked disacharide pentapeptide and tetrapeptide murein units (uncrosslinked, middle of chain)"
+848,M_murein5p3p_c,MNXM738663,"Two linked disacharide pentapeptide and tripeptide murein units (uncrosslinked, middle of chain)"
+849,M_nadph_c,MNXM738702,Nicotinamide adenine dinucleotide phosphate - reduced
+850,M_lipa_cold_c,MNXM738728,Cold adapted KDO(2)-lipid (A)
+851,M_met__L_c,MNXM738804,L-Methionine
+852,M_alltn_c,MNXM738834,Allantoin
+853,M_anhgm4p_c,MNXM739017,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide
+854,M_o16aund_c,MNXM739235,O16 antigen undecaprenyl diphosphate
+855,M_eca3und_c,MNXM739243,(enterobacterial common antigen)x3 undecaprenyl-diphosphate
+856,M_aso3_c,MNXM739275,Arsenite
+857,M_1agpg180_c,MNXM739301,1-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0)
+858,M_dscl_c,MNXM739346,Dihydrosirohydrochlorin
+859,M_arg__L_c,MNXM739527,L-Arginine
+860,M_pe161_c,MNXM739592,"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)"
+861,M_gmhep7p_c,MNXM739658,D-Glycero-D-manno-heptose 7-phosphate
+862,M_kdo8p_c,MNXM739664,3-Deoxy-D-manno-octulosonate 8-phosphate
+863,M_uaagmda_c,MNXM739668,"Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala"
+864,M_1agpg181_c,MNXM739929,1-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1)
+865,M_g3p_c,MNXM739945,Glyceraldehyde 3-phosphate
+866,M_progly_c,MNXM739962,L-Prolinylglycine
+867,M_pg161_c,MNXM739991,"Phosphatidylglycerol (dihexadec-9-enoyl, n-C16:1)"
+868,M_pgp161_c,MNXM739994,"Phosphatidylglycerophosphate (dihexadec-9-enoyl, n-C16:1)"
+869,M_pgp180_c,MNXM739997,"Phosphatidylglycerophosphate (dioctadecanoyl, n-C18:0)"
+870,M_ps180_c,MNXM740000,"Phosphatidylserine (dioctadecanoyl, n-C18:0)"
+871,M_tcynt_c,MNXM740078,Thiocyanate
+872,M_murein5p5p5p_c,MNXM740231,"Three linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)"
+873,M_rfamp_c,MNXM740424,Rifampin
+874,M_clpn140_c,MNXM740794,"Cardiolipin (tetratetradecanoyl, n-C14:0)"
+875,M_scl_c,MNXM740871,Sirohydrochlorin
+876,M_r15bp_c,MNXM740983,"D-Ribose 1,5-bisphosphate"
+877,M_tungs_c,MNXM741004,Tungstate
+878,M_murein5p5p_c,MNXM741014,"Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)"
+879,M_murein4p3p_c,MNXM741016,"Two linked disacharide tetrapeptide and tripeptide murein units (uncrosslinked, middle of chain)"
+880,M_murein4p4p_c,MNXM741019,"Two linked disacharide tetrapeptide murein units (uncrosslinked, middle of chain)"
+881,M_murein3p3p_c,MNXM741021,"Two linked disacharide tripeptide murein units (uncrosslinked, middle of chain)"
+882,M_uLa4fn_c,MNXM741041,Undecaprenyl phosphate-4-amino-4-formyl-L-arabinose
+883,M_3c2hmp_c,MNXM741109,3-Carboxy-2-hydroxy-4-methylpentanoate
+884,M_glu__L_c,MNXM741173,L-Glutamate
+885,M_orn_c,MNXM741175,Ornithine
+886,M_2mcit_c,MNXM741276,2-Methylcitrate
+887,M_23dappa_c,MNXM741395,"2,3-diaminopropionate"
+888,M_seln_c,MNXM741486,Selenide
+889,M_trp__L_c,MNXM741553,L-Tryptophan
+890,M_Sfglutth_c,MNXM741595,S-Formylglutathione
+891,M_uamag_c,MNXM741611,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+892,M_23doguln_c,MNXM741619,"2,3-Dioxo-L-gulonate"
+893,M_phe__L_c,MNXM741664,L-Phenylalanine
+894,M_g3ps_c,MNXM741693,Glycerophosphoserine
+895,M_cbm_c,MNXM742,Carbamate
+896,M_dmso_c,MNXM745,Dimethyl sulfoxide
+897,M_acald_c,MNXM75,Acetaldehyde
+898,M_octa_c,MNXM750,Octanoate (n-C8:0)
+899,M_phhlipa_c,MNXM75132,Phospho-heptosyl-heptosyl-kdo2-lipidA
+900,M_phphhlipa_c,MNXM75133,Phospho-heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA
+901,M_phthr_c,MNXM759,O-Phospho-4-hydroxy-L-threonine
+902,M_tyr__L_c,MNXM76,L-Tyrosine
+903,M_csn_c,MNXM761,Cytosine
+904,M_ps120_c,MNXM7659,"Phosphatidylserine (didodecanoyl, n-C12:0)"
+905,M_ps161_c,MNXM7660,"Phosphatidylserine (dihexadec-9-enoyl, n-C16:1)"
+906,M_ps181_c,MNXM7662,"Phosphatidylserine (dioctadec-11-enoyl, n-C18:1)"
+907,M_ps141_c,MNXM7664,"Phosphatidylserine (ditetradec-7-enoyl, n-C14:1)"
+908,M_ps140_c,MNXM7665,"Phosphatidylserine (ditetradecanoyl, n-C14:0)"
+909,M_dhap_c,MNXM77,Dihydroxyacetone phosphate
+910,M_tartr__D_c,MNXM7948,D-tartrate
+911,M_ichor_c,MNXM799,Isochorismate
+912,M_nad_c,MNXM8,Nicotinamide adenine dinucleotide
+913,M_23dhdp_c,MNXM807,"2,3-Dihydrodipicolinate"
+914,M_ragund_c,MNXM80754,Rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+915,M_octdp_c,MNXM811,All-trans-Octaprenyl diphosphate
+916,M_acorn_c,MNXM817,N2-Acetyl-L-ornithine
+917,M_suchms_c,MNXM820,O-Succinyl-L-homoserine
+918,M_ppal_c,MNXM821,Propanal
+919,M_dhpppn_c,MNXM826,"3-(2,3-Dihydroxyphenyl)propanoate"
+920,M_4crsol_c,MNXM828,P-Cresol
+921,M_ipdp_c,MNXM83,Isopentenyl diphosphate
+922,M_bglycogen_c,MNXM8348,Branching glycogen
+923,M_5dh4dglc_c,MNXM854,5-Dehydro-4-deoxy-D-glucarate
+924,M_murein5px4px4p_c,MNXM87121,Three disacharide linked murein units (pentapeptide crosslinked tetrapeptide (A2pm->D-ala) tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain)
+925,M_murein4px4p4p_c,MNXM87122,"Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm->D-ala), one uncrosslinked tetrapaptide) (middle of chain)"
+926,M_3hpp_c,MNXM872,3-Hydroxypropanoate
+927,M_enter_c,MNXM883,Enterochelin
+928,M_murein5px4p_c,MNXM88338,"Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)"
+929,M_murein3px4p_c,MNXM88341,"Two disacharide linked murein units, tripeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)"
+930,M_murein3px3p_c,MNXM88342,"Two disacharide linked murein units, tripeptide crosslinked tripeptide (A2pm->A2pm) (middle of chain)"
+931,M_glyc_c,MNXM89612,Glycerol
+932,M_icit_c,MNXM89661,Isocitrate
+933,M_pi_c,MNXM9,Phosphate
+934,M_chol_c,MNXM90,Choline
+935,M_ru5p__L_c,MNXM901,L-Ribulose 5-phosphate
+936,M_mnl1p_c,MNXM90126,D-Mannitol 1-phosphate
+937,M_2dh3dgal6p_c,MNXM90136,2-Dehydro-3-deoxy-D-galactonate 6-phosphate
+938,M_12ppd__R_c,MNXM90191,"(R)-Propane-1,2-diol"
+939,M_2ombzl_c,MNXM90444,"2-Octaprenyl-6-methoxy-1,4-benzoquinol"
+940,M_pa120_c,MNXM90509,"1,2-didodecanoyl-sn-glycerol 3-phosphate"
+941,M_pa161_c,MNXM90510,"1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate"
+942,M_pa181_c,MNXM90511,"1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate"
+943,M_pa141_c,MNXM90512,"1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate"
+944,M_anhm_c,MNXM90585,"1,6-anhydrous-N-Acetylmuramate"
+945,M_uLa4n_c,MNXM90891,Undecaprenyl phosphate-4-amino-4-deoxy-L-arabinose
+946,M_lald__D_c,MNXM909,D-Lactaldehyde
+947,M_cobalt2_e,MNXM90960,Co2+
+948,M_1tdec7eg3p_c,MNXM91053,1-tetradec-7-enoyl-sn-glycerol 3-phosphate
+949,M_cysi__L_c,MNXM927,L Cystine
+950,M_din_c,MNXM935,Deoxyinosine
+951,M_25dkglcn_c,MNXM936,"2,5-diketo-D-gluconate"
+952,M_mdhdhf_c,MNXM9407,"(2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one"
+953,M_15dap_c,MNXM943,"1,5-Diaminopentane"
+954,M_k_c,MNXM95,Potassium
+955,M_1agpe181_c,MNXM9584,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1)
+956,M_2dhp_c,MNXM959,2-Dehydropantoate
+957,M_4mpetz_c,MNXM960,4-Methyl-5-(2-phosphoethyl)-thiazole
+958,M_4mhetz_c,MNXM962,4-Methyl-5-(2-hydroxyethyl)-thiazole
+959,M_5dglcn_c,MNXM963,5-Dehydro-D-gluconate
+960,M_aso4_c,MNXM970,Arsenate
+961,M_ttrcyc_c,MNXM97613,Tetracycline
+962,M_h2o_c,WATER,H2O
