@@ -8,7 +8,7 @@ Thesis supervisor: [Daniel Machado](https://github.com/cdanielmachado/)\
 Co-Supervisor: [Elise Marquez](https://github.com/emarquezz/)
 
 ### Dependencies
-- Tested with Python 3.9
+- Tested with Python 3.7, 3.8, 3.9, 3.10
 - [RDKit](https://www.rdkit.org/docs/Install.html)
   - ``` $ conda create -c conda-forge -n YOUR_ENV_NAME_HERE rdkit```
 
