@@ -17,6 +17,6 @@ Co-Supervisor: [Elise Marquez](https://github.com/emarquezz/)
 
 1. Unpack chem_prop & chem_xref in the data folder,
    1. These files (chem_prop.tsv & chem_xref.tsv) have been added to 
-   .gitignore because they are too large w/o Git LFS 
+   .gitignore because they are too large for git w/o git LFS 
 2. Ignore emoticons in notebooks
 
