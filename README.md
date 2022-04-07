@@ -15,7 +15,7 @@ Co-Supervisor: [Elise Marquez](https://github.com/emarquezz/)
 
 
 
-1. Unpack chem_prop.zip & chem_xref.zip in the data folder
+1. Unpack chem_prop.zip & chem_xref.zip in the data folder [Source](https://www.metanetx.org/mnxdoc/mnxref.html)
    1. The unpacked files (chem_prop.tsv & chem_xref.tsv) have been added to 
    .gitignore because they are too large for git w/o git LFS 
 2. Ignore emoticons in notebooks
