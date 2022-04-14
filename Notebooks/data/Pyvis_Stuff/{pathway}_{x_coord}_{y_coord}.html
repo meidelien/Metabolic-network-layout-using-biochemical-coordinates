@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 50%;
+            height: px;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "white"}, "id": "M_asp__L_c", "label": "M_asp__L_c", "shape": "dot", "size": 15, "title": "M_asp__L_c", "x": 132.03023125191, "y": 4}, {"font": {"color": "white"}, "id": "M_cbasp_c", "label": "M_cbasp_c", "shape": "dot", "size": 15, "title": "M_cbasp_c", "x": 132.03023125191, "y": 4}, {"font": {"color": "white"}, "id": "M_dhor__S_c", "label": "M_dhor__S_c", "shape": "dot", "size": 15, "title": "M_dhor__S_c", "x": 174.02876845182, "y": 5}, {"font": {"color": "white"}, "id": "M_orot_c", "label": "M_orot_c", "shape": "dot", "size": 15, "title": "M_orot_c", "x": 157.02548021991, "y": 4}, {"font": {"color": "white"}, "id": "M_orot5p_c", "label": "M_orot5p_c", "shape": "dot", "size": 15, "title": "M_orot5p_c", "x": 155.00983015591, "y": 5}, {"font": {"color": "white"}, "id": "M_ump_c", "label": "M_ump_c", "shape": "dot", "size": 15, "title": "M_ump_c", "x": 365.0038665097299, "y": 12}, {"font": {"color": "white"}, "id": "M_udp_c", "label": "M_udp_c", "shape": "dot", "size": 15, "title": "M_udp_c", "x": 322.02131372182004, "y": 10}, {"font": {"color": "white"}, "id": "M_utp_c", "label": "M_utp_c", "shape": "dot", "size": 15, "title": "M_utp_c", "x": 400.98036779173, "y": 13}, {"font": {"color": "white"}, "id": "M_ctp_c", "label": "M_ctp_c", "shape": "dot", "size": 15, "title": "M_ctp_c", "x": 479.9394218616399, "y": 16}]);
+        edges = new vis.DataSet([{"arrows": "to", "from": "M_asp__L_c", "to": "M_cbasp_c"}, {"arrows": "to", "from": "M_cbasp_c", "to": "M_dhor__S_c"}, {"arrows": "to", "from": "M_dhor__S_c", "to": "M_orot_c"}, {"arrows": "to", "from": "M_orot_c", "to": "M_orot5p_c"}, {"arrows": "to", "from": "M_orot5p_c", "to": "M_ump_c"}, {"arrows": "to", "from": "M_ump_c", "to": "M_udp_c"}, {"arrows": "to", "from": "M_udp_c", "to": "M_utp_c"}, {"arrows": "to", "from": "M_utp_c", "to": "M_ctp_c"}, {"arrows": "to", "from": "M_ctp_c", "to": "M_ctp_c"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

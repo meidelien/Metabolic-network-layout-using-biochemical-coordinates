@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 50%;
+            height: px;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "white"}, "id": "M_prpp_c", "label": "M_prpp_c", "shape": "dot", "size": 15, "title": "M_prpp_c", "x": 384.91543272555, "y": 14}, {"font": {"color": "white"}, "id": "M_prbatp_c", "label": "M_prbatp_c", "shape": "dot", "size": 15, "title": "M_prbatp_c", "x": 384.91543272555, "y": 14}, {"font": {"color": "white"}, "id": "M_prbamp_c", "label": "M_prbamp_c", "shape": "dot", "size": 15, "title": "M_prbamp_c", "x": 715.9825053637298, "y": 22}, {"font": {"color": "white"}, "id": "M_prfp_c", "label": "M_prfp_c", "shape": "dot", "size": 15, "title": "M_prfp_c", "x": 558.0643972239097, "y": 16}, {"font": {"color": "white"}, "id": "M_prlp_c", "label": "M_prlp_c", "shape": "dot", "size": 15, "title": "M_prlp_c", "x": 573.0531325516397, "y": 18}, {"font": {"color": "white"}, "id": "M_eig3p_c", "label": "M_eig3p_c", "shape": "dot", "size": 15, "title": "M_eig3p_c", "x": 573.0531325516397, "y": 18}, {"font": {"color": "white"}, "id": "M_imacp_c", "label": "M_imacp_c", "shape": "dot", "size": 15, "title": "M_imacp_c", "x": 236.02091979782003, "y": 7}, {"font": {"color": "white"}, "id": "M_hisp_c", "label": "M_hisp_c", "shape": "dot", "size": 15, "title": "M_hisp_c", "x": 218.01035511382, "y": 6}, {"font": {"color": "white"}, "id": "M_histd_c", "label": "M_histd_c", "shape": "dot", "size": 15, "title": "M_histd_c", "x": 220.04926604191, "y": 5}, {"font": {"color": "white"}, "id": "M_his__L_c", "label": "M_his__L_c", "shape": "dot", "size": 15, "title": "M_his__L_c", "x": 142.09748842409, "y": 2}]);
+        edges = new vis.DataSet([{"arrows": "to", "from": "M_prpp_c", "to": "M_prbatp_c"}, {"arrows": "to", "from": "M_prbatp_c", "to": "M_prbamp_c"}, {"arrows": "to", "from": "M_prbamp_c", "to": "M_prfp_c"}, {"arrows": "to", "from": "M_prfp_c", "to": "M_prlp_c"}, {"arrows": "to", "from": "M_prlp_c", "to": "M_eig3p_c"}, {"arrows": "to", "from": "M_eig3p_c", "to": "M_imacp_c"}, {"arrows": "to", "from": "M_imacp_c", "to": "M_hisp_c"}, {"arrows": "to", "from": "M_hisp_c", "to": "M_histd_c"}, {"arrows": "to", "from": "M_histd_c", "to": "M_his__L_c"}, {"arrows": "to", "from": "M_his__L_c", "to": "M_his__L_c"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
