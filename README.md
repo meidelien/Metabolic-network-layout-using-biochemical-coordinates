@@ -21,7 +21,7 @@ Co-Supervisor: [Elise Marquez](https://github.com/emarquezz/)
 2. Ignore emoticons in notebooks
 
 
-### How-to
+### How-to (🚧 Under construction 🚧)
 
 1. Create "Calc.csv" from your GEM (SBML format)
 2. Run "DescriptorCalc.ipynb" to calculate chemical descriptors via RDkit
