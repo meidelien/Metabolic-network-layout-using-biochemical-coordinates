@@ -9,8 +9,9 @@ Co-Supervisor: [Elise Marquez](https://github.com/emarquezz/)
 
 ## Dependencies
 - Tested with Python 3.7, 3.8, 3.9, 3.10
-- [RDKit](https://www.rdkit.org/docs/Install.html)
-  - ``` $ conda create -c conda-forge -n YOUR_ENV_NAME_HERE rdkit```
+- [RDKit](https://www.rdkit.org/docs/Install.html) 2021.03.5
+  - To ensure compatibility with RDkit and required packages, build a new conda environment:
+    - ``` $ conda create -c conda-forge -n YOUR_ENV_NAME_HERE rdkit```
 
 
 
