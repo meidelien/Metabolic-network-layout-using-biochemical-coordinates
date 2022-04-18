@@ -21,8 +21,18 @@ Co-Supervisor: [Elise Marquez](https://github.com/emarquezz/)
 2. Ignore emoticons in notebooks
 
 
+### How-to
 
-### References
+1. Create "Calc.csv" from your GEM (SBML format)
+2. Run "DescriptorCalc.ipynb" to calculate chemical descriptors via RDkit
+3. Standardize & apply PCA & append results to your output file in "PCA.ipynb" # Change this to include rankings and rename file to DataProcessing.ipynb or smthin
+   1. Optional: Analyze descriptors via DescriptorAnalysis.ipynb
+4. Get links between metabolites using BiGG identifiers for metabolites using "ReFramed.ipynb"
+5. Run"DataVisualisation.ipynb" and input your desired GEMs & Pathways
+
+
+
+#### References
 
 
 - King ZA, Lu JS, Dräger A, Miller PC, Federowicz S, Lerman JA, Ebrahim A, Palsson BO, and Lewis NE. BiGG Models: A platform for integrating, standardizing, and sharing genome-scale models (2016) Nucleic Acids Research 44(D1):D515-D522. doi:10.1093/nar/gkv1049
