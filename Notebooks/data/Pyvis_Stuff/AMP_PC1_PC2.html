@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 50%;
+            height: px;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "white"}, "id": "M_prpp_c", "label": "M_prpp_c", "shape": "dot", "size": 15, "title": "M_prpp_c", "x": -0.6572989187405779, "y": -1.952087453407291}, {"font": {"color": "white"}, "id": "M_pram_c", "label": "M_pram_c", "shape": "dot", "size": 15, "title": "M_pram_c", "x": -0.6572989187405779, "y": -1.952087453407291}, {"font": {"color": "white"}, "id": "M_gar_c", "label": "M_gar_c", "shape": "dot", "size": 15, "title": "M_gar_c", "x": -2.1431770804184405, "y": -1.6627862103773825}, {"font": {"color": "white"}, "id": "M_fgam_c", "label": "M_fgam_c", "shape": "dot", "size": 15, "title": "M_fgam_c", "x": -1.441177569364327, "y": -1.3759536870343296}, {"font": {"color": "white"}, "id": "M_fpram_c", "label": "M_fpram_c", "shape": "dot", "size": 15, "title": "M_fpram_c", "x": -1.1823772368069392, "y": -1.3316449913118078}, {"font": {"color": "white"}, "id": "M_air_c", "label": "M_air_c", "shape": "dot", "size": 15, "title": "M_air_c", "x": -1.2094589983006063, "y": -1.269668676529655}, {"font": {"color": "white"}, "id": "M_5caiz_c", "label": "M_5caiz_c", "shape": "dot", "size": 15, "title": "M_5caiz_c", "x": -1.580073098014668, "y": -1.3678911380973915}, {"font": {"color": "white"}, "id": "M_5aizc_c", "label": "M_5aizc_c", "shape": "dot", "size": 15, "title": "M_5aizc_c", "x": -1.125320077345337, "y": -1.4938928927618225}, {"font": {"color": "white"}, "id": "M_25aics_c", "label": "M_25aics_c", "shape": "dot", "size": 15, "title": "M_25aics_c", "x": -1.0728033323557054, "y": -1.2836682200230989}, {"font": {"color": "white"}, "id": "M_aicar_c", "label": "M_aicar_c", "shape": "dot", "size": 15, "title": "M_aicar_c", "x": 0.2786567319367407, "y": -1.4383224908201984}, {"font": {"color": "white"}, "id": "M_fprica_c", "label": "M_fprica_c", "shape": "dot", "size": 15, "title": "M_fprica_c", "x": -0.9585779486188842, "y": -1.377746993459655}, {"font": {"color": "white"}, "id": "M_imp_c", "label": "M_imp_c", "shape": "dot", "size": 15, "title": "M_imp_c", "x": -0.7290979073977502, "y": -1.3665795414379764}, {"font": {"color": "white"}, "id": "M_dcamp_c", "label": "M_dcamp_c", "shape": "dot", "size": 15, "title": "M_dcamp_c", "x": -0.9978374313303378, "y": -1.3997307531145264}, {"font": {"color": "white"}, "id": "M_amp_c", "label": "M_amp_c", "shape": "dot", "size": 15, "title": "M_amp_c", "x": 0.1784963336754208, "y": -0.7647503784532634}]);
+        edges = new vis.DataSet([{"arrows": "to", "from": "M_prpp_c", "to": "M_pram_c"}, {"arrows": "to", "from": "M_pram_c", "to": "M_gar_c"}, {"arrows": "to", "from": "M_gar_c", "to": "M_fgam_c"}, {"arrows": "to", "from": "M_fgam_c", "to": "M_fpram_c"}, {"arrows": "to", "from": "M_fpram_c", "to": "M_air_c"}, {"arrows": "to", "from": "M_air_c", "to": "M_5caiz_c"}, {"arrows": "to", "from": "M_5caiz_c", "to": "M_5aizc_c"}, {"arrows": "to", "from": "M_5aizc_c", "to": "M_25aics_c"}, {"arrows": "to", "from": "M_25aics_c", "to": "M_aicar_c"}, {"arrows": "to", "from": "M_aicar_c", "to": "M_fprica_c"}, {"arrows": "to", "from": "M_fprica_c", "to": "M_imp_c"}, {"arrows": "to", "from": "M_imp_c", "to": "M_dcamp_c"}, {"arrows": "to", "from": "M_dcamp_c", "to": "M_amp_c"}, {"arrows": "to", "from": "M_amp_c", "to": "M_amp_c"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": false,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
