@@ -1,5 +1,5 @@
 # Metabolic network layout using biochemical coordinates
-Norwegian University of Science and Technology,\ 
+Norwegian University of Science and Technology\ 
 Trondheim 2022\
 Department of Biotechnology and Food Science Services\
 [Machado lab](https://www.ntnu.edu/ibt/research/computational-biology/#/view/about) 
