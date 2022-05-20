@@ -1,0 +1,128 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 70%;
+            height: 700px;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+        #config {
+            float: left;
+            width: 400px;
+            height: 600px;
+        }
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<div id = "config"></div>
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "black"}, "id": "M_asp__L_c", "label": "M_asp__L_c", "shape": "dot", "title": "M_asp__L_c Neighbors:\u003cbr\u003eM_cbasp_c", "value": 1, "x": 1.6666666666666667, "y": -2.4617}, {"font": {"color": "black"}, "id": "M_cbasp_c", "label": "M_cbasp_c", "shape": "dot", "title": "M_cbasp_c Neighbors:\u003cbr\u003eM_dhor__S_c", "value": 1, "x": 1.6666666666666667, "y": -2.4617}, {"font": {"color": "black"}, "id": "M_dhor__S_c", "label": "M_dhor__S_c", "shape": "dot", "title": "M_dhor__S_c Neighbors:\u003cbr\u003eM_orot_c", "value": 1, "x": 1.5, "y": -3.67273}, {"font": {"color": "black"}, "id": "M_orot_c", "label": "M_orot_c", "shape": "dot", "title": "M_orot_c Neighbors:\u003cbr\u003eM_orot5p_c", "value": 1, "x": 1.7272727272727273, "y": -1.483899999999999}, {"font": {"color": "black"}, "id": "M_orot5p_c", "label": "M_orot5p_c", "shape": "dot", "title": "M_orot5p_c Neighbors:\u003cbr\u003eM_ump_c", "value": 1, "x": 1.5454545454545454, "y": -1.0460000000000005}, {"font": {"color": "black"}, "id": "M_ump_c", "label": "M_ump_c", "shape": "dot", "title": "M_ump_c Neighbors:\u003cbr\u003eM_udp_c", "value": 1, "x": 1.4583333333333333, "y": -5.223099999999996}, {"font": {"color": "black"}, "id": "M_udp_c", "label": "M_udp_c", "shape": "dot", "title": "M_udp_c Neighbors:\u003cbr\u003eM_utp_c", "value": 1, "x": 1.4761904761904765, "y": -3.5865999999999976}, {"font": {"color": "black"}, "id": "M_utp_c", "label": "M_utp_c", "shape": "dot", "title": "M_utp_c Neighbors:\u003cbr\u003eM_ctp_c", "value": 1, "x": 1.32, "y": -4.101599999999997}, {"font": {"color": "black"}, "id": "M_ctp_c", "label": "M_ctp_c", "shape": "dot", "title": "M_ctp_c Neighbors:\u003cbr\u003eM_ctp_c", "value": 1, "x": 1.1724137931034482, "y": -4.616599999999996}]);
+        edges = new vis.DataSet([{"arrows": "to", "from": "M_asp__L_c", "to": "M_cbasp_c"}, {"arrows": "to", "from": "M_cbasp_c", "to": "M_dhor__S_c"}, {"arrows": "to", "from": "M_dhor__S_c", "to": "M_orot_c"}, {"arrows": "to", "from": "M_orot_c", "to": "M_orot5p_c"}, {"arrows": "to", "from": "M_orot5p_c", "to": "M_ump_c"}, {"arrows": "to", "from": "M_ump_c", "to": "M_udp_c"}, {"arrows": "to", "from": "M_udp_c", "to": "M_utp_c"}, {"arrows": "to", "from": "M_utp_c", "to": "M_ctp_c"}, {"arrows": "to", "from": "M_ctp_c", "to": "M_ctp_c"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": true
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 250
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+        // if this network requires displaying the configure window,
+        // put it in its div
+        options.configure["container"] = document.getElementById("config");
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
