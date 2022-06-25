@@ -1,0 +1,1796 @@
+DataComPy Comparison
+--------------------
+
+DataFrame Summary
+-----------------
+
+  DataFrame  Columns  Rows
+0  original      209   963
+1       new      209  1003
+
+Column Summary
+--------------
+
+Number of columns in common: 209
+Number of columns in original but not in new: 0
+Number of columns in new but not in original: 0
+
+Row Summary
+-----------
+
+Matched on: mnxm
+Any duplicates on match values: Yes
+Absolute Tolerance: 0.1
+Relative Tolerance: 0
+Number of rows in common: 947
+Number of rows in original but not in new: 16
+Number of rows in new but not in original: 56
+
+Number of rows with some compared columns unequal: 485
+Number of rows with all compared columns equal: 462
+
+Column Comparison
+-----------------
+
+Number of columns compared with some values unequal: 143
+Number of columns compared with all values equal: 66
+Total number of values which compare unequal: 19,967
+
+Columns with Unequal Values or Types
+------------------------------------
+
+                       Column original dtype new dtype  # Unequal       Max Diff  # Null Diff
+24                   balabanj        float64   float64         87   4.062942e+00            0
+18               bcut2d_chghi        float64   float64          7   1.000000e+00            0
+19               bcut2d_chglo        float64   float64         25   1.000000e+00            0
+20              bcut2d_logphi        float64   float64         22   1.010500e+00            0
+21             bcut2d_logplow        float64   float64        159   9.895000e-01            0
+22                bcut2d_mrhi        float64   float64         12   9.450000e-01            0
+23               bcut2d_mrlow        float64   float64        146   1.055000e+00            0
+16                bcut2d_mwhi        float64   float64         17   1.000000e+00            0
+17               bcut2d_mwlow        float64   float64          3   1.399100e+01            0
+25                    bertzct        float64   float64        280   5.533259e+02            0
+26                       chi0        float64   float64         16   4.618802e+00            0
+27                      chi0n        float64   float64         64   2.000000e+00            0
+28                      chi0v        float64   float64         62   5.626167e-01            0
+29                       chi1        float64   float64         20   4.000000e+00            0
+30                      chi1n        float64   float64         73   1.897367e+00            0
+31                      chi1v        float64   float64         65   2.346913e+01            0
+32                      chi2n        float64   float64        182   2.158537e+00            0
+33                      chi2v        float64   float64         85   6.569898e+01            0
+34                      chi3n        float64   float64        168   3.144547e+00            0
+35                      chi3v        float64   float64        103   1.836000e+02            0
+36                      chi4n        float64   float64         82   4.502932e+00            0
+37                      chi4v        float64   float64         83   4.084245e+02            0
+79                estate_vsa1        float64   float64        211   4.283796e+01            0
+80               estate_vsa10        float64   float64        427   3.281328e+01            0
+81               estate_vsa11        float64   float64         25   2.397269e+01            0
+82                estate_vsa2        float64   float64        191   1.222575e+02            0
+83                estate_vsa3        float64   float64         67   3.895156e+01            0
+84                estate_vsa4        float64   float64         72   6.675203e+01            0
+85                estate_vsa5        float64   float64         76   5.459730e+01            0
+86                estate_vsa6        float64   float64         28   5.283495e+01            0
+87                estate_vsa7        float64   float64         91   4.761844e+01            0
+88                estate_vsa8        float64   float64        354   6.634961e+01            0
+89                estate_vsa9        float64   float64        374   3.189344e+01            0
+6                  exactmolwt        float64   float64          2   4.031300e+00            0
+13           fpdensitymorgan1        float64   float64         70   6.000000e-01            0
+14           fpdensitymorgan2        float64   float64         77   1.000000e+00            0
+15           fpdensitymorgan3        float64   float64         87   1.125000e+00            0
+113                  fr_al_oh          int64     int64         89   2.100000e+01            0
+114           fr_al_oh_notert          int64     int64         89   2.100000e+01            0
+127           fr_allylic_oxid          int64     int64          3   6.000000e+00            0
+128                  fr_amide          int64     int64        224   2.100000e+01            0
+129                fr_amidine          int64     int64         13   2.000000e+00            0
+130                fr_aniline          int64     int64         75   2.000000e+00            0
+116                   fr_ar_n          int64     int64          3   3.000000e+00            0
+117                  fr_ar_nh          int64     int64         80   3.000000e+00            0
+118                  fr_ar_oh          int64     int64         46   3.000000e+00            0
+115                    fr_arn          int64     int64         72   2.000000e+00            0
+131            fr_aryl_methyl          int64     int64          3   3.000000e+00            0
+132               fr_bicyclic          int64     int64         24   1.000000e+01            0
+119                    fr_c_o          int64     int64        224   2.100000e+01            0
+120              fr_c_o_nocoo          int64     int64        302   3.000000e+01            0
+133                  fr_diazo          int64     int64          1   1.000000e+00            0
+134                  fr_imide          int64     int64          5   1.000000e+00            0
+121                  fr_imine          int64     int64        205   2.100000e+01            0
+122                    fr_nh0          int64     int64        267   2.100000e+01            0
+123                    fr_nh1          int64     int64        351   2.100000e+01            0
+124                    fr_nh2          int64     int64        228   7.000000e+00            0
+125              fr_nhpyrrole          int64     int64         80   3.000000e+00            0
+135                fr_nitroso          int64     int64          1   1.000000e+00            0
+136                 fr_phenol          int64     int64         15   1.000000e+00            0
+137    fr_phenol_noorthohbond          int64     int64         15   1.000000e+00            0
+138              fr_piperzine          int64     int64          2   1.000000e+00            0
+139               fr_priamide          int64     int64         27   6.000000e+00            0
+140                  fr_quatn          int64     int64        135   3.000000e+00            0
+126                     fr_sh          int64     int64          5   4.000000e+00            0
+141          fr_unbrch_alkane          int64     int64          1   6.000000e+00            0
+142                   fr_urea          int64     int64         13   2.000000e+00            0
+38              hallkieralpha        float64   float64          6   3.200000e-01            0
+39                        ipc        float64   float64         79  4.972393e+116            0
+40                     kappa1        float64   float64         21   4.009401e+02            0
+41                     kappa2        float64   float64         19   2.008475e+02            0
+42                     kappa3        float64   float64         19   3.692257e+02            0
+43                  labuteasa        float64   float64        119   5.550546e+01            0
+2           maxabsestateindex        float64   float64        172   8.645833e+00            0
+11        maxabspartialcharge        float64   float64        190            inf           18
+0              maxestateindex        float64   float64        172   8.645833e+00            0
+9            maxpartialcharge        float64   float64        323            inf           18
+3           minabsestateindex        float64   float64         60   7.000000e+00            0
+12        minabspartialcharge        float64   float64        325   4.695757e-01           18
+1              minestateindex        float64   float64        278   7.000000e+00            0
+10           minpartialcharge        float64   float64        196   4.695757e-01           18
+111                   mollogp        float64   float64        455   2.462280e+01            0
+112                     molmr        float64   float64        460   5.212740e+01            0
+5                       molwt        float64   float64          2   4.032000e+00            0
+100                 nhohcount          int64     int64          4   2.000000e+00            0
+101  numaliphaticheterocycles          int64     int64         18   6.000000e+00            0
+102         numaliphaticrings          int64     int64         18   6.000000e+00            0
+103   numaromaticheterocycles          int64     int64          4   2.000000e+00            0
+104          numaromaticrings          int64     int64          4   2.000000e+00            0
+105             numhacceptors          int64     int64        108   4.000000e+00            0
+106                numhdonors          int64     int64        235   7.000000e+00            0
+8         numradicalelectrons          int64     int64         12   8.000000e+00            0
+107         numrotatablebonds          int64     int64         12   1.800000e+01            0
+108  numsaturatedheterocycles          int64     int64         28   6.000000e+00            0
+109         numsaturatedrings          int64     int64         28   6.000000e+00            0
+7         numvalenceelectrons          int64     int64          1   4.000000e+00            0
+44                  peoe_vsa1        float64   float64        466   9.781725e+01            0
+45                 peoe_vsa10        float64   float64        286   4.236385e+01            0
+46                 peoe_vsa11        float64   float64        159   5.307941e+01            0
+47                 peoe_vsa12        float64   float64        268   3.558459e+01            0
+48                 peoe_vsa13        float64   float64        290   3.129079e+01            0
+49                 peoe_vsa14        float64   float64        386   6.052221e+02            0
+50                  peoe_vsa2        float64   float64        433   1.054798e+02            0
+51                  peoe_vsa3        float64   float64        353   1.096350e+02            0
+52                  peoe_vsa4        float64   float64        157   1.495194e+01            0
+53                  peoe_vsa5        float64   float64         15   3.449707e+01            0
+54                  peoe_vsa6        float64   float64         42   7.084266e+01            0
+55                  peoe_vsa7        float64   float64        269   1.515870e+02            0
+56                  peoe_vsa8        float64   float64        341   1.182782e+02            0
+57                  peoe_vsa9        float64   float64        338   5.963839e+01            0
+4                         qed        float64   float64         49   2.508075e-01            0
+110                 ringcount          int64     int64         17   6.000000e+00            0
+67                 slogp_vsa1        float64   float64        448   1.269721e+02            0
+68                slogp_vsa10        float64   float64         87   1.189668e+01            0
+69                slogp_vsa11        float64   float64        134   1.790092e+01            0
+70                slogp_vsa12        float64   float64          6   2.938524e+01            0
+71                 slogp_vsa2        float64   float64        435   1.223585e+02            0
+72                 slogp_vsa3        float64   float64        215   1.006853e+02            0
+73                 slogp_vsa4        float64   float64        107   4.478872e+01            0
+74                 slogp_vsa5        float64   float64         16   2.150893e+01            0
+75                 slogp_vsa6        float64   float64        326   1.048405e+02            0
+76                 slogp_vsa7        float64   float64          4   5.355246e+00            0
+77                 slogp_vsa8        float64   float64          8   2.613116e+01            0
+58                   smr_vsa1        float64   float64        442   2.612022e+01            0
+59                  smr_vsa10        float64   float64         92   2.938524e+01            0
+60                   smr_vsa2        float64   float64        104   3.786499e+01            0
+61                   smr_vsa3        float64   float64        215   1.116526e+02            0
+62                   smr_vsa4        float64   float64        307   1.220415e+02            0
+63                   smr_vsa5        float64   float64          5   2.266579e+01            0
+64                   smr_vsa6        float64   float64         75   1.146733e+01            0
+65                   smr_vsa7        float64   float64        150   3.132237e+01            0
+66                   smr_vsa9        float64   float64        135   1.790092e+01            0
+78                       tpsa        float64   float64        446   1.039200e+02            0
+90                vsa_estate1        float64   float64        284   3.967219e+01            0
+91               vsa_estate10        float64   float64         21   1.427105e+01            0
+92                vsa_estate2        float64   float64        398   2.175534e+02            0
+93                vsa_estate3        float64   float64        417   2.001001e+02            0
+94                vsa_estate4        float64   float64        298   4.407158e+01            0
+95                vsa_estate5        float64   float64        384   5.710874e+00            0
+96                vsa_estate6        float64   float64        206   7.515777e+00            0
+97                vsa_estate7        float64   float64        127   9.787115e+00            0
+98                vsa_estate8        float64   float64         75   3.323336e+00            0
+99                vsa_estate9        float64   float64        252   4.000000e+00            0
+
+Sample Rows with Unequal Values
+-------------------------------
+
+            mnxm  maxestateindex (original)  maxestateindex (new)
+669   MNXM729643                  12.382691             13.854875
+127  MNXM1104529                  12.421304             12.287554
+110  MNXM1104364                  12.632450             12.504832
+151  MNXM1104717                  12.626500             12.491011
+157  MNXM1104756                  13.720265             14.829058
+748   MNXM733666                  12.307735             12.167908
+152  MNXM1104721                  12.631820             12.503530
+863   MNXM739668                  13.922496             14.259032
+703   MNXM731472                  12.670884             12.537134
+105  MNXM1104300                  12.607186             12.463626
+
+            mnxm  minestateindex (original)  minestateindex (new)
+249  MNXM1107906                   0.000000              7.000000
+30   MNXM1101279                  -5.561567             -5.958555
+461    MNXM32511                  -4.234770             -4.444770
+483    MNXM34811                  -4.255587             -4.465587
+435     MNXM2806                  -5.046437             -5.289493
+326   MNXM147329                  -5.969720             -6.272259
+511     MNXM4133                  -5.591022             -5.896432
+421      MNXM252                  -1.236296             -1.450741
+414      MNXM235                  -1.375185             -1.589630
+340     MNXM1561                  -6.265287             -6.403148
+
+            mnxm  maxabsestateindex (original)  maxabsestateindex (new)
+773   MNXM734864                     10.039224                11.244514
+243  MNXM1107821                      9.901991                10.005278
+158  MNXM1104774                     12.607942                12.464382
+707   MNXM731711                     14.470335                14.318867
+248  MNXM1107904                     12.608393                12.464833
+21   MNXM1093479                     12.647629                12.533858
+848   MNXM738663                     13.530321                14.422216
+29   MNXM1101258                     12.421304                12.287554
+152  MNXM1104721                     12.631820                12.503530
+326   MNXM147329                     13.145155                13.264224
+
+            mnxm  minabsestateindex (original)  minabsestateindex (new)
+547      MNXM501                      0.191720                 0.066720
+112  MNXM1104385                      0.201105                 0.069547
+435     MNXM2806                      0.146817                 0.022372
+852   MNXM738834                      0.484907                 0.616852
+456     MNXM3148                      0.212106                 0.025548
+499      MNXM386                      0.178241                 0.334491
+623   MNXM726800                      0.381909                 0.244815
+24   MNXM1094915                      0.157618                 0.288729
+257  MNXM1108018                      0.000000                 5.000000
+57   MNXM1103302                      0.280794                 0.039059
+
+            mnxm  qed (original)  qed (new)
+179  MNXM1105799        0.229110   0.375135
+604      MNXM683        0.259477   0.387812
+448      MNXM304        0.645652   0.501852
+663   MNXM729216        0.192100   0.314900
+724   MNXM732471        0.214028   0.380960
+178  MNXM1105798        0.229110   0.375135
+7       MNXM1062        0.333606   0.496549
+593    MNXM65002        0.108031   0.215316
+394      MNXM216        0.430311   0.577263
+572      MNXM584        0.154931   0.327322
+
+            mnxm  molwt (original)  molwt (new)
+717   MNXM732007           351.648      355.680
+249  MNXM1107906            33.006       31.998
+
+            mnxm  exactmolwt (original)  exactmolwt (new)
+249  MNXM1107906              32.997654         31.990378
+717   MNXM732007             351.626937        355.658237
+
+           mnxm  numvalenceelectrons (original)  numvalenceelectrons (new)
+717  MNXM732007                            54.0                       58.0
+
+            mnxm  numradicalelectrons (original)  numradicalelectrons (new)
+30   MNXM1101279                             2.0                        1.0
+157  MNXM1104756                             0.0                        1.0
+111  MNXM1104368                             4.0                        0.0
+74   MNXM1103700                             4.0                        0.0
+680   MNXM730514                             1.0                        0.0
+717   MNXM732007                            10.0                        2.0
+225  MNXM1107419                             6.0                        2.0
+877   MNXM741004                             6.0                        0.0
+163  MNXM1104880                             2.0                        1.0
+131  MNXM1104551                             2.0                        0.0
+
+            mnxm  maxpartialcharge (original)  maxpartialcharge (new)
+97   MNXM1104188                     0.480644                0.279986
+33   MNXM1101307                     0.471504                0.308363
+488      MNXM360                     0.482079                0.351120
+837   MNXM738099                     0.471504                0.309502
+392     MNXM2125                     0.322664                0.150362
+134  MNXM1104563                     0.480708                0.273962
+538     MNXM4772                     0.472236                0.279986
+569    MNXM56168                     0.471504                0.309502
+429     MNXM2680                     0.471504                0.309502
+309      MNXM138                     0.203932                0.407346
+
+            mnxm  minpartialcharge (original)  minpartialcharge (new)
+788   MNXM735669                    -0.861971               -0.547864
+156  MNXM1104754                    -0.858439               -0.755871
+542   MNXM490899                    -0.861972               -0.548218
+128  MNXM1104543                    -0.861948               -0.755871
+738   MNXM733114                    -0.491560               -0.369252
+703   MNXM731472                    -0.862174               -0.755871
+225  MNXM1107419                     0.000000                     NaN
+528      MNXM455                    -0.869953               -0.544667
+186  MNXM1105927                    -0.491525               -0.388448
+176  MNXM1105762                    -0.857056               -0.755871
+
+            mnxm  maxabspartialcharge (original)  maxabspartialcharge (new)
+623   MNXM726800                        0.869970                   0.545467
+97   MNXM1104188                        0.856933                   0.755871
+51   MNXM1102376                        0.856995                   0.550170
+542   MNXM490899                        0.861972                   0.548218
+394      MNXM216                        0.493198                   0.365551
+596     MNXM6599                        0.471818                   0.756118
+163  MNXM1104880                        2.000000                        NaN
+837   MNXM738099                        0.861916                   0.756247
+685   MNXM730707                        6.000000                        NaN
+850   MNXM738728                        0.861916                   0.756246
+
+            mnxm  minabspartialcharge (original)  minabspartialcharge (new)
+801   MNXM736325                        0.478293                   0.351213
+554     MNXM5266                        0.471908                   0.305766
+249  MNXM1107906                        0.692563                   0.307437
+450     MNXM3060                        0.332053                   0.220666
+309      MNXM138                        0.203932                   0.407346
+101  MNXM1104266                        0.480708                   0.273962
+914    MNXM80754                        0.480626                   0.276292
+44   MNXM1102152                        0.484493                   0.326887
+291      MNXM123                        0.319999                   0.125256
+127  MNXM1104529                        0.483040                   0.330035
+
+            mnxm  fpdensitymorgan1 (original)  fpdensitymorgan1 (new)
+309      MNXM138                     1.875000                1.625000
+725   MNXM732487                     1.300000                1.200000
+576      MNXM599                     1.555556                1.333333
+414      MNXM235                     1.545455                1.363636
+884   MNXM741173                     1.600000                1.400000
+266  MNXM1108289                     1.888889                1.777778
+623   MNXM726800                     1.461538                1.307692
+534      MNXM465                     1.500000                1.333333
+194  MNXM1105965                     1.000000                0.750000
+643   MNXM727814                     1.121212                1.242424
+
+            mnxm  fpdensitymorgan2 (original)  fpdensitymorgan2 (new)
+490     MNXM3630                     2.000000                1.866667
+502     MNXM3932                     2.352941                2.176471
+566      MNXM554                     2.187500                2.000000
+725   MNXM732487                     2.200000                1.900000
+448      MNXM304                     2.437500                2.250000
+309      MNXM138                     2.250000                2.000000
+217  MNXM1106164                     2.200000                2.100000
+506     MNXM4026                     2.000000                1.866667
+485      MNXM353                     2.250000                2.375000
+314     MNXM1406                     1.937500                1.812500
+
+           mnxm  fpdensitymorgan3 (original)  fpdensitymorgan3 (new)
+7      MNXM1062                     2.666667                2.500000
+414     MNXM235                     2.636364                2.454545
+285    MNXM1193                     2.708333                2.833333
+680  MNXM730514                     1.375000                2.025000
+310    MNXM1384                     2.352941                2.235294
+502    MNXM3932                     3.058824                2.882353
+849  MNXM738702                     2.375000                2.208333
+740  MNXM733261                     2.437500                2.562500
+743  MNXM733434                     1.204082                1.326531
+330    MNXM1492                     2.416667                2.250000
+
+            mnxm  bcut2d_mwhi (original)  bcut2d_mwhi (new)
+728   MNXM732649               16.265542          16.138346
+738   MNXM733114               16.266037          16.138692
+344      MNXM158               16.292392          16.155191
+357     MNXM1679               16.264700          16.148066
+725   MNXM732487               16.265895          16.138467
+115  MNXM1104395               16.265548          16.138351
+394      MNXM216               16.264212          16.146291
+499      MNXM386               16.292786          16.155460
+548      MNXM506               16.298550          16.179619
+845   MNXM738430               16.247124          16.435627
+
+            mnxm  bcut2d_mwlow (original)  bcut2d_mwlow (new)
+249  MNXM1107906                 1.008000           14.999000
+358      MNXM168                10.390537           10.504288
+257  MNXM1108018                 1.008000            0.008000
+
+            mnxm  bcut2d_chghi (original)  bcut2d_chghi (new)
+383     MNXM1984                 1.755410            1.648301
+257  MNXM1108018                 0.000000            1.000000
+344      MNXM158                 1.884213            1.774197
+414      MNXM235                 2.045637            1.944995
+845   MNXM738430                 1.061769            1.185171
+441       MNXM29                 1.805032            1.690447
+249  MNXM1107906                 1.000004            0.518371
+
+            mnxm  bcut2d_chglo (original)  bcut2d_chglo (new)
+130  MNXM1104549                -2.193802           -2.295513
+491      MNXM366                -2.182098           -2.283041
+845   MNXM738430                -0.999313           -1.256443
+437      MNXM282                -1.858834           -1.990007
+344      MNXM158                -1.864184           -1.750587
+304     MNXM1334                -2.171401           -2.281904
+327     MNXM1482                -2.178014           -2.284759
+441       MNXM29                -1.726115           -1.839761
+486      MNXM355                -2.189840           -2.295411
+31   MNXM1101285                -2.197138           -2.297434
+
+            mnxm  bcut2d_logphi (original)  bcut2d_logphi (new)
+728   MNXM732649                  2.208178             2.097688
+815   MNXM737103                  2.259613             2.071004
+257  MNXM1108018                  0.112500             1.123000
+852   MNXM738834                  1.982318             1.864137
+738   MNXM733114                  2.115143             1.980508
+845   MNXM738430                  0.905430             1.321186
+115  MNXM1104395                  2.209474             2.099463
+143  MNXM1104679                  1.908512             1.793819
+657   MNXM728662                  2.308883             2.202945
+165  MNXM1104899                  1.855667             2.047801
+
+            mnxm  bcut2d_logplow (original)  bcut2d_logplow (new)
+542   MNXM490899                  -2.329705             -2.680117
+364     MNXM1742                  -2.643404             -2.863053
+461    MNXM32511                  -2.232516             -2.518578
+712   MNXM731817                  -2.333210             -2.680198
+217  MNXM1106164                  -2.496765             -2.678211
+367     MNXM1757                  -2.300555             -2.481932
+374     MNXM1865                  -2.500552             -2.626563
+243  MNXM1107821                  -2.316913             -2.687391
+902       MNXM76                  -2.316445             -2.687959
+890   MNXM741595                  -2.331057             -2.680138
+
+            mnxm  bcut2d_mrhi (original)  bcut2d_mrhi (new)
+903      MNXM761                4.884088           5.221687
+99   MNXM1104207                5.006781           5.232083
+358      MNXM168                5.629631           5.796880
+344      MNXM158                5.068295           4.770358
+257  MNXM1108018                1.112000           2.057000
+845   MNXM738430                3.923000           4.426569
+165  MNXM1104899                5.007532           5.360143
+53   MNXM1103104                5.039654           4.923591
+610      MNXM704                4.981886           5.230836
+515      MNXM420                5.183236           5.015010
+
+            mnxm  bcut2d_mrlow (original)  bcut2d_mrlow (new)
+949      MNXM927                -0.138416           -0.430798
+554     MNXM5266                -0.342398           -0.230914
+330     MNXM1492                -0.309012           -0.452450
+124  MNXM1104518                -0.222535           -0.342719
+614   MNXM722840                -0.146877           -0.372852
+304     MNXM1334                -0.307447           -0.438992
+196  MNXM1105983                -0.222465           -0.378100
+393     MNXM2150                -0.160924           -0.372852
+447      MNXM300                -0.135353           -0.622388
+555     MNXM5269                -0.342402           -0.230918
+
+            mnxm  balabanj (original)  balabanj (new)
+74   MNXM1103700             0.000003        1.097874
+847   MNXM738657             1.875953        1.754733
+314     MNXM1406             3.706120        3.519221
+890   MNXM741595             4.825753        4.460267
+366     MNXM1756             4.237455        4.041780
+660   MNXM729151             3.108923        2.900183
+604      MNXM683             3.890972        3.604332
+878   MNXM741014             1.888226        1.759789
+367     MNXM1757             4.395064        4.150487
+194  MNXM1105965             2.878947        3.183503
+
+            mnxm  bertzct (original)  bertzct (new)
+661   MNXM729177          394.232879     382.967930
+790   MNXM735771          387.680847     376.415898
+128  MNXM1104543         1444.114570    1415.486895
+547      MNXM501          132.821504     128.028222
+872   MNXM740231         7242.793628    6884.938585
+674   MNXM730135          602.365146     553.005593
+927      MNXM883         1612.858034    1572.839400
+717   MNXM732007            8.000000     118.039100
+142  MNXM1104673         1789.192745    1759.512906
+148  MNXM1104702         1068.746135    1123.772869
+
+            mnxm  chi0 (original)  chi0 (new)
+743   MNXM733434        36.388176   35.039065
+257  MNXM1108018         0.000000    2.000000
+877   MNXM741004         0.000000    4.500000
+75   MNXM1103715        63.213721   62.849015
+157  MNXM1104756        66.705284   66.503715
+30   MNXM1101279        82.773834   82.409128
+617   MNXM726092         0.000000    4.500000
+225  MNXM1107419         0.000000    2.828427
+717   MNXM732007         0.000000    4.618802
+74   MNXM1103700        32.137099   34.051313
+
+            mnxm  chi0n (original)  chi0n (new)
+274    MNXM11605         13.340474    13.469650
+232  MNXM1107704         18.386873    18.491486
+700   MNXM731265          8.854337     8.958949
+490     MNXM3630          8.212650     8.317262
+830   MNXM737948         27.765008    27.924905
+618   MNXM726277         11.583859    11.702293
+143  MNXM1104679          6.481940     6.586552
+878   MNXM741014         76.910375    77.285453
+827   MNXM737824         70.389470    70.569144
+75   MNXM1103715         50.027753    50.258063
+
+           mnxm  chi0v (original)  chi0v (new)
+542  MNXM490899         11.362932    11.481365
+928   MNXM88338         73.556074    73.749569
+700  MNXM731265          8.854337     8.958949
+661  MNXM729177         10.650467    10.755079
+722  MNXM732166         44.578929    44.766468
+925   MNXM87122        105.931038   106.375221
+573   MNXM59271         17.787688    18.010733
+879  MNXM741016         67.995043    68.328657
+272    MNXM1152          8.756620     8.861232
+930   MNXM88342         64.640741    64.792773
+
+            mnxm  chi1 (original)  chi1 (new)
+74   MNXM1103700        20.548152   21.917054
+617   MNXM726092         0.000000    2.000000
+877   MNXM741004         0.000000    2.000000
+743   MNXM733434        22.508723   23.226162
+30   MNXM1101279        52.091003   52.681641
+419      MNXM249        20.014478   20.569859
+163  MNXM1104880        41.213374   41.804012
+242  MNXM1107801        11.552760   12.270199
+131  MNXM1104551        50.421901   50.964036
+685   MNXM730707        22.776672   23.494111
+
+            mnxm  chi1n (original)  chi1n (new)
+872   MNXM740231         64.627027    65.574364
+928    MNXM88338         41.423154    41.942487
+162  MNXM1104857         19.285186    19.917642
+881   MNXM741021         36.686562    37.167211
+627   MNXM726879         17.660974    17.773134
+878   MNXM741014         42.972313    43.602510
+685   MNXM730707         13.895507    14.873693
+30   MNXM1101279         35.763115    36.707109
+326   MNXM147329         22.019706    22.299490
+643   MNXM727814         10.485283    10.621042
+
+            mnxm  chi1v (original)  chi1v (new)
+419      MNXM249         13.722812    16.330493
+326   MNXM147329         25.010596    25.220677
+927      MNXM883         13.601987    13.714147
+866   MNXM739962          3.883878     4.007984
+558      MNXM529          3.915975     4.026840
+761   MNXM734072         13.710494    13.911391
+961    MNXM97613          9.951063    10.086821
+458      MNXM319          5.148026     5.258891
+542   MNXM490899          6.187803     6.324859
+75   MNXM1103715         28.464389    32.020847
+
+            mnxm  chi2n (original)  chi2n (new)
+648   MNXM728086          6.454124     6.705304
+928    MNXM88338         31.131448    31.987711
+429     MNXM2680         46.109555    46.225925
+722   MNXM732166         17.621942    18.121983
+135  MNXM1104572         16.808953    16.911832
+143  MNXM1104679          2.290185     2.450359
+37   MNXM1101937          8.700719     8.826750
+642   MNXM727687         13.033530    13.136408
+710   MNXM731760         26.541586    26.657956
+149  MNXM1104711         14.868804    14.971683
+
+            mnxm  chi2v (original)  chi2v (new)
+419      MNXM249         10.543209    14.900176
+421      MNXM252          1.992801     2.097384
+604      MNXM683          2.222381     2.334459
+847   MNXM738657         30.960301    31.931860
+891   MNXM741611         15.411337    15.558511
+157  MNXM1104756         28.289979    34.224621
+643   MNXM727814          9.299245     9.440472
+730   MNXM732761         34.267738    34.636400
+320     MNXM1446         18.291836    18.572500
+648   MNXM728086          6.819272     7.070453
+
+            mnxm  chi3n (original)  chi3n (new)
+74   MNXM1103700          6.404966     6.775429
+79   MNXM1103776          9.540087     9.640868
+314     MNXM1406          1.823317     1.933041
+154  MNXM1104726          9.682604     9.783385
+75   MNXM1103715         18.978709    21.319554
+665   MNXM729383          4.456339     4.776469
+881   MNXM741021         18.156527    18.839398
+20   MNXM1093448          8.040087     8.140868
+669   MNXM729643         15.980271    17.513770
+573    MNXM59271          4.132526     4.362593
+
+            mnxm  chi3v (original)  chi3v (new)
+575     MNXM5970         19.783797    20.575597
+927      MNXM883          6.552141     6.703885
+700   MNXM731265          1.948577     2.052140
+899    MNXM75132         35.720629    35.850135
+558      MNXM529          1.664652     1.771838
+928    MNXM88338         20.502833    21.323984
+111  MNXM1104368          4.962634    14.108020
+866   MNXM739962          1.748302     1.914164
+837   MNXM738099         45.832666    45.962172
+717   MNXM732007          0.000000   183.600000
+
+            mnxm  chi4n (original)  chi4n (new)
+155  MNXM1104740         16.051905    16.196276
+281    MNXM11799         39.184764    39.328295
+244  MNXM1107894         20.182029    21.173148
+878   MNXM741014         13.447714    14.144848
+837   MNXM738099         30.642115    30.785372
+730   MNXM732761         12.016553    12.322080
+131  MNXM1104551         17.436279    21.939211
+924    MNXM87121         20.580112    21.592779
+721   MNXM732162          4.449735     4.576554
+38   MNXM1101938          3.144751     3.261634
+
+            mnxm  chi4v (original)  chi4v (new)
+853   MNXM739017          5.983868     6.285131
+665   MNXM729383          4.602050     4.870306
+925    MNXM87122         19.818775    20.780986
+679   MNXM730505         21.226000    21.360184
+618   MNXM726277          1.780969     1.901435
+890   MNXM741595          1.679253     1.796294
+835   MNXM738093         35.617950    35.750050
+281    MNXM11799         41.259833    41.393597
+569    MNXM56168         27.058178    27.192361
+225  MNXM1107419          0.000000     3.187500
+
+            mnxm  hallkieralpha (original)  hallkieralpha (new)
+449     MNXM3054                 -2.830000            -2.960000
+111  MNXM1104368                 -0.731688            -0.921688
+74   MNXM1103700                 -1.891688            -2.211688
+617   MNXM726092                  0.528312             0.208312
+877   MNXM741004                  0.528312             0.208312
+285     MNXM1193                 -1.210000            -1.340000
+
+            mnxm  ipc (original)     ipc (new)
+75   MNXM1103715    3.197039e+20  6.307057e+23
+685   MNXM730707    2.139541e+10  1.524572e+11
+235  MNXM1107744    3.029841e+12  1.057709e+13
+698   MNXM731245    3.476951e+53  1.137660e+54
+872   MNXM740231    5.881295e+73  3.342571e+73
+879   MNXM741016    8.759868e+35  2.144710e+36
+36   MNXM1101902    5.486950e+15  5.487505e+15
+743   MNXM733434    7.150406e+09  4.839675e+10
+930    MNXM88342    5.902143e+32  2.422885e+33
+108  MNXM1104340    3.635664e+62  1.447214e+62
+
+            mnxm  kappa1 (original)  kappa1 (new)
+419      MNXM249          31.474602     26.188235
+235  MNXM1107744          46.666703     40.745219
+449     MNXM3054          33.085367     32.960340
+685   MNXM730707          38.596072     30.225728
+242  MNXM1107801          31.648178     20.241139
+717   MNXM732007         104.177494      5.260031
+225  MNXM1107419          42.620628      3.913209
+74   MNXM1103700          41.279935     34.643862
+877   MNXM741004         406.148363      5.208312
+30   MNXM1101279          88.297886     80.933648
+
+            mnxm  kappa2 (original)  kappa2 (new)
+225  MNXM1107419          21.908130      2.011493
+877   MNXM741004         201.971346      1.123865
+743   MNXM733434          24.182947     13.266753
+235  MNXM1107744          20.788835     15.219902
+717   MNXM732007          77.814716      1.246619
+30   MNXM1101279          33.283292     27.241090
+419      MNXM249          12.414398      8.336183
+242  MNXM1107801          14.023131      5.354043
+617   MNXM726092         201.971346      1.123865
+111  MNXM1104368           9.650968      6.560072
+
+            mnxm  kappa3 (original)  kappa3 (new)
+74   MNXM1103700           9.021509      7.237364
+30   MNXM1101279          17.491233     11.689096
+111  MNXM1104368           5.635995      3.826927
+877   MNXM741004         103.709156    472.934899
+717   MNXM732007          56.318656      0.257069
+75   MNXM1103715          12.861644      7.661360
+743   MNXM733434          19.086178      7.126139
+131  MNXM1104551          16.303587      9.377866
+680   MNXM730514          22.517930     13.861861
+163  MNXM1104880          14.273780      8.608048
+
+            mnxm  labuteasa (original)  labuteasa (new)
+163  MNXM1104880            530.873393       519.619368
+106  MNXM1104310            196.203708       195.570996
+924    MNXM87121           1110.284291      1110.742680
+674   MNXM730135            109.302071       109.956611
+35   MNXM1101868            127.757893       127.125181
+225  MNXM1107419             60.945427        42.443608
+189  MNXM1105936            295.836744       295.204032
+44   MNXM1102152            175.466906       174.201483
+725   MNXM732487             55.775406        55.142694
+845   MNXM738430             16.755985        17.082832
+
+            mnxm  peoe_vsa1 (original)  peoe_vsa1 (new)
+238  MNXM1107760             59.743104        59.370585
+554     MNXM5266             38.349284        42.831730
+10      MNXM1088             15.319582        15.634732
+860   MNXM739592             20.100805        29.148299
+710   MNXM731760             93.198976       102.708294
+730   MNXM732761             85.960555       101.334944
+660   MNXM729151             25.532637        25.742898
+697   MNXM731192             24.827308        29.517964
+591      MNXM647             25.040424        20.683585
+395     MNXM2174             34.195201        38.596399
+
+            mnxm  peoe_vsa10 (original)  peoe_vsa10 (new)
+565      MNXM552              11.312963         11.499024
+105  MNXM1104300              30.155920         36.259886
+40   MNXM1102064              58.951554         36.623798
+163  MNXM1104880              24.051954          0.000000
+744   MNXM733471               6.606882         13.213764
+803   MNXM736341              12.145807          6.103966
+143  MNXM1104679               6.041841          0.000000
+94   MNXM1104173              30.155920         36.259886
+944    MNXM90585              30.271019         24.573980
+521      MNXM436              23.495745         12.331868
+
+            mnxm  peoe_vsa11 (original)  peoe_vsa11 (new)
+815   MNXM737103               5.817863          0.000000
+740   MNXM733261               0.000000          5.759165
+593    MNXM65002              23.644831         12.207933
+944    MNXM90585               6.103966          0.000000
+188  MNXM1105935              12.187772          6.290027
+445     MNXM2999               5.897745          0.000000
+700   MNXM731265               5.897745          0.000000
+528      MNXM455               0.000000         11.499024
+506     MNXM4026              11.939586          6.041841
+697   MNXM731192               6.227901         17.391779
+
+            mnxm  peoe_vsa12 (original)  peoe_vsa12 (new)
+725   MNXM732487               5.879988          0.000000
+761   MNXM734072              17.693236         23.628719
+930    MNXM88342              41.284217         64.978977
+835   MNXM738093              17.361333         29.175693
+776   MNXM735042              17.361333         29.175693
+927      MNXM883              17.693236          0.000000
+429     MNXM2680              11.574222         23.388582
+284     MNXM1189               5.618183          5.948339
+40   MNXM1102064              11.236367         11.896679
+657   MNXM728662              11.498172          5.948339
+
+            mnxm  peoe_vsa13 (original)  peoe_vsa13 (new)
+526      MNXM452               7.822697         21.204661
+147  MNXM1104699               0.000000         15.645394
+51   MNXM1102376               5.907180         11.466447
+502     MNXM3932               6.021680          0.000000
+65   MNXM1103428               7.822697         21.204661
+832   MNXM737974               0.000000         31.290788
+90   MNXM1104065               7.822697          0.000000
+846   MNXM738560               0.000000         15.645394
+636   MNXM727276               0.000000         15.645394
+721   MNXM732162               0.000000         21.204661
+
+            mnxm  peoe_vsa14 (original)  peoe_vsa14 (new)
+429     MNXM2680              31.699918         23.877221
+847   MNXM738657              35.815832          0.000000
+218  MNXM1106166              15.645394          0.000000
+25   MNXM1094916               7.822697          0.000000
+102  MNXM1104270              15.645394          0.000000
+355     MNXM1641               7.822697          5.689743
+838   MNXM738102              13.792002          5.969305
+606      MNXM694               5.969305          0.000000
+902       MNXM76               5.969305          0.000000
+903      MNXM761               0.000000          5.689743
+
+            mnxm  peoe_vsa2 (original)  peoe_vsa2 (new)
+106  MNXM1104310             18.450432        32.793996
+326   MNXM147329             28.591808        51.972145
+651   MNXM728268             13.614594        32.793996
+104  MNXM1104283             18.409131        28.080808
+118  MNXM1104435             18.409131        28.080808
+25   MNXM1094916              9.933031        10.203821
+891   MNXM741611             23.599403        42.383071
+924    MNXM87121             19.178149       124.657967
+153  MNXM1104724             18.409131        28.080808
+232  MNXM1107704             13.614594        27.999459
+
+            mnxm  peoe_vsa3 (original)  peoe_vsa3 (new)
+102  MNXM1104270             24.082032        19.262567
+280     MNXM1178              9.549027         4.794537
+838   MNXM738102              8.875680         4.310631
+344      MNXM158              4.983979         4.794537
+272     MNXM1152              4.794537         0.000000
+55   MNXM1103285             14.533005         4.983979
+133  MNXM1104559             14.533005         9.967957
+594    MNXM65126              8.875680         4.310631
+555     MNXM5269              4.565048         0.000000
+603      MNXM662              4.983979         9.967957
+
+            mnxm  peoe_vsa4 (original)  peoe_vsa4 (new)
+436      MNXM281              0.000000         4.983979
+186  MNXM1105927              9.967957         4.983979
+30   MNXM1101279              9.294610         4.983979
+78   MNXM1103769              9.967957         0.000000
+69   MNXM1103553              0.000000         4.983979
+142  MNXM1104673              4.310631         0.000000
+105  MNXM1104300              4.310631         0.000000
+642   MNXM727687              4.310631         0.000000
+340     MNXM1561              0.000000         4.983979
+801   MNXM736325              0.000000         4.983979
+
+            mnxm  peoe_vsa5 (original)  peoe_vsa5 (new)
+255  MNXM1107995              5.749512         0.000000
+400     MNXM2195              5.749512         0.000000
+285     MNXM1193             25.257578        12.628789
+435     MNXM2806              5.749512         0.000000
+593    MNXM65002              5.749512         0.000000
+449     MNXM3054             25.257578        12.628789
+419      MNXM249             22.066803         0.000000
+337      MNXM153              5.749512         0.000000
+111  MNXM1104368             12.628789         0.000000
+74   MNXM1103700             25.257578         0.000000
+
+            mnxm  peoe_vsa6 (original)  peoe_vsa6 (new)
+873   MNXM740424             45.923009        51.672521
+590      MNXM645             17.882246         6.066367
+400     MNXM2195            104.822816        93.192997
+270     MNXM1140             12.841643         6.420822
+157  MNXM1104756             34.618686         0.000000
+162  MNXM1104857             54.300382         0.000000
+623   MNXM726800             17.882246        12.142387
+927      MNXM883             30.014980        23.948613
+632   MNXM727045             17.882246         6.066367
+527      MNXM454              5.749512         0.000000
+
+            mnxm  peoe_vsa7 (original)  peoe_vsa7 (new)
+94   MNXM1104173             37.133976        18.917663
+542   MNXM490899             18.739389         0.000000
+335      MNXM152             18.367177         6.923737
+419      MNXM249             92.863923         0.000000
+583      MNXM618             18.216312         0.000000
+38   MNXM1101938             50.320420        38.524930
+148  MNXM1104702             11.946355         0.000000
+902       MNXM76             24.117007        17.696186
+623   MNXM726800             17.705839        23.772206
+332     MNXM1505             11.946355         0.000000
+
+            mnxm  peoe_vsa8 (original)  peoe_vsa8 (new)
+863   MNXM739668              5.969305        26.237601
+202  MNXM1106007             24.257357        30.678179
+155  MNXM1104740             25.683286        12.841643
+879   MNXM741016             12.841643        52.475203
+851   MNXM738804              0.000000         6.420822
+885   MNXM741175              0.000000        12.841643
+395     MNXM2174             12.300810         6.420822
+912        MNXM8             11.629819         6.066367
+944    MNXM90585              0.000000         6.923737
+14   MNXM1092836             30.678179        37.099000
+
+            mnxm  peoe_vsa9 (original)  peoe_vsa9 (new)
+125  MNXM1104522              6.606882        14.429579
+748   MNXM733666             18.814815        24.856656
+298     MNXM1275              0.000000         5.969305
+270     MNXM1140             12.083682         0.000000
+146  MNXM1104695             39.888569        33.784603
+728   MNXM732649             10.949676         5.563451
+556     MNXM5271             27.643343        19.820646
+800   MNXM736319             19.224229        13.213764
+878   MNXM741014             26.427528        68.085470
+378      MNXM192              0.000000         6.544756
+
+            mnxm  smr_vsa1 (original)  smr_vsa1 (new)
+196  MNXM1105983            33.825536       38.809515
+93   MNXM1104155            72.075946       66.969418
+925    MNXM87122           293.613892      299.153413
+460    MNXM32178            37.568754       43.302422
+547      MNXM501            16.156983       15.844993
+285     MNXM1193            28.719009       23.612482
+846   MNXM738560           185.690464      185.066483
+755   MNXM733912            33.455872       28.349345
+97   MNXM1104188            77.494463       72.387936
+456     MNXM3148            33.455872       28.349345
+
+            mnxm  smr_vsa10 (original)  smr_vsa10 (new)
+755   MNXM733912             18.986575        24.934914
+510      MNXM411             15.645394        21.463257
+929    MNXM88341            100.619471       100.732683
+717   MNXM732007             53.982773        24.597531
+32   MNXM1101289             15.645394        21.463257
+806   MNXM736453             27.584005        33.401868
+43   MNXM1102150             35.038426        40.986765
+872   MNXM740231            177.576400       177.774522
+398     MNXM2182              7.822697        13.640560
+74   MNXM1103700             52.408222        57.850467
+
+            mnxm  smr_vsa2 (original)  smr_vsa2 (new)
+63   MNXM1103365             5.409284        0.000000
+693   MNXM731066             5.409284        0.000000
+724   MNXM732471             5.409284        0.000000
+157  MNXM1104756            32.455702        0.000000
+845   MNXM738430             0.000000        5.392851
+165  MNXM1104899             5.409284        0.000000
+113  MNXM1104391             5.409284        0.000000
+394      MNXM216             5.409284        0.000000
+806   MNXM736453             5.409284        0.000000
+93   MNXM1104155             5.409284        0.000000
+
+            mnxm  smr_vsa3 (original)  smr_vsa3 (new)
+269      MNXM114             5.316789        0.000000
+151  MNXM1104717            19.519035       30.152612
+736   MNXM733023             0.000000       10.633577
+706   MNXM731709             0.000000       10.633577
+873   MNXM740424             9.908822        5.008913
+109  MNXM1104352            19.519035       30.152612
+185  MNXM1105912            19.519035       30.152612
+364     MNXM1742             5.316789        0.000000
+837   MNXM738099             0.000000       10.633577
+36   MNXM1101902             0.000000        5.316789
+
+            mnxm  smr_vsa4 (original)  smr_vsa4 (new)
+157  MNXM1104756            65.301205       79.733591
+873   MNXM740424            33.765436       28.773032
+393     MNXM2150             5.733667        0.000000
+270     MNXM1140             5.733667        0.000000
+342     MNXM1563             4.992405        0.000000
+36   MNXM1101902             4.992405        0.000000
+372     MNXM1802             5.733667        0.000000
+830   MNXM737948            30.695691        0.000000
+128  MNXM1104543            15.399800        5.414990
+326   MNXM147329            30.695691        0.000000
+
+            mnxm  smr_vsa5 (original)  smr_vsa5 (new)
+163  MNXM1104880           175.167205      180.522451
+75   MNXM1103715           175.167205      180.522451
+30   MNXM1101279           199.707006      205.062251
+131  MNXM1104551           213.554480      218.909726
+162  MNXM1104857           113.563127       90.897334
+
+            mnxm  smr_vsa6 (original)  smr_vsa6 (new)
+603      MNXM662             6.606882       12.340549
+340     MNXM1561             6.606882       12.340549
+473      MNXM344             6.606882       12.340549
+55   MNXM1103285             6.606882       12.340549
+43   MNXM1102150            34.874812       40.608480
+31   MNXM1101285             6.606882       12.340549
+114  MNXM1104393            35.670672       41.404339
+57   MNXM1103302             6.606882       12.340549
+633   MNXM727068            18.468427       24.202094
+674   MNXM730135             6.606882       12.340549
+
+            mnxm  smr_vsa7 (original)  smr_vsa7 (new)
+47   MNXM1102185            22.747491       33.101295
+122  MNXM1104509            22.244576       32.598380
+192  MNXM1105949            22.244576       32.598380
+44   MNXM1102152             6.327320       27.165405
+449     MNXM3054            28.083097       32.818717
+903      MNXM761            17.750918       22.747491
+332     MNXM1505            22.747491       33.101295
+511     MNXM4133             6.327320       27.165405
+398     MNXM2182            17.750918       22.747491
+213  MNXM1106112            22.244576       32.598380
+
+            mnxm  smr_vsa9 (original)  smr_vsa9 (new)
+703   MNXM731472             5.879988        0.000000
+538     MNXM4772            11.759977        0.000000
+903      MNXM761             6.010465        0.000000
+406     MNXM2276            11.890453        0.000000
+379     MNXM1922             5.879988        0.000000
+189  MNXM1105936            17.398321       11.518332
+148  MNXM1104702             5.879988        0.000000
+213  MNXM1106112             5.879988        0.000000
+47   MNXM1102185             5.879988        0.000000
+332     MNXM1505             5.879988        0.000000
+
+            mnxm  slogp_vsa1 (original)  slogp_vsa1 (new)
+575     MNXM5970              26.159777        100.384556
+10      MNXM1088               5.106527         16.156983
+330     MNXM1492              15.733606         20.627018
+244  MNXM1107894              36.372832        147.815131
+486      MNXM355              14.567039         20.087590
+700   MNXM731265              11.467335         21.890651
+521      MNXM436              20.511534         25.973169
+34   MNXM1101474              25.476506         30.822657
+912        MNXM8              20.300706         25.821258
+488      MNXM360              25.274469         30.997057
+
+            mnxm  slogp_vsa10 (original)  slogp_vsa10 (new)
+510      MNXM411                0.000000           5.817863
+676   MNXM730300               11.505249          17.453588
+49   MNXM1102191                0.000000           5.817863
+436      MNXM281               17.192635          23.140975
+77   MNXM1103734               11.505249          17.453588
+57   MNXM1103302                0.000000           5.817863
+309      MNXM138                0.000000           4.794537
+114  MNXM1104393               17.192635          23.140975
+456     MNXM3148                0.000000           5.817863
+448      MNXM304                0.000000           4.794537
+
+            mnxm  slogp_vsa11 (original)  slogp_vsa11 (new)
+213  MNXM1106112                5.879988                0.0
+503      MNXM394                5.879988                0.0
+553      MNXM511                5.879988                0.0
+93   MNXM1104155                5.879988                0.0
+738   MNXM733114                5.879988                0.0
+64   MNXM1103400                5.879988                0.0
+801   MNXM736325                6.010465                0.0
+610      MNXM704                6.010465                0.0
+174  MNXM1105744                5.879988                0.0
+114  MNXM1104393                5.879988                0.0
+
+            mnxm  slogp_vsa12 (original)  slogp_vsa12 (new)
+717   MNXM732007               53.982773          24.597531
+225  MNXM1107419               26.991387          17.196306
+285     MNXM1193               33.080275          20.451486
+449     MNXM3054               40.902973          28.274183
+74   MNXM1103700               40.902973          34.579016
+111  MNXM1104368               20.451486          26.756319
+
+            mnxm  slogp_vsa2 (original)  slogp_vsa2 (new)
+548      MNXM506              28.677237         18.483051
+961    MNXM97613              78.741545         63.638015
+841   MNXM738242             113.404592        103.636638
+340     MNXM1561              59.331167         54.437755
+803   MNXM736341              43.625631         38.528538
+101  MNXM1104266             112.901677        103.133722
+894   MNXM741693              53.042225         48.148813
+193  MNXM1105956             112.901677        103.133722
+835   MNXM738093             738.804205        729.036250
+837   MNXM738099             633.539492        623.771537
+
+            mnxm  slogp_vsa3 (original)  slogp_vsa3 (new)
+846   MNXM738560              89.518906         99.107981
+152  MNXM1104721              41.108418         50.697492
+642   MNXM727687              45.902955         55.492029
+131  MNXM1104551              39.865066         68.257485
+866   MNXM739962               4.794537          9.589074
+823   MNXM737466             108.581707        118.170781
+429     MNXM2680             108.524032        118.113107
+285     MNXM1193              13.825658         26.454448
+149  MNXM1104711              41.108418         50.697492
+178  MNXM1105798              13.825658         18.620196
+
+            mnxm  slogp_vsa4 (original)  slogp_vsa4 (new)
+30   MNXM1101279              90.120309         45.331586
+553      MNXM511               5.409284          0.000000
+428      MNXM266               5.409284          0.000000
+111  MNXM1104368               5.409284          0.000000
+93   MNXM1104155               5.409284          0.000000
+284     MNXM1189               5.409284          0.000000
+309      MNXM138               5.409284          0.000000
+243  MNXM1107821               5.409284          0.000000
+115  MNXM1104395               5.409284          0.000000
+456     MNXM3148               5.409284          0.000000
+
+            mnxm  slogp_vsa5 (original)  slogp_vsa5 (new)
+394      MNXM216               5.563451         10.357989
+235  MNXM1107744             150.463302        139.075446
+162  MNXM1104857             122.079377        100.570450
+419      MNXM249              84.560279         66.751601
+553      MNXM511              18.405095         23.199632
+927      MNXM883              16.690354         31.073966
+249  MNXM1107906               1.426638          0.000000
+63   MNXM1103365              11.921829         16.716366
+632   MNXM727045               5.563451         10.357989
+912        MNXM8              18.019254         22.813791
+
+            mnxm  slogp_vsa6 (original)  slogp_vsa6 (new)
+205  MNXM1106047               4.992405          0.000000
+854   MNXM739235             133.132776        128.140371
+357     MNXM1679               4.992405          0.000000
+115  MNXM1104395               6.196844         10.991381
+930    MNXM88342              66.875572         11.959120
+7       MNXM1062               4.992405          0.000000
+162  MNXM1104857              24.265468         46.086407
+118  MNXM1104435              22.639450         12.654640
+806   MNXM736453              12.263211         17.057748
+102  MNXM1104270              34.791490         24.806680
+
+            mnxm  slogp_vsa7 (original)  slogp_vsa7 (new)
+163  MNXM1104880                    0.0          5.355246
+30   MNXM1101279                    0.0          5.355246
+75   MNXM1103715                    0.0          5.355246
+131  MNXM1104551                    0.0          5.355246
+
+            mnxm  slogp_vsa8 (original)  slogp_vsa8 (new)
+669   MNXM729643               5.733667          0.000000
+358      MNXM168              11.518332         11.163878
+75   MNXM1103715              16.897545         11.163878
+845   MNXM738430               5.531129          5.139280
+163  MNXM1104880              16.897545         11.163878
+235  MNXM1107744              44.359221         24.304080
+419      MNXM249              56.511261         30.380101
+162  MNXM1104857              22.066803         12.152040
+
+            mnxm  tpsa (original)  tpsa (new)
+715   MNXM731934           221.46      217.97
+378      MNXM192            63.32       67.77
+510      MNXM411           213.14      212.15
+807   MNXM736654           192.46      191.47
+304     MNXM1334           135.74      140.19
+799   MNXM736316           272.14      271.15
+1         MNXM10           324.27      323.28
+836   MNXM738096          1548.39     1541.41
+105  MNXM1104300           381.93      374.95
+800   MNXM736319           272.14      271.15
+
+            mnxm  estate_vsa1 (original)  estate_vsa1 (new)
+685   MNXM730707              125.696910          87.249322
+40   MNXM1102064              116.580497         104.702687
+488      MNXM360               54.521272          54.200551
+610      MNXM704               18.435834          24.125577
+510      MNXM411               46.698575          46.377854
+285     MNXM1193               38.683276          38.362554
+428      MNXM266               38.875878          38.555156
+623   MNXM726800               11.718817           5.969305
+398     MNXM2182               44.979844          44.659123
+807   MNXM736654               38.745401          38.424680
+
+            mnxm  estate_vsa10 (original)  estate_vsa10 (new)
+537    MNXM47647               291.371775          291.059785
+743   MNXM733434                61.580506           28.767223
+799   MNXM736316                43.825576           43.513586
+408     MNXM2290                58.489438           57.865458
+903      MNXM761                 0.000000            4.794537
+317      MNXM142                 4.794537            9.901065
+586    MNXM63489                70.555413           68.995462
+238  MNXM1107760                64.251686           63.627705
+700   MNXM731265                 9.901065           14.695602
+742   MNXM733374                82.824875           82.200895
+
+            mnxm  estate_vsa11 (original)  estate_vsa11 (new)
+850   MNXM738728                 9.901065            9.589074
+679   MNXM730505                 9.901065            9.589074
+899    MNXM75132                19.802129           19.490139
+924    MNXM87121                 0.000000           23.972686
+872   MNXM740231                 0.000000            4.794537
+429     MNXM2680                 9.901065            9.589074
+131  MNXM1104551                 0.000000           19.178149
+823   MNXM737466                15.007592           14.383612
+244  MNXM1107894                 0.000000           14.383612
+698   MNXM731245                 9.901065            9.589074
+
+            mnxm  estate_vsa2 (original)  estate_vsa2 (new)
+187  MNXM1105933                5.897745           0.000000
+627   MNXM726879              125.583402         107.890166
+248  MNXM1107904               35.700172          42.244929
+270     MNXM1140               18.504503           6.420822
+188  MNXM1105935                5.897745           0.000000
+24   MNXM1094915                6.400661          12.954852
+847   MNXM738657               38.524930          31.380326
+257  MNXM1108018                1.426638           0.000000
+807   MNXM736654               23.202883          23.533039
+201  MNXM1106003               11.163878          17.112217
+
+            mnxm  estate_vsa3 (original)  estate_vsa3 (new)
+370     MNXM1786                4.567100           0.000000
+235  MNXM1107744               57.684158          19.262465
+128  MNXM1104543                5.752854          12.297610
+355     MNXM1641                4.567100           6.923737
+138  MNXM1104631                0.000000           5.752854
+240  MNXM1107769                0.000000          12.114750
+674   MNXM730135               18.453285          24.607845
+566      MNXM554               16.820831          23.365587
+102  MNXM1104270                0.000000           5.752854
+603      MNXM662               24.277689          24.607845
+
+            mnxm  estate_vsa4 (original)  estate_vsa4 (new)
+192  MNXM1105949               10.763943           4.567100
+828   MNXM737872               16.830310          10.763943
+379     MNXM1922                6.327320           0.000000
+76   MNXM1103718               12.263211          10.763943
+75   MNXM1103715                0.000000          16.981829
+74   MNXM1103700               16.830310          10.763943
+669   MNXM729643                0.000000          45.372382
+53   MNXM1103104               10.633467          16.830310
+382     MNXM1978               18.199101          12.132734
+158  MNXM1104774               28.983625          42.831099
+
+            mnxm  estate_vsa5 (original)  estate_vsa5 (new)
+817   MNXM737298                6.196844           0.000000
+802   MNXM736328               77.049859          83.116227
+248  MNXM1107904               13.847474           0.000000
+848   MNXM738663                6.923737           0.000000
+828   MNXM737872                0.000000           6.066367
+525     MNXM4507               51.366573          57.432940
+49   MNXM1102191                0.000000           6.066367
+74   MNXM1103700                0.000000           6.066367
+143  MNXM1104679               13.847474           6.923737
+761   MNXM734072               13.847474          20.771212
+
+            mnxm  estate_vsa6 (original)  estate_vsa6 (new)
+162  MNXM1104857                0.000000          52.834949
+143  MNXM1104679                0.000000           6.923737
+743   MNXM733434                0.000000          20.771212
+159  MNXM1104783                0.000000           6.076020
+235  MNXM1107744               12.142387           0.000000
+176  MNXM1105762               25.980209          19.056471
+70   MNXM1103557                0.000000           4.983979
+131  MNXM1104551               23.894177          10.894420
+163  MNXM1104880               12.999757           0.000000
+301     MNXM1281               12.524164           6.327320
+
+            mnxm  estate_vsa7 (original)  estate_vsa7 (new)
+237  MNXM1107754                 0.00000           4.983979
+27   MNXM1100890                 0.00000           4.983979
+722   MNXM732166                 0.00000          10.300767
+673      MNXM730                 0.00000           5.316789
+414      MNXM235                 0.00000           9.967957
+339     MNXM1532                 0.00000           4.983979
+721   MNXM732162                 0.00000          10.300767
+632   MNXM727045                 0.00000           5.316789
+235  MNXM1107744                45.89405           6.076020
+872   MNXM740231                 0.00000          10.633577
+
+            mnxm  estate_vsa8 (original)  estate_vsa8 (new)
+471     MNXM3411               42.818618          43.467386
+566      MNXM554                4.983979          10.717646
+317      MNXM142                0.000000           5.733667
+944    MNXM90585                4.992405           5.316789
+624   MNXM726805               38.294871          43.467386
+80   MNXM1103802               38.294871          43.467386
+744   MNXM733471               13.847474          24.104889
+151  MNXM1104717               38.294871          43.467386
+914    MNXM80754              146.224346         146.548730
+831   MNXM737969              139.300609         139.624993
+
+            mnxm  estate_vsa9 (original)  estate_vsa9 (new)
+456     MNXM3148               19.193641          19.518025
+110  MNXM1104364               14.994278          10.470530
+961    MNXM97613                5.409284           5.733667
+383     MNXM1984               15.310348           9.901065
+102  MNXM1104270               14.994278          10.470530
+390     MNXM2112               10.840195           0.000000
+366     MNXM1756               21.356006          11.142951
+635   MNXM727269               23.258083          18.734336
+860   MNXM739592               24.254888          18.521220
+218  MNXM1106166               19.518025          10.470530
+
+            mnxm  vsa_estate1 (original)  vsa_estate1 (new)
+537    MNXM47647              267.444443         267.073550
+930    MNXM88342               56.090343          55.820123
+463    MNXM32693               25.432885          25.207199
+161  MNXM1104823               20.434540          20.257283
+669   MNXM729643                0.000000           9.992174
+491      MNXM366               14.783465          14.425826
+457     MNXM3150               27.382171          27.100743
+546        MNXM5               67.092547          66.699010
+155  MNXM1104740               89.337775          88.971263
+382     MNXM1978               28.042382          27.738855
+
+            mnxm  vsa_estate10 (original)  vsa_estate10 (new)
+30   MNXM1101279                 0.000000           -5.687819
+111  MNXM1104368                 9.438832           -4.832222
+163  MNXM1104880                 0.000000           -5.545604
+266  MNXM1108289                -2.162068           -2.349568
+419      MNXM249                 0.000000           -3.040355
+669   MNXM729643                 0.000000           -3.490876
+680   MNXM730514                 0.000000           -2.709200
+225  MNXM1107419                 0.000000            2.666667
+242  MNXM1107801                 0.000000           -7.401806
+157  MNXM1104756                 0.000000           -5.784923
+
+            mnxm  vsa_estate2 (original)  vsa_estate2 (new)
+198  MNXM1105999               22.140471          31.402220
+33   MNXM1101307               96.510483         121.334730
+725   MNXM732487               13.880185          23.562917
+460    MNXM32178               34.682621          36.817381
+44   MNXM1102152               49.314310          74.360796
+118  MNXM1104435               74.572137          96.462095
+308     MNXM1378               24.030226          31.305893
+226  MNXM1107623               25.762799          51.149413
+143  MNXM1104679               13.621969          20.904090
+158  MNXM1104774               83.786721         105.580798
+
+            mnxm  vsa_estate3 (original)  vsa_estate3 (new)
+890   MNXM741595               38.214752          25.022917
+710   MNXM731760               94.630656          71.847941
+832   MNXM737974              440.902721         414.246329
+658   MNXM728995               45.137790          25.524780
+317      MNXM142               16.552870          18.315093
+421      MNXM252               27.477269          14.036944
+586    MNXM63489              121.365212          80.503238
+553      MNXM511               52.896114          27.090033
+164  MNXM1104890               71.191356          60.011111
+880   MNXM741019              278.435555         175.197128
+
+            mnxm  vsa_estate4 (original)  vsa_estate4 (new)
+115  MNXM1104395                5.147963          10.227629
+749   MNXM733673                0.000000           4.430000
+47   MNXM1102185               -1.132685          -1.777061
+845   MNXM738430                6.638889           0.000000
+480    MNXM34808                5.165594           3.453219
+116  MNXM1104403               -0.354132           4.552191
+676   MNXM730300               -0.016609           4.942144
+950      MNXM935                0.709563           0.299613
+575     MNXM5970                5.284075           3.059560
+661   MNXM729177                5.244333           3.304376
+
+            mnxm  vsa_estate5 (original)  vsa_estate5 (new)
+310     MNXM1384               -3.803368          -3.693284
+44   MNXM1102152               -1.012598           0.000000
+486      MNXM355               -0.935331          -0.693596
+171  MNXM1105731               -0.962963          -1.101852
+828   MNXM737872               -5.517042          -5.741138
+243  MNXM1107821               -1.917870          -2.034259
+736   MNXM733023               -3.913282          -3.687722
+128  MNXM1104543               -1.123818          -0.830469
+673      MNXM730               -3.298889          -3.416111
+201  MNXM1106003               -0.845552          -0.280405
+
+            mnxm  vsa_estate6 (original)  vsa_estate6 (new)
+17   MNXM1093051               -0.893333          -0.754444
+33   MNXM1101307               -4.472806          -4.310460
+919      MNXM826                4.276301           4.426101
+828   MNXM737872                0.098617           1.197696
+850   MNXM738728               -4.749511          -4.570860
+626   MNXM726864               -0.389376          -0.151722
+108  MNXM1104340               -4.979554          -4.800904
+685   MNXM730707                4.433470           8.661693
+835   MNXM738093               -5.542209          -5.304583
+924    MNXM87121              -42.445840         -42.586064
+
+            mnxm  vsa_estate7 (original)  vsa_estate7 (new)
+556     MNXM5271               24.631249          24.514943
+244  MNXM1107894              -68.469617         -69.587402
+59   MNXM1103315                8.982136           8.811550
+873   MNXM740424                4.943695           4.776523
+881   MNXM741021              -36.843141         -37.115100
+148  MNXM1104702              -15.713377         -15.838645
+24   MNXM1094915               -5.635373          -5.424098
+879   MNXM741016              -37.104788         -37.372828
+125  MNXM1104522               -5.504522          -5.370061
+226  MNXM1107623               -5.392699          -5.500788
+
+            mnxm  vsa_estate8 (original)  vsa_estate8 (new)
+707   MNXM731711               19.198405          19.063595
+698   MNXM731245                5.595519           5.790513
+75   MNXM1103715               20.479131          17.719421
+480    MNXM34808                1.226600           1.426868
+176  MNXM1105762                0.822686           0.691593
+742   MNXM733374               -1.429439          -1.258596
+235  MNXM1107744               20.429679          21.407512
+364     MNXM1742               -0.498721          -0.276372
+731   MNXM732837                0.531278           0.734045
+131  MNXM1104551               22.660080          19.493454
+
+            mnxm  vsa_estate9 (original)  vsa_estate9 (new)
+474     MNXM3447               -4.237487          -4.447487
+801   MNXM736325              -11.150957         -11.449275
+594    MNXM65126              -11.293612         -11.575908
+101  MNXM1104266              -16.933857         -17.557407
+151  MNXM1104717              -16.959545         -17.583095
+891   MNXM741611              -11.634817         -12.231494
+210  MNXM1106093              -17.023772         -17.647322
+663   MNXM729216               -4.874625          -5.116812
+731   MNXM732837              -11.107505         -11.670765
+820   MNXM737371               -5.027198          -5.271025
+
+            mnxm  nhohcount (original)  nhohcount (new)
+285     MNXM1193                   4.0              5.0
+449     MNXM3054                   8.0              9.0
+74   MNXM1103700                   7.0              9.0
+111  MNXM1104368                   4.0              5.0
+
+            mnxm  numaliphaticheterocycles (original)  numaliphaticheterocycles (new)
+669   MNXM729643                                  5.0                             8.0
+163  MNXM1104880                                  6.0                             9.0
+74   MNXM1103700                                  3.0                             4.0
+235  MNXM1107744                                  2.0                             6.0
+419      MNXM249                                  2.0                             6.0
+225  MNXM1107419                                  0.0                             1.0
+685   MNXM730707                                  1.0                             7.0
+242  MNXM1107801                                  0.0                             4.0
+743   MNXM733434                                  1.0                             6.0
+358      MNXM168                                  2.0                             0.0
+
+            mnxm  numaliphaticrings (original)  numaliphaticrings (new)
+358      MNXM168                           2.0                      0.0
+242  MNXM1107801                           0.0                      4.0
+743   MNXM733434                           1.0                      6.0
+419      MNXM249                           2.0                      6.0
+680   MNXM730514                           0.0                      2.0
+74   MNXM1103700                           3.0                      4.0
+75   MNXM1103715                           6.0                      9.0
+225  MNXM1107419                           0.0                      1.0
+717   MNXM732007                           0.0                      6.0
+131  MNXM1104551                           7.0                     11.0
+
+            mnxm  numaromaticheterocycles (original)  numaromaticheterocycles (new)
+235  MNXM1107744                                 3.0                            2.0
+162  MNXM1104857                                 3.0                            1.0
+358      MNXM168                                 0.0                            2.0
+419      MNXM249                                 3.0                            2.0
+
+            mnxm  numaromaticrings (original)  numaromaticrings (new)
+162  MNXM1104857                          3.0                     1.0
+235  MNXM1107744                          3.0                     2.0
+419      MNXM249                          3.0                     2.0
+358      MNXM168                          0.0                     2.0
+
+            mnxm  numhacceptors (original)  numhacceptors (new)
+528      MNXM455                       3.0                  4.0
+801   MNXM736325                      17.0                 18.0
+950      MNXM935                       8.0                  7.0
+355     MNXM1641                      19.0                 20.0
+919      MNXM826                       3.0                  4.0
+499      MNXM386                       4.0                  2.0
+49   MNXM1102191                      13.0                 14.0
+382     MNXM1978                      14.0                 15.0
+617   MNXM726092                       2.0                  4.0
+473      MNXM344                      16.0                 17.0
+
+            mnxm  numhdonors (original)  numhdonors (new)
+475     MNXM3449                    3.0               2.0
+165  MNXM1104899                    3.0               2.0
+473      MNXM344                    4.0               3.0
+125  MNXM1104522                    5.0               4.0
+494       MNXM37                    4.0               2.0
+728   MNXM732649                    4.0               3.0
+890   MNXM741595                    4.0               3.0
+738   MNXM733114                    4.0               3.0
+603      MNXM662                    2.0               1.0
+49   MNXM1102191                    4.0               3.0
+
+            mnxm  numrotatablebonds (original)  numrotatablebonds (new)
+75   MNXM1103715                          21.0                     23.0
+157  MNXM1104756                          26.0                     16.0
+24   MNXM1094915                           6.0                      7.0
+124  MNXM1104518                           6.0                      7.0
+131  MNXM1104551                          27.0                     19.0
+30   MNXM1101279                          29.0                     31.0
+242  MNXM1107801                          10.0                      0.0
+25   MNXM1094916                           6.0                      7.0
+163  MNXM1104880                          23.0                     25.0
+743   MNXM733434                          15.0                      0.0
+
+            mnxm  numsaturatedheterocycles (original)  numsaturatedheterocycles (new)
+627   MNXM726879                                  0.0                             1.0
+669   MNXM729643                                  1.0                             2.0
+162  MNXM1104857                                  0.0                             1.0
+242  MNXM1107801                                  0.0                             4.0
+445     MNXM2999                                  0.0                             1.0
+448      MNXM304                                  1.0                             2.0
+924    MNXM87121                                  5.0                             9.0
+4       MNXM1020                                  0.0                             1.0
+930    MNXM88342                                  3.0                             5.0
+928    MNXM88338                                  3.0                             5.0
+
+            mnxm  numsaturatedrings (original)  numsaturatedrings (new)
+924    MNXM87121                           5.0                      9.0
+827   MNXM737824                           3.0                      5.0
+680   MNXM730514                           0.0                      2.0
+929    MNXM88341                           3.0                      5.0
+131  MNXM1104551                           3.0                      4.0
+928    MNXM88338                           3.0                      5.0
+852   MNXM738834                           0.0                      1.0
+502     MNXM3932                           1.0                      2.0
+225  MNXM1107419                           0.0                      1.0
+242  MNXM1107801                           0.0                      4.0
+
+            mnxm  ringcount (original)  ringcount (new)
+157  MNXM1104756                   8.0             12.0
+225  MNXM1107419                   0.0              1.0
+242  MNXM1107801                   0.0              4.0
+669   MNXM729643                   5.0              8.0
+163  MNXM1104880                   8.0             11.0
+743   MNXM733434                   1.0              6.0
+75   MNXM1103715                   8.0             11.0
+111  MNXM1104368                   3.0              4.0
+419      MNXM249                   5.0              8.0
+74   MNXM1103700                   5.0              6.0
+
+            mnxm  mollogp (original)  mollogp (new)
+624   MNXM726805            -3.28750       -3.83670
+153  MNXM1104724            -1.98280       -2.53200
+193  MNXM1105956             2.72340        2.17420
+925    MNXM87122            -9.44700      -30.33770
+216  MNXM1106160             2.16720        1.61800
+665   MNXM729383            -2.91100      -10.64920
+157  MNXM1104756             6.12686        0.34074
+314     MNXM1406            -1.19790       -4.22670
+70   MNXM1103557            -5.22310       -5.63540
+614   MNXM722840             5.24430        3.89550
+
+            mnxm  molmr (original)  molmr (new)
+164  MNXM1104890          101.1088     102.2697
+884   MNXM741173           29.8522      25.9241
+34   MNXM1101474           77.0269      78.1878
+661   MNXM729177           62.5620      56.7128
+830   MNXM737948          171.5868     158.0532
+509      MNXM405           30.9312      27.0031
+697   MNXM731192           67.7465      70.9094
+391     MNXM2124           21.6752      17.7471
+27   MNXM1100890          116.2966     115.9464
+171  MNXM1105731           21.2852      17.3571
+
+            mnxm  fr_al_oh (original)  fr_al_oh (new)
+59   MNXM1103315                  5.0             3.0
+604      MNXM683                  1.0             0.0
+961    MNXM97613                  5.0             3.0
+227  MNXM1107671                  2.0             0.0
+848   MNXM738663                 15.0             7.0
+873   MNXM740424                  3.0             2.0
+872   MNXM740231                 25.0            10.0
+928    MNXM88338                 21.0             7.0
+593    MNXM65002                  2.0             1.0
+660   MNXM729151                  2.0             1.0
+
+            mnxm  fr_al_oh_notert (original)  fr_al_oh_notert (new)
+878   MNXM741014                        17.0                    7.0
+394      MNXM216                         1.0                    0.0
+879   MNXM741016                        14.0                    7.0
+927      MNXM883                         3.0                    0.0
+761   MNXM734072                         5.0                    2.0
+357     MNXM1679                         1.0                    0.0
+276      MNXM117                         1.0                    0.0
+632   MNXM727045                         2.0                    1.0
+243  MNXM1107821                         1.0                    0.0
+59   MNXM1103315                         5.0                    3.0
+
+            mnxm  fr_arn (original)  fr_arn (new)
+165  MNXM1104899                0.0           1.0
+436      MNXM281                0.0           1.0
+113  MNXM1104391                0.0           1.0
+525     MNXM4507                0.0           1.0
+610      MNXM704                0.0           1.0
+553      MNXM511                0.0           1.0
+807   MNXM736654                0.0           1.0
+800   MNXM736319                0.0           1.0
+612   MNXM722728                0.0           1.0
+488      MNXM360                0.0           1.0
+
+            mnxm  fr_ar_n (original)  fr_ar_n (new)
+235  MNXM1107744                 4.0            2.0
+419      MNXM249                 4.0            2.0
+162  MNXM1104857                 4.0            1.0
+
+            mnxm  fr_ar_nh (original)  fr_ar_nh (new)
+511     MNXM4133                  0.0             2.0
+651   MNXM728268                  0.0             1.0
+335      MNXM152                  0.0             1.0
+603      MNXM662                  1.0             0.0
+379     MNXM1922                  0.0             1.0
+53   MNXM1103104                  0.0             1.0
+133  MNXM1104559                  0.0             1.0
+543      MNXM492                  0.0             1.0
+395     MNXM2174                  0.0             1.0
+647   MNXM728062                  0.0             1.0
+
+            mnxm  fr_ar_oh (original)  fr_ar_oh (new)
+623   MNXM726800                  1.0             2.0
+414      MNXM235                  1.0             0.0
+738   MNXM733114                  1.0             0.0
+53   MNXM1103104                  1.0             0.0
+515      MNXM420                  1.0             0.0
+590      MNXM645                  1.0             2.0
+337      MNXM153                  0.0             1.0
+189  MNXM1105936                  1.0             0.0
+950      MNXM935                  1.0             0.0
+553      MNXM511                  1.0             0.0
+
+            mnxm  fr_c_o (original)  fr_c_o (new)
+153  MNXM1104724                1.0           3.0
+575     MNXM5970                5.0          18.0
+842   MNXM738373                7.0           9.0
+916      MNXM817                1.0           2.0
+471     MNXM3411                1.0           3.0
+198  MNXM1105999                0.0           1.0
+152  MNXM1104721                1.0           3.0
+63   MNXM1103365                0.0           1.0
+547      MNXM501                0.0           1.0
+742   MNXM733374                0.0           2.0
+
+            mnxm  fr_c_o_nocoo (original)  fr_c_o_nocoo (new)
+269      MNXM114                      0.0                 1.0
+534      MNXM465                      2.0                 3.0
+37   MNXM1101937                      3.0                 7.0
+80   MNXM1103802                      2.0                 4.0
+656   MNXM728470                      1.0                 3.0
+244  MNXM1107894                      0.0                27.0
+919      MNXM826                      0.0                 1.0
+698   MNXM731245                      6.0                 8.0
+366     MNXM1756                      0.0                 3.0
+154  MNXM1104726                      1.0                 3.0
+
+            mnxm  fr_imine (original)  fr_imine (new)
+658   MNXM728995                  2.0             0.0
+20   MNXM1093448                  2.0             0.0
+310     MNXM1384                  1.0             0.0
+33   MNXM1101307                  2.0             0.0
+900    MNXM75133                  2.0             0.0
+367     MNXM1757                  1.0             0.0
+685   MNXM730707                  3.0             0.0
+18   MNXM1093274                  2.0             0.0
+827   MNXM737824                 13.0             0.0
+569    MNXM56168                  2.0             0.0
+
+            mnxm  fr_nh0 (original)  fr_nh0 (new)
+471     MNXM3411                7.0           5.0
+134  MNXM1104563                6.0           4.0
+423      MNXM256                2.0           3.0
+847   MNXM738657               13.0           0.0
+687   MNXM730898                2.0           0.0
+635   MNXM727269                3.0           1.0
+878   MNXM741014               14.0           0.0
+815   MNXM737103                2.0           0.0
+135  MNXM1104572                6.0           4.0
+227  MNXM1107671                2.0           0.0
+
+            mnxm  fr_nh1 (original)  fr_nh1 (new)
+142  MNXM1104673                0.0           2.0
+74   MNXM1103700                5.0           3.0
+603      MNXM662                2.0           0.0
+406     MNXM2276                0.0           2.0
+149  MNXM1104711                0.0           2.0
+210  MNXM1106093                0.0           2.0
+274    MNXM11605                1.0           0.0
+849   MNXM738702                1.0           0.0
+188  MNXM1105935                0.0           1.0
+63   MNXM1103365                1.0           0.0
+
+            mnxm  fr_nh2 (original)  fr_nh2 (new)
+234  MNXM1107741                0.0           1.0
+802   MNXM736328                0.0           1.0
+410     MNXM2304                0.0           1.0
+284     MNXM1189                0.0           1.0
+651   MNXM728268                1.0           0.0
+10      MNXM1088                0.0           1.0
+398     MNXM2182                0.0           1.0
+460    MNXM32178                1.0           0.0
+51   MNXM1102376                0.0           1.0
+240  MNXM1107769                1.0           0.0
+
+            mnxm  fr_nhpyrrole (original)  fr_nhpyrrole (new)
+186  MNXM1105927                      0.0                 1.0
+280     MNXM1178                      0.0                 2.0
+891   MNXM741611                      0.0                 1.0
+78   MNXM1103769                      0.0                 2.0
+189  MNXM1105936                      0.0                 1.0
+722   MNXM732166                      0.0                 1.0
+165  MNXM1104899                      1.0                 0.0
+424      MNXM257                      0.0                 1.0
+237  MNXM1107754                      0.0                 1.0
+65   MNXM1103428                      0.0                 1.0
+
+            mnxm  fr_sh (original)  fr_sh (new)
+74   MNXM1103700               2.0          0.0
+111  MNXM1104368               1.0          0.0
+717   MNXM732007               0.0          4.0
+449     MNXM3054               2.0          1.0
+285     MNXM1193               2.0          1.0
+
+            mnxm  fr_allylic_oxid (original)  fr_allylic_oxid (new)
+162  MNXM1104857                         0.0                    6.0
+419      MNXM249                         4.0                    5.0
+235  MNXM1107744                        11.0                   10.0
+
+            mnxm  fr_amide (original)  fr_amide (new)
+731   MNXM732837                  0.0             2.0
+248  MNXM1107904                  0.0             2.0
+30   MNXM1101279                  0.0             7.0
+627   MNXM726879                  3.0             6.0
+124  MNXM1104518                  1.0             2.0
+721   MNXM732162                  0.0             2.0
+244  MNXM1107894                  0.0            20.0
+961    MNXM97613                  0.0             1.0
+880   MNXM741019                  0.0            12.0
+187  MNXM1105933                  0.0             1.0
+
+           mnxm  fr_amidine (original)  fr_amidine (new)
+448     MNXM304                    1.0               0.0
+548     MNXM506                    1.0               0.0
+572     MNXM584                    2.0               0.0
+421     MNXM252                    1.0               0.0
+10     MNXM1088                    1.0               0.0
+724  MNXM732471                    1.0               0.0
+852  MNXM738834                    2.0               0.0
+502    MNXM3932                    1.0               0.0
+410    MNXM2304                    1.0               0.0
+534     MNXM465                    1.0               0.0
+
+            mnxm  fr_aniline (original)  fr_aniline (new)
+51   MNXM1102376                    3.0               4.0
+693   MNXM731066                    0.0               1.0
+553      MNXM511                    2.0               3.0
+510      MNXM411                    0.0               1.0
+603      MNXM662                    0.0               1.0
+612   MNXM722728                    2.0               3.0
+807   MNXM736654                    0.0               1.0
+610      MNXM704                    0.0               1.0
+802   MNXM736328                    0.0               1.0
+284     MNXM1189                    0.0               1.0
+
+            mnxm  fr_aryl_methyl (original)  fr_aryl_methyl (new)
+419      MNXM249                        2.0                   0.0
+162  MNXM1104857                        2.0                   0.0
+235  MNXM1107744                        3.0                   0.0
+
+            mnxm  fr_bicyclic (original)  fr_bicyclic (new)
+111  MNXM1104368                     2.0                3.0
+235  MNXM1107744                     8.0                0.0
+244  MNXM1107894                    32.0               42.0
+30   MNXM1101279                     8.0                3.0
+131  MNXM1104551                     8.0               10.0
+74   MNXM1103700                     2.0                3.0
+575     MNXM5970                    22.0               29.0
+680   MNXM730514                     0.0                2.0
+669   MNXM729643                     6.0                1.0
+924    MNXM87121                    32.0               42.0
+
+           mnxm  fr_diazo (original)  fr_diazo (new)
+845  MNXM738430                  0.0             1.0
+
+           mnxm  fr_imide (original)  fr_imide (new)
+10     MNXM1088                  0.0             1.0
+852  MNXM738834                  0.0             1.0
+638  MNXM727501                  0.0             1.0
+421     MNXM252                  0.0             1.0
+548     MNXM506                  0.0             1.0
+
+           mnxm  fr_nitroso (original)  fr_nitroso (new)
+845  MNXM738430                    1.0               0.0
+
+           mnxm  fr_phenol (original)  fr_phenol (new)
+337     MNXM153                   0.0              1.0
+593   MNXM65002                   0.0              1.0
+873  MNXM740424                   3.0              2.0
+354     MNXM164                   0.0              1.0
+435    MNXM2806                   0.0              1.0
+590     MNXM645                   1.0              2.0
+528     MNXM455                   1.0              2.0
+352    MNXM1634                   0.0              1.0
+565     MNXM552                   1.0              2.0
+919     MNXM826                   1.0              2.0
+
+            mnxm  fr_phenol_noorthohbond (original)  fr_phenol_noorthohbond (new)
+632   MNXM727045                                1.0                           2.0
+590      MNXM645                                1.0                           2.0
+255  MNXM1107995                                0.0                           1.0
+337      MNXM153                                0.0                           1.0
+352     MNXM1634                                0.0                           1.0
+435     MNXM2806                                0.0                           1.0
+623   MNXM726800                                1.0                           2.0
+873   MNXM740424                                3.0                           2.0
+354      MNXM164                                0.0                           1.0
+528      MNXM455                                0.0                           1.0
+
+           mnxm  fr_piperzine (original)  fr_piperzine (new)
+445    MNXM2999                      0.0                 1.0
+627  MNXM726879                      0.0                 1.0
+
+            mnxm  fr_priamide (original)  fr_priamide (new)
+276      MNXM117                     0.0                2.0
+912        MNXM8                     0.0                1.0
+10      MNXM1088                     0.0                1.0
+163  MNXM1104880                     0.0                6.0
+30   MNXM1101279                     0.0                6.0
+1         MNXM10                     0.0                1.0
+593    MNXM65002                     0.0                1.0
+643   MNXM727814                     0.0                1.0
+669   MNXM729643                     0.0                6.0
+494       MNXM37                     0.0                1.0
+
+           mnxm  fr_quatn (original)  fr_quatn (new)
+374    MNXM1865                  1.0             2.0
+314    MNXM1406                  0.0             1.0
+890  MNXM741595                  0.0             1.0
+872  MNXM740231                  0.0             3.0
+626  MNXM726864                  0.0             1.0
+916     MNXM817                  0.0             1.0
+304    MNXM1334                  0.0             1.0
+372    MNXM1802                  0.0             1.0
+830  MNXM737948                  0.0             1.0
+461   MNXM32511                  0.0             1.0
+
+           mnxm  fr_unbrch_alkane (original)  fr_unbrch_alkane (new)
+680  MNXM730514                          8.0                     2.0
+
+           mnxm  fr_urea (original)  fr_urea (new)
+410    MNXM2304                 0.0            1.0
+749  MNXM733673                 0.0            1.0
+421     MNXM252                 0.0            1.0
+502    MNXM3932                 0.0            1.0
+448     MNXM304                 0.0            1.0
+276     MNXM117                 0.0            1.0
+852  MNXM738834                 0.0            2.0
+10     MNXM1088                 0.0            1.0
+534     MNXM465                 0.0            1.0
+548     MNXM506                 0.0            1.0
+
+Sample Rows Only in original (First 10 Columns)
+-----------------------------------------------
+
+            mnxm  maxestateindex  minestateindex  maxabsestateindex  minabsestateindex       qed     molwt  heavyatommolwt   exactmolwt  numvalenceelectrons
+222  MNXM1107136       11.328214       -5.672089          11.328214           0.391768  0.045814   924.258         834.546   923.609999                364.0
+694   MNXM731077        9.002315       -4.083333           9.002315           3.354167  0.452570   113.139         112.131   112.937259                 32.0
+871   MNXM740078        7.134259        1.333333           7.134259           1.333333  0.289280    58.085          58.085    57.975694                 16.0
+855   MNXM739243       13.763037       -5.965487          13.763037           0.478949  0.016310  2744.940        2545.356  2743.262849               1078.0
+283     MNXM1184        9.922906       -5.239049           9.922906           0.053702  0.308128   228.093         219.021   228.004601                 84.0
+411     MNXM2306       12.705283       -5.616745          12.705283           0.012113  0.023087   949.675         911.371   949.117797                340.0
+753   MNXM733908       13.645808       -5.907667          13.645808           0.506009  0.011700  2138.382        1975.086  2137.047658                840.0
+84   MNXM1103926       11.201862       -2.175189          11.201862           0.829638  0.068260   990.861         928.365   990.327505                392.0
+960      MNXM970        8.720486       -5.625000           8.720486           5.625000  0.354606   139.926         138.918   139.910177                 32.0
+769   MNXM734574        8.876620       -1.413194           8.876620           0.153380  0.304250   150.130         140.050   150.052823                 60.0
+
+Sample Rows Only in new (First 10 Columns)
+------------------------------------------
+
+            mnxm  maxestateindex  minestateindex  maxabsestateindex  minabsestateindex       qed     molwt  heavyatommolwt   exactmolwt  numvalenceelectrons
+963   MNXM162426       12.160509       -4.369761          12.160509           0.008183  0.090423   564.682         519.322   564.263973                215.0
+1008  MNXM741333       11.391929       -0.331778          11.391929           0.002269  0.524524   191.277         182.205   191.007471                 62.0
+983   MNXM728567       11.148023       -0.381755          11.148023           0.096800  0.528362   259.435         232.219   259.173176                101.0
+1007  MNXM740692        3.222222        0.555556           3.222222           0.555556  0.315510    34.083          32.067    33.987172                  7.0
+1018   MNXM91789       16.723740       -7.587282          16.723740           0.037659  0.011635  7317.043        6811.027  7312.886006               2888.0
+970     MNXM5960       12.154407       -4.373240          12.154407           0.002205  0.102194   562.666         519.322   562.248323                213.0
+1002  MNXM733304       12.149168       -4.381519          12.149168           0.024074  0.114581   554.643         511.299   554.243237                211.0
+1016   MNXM90823        9.500000       -0.375000           9.500000           0.300926  0.411875   177.072         174.048   177.003831                 69.0
+972     MNXM6557       12.198838       -4.387644          12.198838           0.026417  0.058028   636.789         583.365   636.321487                245.0
+982   MNXM728548       11.097607        0.229022          11.097607           0.229022  0.426159   243.436         216.220   243.178261                 95.0
+
+
