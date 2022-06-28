@@ -20,7 +20,7 @@ Row Summary
 
 Matched on: mnxm
 Any duplicates on match values: Yes
-Absolute Tolerance: 0.1
+Absolute Tolerance: 0.001
 Relative Tolerance: 0
 Number of rows in common: 947
 Number of rows in original but not in new: 16
