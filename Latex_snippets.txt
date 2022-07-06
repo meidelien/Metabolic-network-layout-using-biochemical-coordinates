@@ -1,0 +1,160 @@
+Latex tidbits
+## Italics
+
+iML1515
+
+\textbf{\textit{i}ML1515}
+
+
+
+#### Figures
+
+
+
+\begin{figure}[htbp]  % order of priority: h here, t top, b bottom, p page
+  \centering
+  \includegraphics[width=1.3\textwidth, angle = 270]{figures/Appendix/COMPARISON_Spring_core_plot + qed_MolLogP.png}
+  \caption[Map of NTNU Campuses]{The map shows the three main campuses of NTNU.}
+  \label{fig:mapNTNU}
+\end{figure}%
+
+
+
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/Appendix/Connectivity_1515 + qed_NumHDonors.png}
+        \caption{First sub-figure}
+        \label{sfig:a}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[b]{.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/Appendix/Connectivity_1515 + qed_NumHDonors.png}
+        \caption{Second sub-figure}
+        \label{sfig:b}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[c]{.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/Appendix/Connectivity_1515 + qed_NumHDonors.png}
+        \caption{Second sub-figure}
+        \label{sfig:c}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[d]{.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/Appendix/Connectivity_1515 + qed_NumHDonors.png}
+        \caption{Second sub-figure}
+        \label{sfig:d}
+    \end{subfigure}
+    \caption{A figure composed of two sub-figures. It has a long caption in order to demonstrate how that is typeset.}
+    \label{fig:subfig}
+\end{figure}
+
+
+
+
+##### Tables
+
+
+
+\begin{table}
+  \centering
+  \caption{A simple, manually formatted example table}
+  \label{tab:example1}
+  \begin{tabular}{cc}
+    \hline
+    age  & IQ \\
+    \hline
+    10   & 110 \\
+    20   & 120 \\
+    30   & 145 \\
+    40   & 120 \\
+    50   & 100 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+Tables can also be automatically generated from CSV files using the \texttt{simplecsv} and \texttt{booktab} packages. See \cref{tab:examplecsv} for an example.
+
+\begin{table}[tbp]
+  \centering
+  \caption[A simple example table generated from a CSV file]{A simple example table generated from a CSV file using \texttt{simplecsv} and \texttt{booktab}}
+  \label{tab:examplecsv}
+  \csvautobooktabular{csvtables/ageiq.csv}
+\end{table}
+
+\section{Listings}
+
+
+
+
+### Code
+
+Code listings are included by means of the \texttt{listings} package. Code examples can be read from file or provided inline, and should be given a caption for cross referencing and for appearance in the list of code listings in the thesis frontmatter. If all your code examples are written in the same programming language, you can use, e.g., \texttt{\textbackslash lstset\{language=Python\}} to set the language once and for all. The code is set with the monospace font, and the font size is reduced to allow for code lines up to at least 80 characters without causing line breaks. Options for programming languages, line numbering etc. are provided. Unlike figures and tables, code listings are not floating objects, and will appear at the same position in the typeset document as in the \texttt{.tex} file. If the caption consists of a single sentence fragment (incomplete sentence), it should not be punctuated.
+
+\lstinputlisting[
+    caption={Python example from file},
+    label=lst:pythonfile,
+    language=Python
+]{listings/example.py}
+
+\lstinputlisting[%
+    caption={C++ example from file},
+    label=lst:cppfile,
+    language=C++,
+    numbers=left
+]{listings/example.cc}
+
+\begin{lstlisting}[
+    caption={Python code in \LaTeX{} document},
+    label=lst:pythondoc,
+    language=Python]
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 1)
+y = np.sin(2 * np.pi * x)
+
+plt.plot(x, y)
+plt.show()
+\end{lstlisting}
+
+\begin{lstlisting}[
+    caption={C++ code in \LaTeX{} document},
+    label=lst:cppdoc,
+    language=C++]
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  cout << "Hello, World!" << endl;
+  return 0;
+}
+\end{lstlisting}
+
+
+
+
+#### Cross-referencing ### especially for the appendices
+
+\cref{sec:crossref}
+
+\cref{fig:SimpleWorkflow}
+
+\cref{tab:something}
+
+
+
+
+
+#### Acronyms
+
+
+
+
+
