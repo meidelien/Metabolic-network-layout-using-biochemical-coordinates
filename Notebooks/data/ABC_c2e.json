@@ -1,0 +1,35 @@
+[
+    {
+        "homepage": "https://escher.github.io",
+        "map_description": "",
+        "map_id": {
+            "SUID": 29035,
+            "id": "29035",
+            "id_original": "M_his__L_c",
+            "name": "M_his__L_c",
+            "node_color": "red",
+            "selected": false,
+            "shared_name": "M_his__L_c",
+            "value": "M_his__L_c",
+            "x_pos": [
+                223.0
+            ],
+            "y_pos": [
+                620.0
+            ]
+        },
+        "map_name": "new_map",
+        "schema": "https://escher.github.io/escher/jsonschema/1-0-0#"
+    },
+    {
+        "canvas": {
+            "height": 5406,
+            "width": 3228,
+            "x": -1076,
+            "y": -1802
+        },
+        "nodes": {},
+        "reactions": {},
+        "text_labels": {}
+    }
+]

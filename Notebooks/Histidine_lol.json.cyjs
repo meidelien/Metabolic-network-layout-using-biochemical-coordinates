@@ -1,0 +1,295 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.9.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "Histidine_lol.json",
+    "name" : "Histidine_lol.json",
+    "SUID" : 28965,
+    "__Annotations" : [ ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "29035",
+        "shared_name" : "M_his__L_c",
+        "name" : "M_his__L_c",
+        "x_pos" : [ 223.0 ],
+        "SUID" : 29035,
+        "y_pos" : [ 620.0 ],
+        "id_original" : "M_his__L_c",
+        "value" : "M_his__L_c",
+        "selected" : false,
+        "node_color" : "red"
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29032",
+        "shared_name" : "M_histd_c",
+        "name" : "M_histd_c",
+        "x_pos" : [ 180.0 ],
+        "SUID" : 29032,
+        "y_pos" : [ 512.0 ],
+        "id_original" : "M_histd_c",
+        "value" : "M_histd_c",
+        "selected" : false,
+        "node_color" : "red"
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29029",
+        "shared_name" : "M_hisp_c",
+        "name" : "M_hisp_c",
+        "x_pos" : [ 371.0 ],
+        "SUID" : 29029,
+        "y_pos" : [ 534.0 ],
+        "id_original" : "M_hisp_c",
+        "value" : "M_hisp_c",
+        "selected" : false,
+        "node_color" : "red"
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29026",
+        "shared_name" : "M_imacp_c",
+        "name" : "M_imacp_c",
+        "x_pos" : [ 365.0 ],
+        "SUID" : 29026,
+        "y_pos" : [ 489.0 ],
+        "id_original" : "M_imacp_c",
+        "value" : "M_imacp_c",
+        "selected" : false,
+        "node_color" : "red"
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29023",
+        "shared_name" : "M_eig3p_c",
+        "name" : "M_eig3p_c",
+        "x_pos" : [ 399.0 ],
+        "SUID" : 29023,
+        "y_pos" : [ 391.0 ],
+        "id_original" : "M_eig3p_c",
+        "value" : "M_eig3p_c",
+        "selected" : false,
+        "node_color" : "red"
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29020",
+        "shared_name" : "M_prlp_c",
+        "name" : "M_prlp_c",
+        "x_pos" : [ 695.5 ],
+        "SUID" : 29020,
+        "y_pos" : [ 28.0 ],
+        "id_original" : "M_prlp_c",
+        "value" : "M_prlp_c",
+        "selected" : false,
+        "node_color" : "red"
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29017",
+        "shared_name" : "M_prfp_c",
+        "name" : "M_prfp_c",
+        "x_pos" : [ 695.5 ],
+        "SUID" : 29017,
+        "y_pos" : [ 27.0 ],
+        "id_original" : "M_prfp_c",
+        "value" : "M_prfp_c",
+        "selected" : false,
+        "node_color" : "red"
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29014",
+        "shared_name" : "M_prbamp_c",
+        "name" : "M_prbamp_c",
+        "x_pos" : [ 683.0 ],
+        "SUID" : 29014,
+        "y_pos" : [ 73.0 ],
+        "id_original" : "M_prbamp_c",
+        "value" : "M_prbamp_c",
+        "selected" : false,
+        "node_color" : "red"
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29011",
+        "shared_name" : "M_prbatp_c",
+        "name" : "M_prbatp_c",
+        "x_pos" : [ 763.0 ],
+        "SUID" : 29011,
+        "y_pos" : [ 37.0 ],
+        "id_original" : "M_prbatp_c",
+        "value" : "M_prbatp_c",
+        "selected" : false,
+        "node_color" : "red"
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "28992",
+        "shared_name" : "M_prpp_c",
+        "name" : "M_prpp_c",
+        "x_pos" : [ 576.0 ],
+        "SUID" : 28992,
+        "y_pos" : [ 83.0 ],
+        "id_original" : "M_prpp_c",
+        "value" : "M_prpp_c",
+        "selected" : false,
+        "node_color" : "red"
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "29068",
+        "source" : "29032",
+        "target" : "29035",
+        "SUID" : 29068,
+        "source_original" : "M_histd_c",
+        "selected" : false,
+        "target_original" : "M_his__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29065",
+        "source" : "29029",
+        "target" : "29032",
+        "SUID" : 29065,
+        "source_original" : "M_hisp_c",
+        "selected" : false,
+        "target_original" : "M_histd_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29062",
+        "source" : "29026",
+        "target" : "29029",
+        "SUID" : 29062,
+        "source_original" : "M_imacp_c",
+        "selected" : false,
+        "target_original" : "M_hisp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29059",
+        "source" : "29023",
+        "target" : "29026",
+        "SUID" : 29059,
+        "source_original" : "M_eig3p_c",
+        "selected" : false,
+        "target_original" : "M_imacp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29056",
+        "source" : "29020",
+        "target" : "29023",
+        "SUID" : 29056,
+        "source_original" : "M_prlp_c",
+        "selected" : false,
+        "target_original" : "M_eig3p_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29053",
+        "source" : "29017",
+        "target" : "29020",
+        "SUID" : 29053,
+        "source_original" : "M_prfp_c",
+        "selected" : false,
+        "target_original" : "M_prlp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29050",
+        "source" : "29014",
+        "target" : "29017",
+        "SUID" : 29050,
+        "source_original" : "M_prbamp_c",
+        "selected" : false,
+        "target_original" : "M_prfp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29047",
+        "source" : "29011",
+        "target" : "29014",
+        "SUID" : 29047,
+        "source_original" : "M_prbatp_c",
+        "selected" : false,
+        "target_original" : "M_prbamp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "29038",
+        "source" : "28992",
+        "target" : "29011",
+        "SUID" : 29038,
+        "source_original" : "M_prpp_c",
+        "selected" : false,
+        "target_original" : "M_prbatp_c"
+      },
+      "selected" : false
+    } ]
+  }
+}

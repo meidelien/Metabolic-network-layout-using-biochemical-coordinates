@@ -1,0 +1,125 @@
+{"data": [],
+    "directed": true,
+    "multigraph": false,
+    "elements": {"nodes": [
+            {"data": {"x_pos":[576],
+	 "y_pos":[ 83],
+        "node_color": "red",
+        "id": "M_prpp_c",
+        "value": "M_prpp_c",
+        "name": "M_prpp_c"
+                }
+            },
+            {"data": {"x_pos":[763],
+	 "y_pos":[ 37],
+        "node_color": "red",
+        "id": "M_prbatp_c",
+        "value": "M_prbatp_c",
+        "name": "M_prbatp_c"
+                }
+            },
+            {"data": {"x_pos":[683],
+	 "y_pos":[ 73],
+        "node_color": "red",
+        "id": "M_prbamp_c",
+        "value": "M_prbamp_c",
+        "name": "M_prbamp_c"
+                }
+            },
+            {"data": {"x_pos":[695.5],
+	 "y_pos":[27],
+        "node_color": "red",
+        "id": "M_prfp_c",
+        "value": "M_prfp_c",
+        "name": "M_prfp_c"
+                }
+            },
+            {"data": {"x_pos":[695.5],
+	 "y_pos":[28],
+        "node_color": "red",
+        "id": "M_prlp_c",
+        "value": "M_prlp_c",
+        "name": "M_prlp_c"
+                }
+            },
+            {"data": {"x_pos":[399],
+	 "y_pos":[391],
+        "node_color": "red",
+        "id": "M_eig3p_c",
+        "value": "M_eig3p_c",
+        "name": "M_eig3p_c"
+                }
+            },
+            {"data": {"x_pos":[365],
+	 "y_pos":[489],
+        "node_color": "red",
+        "id": "M_imacp_c",
+        "value": "M_imacp_c",
+        "name": "M_imacp_c"
+                }
+            },
+            {"data": {"x_pos":[371],
+	 "y_pos":[534],
+        "node_color": "red",
+        "id": "M_hisp_c",
+        "value": "M_hisp_c",
+        "name": "M_hisp_c"
+                }
+            },
+            {"data": {"x_pos":[180],
+	 "y_pos":[512],
+        "node_color": "red",
+        "id": "M_histd_c",
+        "value": "M_histd_c",
+        "name": "M_histd_c"
+                }
+            },
+            {"data": {"x_pos":[223],
+	 "y_pos":[620],
+        "node_color": "red",
+        "id": "M_his__L_c",
+        "value": "M_his__L_c",
+        "name": "M_his__L_c"
+                }
+            }
+        ],
+     "edges": [
+            {"data": {"source": "M_prpp_c"
+	 "y_pos":["target": "M_prbatp_c"
+                }
+            },
+            {"data": {"source": "M_prbatp_c"
+	 "y_pos":["target": "M_prbamp_c"
+                }
+            },
+            {"data": {"source": "M_prbamp_c"
+	 "y_pos":["target": "M_prfp_c"
+                }
+            },
+            {"data": {"source": "M_prfp_c"
+	 "y_pos":["target": "M_prlp_c"
+                }
+            },
+            {"data": {"source": "M_prlp_c"
+	 "y_pos":["target": "M_eig3p_c"
+                }
+            },
+            {"data": {"source": "M_eig3p_c"
+	 "y_pos":["target": "M_imacp_c"
+                }
+            },
+            {"data": {"source": "M_imacp_c"
+	 "y_pos":["target": "M_hisp_c"
+                }
+            },
+            {"data": {"source": "M_hisp_c"
+	 "y_pos":["target": "M_histd_c"
+                }
+            },
+            {"data": {"source": "M_histd_c"
+	 "y_pos":["target": "M_his__L_c"
+                }
+            }
+        ]
+    }
+}
