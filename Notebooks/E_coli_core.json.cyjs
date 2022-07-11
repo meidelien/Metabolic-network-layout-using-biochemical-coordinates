@@ -1,0 +1,3472 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.9.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "E_coli_core.json",
+    "name" : "E_coli_core.json",
+    "SUID" : 125,
+    "__Annotations" : [ ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "312",
+        "shared_name" : "M_lac__D_c",
+        "pos" : [ 0.40858641, -1.8829 ],
+        "name" : "M_lac__D_c",
+        "SUID" : 312,
+        "id_original" : "M_lac__D_c",
+        "value" : "M_lac__D_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -257.1946778711483,
+        "y" : -838.9705882352941
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "309",
+        "shared_name" : "M_glx_c",
+        "pos" : [ 0.26457198, -2.0648 ],
+        "name" : "M_glx_c",
+        "SUID" : 309,
+        "id_original" : "M_glx_c",
+        "value" : "M_glx_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -637.0617413632119,
+        "y" : 1158.5294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "306",
+        "shared_name" : "M_glc__D_e",
+        "pos" : [ 0.29015285, -3.2214 ],
+        "name" : "M_glc__D_e",
+        "SUID" : 306,
+        "id_original" : "M_glc__D_e",
+        "value" : "M_glc__D_e",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -275.9446778711483,
+        "y" : 1313.5294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "303",
+        "shared_name" : "M_fru_e",
+        "pos" : [ 0.30558657, -3.2198 ],
+        "name" : "M_fru_e",
+        "SUID" : 303,
+        "id_original" : "M_fru_e",
+        "value" : "M_fru_e",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -380.9446778711483,
+        "y" : 1313.5294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "300",
+        "shared_name" : "M_dhap_c",
+        "pos" : [ 0.46032801, -2.6069 ],
+        "name" : "M_dhap_c",
+        "SUID" : 300,
+        "id_original" : "M_dhap_c",
+        "value" : "M_dhap_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 596.8993697478993,
+        "y" : 646.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "297",
+        "shared_name" : "M_s7p_c",
+        "pos" : [ 0.26961126, -5.1633 ],
+        "name" : "M_s7p_c",
+        "SUID" : 297,
+        "id_original" : "M_s7p_c",
+        "value" : "M_s7p_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 467.5243697478993,
+        "y" : 771.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "294",
+        "shared_name" : "M_etoh_e",
+        "pos" : [ 0.40680797, -0.0014 ],
+        "name" : "M_etoh_e",
+        "SUID" : 294,
+        "id_original" : "M_etoh_e",
+        "value" : "M_etoh_e",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -33.55816993464043,
+        "y" : -963.9705882352941
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "291",
+        "shared_name" : "M_fum_c",
+        "pos" : [ 0.35910182, -2.9576 ],
+        "name" : "M_fum_c",
+        "SUID" : 291,
+        "id_original" : "M_fum_c",
+        "value" : "M_fum_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -882.2851540616246,
+        "y" : -2356.470588235294
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "288",
+        "shared_name" : "M_succ_c",
+        "pos" : [ 0.40048958, -2.7336 ],
+        "name" : "M_succ_c",
+        "SUID" : 288,
+        "id_original" : "M_succ_c",
+        "value" : "M_succ_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -858.847852474323,
+        "y" : 1158.5294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "285",
+        "shared_name" : "M_o2_c",
+        "pos" : [ 0.37829615, 0.067 ],
+        "name" : "M_o2_c",
+        "SUID" : 285,
+        "id_original" : "M_o2_c",
+        "value" : "M_o2_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 151.68389355742306,
+        "y" : -2356.470588235294
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "282",
+        "shared_name" : "M_xu5p__D_c",
+        "pos" : [ 0.39023896, -3.8851 ],
+        "name" : "M_xu5p__D_c",
+        "SUID" : 282,
+        "id_original" : "M_xu5p__D_c",
+        "value" : "M_xu5p__D_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 467.5243697478993,
+        "y" : 646.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "279",
+        "shared_name" : "M_ru5p__D_c",
+        "pos" : [ 0.39023896, -3.8851 ],
+        "name" : "M_ru5p__D_c",
+        "SUID" : 279,
+        "id_original" : "M_ru5p__D_c",
+        "value" : "M_ru5p__D_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 467.5243697478993,
+        "y" : 536.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "276",
+        "shared_name" : "M_g3p_c",
+        "pos" : [ 0.36344186, -2.6085 ],
+        "name" : "M_g3p_c",
+        "SUID" : 276,
+        "id_original" : "M_g3p_c",
+        "value" : "M_g3p_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 607.6136554621851,
+        "y" : 771.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "273",
+        "shared_name" : "M_e4p_c",
+        "pos" : [ 0.35007749, -3.2476 ],
+        "name" : "M_e4p_c",
+        "SUID" : 273,
+        "id_original" : "M_e4p_c",
+        "value" : "M_e4p_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 472.2116713352009,
+        "y" : 896.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "270",
+        "shared_name" : "M_q8h2_c",
+        "pos" : [ 0.07772781, 15.01762 ],
+        "name" : "M_q8h2_c",
+        "SUID" : 270,
+        "id_original" : "M_q8h2_c",
+        "value" : "M_q8h2_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -707.7764239028944,
+        "y" : -2121.470588235294
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "267",
+        "shared_name" : "M_q8_c",
+        "pos" : [ 0.06941562, 14.4009 ],
+        "name" : "M_q8_c",
+        "SUID" : 267,
+        "id_original" : "M_q8_c",
+        "value" : "M_q8_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -717.1514239028944,
+        "y" : -2231.470588235294
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "264",
+        "shared_name" : "M_acon_C_c",
+        "pos" : [ 0.39315603, -4.4474 ],
+        "name" : "M_acon_C_c",
+        "SUID" : 264,
+        "id_original" : "M_acon_C_c",
+        "value" : "M_acon_C_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -697.0617413632119,
+        "y" : 896.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "261",
+        "shared_name" : "M_ac_c",
+        "pos" : [ 0.34977402, -1.2438 ],
+        "name" : "M_ac_c",
+        "SUID" : 261,
+        "id_original" : "M_ac_c",
+        "value" : "M_ac_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 213.55889355742306,
+        "y" : -2531.470588235294
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "258",
+        "shared_name" : "M_etoh_c",
+        "pos" : [ 0.40680797, -0.0014 ],
+        "name" : "M_etoh_c",
+        "SUID" : 258,
+        "id_original" : "M_etoh_c",
+        "value" : "M_etoh_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -152.19467787114831,
+        "y" : -838.9705882352941
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "255",
+        "shared_name" : "M_2pg_c",
+        "pos" : [ 0.43795947, -4.0575 ],
+        "name" : "M_2pg_c",
+        "SUID" : 255,
+        "id_original" : "M_2pg_c",
+        "value" : "M_2pg_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 151.68389355742306,
+        "y" : -2121.470588235294
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "252",
+        "shared_name" : "M_akg_e",
+        "pos" : [ 0.38758828, -3.1645 ],
+        "name" : "M_akg_e",
+        "SUID" : 252,
+        "id_original" : "M_akg_e",
+        "value" : "M_akg_e",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 73.77159197012156,
+        "y" : -611.4705882352941
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "249",
+        "shared_name" : "M_nad_c",
+        "pos" : [ 0.04441887, -4.06113 ],
+        "name" : "M_nad_c",
+        "SUID" : 249,
+        "id_original" : "M_nad_c",
+        "value" : "M_nad_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -433.4446778711483,
+        "y" : 256.02941176470586
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "246",
+        "shared_name" : "M_acald_c",
+        "pos" : [ 0.35500761, 0.2052 ],
+        "name" : "M_acald_c",
+        "SUID" : 246,
+        "id_original" : "M_acald_c",
+        "value" : "M_acald_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -507.3740429505134,
+        "y" : 441.02941176470586
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "243",
+        "shared_name" : "M_glu__L_c",
+        "pos" : [ 0.47374336, -2.0716 ],
+        "name" : "M_glu__L_c",
+        "SUID" : 243,
+        "id_original" : "M_glu__L_c",
+        "value" : "M_glu__L_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 734.04302054155,
+        "y" : -186.47058823529414
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "240",
+        "shared_name" : "M_nh4_c",
+        "pos" : [ 0.39321321, 0.3762 ],
+        "name" : "M_nh4_c",
+        "SUID" : 240,
+        "id_original" : "M_nh4_c",
+        "value" : "M_nh4_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 770.472385620915,
+        "y" : 256.02941176470586
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "237",
+        "shared_name" : "M_nadph_c",
+        "pos" : [ 0.06384601, -4.61313 ],
+        "name" : "M_nadph_c",
+        "SUID" : 237,
+        "id_original" : "M_nadph_c",
+        "value" : "M_nadph_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 369.7358776844071,
+        "y" : 1766.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "234",
+        "shared_name" : "M_mal__L_c",
+        "pos" : [ 0.42456492, -3.7628 ],
+        "name" : "M_mal__L_c",
+        "SUID" : 234,
+        "id_original" : "M_mal__L_c",
+        "value" : "M_mal__L_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -170.94467787114831,
+        "y" : 1313.5294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "231",
+        "shared_name" : "M_cit_c",
+        "pos" : [ 0.45490402, -5.2526 ],
+        "name" : "M_cit_c",
+        "SUID" : 231,
+        "id_original" : "M_cit_c",
+        "value" : "M_cit_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -712.0617413632119,
+        "y" : 771.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "228",
+        "shared_name" : "M_icit_c",
+        "pos" : [ 0.45446006, -5.3967 ],
+        "name" : "M_icit_c",
+        "SUID" : 228,
+        "id_original" : "M_icit_c",
+        "value" : "M_icit_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -672.0617413632119,
+        "y" : 991.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "225",
+        "shared_name" : "M_oaa_c",
+        "pos" : [ 0.29066972, -3.5546 ],
+        "name" : "M_oaa_c",
+        "SUID" : 225,
+        "id_original" : "M_oaa_c",
+        "value" : "M_oaa_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -49.239915966386434,
+        "y" : 646.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "222",
+        "shared_name" : "M_h2o_c",
+        "pos" : [ 0.32774768, -0.8247 ],
+        "name" : "M_h2o_c",
+        "SUID" : 222,
+        "id_original" : "M_h2o_c",
+        "value" : "M_h2o_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 219.18389355742306,
+        "y" : -1981.4705882352941
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "219",
+        "shared_name" : "M_6pgc_c",
+        "pos" : [ 0.32403513, -5.9748 ],
+        "name" : "M_6pgc_c",
+        "SUID" : 219,
+        "id_original" : "M_6pgc_c",
+        "value" : "M_6pgc_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 323.7743697478993,
+        "y" : 441.02941176470586
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "216",
+        "shared_name" : "M_6pgl_c",
+        "pos" : [ 0.33592813, -4.1602 ],
+        "name" : "M_6pgl_c",
+        "SUID" : 216,
+        "id_original" : "M_6pgl_c",
+        "value" : "M_6pgl_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 323.7743697478993,
+        "y" : 256.02941176470586
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "213",
+        "shared_name" : "M_3pg_c",
+        "pos" : [ 0.43795947, -4.0575 ],
+        "name" : "M_3pg_c",
+        "SUID" : 213,
+        "id_original" : "M_3pg_c",
+        "value" : "M_3pg_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 74.18389355742306,
+        "y" : -1981.4705882352941
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "210",
+        "shared_name" : "M_pyr_c",
+        "pos" : [ 0.35896536, -1.6747 ],
+        "name" : "M_pyr_c",
+        "SUID" : 210,
+        "id_original" : "M_pyr_c",
+        "value" : "M_pyr_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 181.3938141923436,
+        "y" : 1766.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "207",
+        "shared_name" : "M_for_c",
+        "pos" : [ 0.30654732, -1.6339 ],
+        "name" : "M_for_c",
+        "SUID" : 207,
+        "id_original" : "M_for_c",
+        "value" : "M_for_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -981.3946778711484,
+        "y" : 1966.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "204",
+        "shared_name" : "M_accoa_c",
+        "pos" : [ 0.040169, -3.2942 ],
+        "name" : "M_accoa_c",
+        "SUID" : 204,
+        "id_original" : "M_accoa_c",
+        "value" : "M_accoa_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -556.7490429505135,
+        "y" : 1966.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "201",
+        "shared_name" : "M_gln__L_c",
+        "pos" : [ 0.32267904, -0.28623 ],
+        "name" : "M_gln__L_c",
+        "SUID" : 201,
+        "id_original" : "M_gln__L_c",
+        "value" : "M_gln__L_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 825.6684173669469,
+        "y" : 441.02941176470586
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "198",
+        "shared_name" : "M_succoa_c",
+        "pos" : [ 0.03208513, -4.784 ],
+        "name" : "M_succoa_c",
+        "SUID" : 198,
+        "id_original" : "M_succoa_c",
+        "value" : "M_succoa_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -399.6946778711483,
+        "y" : -963.9705882352941
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "195",
+        "shared_name" : "M_nadp_c",
+        "pos" : [ 0.04124779, -5.20813 ],
+        "name" : "M_nadp_c",
+        "SUID" : 195,
+        "id_original" : "M_nadp_c",
+        "value" : "M_nadp_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 348.7743697478993,
+        "y" : 26.029411764705856
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "192",
+        "shared_name" : "M_nadh_c",
+        "pos" : [ 0.06972302, -3.46613 ],
+        "name" : "M_nadh_c",
+        "SUID" : 192,
+        "id_original" : "M_nadh_c",
+        "value" : "M_nadh_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -314.3819794584499,
+        "y" : -611.4705882352941
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "189",
+        "shared_name" : "M_coa_c",
+        "pos" : [ 0.03688141, -3.6441 ],
+        "name" : "M_coa_c",
+        "SUID" : 189,
+        "id_original" : "M_coa_c",
+        "value" : "M_coa_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -99.69467787114831,
+        "y" : -1603.9705882352941
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "186",
+        "shared_name" : "M_amp_c",
+        "pos" : [ 0.47443541, -3.127 ],
+        "name" : "M_amp_c",
+        "SUID" : 186,
+        "id_original" : "M_amp_c",
+        "value" : "M_amp_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 967.3009570494867,
+        "y" : 1966.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "183",
+        "shared_name" : "M_pep_c",
+        "pos" : [ 0.25146388, -2.9047 ],
+        "name" : "M_pep_c",
+        "SUID" : 183,
+        "id_original" : "M_pep_c",
+        "value" : "M_pep_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 223.1124649859944,
+        "y" : -838.9705882352941
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "180",
+        "shared_name" : "M_co2_c",
+        "pos" : [ 0.36416713, -0.5835 ],
+        "name" : "M_co2_c",
+        "SUID" : 180,
+        "id_original" : "M_co2_c",
+        "value" : "M_co2_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 26.271591970121563,
+        "y" : 536.0294117647059
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "177",
+        "shared_name" : "M_pi_c",
+        "pos" : [ 0.34687238, -2.1926 ],
+        "name" : "M_pi_c",
+        "SUID" : 177,
+        "id_original" : "M_pi_c",
+        "value" : "M_pi_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 287.08746498599453,
+        "y" : 2208.529411764706
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "174",
+        "shared_name" : "M_actp_c",
+        "pos" : [ 0.40584252, -1.6218 ],
+        "name" : "M_actp_c",
+        "SUID" : 174,
+        "id_original" : "M_actp_c",
+        "value" : "M_actp_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 194.80889355742306,
+        "y" : -2451.470588235294
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "171",
+        "shared_name" : "M_13dpg_c",
+        "pos" : [ 0.47382196, -4.4355 ],
+        "name" : "M_13dpg_c",
+        "SUID" : 171,
+        "id_original" : "M_13dpg_c",
+        "value" : "M_13dpg_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 260.83746498599453,
+        "y" : 2333.529411764706
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "168",
+        "shared_name" : "M_h_c",
+        "pos" : [ 0.34264256, 0.1125 ],
+        "name" : "M_h_c",
+        "SUID" : 168,
+        "id_original" : "M_h_c",
+        "value" : "M_h_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 140.6124649859944,
+        "y" : -353.97058823529414
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "165",
+        "shared_name" : "M_adp_c",
+        "pos" : [ 0.37890412, -3.642 ],
+        "name" : "M_adp_c",
+        "SUID" : 165,
+        "id_original" : "M_adp_c",
+        "value" : "M_adp_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 296.48984593837554,
+        "y" : -1391.4705882352941
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "152",
+        "shared_name" : "M_atp_c",
+        "pos" : [ 0.28787964, -4.157 ],
+        "name" : "M_atp_c",
+        "SUID" : 152,
+        "id_original" : "M_atp_c",
+        "value" : "M_atp_c",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 259.54143323996277,
+        "y" : -1116.4705882352941
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "1038",
+        "source" : "312",
+        "target" : "210",
+        "SUID" : 1038,
+        "source_original" : "M_lac__D_c",
+        "selected" : false,
+        "target_original" : "M_pyr_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1035",
+        "source" : "312",
+        "target" : "192",
+        "SUID" : 1035,
+        "source_original" : "M_lac__D_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1032",
+        "source" : "312",
+        "target" : "168",
+        "SUID" : 1032,
+        "source_original" : "M_lac__D_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1029",
+        "source" : "309",
+        "target" : "234",
+        "SUID" : 1029,
+        "source_original" : "M_glx_c",
+        "selected" : false,
+        "target_original" : "M_mal__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1026",
+        "source" : "309",
+        "target" : "168",
+        "SUID" : 1026,
+        "source_original" : "M_glx_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1023",
+        "source" : "309",
+        "target" : "189",
+        "SUID" : 1023,
+        "source_original" : "M_glx_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1020",
+        "source" : "306",
+        "target" : "210",
+        "SUID" : 1020,
+        "source_original" : "M_glc__D_e",
+        "selected" : false,
+        "target_original" : "M_pyr_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1017",
+        "source" : "303",
+        "target" : "210",
+        "SUID" : 1017,
+        "source_original" : "M_fru_e",
+        "selected" : false,
+        "target_original" : "M_pyr_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1014",
+        "source" : "300",
+        "target" : "276",
+        "SUID" : 1014,
+        "source_original" : "M_dhap_c",
+        "selected" : false,
+        "target_original" : "M_g3p_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1011",
+        "source" : "297",
+        "target" : "273",
+        "SUID" : 1011,
+        "source_original" : "M_s7p_c",
+        "selected" : false,
+        "target_original" : "M_e4p_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1008",
+        "source" : "294",
+        "target" : "168",
+        "SUID" : 1008,
+        "source_original" : "M_etoh_e",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1005",
+        "source" : "294",
+        "target" : "258",
+        "SUID" : 1005,
+        "source_original" : "M_etoh_e",
+        "selected" : false,
+        "target_original" : "M_etoh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1002",
+        "source" : "291",
+        "target" : "234",
+        "SUID" : 1002,
+        "source_original" : "M_fum_c",
+        "selected" : false,
+        "target_original" : "M_mal__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "999",
+        "source" : "291",
+        "target" : "288",
+        "SUID" : 999,
+        "source_original" : "M_fum_c",
+        "selected" : false,
+        "target_original" : "M_succ_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "996",
+        "source" : "291",
+        "target" : "267",
+        "SUID" : 996,
+        "source_original" : "M_fum_c",
+        "selected" : false,
+        "target_original" : "M_q8_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "993",
+        "source" : "288",
+        "target" : "198",
+        "SUID" : 993,
+        "source_original" : "M_succ_c",
+        "selected" : false,
+        "target_original" : "M_succoa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "990",
+        "source" : "288",
+        "target" : "177",
+        "SUID" : 990,
+        "source_original" : "M_succ_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "987",
+        "source" : "288",
+        "target" : "165",
+        "SUID" : 987,
+        "source_original" : "M_succ_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "984",
+        "source" : "288",
+        "target" : "270",
+        "SUID" : 984,
+        "source_original" : "M_succ_c",
+        "selected" : false,
+        "target_original" : "M_q8h2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "981",
+        "source" : "288",
+        "target" : "291",
+        "SUID" : 981,
+        "source_original" : "M_succ_c",
+        "selected" : false,
+        "target_original" : "M_fum_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "978",
+        "source" : "288",
+        "target" : "168",
+        "SUID" : 978,
+        "source_original" : "M_succ_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "975",
+        "source" : "285",
+        "target" : "267",
+        "SUID" : 975,
+        "source_original" : "M_o2_c",
+        "selected" : false,
+        "target_original" : "M_q8_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "972",
+        "source" : "285",
+        "target" : "222",
+        "SUID" : 972,
+        "source_original" : "M_o2_c",
+        "selected" : false,
+        "target_original" : "M_h2o_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "969",
+        "source" : "282",
+        "target" : "297",
+        "SUID" : 969,
+        "source_original" : "M_xu5p__D_c",
+        "selected" : false,
+        "target_original" : "M_s7p_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "966",
+        "source" : "282",
+        "target" : "276",
+        "SUID" : 966,
+        "source_original" : "M_xu5p__D_c",
+        "selected" : false,
+        "target_original" : "M_g3p_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "963",
+        "source" : "279",
+        "target" : "282",
+        "SUID" : 963,
+        "source_original" : "M_ru5p__D_c",
+        "selected" : false,
+        "target_original" : "M_xu5p__D_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "960",
+        "source" : "276",
+        "target" : "171",
+        "SUID" : 960,
+        "source_original" : "M_g3p_c",
+        "selected" : false,
+        "target_original" : "M_13dpg_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "957",
+        "source" : "276",
+        "target" : "273",
+        "SUID" : 957,
+        "source_original" : "M_g3p_c",
+        "selected" : false,
+        "target_original" : "M_e4p_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "954",
+        "source" : "276",
+        "target" : "177",
+        "SUID" : 954,
+        "source_original" : "M_g3p_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "951",
+        "source" : "276",
+        "target" : "195",
+        "SUID" : 951,
+        "source_original" : "M_g3p_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "948",
+        "source" : "276",
+        "target" : "192",
+        "SUID" : 948,
+        "source_original" : "M_g3p_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "945",
+        "source" : "276",
+        "target" : "168",
+        "SUID" : 945,
+        "source_original" : "M_g3p_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "942",
+        "source" : "276",
+        "target" : "189",
+        "SUID" : 942,
+        "source_original" : "M_g3p_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "939",
+        "source" : "276",
+        "target" : "165",
+        "SUID" : 939,
+        "source_original" : "M_g3p_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "936",
+        "source" : "273",
+        "target" : "276",
+        "SUID" : 936,
+        "source_original" : "M_e4p_c",
+        "selected" : false,
+        "target_original" : "M_g3p_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "933",
+        "source" : "273",
+        "target" : "177",
+        "SUID" : 933,
+        "source_original" : "M_e4p_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "930",
+        "source" : "273",
+        "target" : "195",
+        "SUID" : 930,
+        "source_original" : "M_e4p_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "927",
+        "source" : "273",
+        "target" : "192",
+        "SUID" : 927,
+        "source_original" : "M_e4p_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "924",
+        "source" : "273",
+        "target" : "168",
+        "SUID" : 924,
+        "source_original" : "M_e4p_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "921",
+        "source" : "273",
+        "target" : "189",
+        "SUID" : 921,
+        "source_original" : "M_e4p_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "918",
+        "source" : "273",
+        "target" : "165",
+        "SUID" : 918,
+        "source_original" : "M_e4p_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "915",
+        "source" : "270",
+        "target" : "288",
+        "SUID" : 915,
+        "source_original" : "M_q8h2_c",
+        "selected" : false,
+        "target_original" : "M_succ_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "912",
+        "source" : "270",
+        "target" : "267",
+        "SUID" : 912,
+        "source_original" : "M_q8h2_c",
+        "selected" : false,
+        "target_original" : "M_q8_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "909",
+        "source" : "270",
+        "target" : "222",
+        "SUID" : 909,
+        "source_original" : "M_q8h2_c",
+        "selected" : false,
+        "target_original" : "M_h2o_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "906",
+        "source" : "267",
+        "target" : "249",
+        "SUID" : 906,
+        "source_original" : "M_q8_c",
+        "selected" : false,
+        "target_original" : "M_nad_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "903",
+        "source" : "267",
+        "target" : "270",
+        "SUID" : 903,
+        "source_original" : "M_q8_c",
+        "selected" : false,
+        "target_original" : "M_q8h2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "900",
+        "source" : "267",
+        "target" : "291",
+        "SUID" : 900,
+        "source_original" : "M_q8_c",
+        "selected" : false,
+        "target_original" : "M_fum_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "897",
+        "source" : "264",
+        "target" : "228",
+        "SUID" : 897,
+        "source_original" : "M_acon_C_c",
+        "selected" : false,
+        "target_original" : "M_icit_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "894",
+        "source" : "261",
+        "target" : "165",
+        "SUID" : 894,
+        "source_original" : "M_ac_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "891",
+        "source" : "261",
+        "target" : "174",
+        "SUID" : 891,
+        "source_original" : "M_ac_c",
+        "selected" : false,
+        "target_original" : "M_actp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "888",
+        "source" : "258",
+        "target" : "192",
+        "SUID" : 888,
+        "source_original" : "M_etoh_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "885",
+        "source" : "258",
+        "target" : "168",
+        "SUID" : 885,
+        "source_original" : "M_etoh_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "882",
+        "source" : "258",
+        "target" : "246",
+        "SUID" : 882,
+        "source_original" : "M_etoh_c",
+        "selected" : false,
+        "target_original" : "M_acald_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "879",
+        "source" : "255",
+        "target" : "183",
+        "SUID" : 879,
+        "source_original" : "M_2pg_c",
+        "selected" : false,
+        "target_original" : "M_pep_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "876",
+        "source" : "255",
+        "target" : "222",
+        "SUID" : 876,
+        "source_original" : "M_2pg_c",
+        "selected" : false,
+        "target_original" : "M_h2o_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "873",
+        "source" : "255",
+        "target" : "213",
+        "SUID" : 873,
+        "source_original" : "M_2pg_c",
+        "selected" : false,
+        "target_original" : "M_3pg_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "870",
+        "source" : "252",
+        "target" : "168",
+        "SUID" : 870,
+        "source_original" : "M_akg_e",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "867",
+        "source" : "249",
+        "target" : "225",
+        "SUID" : 867,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_oaa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "864",
+        "source" : "249",
+        "target" : "210",
+        "SUID" : 864,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_pyr_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "861",
+        "source" : "249",
+        "target" : "171",
+        "SUID" : 861,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_13dpg_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "858",
+        "source" : "249",
+        "target" : "177",
+        "SUID" : 858,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "855",
+        "source" : "249",
+        "target" : "195",
+        "SUID" : 855,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "852",
+        "source" : "249",
+        "target" : "189",
+        "SUID" : 852,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "849",
+        "source" : "249",
+        "target" : "165",
+        "SUID" : 849,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "846",
+        "source" : "249",
+        "target" : "198",
+        "SUID" : 846,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_succoa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "843",
+        "source" : "249",
+        "target" : "180",
+        "SUID" : 843,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_co2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "840",
+        "source" : "249",
+        "target" : "246",
+        "SUID" : 840,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_acald_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "837",
+        "source" : "249",
+        "target" : "192",
+        "SUID" : 837,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "834",
+        "source" : "249",
+        "target" : "168",
+        "SUID" : 834,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "831",
+        "source" : "249",
+        "target" : "204",
+        "SUID" : 831,
+        "source_original" : "M_nad_c",
+        "selected" : false,
+        "target_original" : "M_accoa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "828",
+        "source" : "246",
+        "target" : "192",
+        "SUID" : 828,
+        "source_original" : "M_acald_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "825",
+        "source" : "246",
+        "target" : "168",
+        "SUID" : 825,
+        "source_original" : "M_acald_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "822",
+        "source" : "246",
+        "target" : "204",
+        "SUID" : 822,
+        "source_original" : "M_acald_c",
+        "selected" : false,
+        "target_original" : "M_accoa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "819",
+        "source" : "243",
+        "target" : "240",
+        "SUID" : 819,
+        "source_original" : "M_glu__L_c",
+        "selected" : false,
+        "target_original" : "M_nh4_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "816",
+        "source" : "243",
+        "target" : "237",
+        "SUID" : 816,
+        "source_original" : "M_glu__L_c",
+        "selected" : false,
+        "target_original" : "M_nadph_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "813",
+        "source" : "243",
+        "target" : "201",
+        "SUID" : 813,
+        "source_original" : "M_glu__L_c",
+        "selected" : false,
+        "target_original" : "M_gln__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "810",
+        "source" : "243",
+        "target" : "177",
+        "SUID" : 810,
+        "source_original" : "M_glu__L_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "807",
+        "source" : "243",
+        "target" : "195",
+        "SUID" : 807,
+        "source_original" : "M_glu__L_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "804",
+        "source" : "243",
+        "target" : "192",
+        "SUID" : 804,
+        "source_original" : "M_glu__L_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "801",
+        "source" : "243",
+        "target" : "168",
+        "SUID" : 801,
+        "source_original" : "M_glu__L_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "798",
+        "source" : "243",
+        "target" : "189",
+        "SUID" : 798,
+        "source_original" : "M_glu__L_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "795",
+        "source" : "243",
+        "target" : "165",
+        "SUID" : 795,
+        "source_original" : "M_glu__L_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "792",
+        "source" : "240",
+        "target" : "177",
+        "SUID" : 792,
+        "source_original" : "M_nh4_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "789",
+        "source" : "240",
+        "target" : "168",
+        "SUID" : 789,
+        "source_original" : "M_nh4_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "786",
+        "source" : "240",
+        "target" : "201",
+        "SUID" : 786,
+        "source_original" : "M_nh4_c",
+        "selected" : false,
+        "target_original" : "M_gln__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "783",
+        "source" : "240",
+        "target" : "165",
+        "SUID" : 783,
+        "source_original" : "M_nh4_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "780",
+        "source" : "237",
+        "target" : "243",
+        "SUID" : 780,
+        "source_original" : "M_nadph_c",
+        "selected" : false,
+        "target_original" : "M_glu__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "777",
+        "source" : "237",
+        "target" : "177",
+        "SUID" : 777,
+        "source_original" : "M_nadph_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "774",
+        "source" : "237",
+        "target" : "195",
+        "SUID" : 774,
+        "source_original" : "M_nadph_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "771",
+        "source" : "237",
+        "target" : "192",
+        "SUID" : 771,
+        "source_original" : "M_nadph_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "768",
+        "source" : "237",
+        "target" : "168",
+        "SUID" : 768,
+        "source_original" : "M_nadph_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "765",
+        "source" : "237",
+        "target" : "189",
+        "SUID" : 765,
+        "source_original" : "M_nadph_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "762",
+        "source" : "237",
+        "target" : "165",
+        "SUID" : 762,
+        "source_original" : "M_nadph_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "759",
+        "source" : "234",
+        "target" : "237",
+        "SUID" : 759,
+        "source_original" : "M_mal__L_c",
+        "selected" : false,
+        "target_original" : "M_nadph_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "756",
+        "source" : "234",
+        "target" : "210",
+        "SUID" : 756,
+        "source_original" : "M_mal__L_c",
+        "selected" : false,
+        "target_original" : "M_pyr_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "753",
+        "source" : "234",
+        "target" : "180",
+        "SUID" : 753,
+        "source_original" : "M_mal__L_c",
+        "selected" : false,
+        "target_original" : "M_co2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "750",
+        "source" : "234",
+        "target" : "225",
+        "SUID" : 750,
+        "source_original" : "M_mal__L_c",
+        "selected" : false,
+        "target_original" : "M_oaa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "747",
+        "source" : "234",
+        "target" : "192",
+        "SUID" : 747,
+        "source_original" : "M_mal__L_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "744",
+        "source" : "234",
+        "target" : "168",
+        "SUID" : 744,
+        "source_original" : "M_mal__L_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "741",
+        "source" : "231",
+        "target" : "222",
+        "SUID" : 741,
+        "source_original" : "M_cit_c",
+        "selected" : false,
+        "target_original" : "M_h2o_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "738",
+        "source" : "231",
+        "target" : "264",
+        "SUID" : 738,
+        "source_original" : "M_cit_c",
+        "selected" : false,
+        "target_original" : "M_acon_C_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "735",
+        "source" : "228",
+        "target" : "288",
+        "SUID" : 735,
+        "source_original" : "M_icit_c",
+        "selected" : false,
+        "target_original" : "M_succ_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "732",
+        "source" : "228",
+        "target" : "309",
+        "SUID" : 732,
+        "source_original" : "M_icit_c",
+        "selected" : false,
+        "target_original" : "M_glx_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "729",
+        "source" : "228",
+        "target" : "237",
+        "SUID" : 729,
+        "source_original" : "M_icit_c",
+        "selected" : false,
+        "target_original" : "M_nadph_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "726",
+        "source" : "228",
+        "target" : "180",
+        "SUID" : 726,
+        "source_original" : "M_icit_c",
+        "selected" : false,
+        "target_original" : "M_co2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "723",
+        "source" : "225",
+        "target" : "231",
+        "SUID" : 723,
+        "source_original" : "M_oaa_c",
+        "selected" : false,
+        "target_original" : "M_cit_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "720",
+        "source" : "225",
+        "target" : "177",
+        "SUID" : 720,
+        "source_original" : "M_oaa_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "717",
+        "source" : "225",
+        "target" : "195",
+        "SUID" : 717,
+        "source_original" : "M_oaa_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "714",
+        "source" : "225",
+        "target" : "192",
+        "SUID" : 714,
+        "source_original" : "M_oaa_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "711",
+        "source" : "225",
+        "target" : "168",
+        "SUID" : 711,
+        "source_original" : "M_oaa_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "708",
+        "source" : "225",
+        "target" : "189",
+        "SUID" : 708,
+        "source_original" : "M_oaa_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "705",
+        "source" : "225",
+        "target" : "183",
+        "SUID" : 705,
+        "source_original" : "M_oaa_c",
+        "selected" : false,
+        "target_original" : "M_pep_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "702",
+        "source" : "225",
+        "target" : "180",
+        "SUID" : 702,
+        "source_original" : "M_oaa_c",
+        "selected" : false,
+        "target_original" : "M_co2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "699",
+        "source" : "225",
+        "target" : "165",
+        "SUID" : 699,
+        "source_original" : "M_oaa_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "696",
+        "source" : "222",
+        "target" : "243",
+        "SUID" : 696,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_glu__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "693",
+        "source" : "222",
+        "target" : "240",
+        "SUID" : 693,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_nh4_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "690",
+        "source" : "222",
+        "target" : "237",
+        "SUID" : 690,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_nadph_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "687",
+        "source" : "222",
+        "target" : "201",
+        "SUID" : 687,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_gln__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "684",
+        "source" : "222",
+        "target" : "234",
+        "SUID" : 684,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_mal__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "681",
+        "source" : "222",
+        "target" : "231",
+        "SUID" : 681,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_cit_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "678",
+        "source" : "222",
+        "target" : "195",
+        "SUID" : 678,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "675",
+        "source" : "222",
+        "target" : "192",
+        "SUID" : 675,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "672",
+        "source" : "222",
+        "target" : "189",
+        "SUID" : 672,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "669",
+        "source" : "222",
+        "target" : "183",
+        "SUID" : 669,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_pep_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "666",
+        "source" : "222",
+        "target" : "186",
+        "SUID" : 666,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_amp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "663",
+        "source" : "222",
+        "target" : "165",
+        "SUID" : 663,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "660",
+        "source" : "222",
+        "target" : "228",
+        "SUID" : 660,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_icit_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "657",
+        "source" : "222",
+        "target" : "177",
+        "SUID" : 657,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "654",
+        "source" : "222",
+        "target" : "225",
+        "SUID" : 654,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_oaa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "651",
+        "source" : "222",
+        "target" : "168",
+        "SUID" : 651,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "648",
+        "source" : "222",
+        "target" : "219",
+        "SUID" : 648,
+        "source_original" : "M_h2o_c",
+        "selected" : false,
+        "target_original" : "M_6pgc_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "645",
+        "source" : "219",
+        "target" : "279",
+        "SUID" : 645,
+        "source_original" : "M_6pgc_c",
+        "selected" : false,
+        "target_original" : "M_ru5p__D_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "642",
+        "source" : "219",
+        "target" : "237",
+        "SUID" : 642,
+        "source_original" : "M_6pgc_c",
+        "selected" : false,
+        "target_original" : "M_nadph_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "639",
+        "source" : "219",
+        "target" : "180",
+        "SUID" : 639,
+        "source_original" : "M_6pgc_c",
+        "selected" : false,
+        "target_original" : "M_co2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "636",
+        "source" : "216",
+        "target" : "168",
+        "SUID" : 636,
+        "source_original" : "M_6pgl_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "633",
+        "source" : "216",
+        "target" : "219",
+        "SUID" : 633,
+        "source_original" : "M_6pgl_c",
+        "selected" : false,
+        "target_original" : "M_6pgc_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "630",
+        "source" : "213",
+        "target" : "177",
+        "SUID" : 630,
+        "source_original" : "M_3pg_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "627",
+        "source" : "213",
+        "target" : "195",
+        "SUID" : 627,
+        "source_original" : "M_3pg_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "624",
+        "source" : "213",
+        "target" : "192",
+        "SUID" : 624,
+        "source_original" : "M_3pg_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "621",
+        "source" : "213",
+        "target" : "168",
+        "SUID" : 621,
+        "source_original" : "M_3pg_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "618",
+        "source" : "213",
+        "target" : "189",
+        "SUID" : 618,
+        "source_original" : "M_3pg_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "615",
+        "source" : "213",
+        "target" : "165",
+        "SUID" : 615,
+        "source_original" : "M_3pg_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "612",
+        "source" : "213",
+        "target" : "171",
+        "SUID" : 612,
+        "source_original" : "M_3pg_c",
+        "selected" : false,
+        "target_original" : "M_13dpg_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "609",
+        "source" : "210",
+        "target" : "180",
+        "SUID" : 609,
+        "source_original" : "M_pyr_c",
+        "selected" : false,
+        "target_original" : "M_co2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "606",
+        "source" : "210",
+        "target" : "195",
+        "SUID" : 606,
+        "source_original" : "M_pyr_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "603",
+        "source" : "210",
+        "target" : "192",
+        "SUID" : 603,
+        "source_original" : "M_pyr_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "600",
+        "source" : "210",
+        "target" : "189",
+        "SUID" : 600,
+        "source_original" : "M_pyr_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "597",
+        "source" : "210",
+        "target" : "165",
+        "SUID" : 597,
+        "source_original" : "M_pyr_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "594",
+        "source" : "210",
+        "target" : "177",
+        "SUID" : 594,
+        "source_original" : "M_pyr_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "591",
+        "source" : "210",
+        "target" : "183",
+        "SUID" : 591,
+        "source_original" : "M_pyr_c",
+        "selected" : false,
+        "target_original" : "M_pep_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "588",
+        "source" : "210",
+        "target" : "168",
+        "SUID" : 588,
+        "source_original" : "M_pyr_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "585",
+        "source" : "210",
+        "target" : "186",
+        "SUID" : 585,
+        "source_original" : "M_pyr_c",
+        "selected" : false,
+        "target_original" : "M_amp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "582",
+        "source" : "210",
+        "target" : "207",
+        "SUID" : 582,
+        "source_original" : "M_pyr_c",
+        "selected" : false,
+        "target_original" : "M_for_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "579",
+        "source" : "210",
+        "target" : "204",
+        "SUID" : 579,
+        "source_original" : "M_pyr_c",
+        "selected" : false,
+        "target_original" : "M_accoa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "576",
+        "source" : "207",
+        "target" : "291",
+        "SUID" : 576,
+        "source_original" : "M_for_c",
+        "selected" : false,
+        "target_original" : "M_fum_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "573",
+        "source" : "204",
+        "target" : "234",
+        "SUID" : 573,
+        "source_original" : "M_accoa_c",
+        "selected" : false,
+        "target_original" : "M_mal__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "570",
+        "source" : "204",
+        "target" : "231",
+        "SUID" : 570,
+        "source_original" : "M_accoa_c",
+        "selected" : false,
+        "target_original" : "M_cit_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "567",
+        "source" : "204",
+        "target" : "177",
+        "SUID" : 567,
+        "source_original" : "M_accoa_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "564",
+        "source" : "204",
+        "target" : "195",
+        "SUID" : 564,
+        "source_original" : "M_accoa_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "561",
+        "source" : "204",
+        "target" : "192",
+        "SUID" : 561,
+        "source_original" : "M_accoa_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "558",
+        "source" : "204",
+        "target" : "168",
+        "SUID" : 558,
+        "source_original" : "M_accoa_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "555",
+        "source" : "204",
+        "target" : "165",
+        "SUID" : 555,
+        "source_original" : "M_accoa_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "552",
+        "source" : "204",
+        "target" : "189",
+        "SUID" : 552,
+        "source_original" : "M_accoa_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "549",
+        "source" : "204",
+        "target" : "174",
+        "SUID" : 549,
+        "source_original" : "M_accoa_c",
+        "selected" : false,
+        "target_original" : "M_actp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "546",
+        "source" : "201",
+        "target" : "240",
+        "SUID" : 546,
+        "source_original" : "M_gln__L_c",
+        "selected" : false,
+        "target_original" : "M_nh4_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "543",
+        "source" : "201",
+        "target" : "243",
+        "SUID" : 543,
+        "source_original" : "M_gln__L_c",
+        "selected" : false,
+        "target_original" : "M_glu__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "540",
+        "source" : "201",
+        "target" : "177",
+        "SUID" : 540,
+        "source_original" : "M_gln__L_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "537",
+        "source" : "201",
+        "target" : "195",
+        "SUID" : 537,
+        "source_original" : "M_gln__L_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "534",
+        "source" : "201",
+        "target" : "192",
+        "SUID" : 534,
+        "source_original" : "M_gln__L_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "531",
+        "source" : "201",
+        "target" : "168",
+        "SUID" : 531,
+        "source_original" : "M_gln__L_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "528",
+        "source" : "201",
+        "target" : "189",
+        "SUID" : 528,
+        "source_original" : "M_gln__L_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "525",
+        "source" : "201",
+        "target" : "165",
+        "SUID" : 525,
+        "source_original" : "M_gln__L_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "522",
+        "source" : "198",
+        "target" : "183",
+        "SUID" : 522,
+        "source_original" : "M_succoa_c",
+        "selected" : false,
+        "target_original" : "M_pep_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "519",
+        "source" : "195",
+        "target" : "210",
+        "SUID" : 519,
+        "source_original" : "M_nadp_c",
+        "selected" : false,
+        "target_original" : "M_pyr_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "516",
+        "source" : "195",
+        "target" : "279",
+        "SUID" : 516,
+        "source_original" : "M_nadp_c",
+        "selected" : false,
+        "target_original" : "M_ru5p__D_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "513",
+        "source" : "195",
+        "target" : "180",
+        "SUID" : 513,
+        "source_original" : "M_nadp_c",
+        "selected" : false,
+        "target_original" : "M_co2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "510",
+        "source" : "195",
+        "target" : "240",
+        "SUID" : 510,
+        "source_original" : "M_nadp_c",
+        "selected" : false,
+        "target_original" : "M_nh4_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "507",
+        "source" : "195",
+        "target" : "216",
+        "SUID" : 507,
+        "source_original" : "M_nadp_c",
+        "selected" : false,
+        "target_original" : "M_6pgl_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "504",
+        "source" : "195",
+        "target" : "237",
+        "SUID" : 504,
+        "source_original" : "M_nadp_c",
+        "selected" : false,
+        "target_original" : "M_nadph_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "501",
+        "source" : "195",
+        "target" : "249",
+        "SUID" : 501,
+        "source_original" : "M_nadp_c",
+        "selected" : false,
+        "target_original" : "M_nad_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "498",
+        "source" : "195",
+        "target" : "168",
+        "SUID" : 498,
+        "source_original" : "M_nadp_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "495",
+        "source" : "192",
+        "target" : "270",
+        "SUID" : 495,
+        "source_original" : "M_nadh_c",
+        "selected" : false,
+        "target_original" : "M_q8h2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "492",
+        "source" : "192",
+        "target" : "237",
+        "SUID" : 492,
+        "source_original" : "M_nadh_c",
+        "selected" : false,
+        "target_original" : "M_nadph_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "489",
+        "source" : "192",
+        "target" : "249",
+        "SUID" : 489,
+        "source_original" : "M_nadh_c",
+        "selected" : false,
+        "target_original" : "M_nad_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "486",
+        "source" : "192",
+        "target" : "168",
+        "SUID" : 486,
+        "source_original" : "M_nadh_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "483",
+        "source" : "189",
+        "target" : "177",
+        "SUID" : 483,
+        "source_original" : "M_coa_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "480",
+        "source" : "189",
+        "target" : "165",
+        "SUID" : 480,
+        "source_original" : "M_coa_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "477",
+        "source" : "189",
+        "target" : "198",
+        "SUID" : 477,
+        "source_original" : "M_coa_c",
+        "selected" : false,
+        "target_original" : "M_succoa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "474",
+        "source" : "189",
+        "target" : "180",
+        "SUID" : 474,
+        "source_original" : "M_coa_c",
+        "selected" : false,
+        "target_original" : "M_co2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "471",
+        "source" : "189",
+        "target" : "192",
+        "SUID" : 471,
+        "source_original" : "M_coa_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "468",
+        "source" : "189",
+        "target" : "168",
+        "SUID" : 468,
+        "source_original" : "M_coa_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "465",
+        "source" : "189",
+        "target" : "207",
+        "SUID" : 465,
+        "source_original" : "M_coa_c",
+        "selected" : false,
+        "target_original" : "M_for_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "462",
+        "source" : "189",
+        "target" : "204",
+        "SUID" : 462,
+        "source_original" : "M_coa_c",
+        "selected" : false,
+        "target_original" : "M_accoa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "459",
+        "source" : "186",
+        "target" : "165",
+        "SUID" : 459,
+        "source_original" : "M_amp_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "456",
+        "source" : "183",
+        "target" : "195",
+        "SUID" : 456,
+        "source_original" : "M_pep_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "453",
+        "source" : "183",
+        "target" : "192",
+        "SUID" : 453,
+        "source_original" : "M_pep_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "450",
+        "source" : "183",
+        "target" : "189",
+        "SUID" : 450,
+        "source_original" : "M_pep_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "447",
+        "source" : "183",
+        "target" : "165",
+        "SUID" : 447,
+        "source_original" : "M_pep_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "444",
+        "source" : "183",
+        "target" : "210",
+        "SUID" : 444,
+        "source_original" : "M_pep_c",
+        "selected" : false,
+        "target_original" : "M_pyr_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "441",
+        "source" : "183",
+        "target" : "152",
+        "SUID" : 441,
+        "source_original" : "M_pep_c",
+        "selected" : false,
+        "target_original" : "M_atp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "438",
+        "source" : "183",
+        "target" : "177",
+        "SUID" : 438,
+        "source_original" : "M_pep_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "435",
+        "source" : "183",
+        "target" : "225",
+        "SUID" : 435,
+        "source_original" : "M_pep_c",
+        "selected" : false,
+        "target_original" : "M_oaa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "432",
+        "source" : "183",
+        "target" : "168",
+        "SUID" : 432,
+        "source_original" : "M_pep_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "429",
+        "source" : "180",
+        "target" : "177",
+        "SUID" : 429,
+        "source_original" : "M_co2_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "426",
+        "source" : "180",
+        "target" : "225",
+        "SUID" : 426,
+        "source_original" : "M_co2_c",
+        "selected" : false,
+        "target_original" : "M_oaa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "423",
+        "source" : "180",
+        "target" : "168",
+        "SUID" : 423,
+        "source_original" : "M_co2_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "420",
+        "source" : "177",
+        "target" : "192",
+        "SUID" : 420,
+        "source_original" : "M_pi_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "417",
+        "source" : "177",
+        "target" : "171",
+        "SUID" : 417,
+        "source_original" : "M_pi_c",
+        "selected" : false,
+        "target_original" : "M_13dpg_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "414",
+        "source" : "177",
+        "target" : "189",
+        "SUID" : 414,
+        "source_original" : "M_pi_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "411",
+        "source" : "177",
+        "target" : "174",
+        "SUID" : 411,
+        "source_original" : "M_pi_c",
+        "selected" : false,
+        "target_original" : "M_actp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "408",
+        "source" : "177",
+        "target" : "168",
+        "SUID" : 408,
+        "source_original" : "M_pi_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "405",
+        "source" : "177",
+        "target" : "222",
+        "SUID" : 405,
+        "source_original" : "M_pi_c",
+        "selected" : false,
+        "target_original" : "M_h2o_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "402",
+        "source" : "177",
+        "target" : "152",
+        "SUID" : 402,
+        "source_original" : "M_pi_c",
+        "selected" : false,
+        "target_original" : "M_atp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "399",
+        "source" : "174",
+        "target" : "291",
+        "SUID" : 399,
+        "source_original" : "M_actp_c",
+        "selected" : false,
+        "target_original" : "M_fum_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "396",
+        "source" : "171",
+        "target" : "291",
+        "SUID" : 396,
+        "source_original" : "M_13dpg_c",
+        "selected" : false,
+        "target_original" : "M_fum_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "393",
+        "source" : "168",
+        "target" : "270",
+        "SUID" : 393,
+        "source_original" : "M_h_c",
+        "selected" : false,
+        "target_original" : "M_q8h2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "390",
+        "source" : "168",
+        "target" : "249",
+        "SUID" : 390,
+        "source_original" : "M_h_c",
+        "selected" : false,
+        "target_original" : "M_nad_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "387",
+        "source" : "168",
+        "target" : "195",
+        "SUID" : 387,
+        "source_original" : "M_h_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "384",
+        "source" : "168",
+        "target" : "243",
+        "SUID" : 384,
+        "source_original" : "M_h_c",
+        "selected" : false,
+        "target_original" : "M_glu__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "381",
+        "source" : "168",
+        "target" : "267",
+        "SUID" : 381,
+        "source_original" : "M_h_c",
+        "selected" : false,
+        "target_original" : "M_q8_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "378",
+        "source" : "168",
+        "target" : "222",
+        "SUID" : 378,
+        "source_original" : "M_h_c",
+        "selected" : false,
+        "target_original" : "M_h2o_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "375",
+        "source" : "168",
+        "target" : "210",
+        "SUID" : 375,
+        "source_original" : "M_h_c",
+        "selected" : false,
+        "target_original" : "M_pyr_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "372",
+        "source" : "168",
+        "target" : "152",
+        "SUID" : 372,
+        "source_original" : "M_h_c",
+        "selected" : false,
+        "target_original" : "M_atp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "369",
+        "source" : "165",
+        "target" : "210",
+        "SUID" : 369,
+        "source_original" : "M_adp_c",
+        "selected" : false,
+        "target_original" : "M_pyr_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "366",
+        "source" : "165",
+        "target" : "168",
+        "SUID" : 366,
+        "source_original" : "M_adp_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "363",
+        "source" : "165",
+        "target" : "222",
+        "SUID" : 363,
+        "source_original" : "M_adp_c",
+        "selected" : false,
+        "target_original" : "M_h2o_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "360",
+        "source" : "165",
+        "target" : "152",
+        "SUID" : 360,
+        "source_original" : "M_adp_c",
+        "selected" : false,
+        "target_original" : "M_atp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "357",
+        "source" : "152",
+        "target" : "201",
+        "SUID" : 357,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_gln__L_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "354",
+        "source" : "152",
+        "target" : "198",
+        "SUID" : 354,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_succoa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "351",
+        "source" : "152",
+        "target" : "195",
+        "SUID" : 351,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_nadp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "348",
+        "source" : "152",
+        "target" : "192",
+        "SUID" : 348,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_nadh_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "345",
+        "source" : "152",
+        "target" : "189",
+        "SUID" : 345,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_coa_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "342",
+        "source" : "152",
+        "target" : "186",
+        "SUID" : 342,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_amp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "339",
+        "source" : "152",
+        "target" : "183",
+        "SUID" : 339,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_pep_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "336",
+        "source" : "152",
+        "target" : "180",
+        "SUID" : 336,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_co2_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "333",
+        "source" : "152",
+        "target" : "177",
+        "SUID" : 333,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_pi_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "330",
+        "source" : "152",
+        "target" : "174",
+        "SUID" : 330,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_actp_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "327",
+        "source" : "152",
+        "target" : "171",
+        "SUID" : 327,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_13dpg_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "324",
+        "source" : "152",
+        "target" : "168",
+        "SUID" : 324,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_h_c"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "315",
+        "source" : "152",
+        "target" : "165",
+        "SUID" : 315,
+        "source_original" : "M_atp_c",
+        "selected" : false,
+        "target_original" : "M_adp_c"
+      },
+      "selected" : false
+    } ]
+  }
+}
