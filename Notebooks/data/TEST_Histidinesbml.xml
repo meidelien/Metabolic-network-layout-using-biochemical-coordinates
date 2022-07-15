@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="Histidine_pathway_Biochemical_coordinates">
+    <listOfSpecies>
+      <species id="prpp"/>
+      <species id="prbatp"/>
+      <species id="prbamp"/>
+      <species id="prfp"/>
+      <species id="prlp"/>
+      <species id="eig3p"/>
+      <species id="imacp"/>
+      <species id="hisp"/>
+      <species id="histd"/>
+      <species id="his__L"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="r1">
+        <listOfReactants>
+          <speciesReference species="prpp" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="prbatp" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r2">
+        <listOfReactants>
+          <speciesReference species="prbatp" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="prbamp" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r3">
+        <listOfReactants>
+          <speciesReference species="prbamp" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="prfp" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r4">
+        <listOfReactants>
+          <speciesReference species="prfp" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="prlp" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r5">
+        <listOfReactants>
+          <speciesReference species="prlp" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="eig3p" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r6">
+        <listOfReactants>
+          <speciesReference species="eig3p" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="imacp" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r7">
+        <listOfReactants>
+          <speciesReference species="imacp" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="hisp" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r8">
+        <listOfReactants>
+          <speciesReference species="hisp" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="histd" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r9">
+        <listOfReactants>
+          <speciesReference species="histd" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="his__L" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
