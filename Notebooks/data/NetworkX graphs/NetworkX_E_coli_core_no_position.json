@@ -1,0 +1,1188 @@
+{"data": [],
+    "directed": true,
+    "multigraph": false,
+    "elements": {"nodes": [
+            {"data": {"pos": [
+                        0.28787964,
+                        -4.157
+                    ],
+        "id": "M_atp_c",
+        "value": "M_atp_c",
+        "name": "M_atp_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.37890412,
+                        -3.642
+                    ],
+        "id": "M_adp_c",
+        "value": "M_adp_c",
+        "name": "M_adp_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.34264256,
+                        0.1125
+                    ],
+        "id": "M_h_c",
+        "value": "M_h_c",
+        "name": "M_h_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.47382196,
+                        -4.4355
+                    ],
+        "id": "M_13dpg_c",
+        "value": "M_13dpg_c",
+        "name": "M_13dpg_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.40584252,
+                        -1.6218
+                    ],
+        "id": "M_actp_c",
+        "value": "M_actp_c",
+        "name": "M_actp_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.34687238,
+                        -2.1926
+                    ],
+        "id": "M_pi_c",
+        "value": "M_pi_c",
+        "name": "M_pi_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.36416713,
+                        -0.5835
+                    ],
+        "id": "M_co2_c",
+        "value": "M_co2_c",
+        "name": "M_co2_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.25146388,
+                        -2.9047
+                    ],
+        "id": "M_pep_c",
+        "value": "M_pep_c",
+        "name": "M_pep_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.47443541,
+                        -3.127
+                    ],
+        "id": "M_amp_c",
+        "value": "M_amp_c",
+        "name": "M_amp_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.03688141,
+                        -3.6441
+                    ],
+        "id": "M_coa_c",
+        "value": "M_coa_c",
+        "name": "M_coa_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.06972302,
+                        -3.46613
+                    ],
+        "id": "M_nadh_c",
+        "value": "M_nadh_c",
+        "name": "M_nadh_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.04124779,
+                        -5.20813
+                    ],
+        "id": "M_nadp_c",
+        "value": "M_nadp_c",
+        "name": "M_nadp_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.03208513,
+                        -4.784
+                    ],
+        "id": "M_succoa_c",
+        "value": "M_succoa_c",
+        "name": "M_succoa_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.32267904,
+                        -0.28623
+                    ],
+        "id": "M_gln__L_c",
+        "value": "M_gln__L_c",
+        "name": "M_gln__L_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.040169,
+                        -3.2942
+                    ],
+        "id": "M_accoa_c",
+        "value": "M_accoa_c",
+        "name": "M_accoa_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.30654732,
+                        -1.6339
+                    ],
+        "id": "M_for_c",
+        "value": "M_for_c",
+        "name": "M_for_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.35896536,
+                        -1.6747
+                    ],
+        "id": "M_pyr_c",
+        "value": "M_pyr_c",
+        "name": "M_pyr_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.43795947,
+                        -4.0575
+                    ],
+        "id": "M_3pg_c",
+        "value": "M_3pg_c",
+        "name": "M_3pg_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.33592813,
+                        -4.1602
+                    ],
+        "id": "M_6pgl_c",
+        "value": "M_6pgl_c",
+        "name": "M_6pgl_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.32403513,
+                        -5.9748
+                    ],
+        "id": "M_6pgc_c",
+        "value": "M_6pgc_c",
+        "name": "M_6pgc_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.32774768,
+                        -0.8247
+                    ],
+        "id": "M_h2o_c",
+        "value": "M_h2o_c",
+        "name": "M_h2o_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.29066972,
+                        -3.5546
+                    ],
+        "id": "M_oaa_c",
+        "value": "M_oaa_c",
+        "name": "M_oaa_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.45446006,
+                        -5.3967
+                    ],
+        "id": "M_icit_c",
+        "value": "M_icit_c",
+        "name": "M_icit_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.45490402,
+                        -5.2526
+                    ],
+        "id": "M_cit_c",
+        "value": "M_cit_c",
+        "name": "M_cit_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.42456492,
+                        -3.7628
+                    ],
+        "id": "M_mal__L_c",
+        "value": "M_mal__L_c",
+        "name": "M_mal__L_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.06384601,
+                        -4.61313
+                    ],
+        "id": "M_nadph_c",
+        "value": "M_nadph_c",
+        "name": "M_nadph_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.39321321,
+                        0.3762
+                    ],
+        "id": "M_nh4_c",
+        "value": "M_nh4_c",
+        "name": "M_nh4_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.47374336,
+                        -2.0716
+                    ],
+        "id": "M_glu__L_c",
+        "value": "M_glu__L_c",
+        "name": "M_glu__L_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.35500761,
+                        0.2052
+                    ],
+        "id": "M_acald_c",
+        "value": "M_acald_c",
+        "name": "M_acald_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.04441887,
+                        -4.06113
+                    ],
+        "id": "M_nad_c",
+        "value": "M_nad_c",
+        "name": "M_nad_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.38758828,
+                        -3.1645
+                    ],
+        "id": "M_akg_e",
+        "value": "M_akg_e",
+        "name": "M_akg_e"
+                }
+            },
+            {"data": {"pos": [
+                        0.43795947,
+                        -4.0575
+                    ],
+        "id": "M_2pg_c",
+        "value": "M_2pg_c",
+        "name": "M_2pg_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.40680797,
+                        -0.0014
+                    ],
+        "id": "M_etoh_c",
+        "value": "M_etoh_c",
+        "name": "M_etoh_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.34977402,
+                        -1.2438
+                    ],
+        "id": "M_ac_c",
+        "value": "M_ac_c",
+        "name": "M_ac_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.39315603,
+                        -4.4474
+                    ],
+        "id": "M_acon_C_c",
+        "value": "M_acon_C_c",
+        "name": "M_acon_C_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.06941562,
+                        14.4009
+                    ],
+        "id": "M_q8_c",
+        "value": "M_q8_c",
+        "name": "M_q8_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.07772781,
+                        15.01762
+                    ],
+        "id": "M_q8h2_c",
+        "value": "M_q8h2_c",
+        "name": "M_q8h2_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.35007749,
+                        -3.2476
+                    ],
+        "id": "M_e4p_c",
+        "value": "M_e4p_c",
+        "name": "M_e4p_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.36344186,
+                        -2.6085
+                    ],
+        "id": "M_g3p_c",
+        "value": "M_g3p_c",
+        "name": "M_g3p_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.39023896,
+                        -3.8851
+                    ],
+        "id": "M_ru5p__D_c",
+        "value": "M_ru5p__D_c",
+        "name": "M_ru5p__D_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.39023896,
+                        -3.8851
+                    ],
+        "id": "M_xu5p__D_c",
+        "value": "M_xu5p__D_c",
+        "name": "M_xu5p__D_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.37829615,
+                        0.067
+                    ],
+        "id": "M_o2_c",
+        "value": "M_o2_c",
+        "name": "M_o2_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.40048958,
+                        -2.7336
+                    ],
+        "id": "M_succ_c",
+        "value": "M_succ_c",
+        "name": "M_succ_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.35910182,
+                        -2.9576
+                    ],
+        "id": "M_fum_c",
+        "value": "M_fum_c",
+        "name": "M_fum_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.40680797,
+                        -0.0014
+                    ],
+        "id": "M_etoh_e",
+        "value": "M_etoh_e",
+        "name": "M_etoh_e"
+                }
+            },
+            {"data": {"pos": [
+                        0.26961126,
+                        -5.1633
+                    ],
+        "id": "M_s7p_c",
+        "value": "M_s7p_c",
+        "name": "M_s7p_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.46032801,
+                        -2.6069
+                    ],
+        "id": "M_dhap_c",
+        "value": "M_dhap_c",
+        "name": "M_dhap_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.30558657,
+                        -3.2198
+                    ],
+        "id": "M_fru_e",
+        "value": "M_fru_e",
+        "name": "M_fru_e"
+                }
+            },
+            {"data": {"pos": [
+                        0.29015285,
+                        -3.2214
+                    ],
+        "id": "M_glc__D_e",
+        "value": "M_glc__D_e",
+        "name": "M_glc__D_e"
+                }
+            },
+            {"data": {"pos": [
+                        0.26457198,
+                        -2.0648
+                    ],
+        "id": "M_glx_c",
+        "value": "M_glx_c",
+        "name": "M_glx_c"
+                }
+            },
+            {"data": {"pos": [
+                        0.40858641,
+                        -1.8829
+                    ],
+        "id": "M_lac__D_c",
+        "value": "M_lac__D_c",
+        "name": "M_lac__D_c"
+                }
+            }
+        ],
+     "edges": [
+            {"data": {"source": "M_atp_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_13dpg_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_actp_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_co2_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_pep_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_amp_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_succoa_c"
+                }
+            },
+            {"data": {"source": "M_atp_c", "target": "M_gln__L_c"
+                }
+            },
+            {"data": {"source": "M_adp_c", "target": "M_atp_c"
+                }
+            },
+            {"data": {"source": "M_adp_c", "target": "M_h2o_c"
+                }
+            },
+            {"data": {"source": "M_adp_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_adp_c", "target": "M_pyr_c"
+                }
+            },
+            {"data": {"source": "M_h_c", "target": "M_atp_c"
+                }
+            },
+            {"data": {"source": "M_h_c", "target": "M_pyr_c"
+                }
+            },
+            {"data": {"source": "M_h_c", "target": "M_h2o_c"
+                }
+            },
+            {"data": {"source": "M_h_c", "target": "M_q8_c"
+                }
+            },
+            {"data": {"source": "M_h_c", "target": "M_glu__L_c"
+                }
+            },
+            {"data": {"source": "M_h_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_h_c", "target": "M_nad_c"
+                }
+            },
+            {"data": {"source": "M_h_c", "target": "M_q8h2_c"
+                }
+            },
+            {"data": {"source": "M_13dpg_c", "target": "M_fum_c"
+                }
+            },
+            {"data": {"source": "M_actp_c", "target": "M_fum_c"
+                }
+            },
+            {"data": {"source": "M_pi_c", "target": "M_atp_c"
+                }
+            },
+            {"data": {"source": "M_pi_c", "target": "M_h2o_c"
+                }
+            },
+            {"data": {"source": "M_pi_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_pi_c", "target": "M_actp_c"
+                }
+            },
+            {"data": {"source": "M_pi_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_pi_c", "target": "M_13dpg_c"
+                }
+            },
+            {"data": {"source": "M_pi_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_co2_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_co2_c", "target": "M_oaa_c"
+                }
+            },
+            {"data": {"source": "M_co2_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_pep_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_pep_c", "target": "M_oaa_c"
+                }
+            },
+            {"data": {"source": "M_pep_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_pep_c", "target": "M_atp_c"
+                }
+            },
+            {"data": {"source": "M_pep_c", "target": "M_pyr_c"
+                }
+            },
+            {"data": {"source": "M_pep_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_pep_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_pep_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_pep_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_amp_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_coa_c", "target": "M_accoa_c"
+                }
+            },
+            {"data": {"source": "M_coa_c", "target": "M_for_c"
+                }
+            },
+            {"data": {"source": "M_coa_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_coa_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_coa_c", "target": "M_co2_c"
+                }
+            },
+            {"data": {"source": "M_coa_c", "target": "M_succoa_c"
+                }
+            },
+            {"data": {"source": "M_coa_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_coa_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_nadh_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_nadh_c", "target": "M_nad_c"
+                }
+            },
+            {"data": {"source": "M_nadh_c", "target": "M_nadph_c"
+                }
+            },
+            {"data": {"source": "M_nadh_c", "target": "M_q8h2_c"
+                }
+            },
+            {"data": {"source": "M_nadp_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_nadp_c", "target": "M_nad_c"
+                }
+            },
+            {"data": {"source": "M_nadp_c", "target": "M_nadph_c"
+                }
+            },
+            {"data": {"source": "M_nadp_c", "target": "M_6pgl_c"
+                }
+            },
+            {"data": {"source": "M_nadp_c", "target": "M_nh4_c"
+                }
+            },
+            {"data": {"source": "M_nadp_c", "target": "M_co2_c"
+                }
+            },
+            {"data": {"source": "M_nadp_c", "target": "M_ru5p__D_c"
+                }
+            },
+            {"data": {"source": "M_nadp_c", "target": "M_pyr_c"
+                }
+            },
+            {"data": {"source": "M_succoa_c", "target": "M_pep_c"
+                }
+            },
+            {"data": {"source": "M_gln__L_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_gln__L_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_gln__L_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_gln__L_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_gln__L_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_gln__L_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_gln__L_c", "target": "M_glu__L_c"
+                }
+            },
+            {"data": {"source": "M_gln__L_c", "target": "M_nh4_c"
+                }
+            },
+            {"data": {"source": "M_accoa_c", "target": "M_actp_c"
+                }
+            },
+            {"data": {"source": "M_accoa_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_accoa_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_accoa_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_accoa_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_accoa_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_accoa_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_accoa_c", "target": "M_cit_c"
+                }
+            },
+            {"data": {"source": "M_accoa_c", "target": "M_mal__L_c"
+                }
+            },
+            {"data": {"source": "M_for_c", "target": "M_fum_c"
+                }
+            },
+            {"data": {"source": "M_pyr_c", "target": "M_accoa_c"
+                }
+            },
+            {"data": {"source": "M_pyr_c", "target": "M_for_c"
+                }
+            },
+            {"data": {"source": "M_pyr_c", "target": "M_amp_c"
+                }
+            },
+            {"data": {"source": "M_pyr_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_pyr_c", "target": "M_pep_c"
+                }
+            },
+            {"data": {"source": "M_pyr_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_pyr_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_pyr_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_pyr_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_pyr_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_pyr_c", "target": "M_co2_c"
+                }
+            },
+            {"data": {"source": "M_3pg_c", "target": "M_13dpg_c"
+                }
+            },
+            {"data": {"source": "M_3pg_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_3pg_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_3pg_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_3pg_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_3pg_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_3pg_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_6pgl_c", "target": "M_6pgc_c"
+                }
+            },
+            {"data": {"source": "M_6pgl_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_6pgc_c", "target": "M_co2_c"
+                }
+            },
+            {"data": {"source": "M_6pgc_c", "target": "M_nadph_c"
+                }
+            },
+            {"data": {"source": "M_6pgc_c", "target": "M_ru5p__D_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_6pgc_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_oaa_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_icit_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_amp_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_pep_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_cit_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_mal__L_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_gln__L_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_nadph_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_nh4_c"
+                }
+            },
+            {"data": {"source": "M_h2o_c", "target": "M_glu__L_c"
+                }
+            },
+            {"data": {"source": "M_oaa_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_oaa_c", "target": "M_co2_c"
+                }
+            },
+            {"data": {"source": "M_oaa_c", "target": "M_pep_c"
+                }
+            },
+            {"data": {"source": "M_oaa_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_oaa_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_oaa_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_oaa_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_oaa_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_oaa_c", "target": "M_cit_c"
+                }
+            },
+            {"data": {"source": "M_icit_c", "target": "M_co2_c"
+                }
+            },
+            {"data": {"source": "M_icit_c", "target": "M_nadph_c"
+                }
+            },
+            {"data": {"source": "M_icit_c", "target": "M_glx_c"
+                }
+            },
+            {"data": {"source": "M_icit_c", "target": "M_succ_c"
+                }
+            },
+            {"data": {"source": "M_cit_c", "target": "M_acon_C_c"
+                }
+            },
+            {"data": {"source": "M_cit_c", "target": "M_h2o_c"
+                }
+            },
+            {"data": {"source": "M_mal__L_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_mal__L_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_mal__L_c", "target": "M_oaa_c"
+                }
+            },
+            {"data": {"source": "M_mal__L_c", "target": "M_co2_c"
+                }
+            },
+            {"data": {"source": "M_mal__L_c", "target": "M_pyr_c"
+                }
+            },
+            {"data": {"source": "M_mal__L_c", "target": "M_nadph_c"
+                }
+            },
+            {"data": {"source": "M_nadph_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_nadph_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_nadph_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_nadph_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_nadph_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_nadph_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_nadph_c", "target": "M_glu__L_c"
+                }
+            },
+            {"data": {"source": "M_nh4_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_nh4_c", "target": "M_gln__L_c"
+                }
+            },
+            {"data": {"source": "M_nh4_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_nh4_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_glu__L_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_glu__L_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_glu__L_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_glu__L_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_glu__L_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_glu__L_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_glu__L_c", "target": "M_gln__L_c"
+                }
+            },
+            {"data": {"source": "M_glu__L_c", "target": "M_nadph_c"
+                }
+            },
+            {"data": {"source": "M_glu__L_c", "target": "M_nh4_c"
+                }
+            },
+            {"data": {"source": "M_acald_c", "target": "M_accoa_c"
+                }
+            },
+            {"data": {"source": "M_acald_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_acald_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_accoa_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_acald_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_co2_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_succoa_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_13dpg_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_pyr_c"
+                }
+            },
+            {"data": {"source": "M_nad_c", "target": "M_oaa_c"
+                }
+            },
+            {"data": {"source": "M_akg_e", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_2pg_c", "target": "M_3pg_c"
+                }
+            },
+            {"data": {"source": "M_2pg_c", "target": "M_h2o_c"
+                }
+            },
+            {"data": {"source": "M_2pg_c", "target": "M_pep_c"
+                }
+            },
+            {"data": {"source": "M_etoh_c", "target": "M_acald_c"
+                }
+            },
+            {"data": {"source": "M_etoh_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_etoh_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_ac_c", "target": "M_actp_c"
+                }
+            },
+            {"data": {"source": "M_ac_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_acon_C_c", "target": "M_icit_c"
+                }
+            },
+            {"data": {"source": "M_q8_c", "target": "M_fum_c"
+                }
+            },
+            {"data": {"source": "M_q8_c", "target": "M_q8h2_c"
+                }
+            },
+            {"data": {"source": "M_q8_c", "target": "M_nad_c"
+                }
+            },
+            {"data": {"source": "M_q8h2_c", "target": "M_h2o_c"
+                }
+            },
+            {"data": {"source": "M_q8h2_c", "target": "M_q8_c"
+                }
+            },
+            {"data": {"source": "M_q8h2_c", "target": "M_succ_c"
+                }
+            },
+            {"data": {"source": "M_e4p_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_e4p_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_e4p_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_e4p_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_e4p_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_e4p_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_e4p_c", "target": "M_g3p_c"
+                }
+            },
+            {"data": {"source": "M_g3p_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_g3p_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_g3p_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_g3p_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_g3p_c", "target": "M_nadp_c"
+                }
+            },
+            {"data": {"source": "M_g3p_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_g3p_c", "target": "M_e4p_c"
+                }
+            },
+            {"data": {"source": "M_g3p_c", "target": "M_13dpg_c"
+                }
+            },
+            {"data": {"source": "M_ru5p__D_c", "target": "M_xu5p__D_c"
+                }
+            },
+            {"data": {"source": "M_xu5p__D_c", "target": "M_g3p_c"
+                }
+            },
+            {"data": {"source": "M_xu5p__D_c", "target": "M_s7p_c"
+                }
+            },
+            {"data": {"source": "M_o2_c", "target": "M_h2o_c"
+                }
+            },
+            {"data": {"source": "M_o2_c", "target": "M_q8_c"
+                }
+            },
+            {"data": {"source": "M_succ_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_succ_c", "target": "M_fum_c"
+                }
+            },
+            {"data": {"source": "M_succ_c", "target": "M_q8h2_c"
+                }
+            },
+            {"data": {"source": "M_succ_c", "target": "M_adp_c"
+                }
+            },
+            {"data": {"source": "M_succ_c", "target": "M_pi_c"
+                }
+            },
+            {"data": {"source": "M_succ_c", "target": "M_succoa_c"
+                }
+            },
+            {"data": {"source": "M_fum_c", "target": "M_q8_c"
+                }
+            },
+            {"data": {"source": "M_fum_c", "target": "M_succ_c"
+                }
+            },
+            {"data": {"source": "M_fum_c", "target": "M_mal__L_c"
+                }
+            },
+            {"data": {"source": "M_etoh_e", "target": "M_etoh_c"
+                }
+            },
+            {"data": {"source": "M_etoh_e", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_s7p_c", "target": "M_e4p_c"
+                }
+            },
+            {"data": {"source": "M_dhap_c", "target": "M_g3p_c"
+                }
+            },
+            {"data": {"source": "M_fru_e", "target": "M_pyr_c"
+                }
+            },
+            {"data": {"source": "M_glc__D_e", "target": "M_pyr_c"
+                }
+            },
+            {"data": {"source": "M_glx_c", "target": "M_coa_c"
+                }
+            },
+            {"data": {"source": "M_glx_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_glx_c", "target": "M_mal__L_c"
+                }
+            },
+            {"data": {"source": "M_lac__D_c", "target": "M_h_c"
+                }
+            },
+            {"data": {"source": "M_lac__D_c", "target": "M_nadh_c"
+                }
+            },
+            {"data": {"source": "M_lac__D_c", "target": "M_pyr_c"
+                }
+            }
+        ]
+    }
+}

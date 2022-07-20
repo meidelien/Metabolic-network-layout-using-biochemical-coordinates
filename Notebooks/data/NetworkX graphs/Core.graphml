@@ -1,0 +1,2811 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="SUID" attr.type="long" for="node" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="node" id="shared name"/>
+    <key attr.name="sbml charge" attr.type="int" for="node" id="sbml charge"/>
+    <key attr.name="sbml compartment" attr.type="string" for="node" id="sbml compartment"/>
+    <key attr.name="sbml id" attr.type="string" for="node" id="sbml id"/>
+    <key attr.name="sbml initial amount" attr.type="double" for="node" id="sbml initial amount"/>
+    <key attr.name="sbml initial concentration" attr.type="double" for="node" id="sbml initial concentration"/>
+    <key attr.name="sbml type" attr.type="string" for="node" id="sbml type"/>
+    <key attr.name="name" attr.type="string" for="node" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="node" id="selected"/>
+    <key attr.name="id" attr.type="string" for="node" id="id"/>
+    <key attr.name="shared_name" attr.type="string" for="node" id="shared_name"/>
+    <key attr.name="x" attr.type="double" for="node" id="x"/>
+    <key attr.name="y" attr.type="double" for="node" id="y"/>
+    <key attr.name="id_original" attr.type="string" for="node" id="id_original"/>
+    <key attr.name="value" attr.type="string" for="node" id="value"/>
+    <key attr.name="SUID" attr.type="long" for="edge" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="edge" id="shared name"/>
+    <key attr.name="shared interaction" attr.type="string" for="edge" id="shared interaction"/>
+    <key attr.name="interaction type" attr.type="string" for="edge" id="interaction type"/>
+    <key attr.name="name" attr.type="string" for="edge" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="edge" id="selected"/>
+    <key attr.name="interaction" attr.type="string" for="edge" id="interaction"/>
+    <key attr.name="id" attr.type="string" for="edge" id="id"/>
+    <key attr.name="source" attr.type="string" for="edge" id="source"/>
+    <key attr.name="target" attr.type="string" for="edge" id="target"/>
+    <key attr.name="source_original" attr.type="string" for="edge" id="source_original"/>
+    <key attr.name="target_original" attr.type="string" for="edge" id="target_original"/>
+    <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="graph" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="graph" id="selected"/>
+    <key attr.name="shared_name" attr.type="string" for="graph" id="shared_name"/>
+    <key attr.name="__Annotations" attr.type="string" for="graph" id="__Annotations"/>
+    <graph edgedefault="directed" id="Core_massR_mollogR.json">
+        <node id="247339">
+            <data key="SUID">247339</data>
+            <data key="shared name">M_atp_c</data>
+            <data key="name">M_atp_c</data>
+            <data key="selected">false</data>
+            <data key="id">152</data>
+            <data key="shared_name">M_atp_c</data>
+            <data key="x">46.0</data>
+            <data key="y">11.0</data>
+            <data key="id_original">M_atp_c</data>
+            <data key="value">M_atp_c</data>
+        </node>
+        <node id="247336">
+            <data key="SUID">247336</data>
+            <data key="shared name">M_adp_c</data>
+            <data key="name">M_adp_c</data>
+            <data key="selected">false</data>
+            <data key="id">168</data>
+            <data key="shared_name">M_adp_c</data>
+            <data key="x">45.0</data>
+            <data key="y">19.0</data>
+            <data key="id_original">M_adp_c</data>
+            <data key="value">M_adp_c</data>
+        </node>
+        <node id="247333">
+            <data key="SUID">247333</data>
+            <data key="shared name">M_h_c</data>
+            <data key="name">M_h_c</data>
+            <data key="selected">false</data>
+            <data key="id">171</data>
+            <data key="shared_name">M_h_c</data>
+            <data key="x">1.5</data>
+            <data key="y">49.5</data>
+            <data key="id_original">M_h_c</data>
+            <data key="value">M_h_c</data>
+        </node>
+        <node id="247330">
+            <data key="SUID">247330</data>
+            <data key="shared name">M_13dpg_c</data>
+            <data key="name">M_13dpg_c</data>
+            <data key="selected">false</data>
+            <data key="id">174</data>
+            <data key="shared_name">M_13dpg_c</data>
+            <data key="x">41.0</data>
+            <data key="y">9.0</data>
+            <data key="id_original">M_13dpg_c</data>
+            <data key="value">M_13dpg_c</data>
+        </node>
+        <node id="247327">
+            <data key="SUID">247327</data>
+            <data key="shared name">M_actp_c</data>
+            <data key="name">M_actp_c</data>
+            <data key="selected">false</data>
+            <data key="id">177</data>
+            <data key="shared_name">M_actp_c</data>
+            <data key="x">23.0</data>
+            <data key="y">40.0</data>
+            <data key="id_original">M_actp_c</data>
+            <data key="value">M_actp_c</data>
+        </node>
+        <node id="247324">
+            <data key="SUID">247324</data>
+            <data key="shared name">M_pi_c</data>
+            <data key="name">M_pi_c</data>
+            <data key="selected">false</data>
+            <data key="id">180</data>
+            <data key="shared_name">M_pi_c</data>
+            <data key="x">17.5</data>
+            <data key="y">33.5</data>
+            <data key="id_original">M_pi_c</data>
+            <data key="value">M_pi_c</data>
+        </node>
+        <node id="247321">
+            <data key="SUID">247321</data>
+            <data key="shared name">M_co2_c</data>
+            <data key="name">M_co2_c</data>
+            <data key="selected">false</data>
+            <data key="id">183</data>
+            <data key="shared_name">M_co2_c</data>
+            <data key="x">7.0</data>
+            <data key="y">43.0</data>
+            <data key="id_original">M_co2_c</data>
+            <data key="value">M_co2_c</data>
+        </node>
+        <node id="247318">
+            <data key="SUID">247318</data>
+            <data key="shared name">M_pep_c</data>
+            <data key="name">M_pep_c</data>
+            <data key="selected">false</data>
+            <data key="id">186</data>
+            <data key="shared_name">M_pep_c</data>
+            <data key="x">27.0</data>
+            <data key="y">29.0</data>
+            <data key="id_original">M_pep_c</data>
+            <data key="value">M_pep_c</data>
+        </node>
+        <node id="247315">
+            <data key="SUID">247315</data>
+            <data key="shared name">M_amp_c</data>
+            <data key="name">M_amp_c</data>
+            <data key="selected">false</data>
+            <data key="id">189</data>
+            <data key="shared_name">M_amp_c</data>
+            <data key="x">44.0</data>
+            <data key="y">27.0</data>
+            <data key="id_original">M_amp_c</data>
+            <data key="value">M_amp_c</data>
+        </node>
+        <node id="247312">
+            <data key="SUID">247312</data>
+            <data key="shared name">M_coa_c</data>
+            <data key="name">M_coa_c</data>
+            <data key="selected">false</data>
+            <data key="id">192</data>
+            <data key="shared_name">M_coa_c</data>
+            <data key="x">53.0</data>
+            <data key="y">18.0</data>
+            <data key="id_original">M_coa_c</data>
+            <data key="value">M_coa_c</data>
+        </node>
+        <node id="247309">
+            <data key="SUID">247309</data>
+            <data key="shared name">M_nadh_c</data>
+            <data key="name">M_nadh_c</data>
+            <data key="selected">false</data>
+            <data key="id">195</data>
+            <data key="shared_name">M_nadh_c</data>
+            <data key="x">48.0</data>
+            <data key="y">21.0</data>
+            <data key="id_original">M_nadh_c</data>
+            <data key="value">M_nadh_c</data>
+        </node>
+        <node id="247306">
+            <data key="SUID">247306</data>
+            <data key="shared name">M_nadp_c</data>
+            <data key="name">M_nadp_c</data>
+            <data key="selected">false</data>
+            <data key="id">198</data>
+            <data key="shared_name">M_nadp_c</data>
+            <data key="x">51.0</data>
+            <data key="y">4.0</data>
+            <data key="id_original">M_nadp_c</data>
+            <data key="value">M_nadp_c</data>
+        </node>
+        <node id="247303">
+            <data key="SUID">247303</data>
+            <data key="shared name">M_succoa_c</data>
+            <data key="name">M_succoa_c</data>
+            <data key="selected">false</data>
+            <data key="id">201</data>
+            <data key="shared_name">M_succoa_c</data>
+            <data key="x">55.0</data>
+            <data key="y">6.0</data>
+            <data key="id_original">M_succoa_c</data>
+            <data key="value">M_succoa_c</data>
+        </node>
+        <node id="247300">
+            <data key="SUID">247300</data>
+            <data key="shared name">M_gln__L_c</data>
+            <data key="name">M_gln__L_c</data>
+            <data key="selected">false</data>
+            <data key="id">204</data>
+            <data key="shared_name">M_gln__L_c</data>
+            <data key="x">26.0</data>
+            <data key="y">44.0</data>
+            <data key="id_original">M_gln__L_c</data>
+            <data key="value">M_gln__L_c</data>
+        </node>
+        <node id="247297">
+            <data key="SUID">247297</data>
+            <data key="shared name">M_accoa_c</data>
+            <data key="name">M_accoa_c</data>
+            <data key="selected">false</data>
+            <data key="id">207</data>
+            <data key="shared_name">M_accoa_c</data>
+            <data key="x">54.0</data>
+            <data key="y">22.0</data>
+            <data key="id_original">M_accoa_c</data>
+            <data key="value">M_accoa_c</data>
+        </node>
+        <node id="247294">
+            <data key="SUID">247294</data>
+            <data key="shared name">M_for_c</data>
+            <data key="name">M_for_c</data>
+            <data key="selected">false</data>
+            <data key="id">210</data>
+            <data key="shared_name">M_for_c</data>
+            <data key="x">10.0</data>
+            <data key="y">39.0</data>
+            <data key="id_original">M_for_c</data>
+            <data key="value">M_for_c</data>
+        </node>
+        <node id="247291">
+            <data key="SUID">247291</data>
+            <data key="shared name">M_pyr_c</data>
+            <data key="name">M_pyr_c</data>
+            <data key="selected">false</data>
+            <data key="id">213</data>
+            <data key="shared_name">M_pyr_c</data>
+            <data key="x">15.0</data>
+            <data key="y">38.0</data>
+            <data key="id_original">M_pyr_c</data>
+            <data key="value">M_pyr_c</data>
+        </node>
+        <node id="247288">
+            <data key="SUID">247288</data>
+            <data key="shared name">M_3pg_c</data>
+            <data key="name">M_3pg_c</data>
+            <data key="selected">false</data>
+            <data key="id">216</data>
+            <data key="shared_name">M_3pg_c</data>
+            <data key="x">33.5</data>
+            <data key="y">13.5</data>
+            <data key="id_original">M_3pg_c</data>
+            <data key="value">M_3pg_c</data>
+        </node>
+        <node id="247285">
+            <data key="SUID">247285</data>
+            <data key="shared name">M_6pgl_c</data>
+            <data key="name">M_6pgl_c</data>
+            <data key="selected">false</data>
+            <data key="id">219</data>
+            <data key="shared_name">M_6pgl_c</data>
+            <data key="x">40.0</data>
+            <data key="y">10.0</data>
+            <data key="id_original">M_6pgl_c</data>
+            <data key="value">M_6pgl_c</data>
+        </node>
+        <node id="247282">
+            <data key="SUID">247282</data>
+            <data key="shared name">M_6pgc_c</data>
+            <data key="name">M_6pgc_c</data>
+            <data key="selected">false</data>
+            <data key="id">222</data>
+            <data key="shared_name">M_6pgc_c</data>
+            <data key="x">42.0</data>
+            <data key="y">1.0</data>
+            <data key="id_original">M_6pgc_c</data>
+            <data key="value">M_6pgc_c</data>
+        </node>
+        <node id="247279">
+            <data key="SUID">247279</data>
+            <data key="shared name">M_h2o_c</data>
+            <data key="name">M_h2o_c</data>
+            <data key="selected">false</data>
+            <data key="id">225</data>
+            <data key="shared_name">M_h2o_c</data>
+            <data key="x">3.0</data>
+            <data key="y">42.0</data>
+            <data key="id_original">M_h2o_c</data>
+            <data key="value">M_h2o_c</data>
+        </node>
+        <node id="247276">
+            <data key="SUID">247276</data>
+            <data key="shared name">M_oaa_c</data>
+            <data key="name">M_oaa_c</data>
+            <data key="selected">false</data>
+            <data key="id">228</data>
+            <data key="shared_name">M_oaa_c</data>
+            <data key="x">21.0</data>
+            <data key="y">20.0</data>
+            <data key="id_original">M_oaa_c</data>
+            <data key="value">M_oaa_c</data>
+        </node>
+        <node id="247273">
+            <data key="SUID">247273</data>
+            <data key="shared name">M_icit_c</data>
+            <data key="name">M_icit_c</data>
+            <data key="selected">false</data>
+            <data key="id">231</data>
+            <data key="shared_name">M_icit_c</data>
+            <data key="x">35.5</data>
+            <data key="y">2.0</data>
+            <data key="id_original">M_icit_c</data>
+            <data key="value">M_icit_c</data>
+        </node>
+        <node id="247270">
+            <data key="SUID">247270</data>
+            <data key="shared name">M_cit_c</data>
+            <data key="name">M_cit_c</data>
+            <data key="selected">false</data>
+            <data key="id">234</data>
+            <data key="shared_name">M_cit_c</data>
+            <data key="x">35.5</data>
+            <data key="y">3.0</data>
+            <data key="id_original">M_cit_c</data>
+            <data key="value">M_cit_c</data>
+        </node>
+        <node id="247267">
+            <data key="SUID">247267</data>
+            <data key="shared name">M_mal__L_c</data>
+            <data key="name">M_mal__L_c</data>
+            <data key="selected">false</data>
+            <data key="id">237</data>
+            <data key="shared_name">M_mal__L_c</data>
+            <data key="x">22.0</data>
+            <data key="y">17.0</data>
+            <data key="id_original">M_mal__L_c</data>
+            <data key="value">M_mal__L_c</data>
+        </node>
+        <node id="247264">
+            <data key="SUID">247264</data>
+            <data key="shared name">M_nadph_c</data>
+            <data key="name">M_nadph_c</data>
+            <data key="selected">false</data>
+            <data key="id">240</data>
+            <data key="shared_name">M_nadph_c</data>
+            <data key="x">52.0</data>
+            <data key="y">7.0</data>
+            <data key="id_original">M_nadph_c</data>
+            <data key="value">M_nadph_c</data>
+        </node>
+        <node id="247261">
+            <data key="SUID">247261</data>
+            <data key="shared name">M_nh4_c</data>
+            <data key="name">M_nh4_c</data>
+            <data key="selected">false</data>
+            <data key="id">243</data>
+            <data key="shared_name">M_nh4_c</data>
+            <data key="x">4.0</data>
+            <data key="y">53.0</data>
+            <data key="id_original">M_nh4_c</data>
+            <data key="value">M_nh4_c</data>
+        </node>
+        <node id="247258">
+            <data key="SUID">247258</data>
+            <data key="shared name">M_glu__L_c</data>
+            <data key="name">M_glu__L_c</data>
+            <data key="selected">false</data>
+            <data key="id">246</data>
+            <data key="shared_name">M_glu__L_c</data>
+            <data key="x">25.0</data>
+            <data key="y">35.0</data>
+            <data key="id_original">M_glu__L_c</data>
+            <data key="value">M_glu__L_c</data>
+        </node>
+        <node id="247255">
+            <data key="SUID">247255</data>
+            <data key="shared name">M_acald_c</data>
+            <data key="name">M_acald_c</data>
+            <data key="selected">false</data>
+            <data key="id">249</data>
+            <data key="shared_name">M_acald_c</data>
+            <data key="x">8.5</data>
+            <data key="y">51.5</data>
+            <data key="id_original">M_acald_c</data>
+            <data key="value">M_acald_c</data>
+        </node>
+        <node id="247252">
+            <data key="SUID">247252</data>
+            <data key="shared name">M_nad_c</data>
+            <data key="name">M_nad_c</data>
+            <data key="selected">false</data>
+            <data key="id">252</data>
+            <data key="shared_name">M_nad_c</data>
+            <data key="x">47.0</data>
+            <data key="y">12.0</data>
+            <data key="id_original">M_nad_c</data>
+            <data key="value">M_nad_c</data>
+        </node>
+        <node id="247249">
+            <data key="SUID">247249</data>
+            <data key="shared name">M_akg_e</data>
+            <data key="name">M_akg_e</data>
+            <data key="selected">false</data>
+            <data key="id">255</data>
+            <data key="shared_name">M_akg_e</data>
+            <data key="x">24.0</data>
+            <data key="y">26.0</data>
+            <data key="id_original">M_akg_e</data>
+            <data key="value">M_akg_e</data>
+        </node>
+        <node id="247246">
+            <data key="SUID">247246</data>
+            <data key="shared name">M_2pg_c</data>
+            <data key="name">M_2pg_c</data>
+            <data key="selected">false</data>
+            <data key="id">258</data>
+            <data key="shared_name">M_2pg_c</data>
+            <data key="x">33.5</data>
+            <data key="y">13.5</data>
+            <data key="id_original">M_2pg_c</data>
+            <data key="value">M_2pg_c</data>
+        </node>
+        <node id="247243">
+            <data key="SUID">247243</data>
+            <data key="shared name">M_etoh_c</data>
+            <data key="name">M_etoh_c</data>
+            <data key="selected">false</data>
+            <data key="id">261</data>
+            <data key="shared_name">M_etoh_c</data>
+            <data key="x">11.5</data>
+            <data key="y">45.5</data>
+            <data key="id_original">M_etoh_c</data>
+            <data key="value">M_etoh_c</data>
+        </node>
+        <node id="247240">
+            <data key="SUID">247240</data>
+            <data key="shared name">M_ac_c</data>
+            <data key="name">M_ac_c</data>
+            <data key="selected">false</data>
+            <data key="id">264</data>
+            <data key="shared_name">M_ac_c</data>
+            <data key="x">13.0</data>
+            <data key="y">41.0</data>
+            <data key="id_original">M_ac_c</data>
+            <data key="value">M_ac_c</data>
+        </node>
+        <node id="247237">
+            <data key="SUID">247237</data>
+            <data key="shared name">M_acon_C_c</data>
+            <data key="name">M_acon_C_c</data>
+            <data key="selected">false</data>
+            <data key="id">267</data>
+            <data key="shared_name">M_acon_C_c</data>
+            <data key="x">30.0</data>
+            <data key="y">8.0</data>
+            <data key="id_original">M_acon_C_c</data>
+            <data key="value">M_acon_C_c</data>
+        </node>
+        <node id="247234">
+            <data key="SUID">247234</data>
+            <data key="shared name">M_q8_c</data>
+            <data key="name">M_q8_c</data>
+            <data key="selected">false</data>
+            <data key="id">270</data>
+            <data key="shared_name">M_q8_c</data>
+            <data key="x">49.0</data>
+            <data key="y">54.0</data>
+            <data key="id_original">M_q8_c</data>
+            <data key="value">M_q8_c</data>
+        </node>
+        <node id="247231">
+            <data key="SUID">247231</data>
+            <data key="shared name">M_q8h2_c</data>
+            <data key="name">M_q8h2_c</data>
+            <data key="selected">false</data>
+            <data key="id">273</data>
+            <data key="shared_name">M_q8h2_c</data>
+            <data key="x">50.0</data>
+            <data key="y">55.0</data>
+            <data key="id_original">M_q8h2_c</data>
+            <data key="value">M_q8h2_c</data>
+        </node>
+        <node id="247228">
+            <data key="SUID">247228</data>
+            <data key="shared name">M_e4p_c</data>
+            <data key="name">M_e4p_c</data>
+            <data key="selected">false</data>
+            <data key="id">276</data>
+            <data key="shared_name">M_e4p_c</data>
+            <data key="x">37.0</data>
+            <data key="y">23.0</data>
+            <data key="id_original">M_e4p_c</data>
+            <data key="value">M_e4p_c</data>
+        </node>
+        <node id="247225">
+            <data key="SUID">247225</data>
+            <data key="shared name">M_g3p_c</data>
+            <data key="name">M_g3p_c</data>
+            <data key="selected">false</data>
+            <data key="id">279</data>
+            <data key="shared_name">M_g3p_c</data>
+            <data key="x">28.5</data>
+            <data key="y">31.0</data>
+            <data key="id_original">M_g3p_c</data>
+            <data key="value">M_g3p_c</data>
+        </node>
+        <node id="247222">
+            <data key="SUID">247222</data>
+            <data key="shared name">M_ru5p__D_c</data>
+            <data key="name">M_ru5p__D_c</data>
+            <data key="selected">false</data>
+            <data key="id">282</data>
+            <data key="shared_name">M_ru5p__D_c</data>
+            <data key="x">38.5</data>
+            <data key="y">15.5</data>
+            <data key="id_original">M_ru5p__D_c</data>
+            <data key="value">M_ru5p__D_c</data>
+        </node>
+        <node id="247219">
+            <data key="SUID">247219</data>
+            <data key="shared name">M_xu5p__D_c</data>
+            <data key="name">M_xu5p__D_c</data>
+            <data key="selected">false</data>
+            <data key="id">285</data>
+            <data key="shared_name">M_xu5p__D_c</data>
+            <data key="x">38.5</data>
+            <data key="y">15.5</data>
+            <data key="id_original">M_xu5p__D_c</data>
+            <data key="value">M_xu5p__D_c</data>
+        </node>
+        <node id="247216">
+            <data key="SUID">247216</data>
+            <data key="shared name">M_o2_c</data>
+            <data key="name">M_o2_c</data>
+            <data key="selected">false</data>
+            <data key="id">288</data>
+            <data key="shared_name">M_o2_c</data>
+            <data key="x">5.5</data>
+            <data key="y">47.5</data>
+            <data key="id_original">M_o2_c</data>
+            <data key="value">M_o2_c</data>
+        </node>
+        <node id="247213">
+            <data key="SUID">247213</data>
+            <data key="shared name">M_succ_c</data>
+            <data key="name">M_succ_c</data>
+            <data key="selected">false</data>
+            <data key="id">291</data>
+            <data key="shared_name">M_succ_c</data>
+            <data key="x">20.0</data>
+            <data key="y">30.0</data>
+            <data key="id_original">M_succ_c</data>
+            <data key="value">M_succ_c</data>
+        </node>
+        <node id="247210">
+            <data key="SUID">247210</data>
+            <data key="shared name">M_fum_c</data>
+            <data key="name">M_fum_c</data>
+            <data key="selected">false</data>
+            <data key="id">294</data>
+            <data key="shared_name">M_fum_c</data>
+            <data key="x">19.0</data>
+            <data key="y">28.0</data>
+            <data key="id_original">M_fum_c</data>
+            <data key="value">M_fum_c</data>
+        </node>
+        <node id="247207">
+            <data key="SUID">247207</data>
+            <data key="shared name">M_etoh_e</data>
+            <data key="name">M_etoh_e</data>
+            <data key="selected">false</data>
+            <data key="id">297</data>
+            <data key="shared_name">M_etoh_e</data>
+            <data key="x">11.5</data>
+            <data key="y">45.5</data>
+            <data key="id_original">M_etoh_e</data>
+            <data key="value">M_etoh_e</data>
+        </node>
+        <node id="247204">
+            <data key="SUID">247204</data>
+            <data key="shared name">M_s7p_c</data>
+            <data key="name">M_s7p_c</data>
+            <data key="selected">false</data>
+            <data key="id">300</data>
+            <data key="shared_name">M_s7p_c</data>
+            <data key="x">43.0</data>
+            <data key="y">5.0</data>
+            <data key="id_original">M_s7p_c</data>
+            <data key="value">M_s7p_c</data>
+        </node>
+        <node id="247201">
+            <data key="SUID">247201</data>
+            <data key="shared name">M_dhap_c</data>
+            <data key="name">M_dhap_c</data>
+            <data key="selected">false</data>
+            <data key="id">303</data>
+            <data key="shared_name">M_dhap_c</data>
+            <data key="x">28.5</data>
+            <data key="y">32.0</data>
+            <data key="id_original">M_dhap_c</data>
+            <data key="value">M_dhap_c</data>
+        </node>
+        <node id="247198">
+            <data key="SUID">247198</data>
+            <data key="shared name">M_fru_e</data>
+            <data key="name">M_fru_e</data>
+            <data key="selected">false</data>
+            <data key="id">306</data>
+            <data key="shared_name">M_fru_e</data>
+            <data key="x">31.5</data>
+            <data key="y">25.0</data>
+            <data key="id_original">M_fru_e</data>
+            <data key="value">M_fru_e</data>
+        </node>
+        <node id="247195">
+            <data key="SUID">247195</data>
+            <data key="shared name">M_glc__D_e</data>
+            <data key="name">M_glc__D_e</data>
+            <data key="selected">false</data>
+            <data key="id">309</data>
+            <data key="shared_name">M_glc__D_e</data>
+            <data key="x">31.5</data>
+            <data key="y">24.0</data>
+            <data key="id_original">M_glc__D_e</data>
+            <data key="value">M_glc__D_e</data>
+        </node>
+        <node id="247192">
+            <data key="SUID">247192</data>
+            <data key="shared name">M_glx_c</data>
+            <data key="name">M_glx_c</data>
+            <data key="selected">false</data>
+            <data key="id">312</data>
+            <data key="shared_name">M_glx_c</data>
+            <data key="x">14.0</data>
+            <data key="y">36.0</data>
+            <data key="id_original">M_glx_c</data>
+            <data key="value">M_glx_c</data>
+        </node>
+        <node id="247159">
+            <data key="SUID">247159</data>
+            <data key="shared name">M_lac__D_c</data>
+            <data key="name">M_lac__D_c</data>
+            <data key="selected">false</data>
+            <data key="id">315</data>
+            <data key="shared_name">M_lac__D_c</data>
+            <data key="x">16.0</data>
+            <data key="y">37.0</data>
+            <data key="id_original">M_lac__D_c</data>
+            <data key="value">M_lac__D_c</data>
+        </node>
+        <edge source="247339" target="247336">
+            <data key="SUID">248084</data>
+            <data key="selected">false</data>
+            <data key="id">318</data>
+            <data key="source">152</data>
+            <data key="target">168</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247339" target="247333">
+            <data key="SUID">248081</data>
+            <data key="selected">false</data>
+            <data key="id">327</data>
+            <data key="source">152</data>
+            <data key="target">171</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247339" target="247330">
+            <data key="SUID">248078</data>
+            <data key="selected">false</data>
+            <data key="id">330</data>
+            <data key="source">152</data>
+            <data key="target">174</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_13dpg_c</data>
+        </edge>
+        <edge source="247339" target="247327">
+            <data key="SUID">248075</data>
+            <data key="selected">false</data>
+            <data key="id">333</data>
+            <data key="source">152</data>
+            <data key="target">177</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_actp_c</data>
+        </edge>
+        <edge source="247339" target="247324">
+            <data key="SUID">248072</data>
+            <data key="selected">false</data>
+            <data key="id">336</data>
+            <data key="source">152</data>
+            <data key="target">180</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247339" target="247321">
+            <data key="SUID">248069</data>
+            <data key="selected">false</data>
+            <data key="id">339</data>
+            <data key="source">152</data>
+            <data key="target">183</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_co2_c</data>
+        </edge>
+        <edge source="247339" target="247318">
+            <data key="SUID">248066</data>
+            <data key="selected">false</data>
+            <data key="id">342</data>
+            <data key="source">152</data>
+            <data key="target">186</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_pep_c</data>
+        </edge>
+        <edge source="247339" target="247315">
+            <data key="SUID">248063</data>
+            <data key="selected">false</data>
+            <data key="id">345</data>
+            <data key="source">152</data>
+            <data key="target">189</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_amp_c</data>
+        </edge>
+        <edge source="247339" target="247312">
+            <data key="SUID">248060</data>
+            <data key="selected">false</data>
+            <data key="id">348</data>
+            <data key="source">152</data>
+            <data key="target">192</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247339" target="247309">
+            <data key="SUID">248057</data>
+            <data key="selected">false</data>
+            <data key="id">351</data>
+            <data key="source">152</data>
+            <data key="target">195</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247339" target="247306">
+            <data key="SUID">248054</data>
+            <data key="selected">false</data>
+            <data key="id">354</data>
+            <data key="source">152</data>
+            <data key="target">198</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247339" target="247303">
+            <data key="SUID">248051</data>
+            <data key="selected">false</data>
+            <data key="id">357</data>
+            <data key="source">152</data>
+            <data key="target">201</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_succoa_c</data>
+        </edge>
+        <edge source="247339" target="247300">
+            <data key="SUID">248048</data>
+            <data key="selected">false</data>
+            <data key="id">360</data>
+            <data key="source">152</data>
+            <data key="target">204</data>
+            <data key="source_original">M_atp_c</data>
+            <data key="target_original">M_gln__L_c</data>
+        </edge>
+        <edge source="247336" target="247339">
+            <data key="SUID">248045</data>
+            <data key="selected">false</data>
+            <data key="id">363</data>
+            <data key="source">168</data>
+            <data key="target">152</data>
+            <data key="source_original">M_adp_c</data>
+            <data key="target_original">M_atp_c</data>
+        </edge>
+        <edge source="247336" target="247279">
+            <data key="SUID">248042</data>
+            <data key="selected">false</data>
+            <data key="id">366</data>
+            <data key="source">168</data>
+            <data key="target">225</data>
+            <data key="source_original">M_adp_c</data>
+            <data key="target_original">M_h2o_c</data>
+        </edge>
+        <edge source="247336" target="247333">
+            <data key="SUID">248039</data>
+            <data key="selected">false</data>
+            <data key="id">369</data>
+            <data key="source">168</data>
+            <data key="target">171</data>
+            <data key="source_original">M_adp_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247336" target="247291">
+            <data key="SUID">248036</data>
+            <data key="selected">false</data>
+            <data key="id">372</data>
+            <data key="source">168</data>
+            <data key="target">213</data>
+            <data key="source_original">M_adp_c</data>
+            <data key="target_original">M_pyr_c</data>
+        </edge>
+        <edge source="247333" target="247339">
+            <data key="SUID">248033</data>
+            <data key="selected">false</data>
+            <data key="id">375</data>
+            <data key="source">171</data>
+            <data key="target">152</data>
+            <data key="source_original">M_h_c</data>
+            <data key="target_original">M_atp_c</data>
+        </edge>
+        <edge source="247333" target="247291">
+            <data key="SUID">248030</data>
+            <data key="selected">false</data>
+            <data key="id">378</data>
+            <data key="source">171</data>
+            <data key="target">213</data>
+            <data key="source_original">M_h_c</data>
+            <data key="target_original">M_pyr_c</data>
+        </edge>
+        <edge source="247333" target="247279">
+            <data key="SUID">248027</data>
+            <data key="selected">false</data>
+            <data key="id">381</data>
+            <data key="source">171</data>
+            <data key="target">225</data>
+            <data key="source_original">M_h_c</data>
+            <data key="target_original">M_h2o_c</data>
+        </edge>
+        <edge source="247333" target="247234">
+            <data key="SUID">248024</data>
+            <data key="selected">false</data>
+            <data key="id">384</data>
+            <data key="source">171</data>
+            <data key="target">270</data>
+            <data key="source_original">M_h_c</data>
+            <data key="target_original">M_q8_c</data>
+        </edge>
+        <edge source="247333" target="247258">
+            <data key="SUID">248021</data>
+            <data key="selected">false</data>
+            <data key="id">387</data>
+            <data key="source">171</data>
+            <data key="target">246</data>
+            <data key="source_original">M_h_c</data>
+            <data key="target_original">M_glu__L_c</data>
+        </edge>
+        <edge source="247333" target="247306">
+            <data key="SUID">248018</data>
+            <data key="selected">false</data>
+            <data key="id">390</data>
+            <data key="source">171</data>
+            <data key="target">198</data>
+            <data key="source_original">M_h_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247333" target="247252">
+            <data key="SUID">248015</data>
+            <data key="selected">false</data>
+            <data key="id">393</data>
+            <data key="source">171</data>
+            <data key="target">252</data>
+            <data key="source_original">M_h_c</data>
+            <data key="target_original">M_nad_c</data>
+        </edge>
+        <edge source="247333" target="247231">
+            <data key="SUID">248012</data>
+            <data key="selected">false</data>
+            <data key="id">396</data>
+            <data key="source">171</data>
+            <data key="target">273</data>
+            <data key="source_original">M_h_c</data>
+            <data key="target_original">M_q8h2_c</data>
+        </edge>
+        <edge source="247330" target="247210">
+            <data key="SUID">248009</data>
+            <data key="selected">false</data>
+            <data key="id">399</data>
+            <data key="source">174</data>
+            <data key="target">294</data>
+            <data key="source_original">M_13dpg_c</data>
+            <data key="target_original">M_fum_c</data>
+        </edge>
+        <edge source="247327" target="247210">
+            <data key="SUID">248006</data>
+            <data key="selected">false</data>
+            <data key="id">402</data>
+            <data key="source">177</data>
+            <data key="target">294</data>
+            <data key="source_original">M_actp_c</data>
+            <data key="target_original">M_fum_c</data>
+        </edge>
+        <edge source="247324" target="247339">
+            <data key="SUID">248003</data>
+            <data key="selected">false</data>
+            <data key="id">405</data>
+            <data key="source">180</data>
+            <data key="target">152</data>
+            <data key="source_original">M_pi_c</data>
+            <data key="target_original">M_atp_c</data>
+        </edge>
+        <edge source="247324" target="247279">
+            <data key="SUID">248000</data>
+            <data key="selected">false</data>
+            <data key="id">408</data>
+            <data key="source">180</data>
+            <data key="target">225</data>
+            <data key="source_original">M_pi_c</data>
+            <data key="target_original">M_h2o_c</data>
+        </edge>
+        <edge source="247324" target="247333">
+            <data key="SUID">247997</data>
+            <data key="selected">false</data>
+            <data key="id">411</data>
+            <data key="source">180</data>
+            <data key="target">171</data>
+            <data key="source_original">M_pi_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247324" target="247327">
+            <data key="SUID">247994</data>
+            <data key="selected">false</data>
+            <data key="id">414</data>
+            <data key="source">180</data>
+            <data key="target">177</data>
+            <data key="source_original">M_pi_c</data>
+            <data key="target_original">M_actp_c</data>
+        </edge>
+        <edge source="247324" target="247312">
+            <data key="SUID">247991</data>
+            <data key="selected">false</data>
+            <data key="id">417</data>
+            <data key="source">180</data>
+            <data key="target">192</data>
+            <data key="source_original">M_pi_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247324" target="247330">
+            <data key="SUID">247988</data>
+            <data key="selected">false</data>
+            <data key="id">420</data>
+            <data key="source">180</data>
+            <data key="target">174</data>
+            <data key="source_original">M_pi_c</data>
+            <data key="target_original">M_13dpg_c</data>
+        </edge>
+        <edge source="247324" target="247309">
+            <data key="SUID">247985</data>
+            <data key="selected">false</data>
+            <data key="id">423</data>
+            <data key="source">180</data>
+            <data key="target">195</data>
+            <data key="source_original">M_pi_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247321" target="247333">
+            <data key="SUID">247982</data>
+            <data key="selected">false</data>
+            <data key="id">426</data>
+            <data key="source">183</data>
+            <data key="target">171</data>
+            <data key="source_original">M_co2_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247321" target="247276">
+            <data key="SUID">247979</data>
+            <data key="selected">false</data>
+            <data key="id">429</data>
+            <data key="source">183</data>
+            <data key="target">228</data>
+            <data key="source_original">M_co2_c</data>
+            <data key="target_original">M_oaa_c</data>
+        </edge>
+        <edge source="247321" target="247324">
+            <data key="SUID">247976</data>
+            <data key="selected">false</data>
+            <data key="id">432</data>
+            <data key="source">183</data>
+            <data key="target">180</data>
+            <data key="source_original">M_co2_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247318" target="247333">
+            <data key="SUID">247973</data>
+            <data key="selected">false</data>
+            <data key="id">435</data>
+            <data key="source">186</data>
+            <data key="target">171</data>
+            <data key="source_original">M_pep_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247318" target="247276">
+            <data key="SUID">247970</data>
+            <data key="selected">false</data>
+            <data key="id">438</data>
+            <data key="source">186</data>
+            <data key="target">228</data>
+            <data key="source_original">M_pep_c</data>
+            <data key="target_original">M_oaa_c</data>
+        </edge>
+        <edge source="247318" target="247324">
+            <data key="SUID">247967</data>
+            <data key="selected">false</data>
+            <data key="id">441</data>
+            <data key="source">186</data>
+            <data key="target">180</data>
+            <data key="source_original">M_pep_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247318" target="247339">
+            <data key="SUID">247964</data>
+            <data key="selected">false</data>
+            <data key="id">444</data>
+            <data key="source">186</data>
+            <data key="target">152</data>
+            <data key="source_original">M_pep_c</data>
+            <data key="target_original">M_atp_c</data>
+        </edge>
+        <edge source="247318" target="247291">
+            <data key="SUID">247961</data>
+            <data key="selected">false</data>
+            <data key="id">447</data>
+            <data key="source">186</data>
+            <data key="target">213</data>
+            <data key="source_original">M_pep_c</data>
+            <data key="target_original">M_pyr_c</data>
+        </edge>
+        <edge source="247318" target="247336">
+            <data key="SUID">247958</data>
+            <data key="selected">false</data>
+            <data key="id">450</data>
+            <data key="source">186</data>
+            <data key="target">168</data>
+            <data key="source_original">M_pep_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247318" target="247312">
+            <data key="SUID">247955</data>
+            <data key="selected">false</data>
+            <data key="id">453</data>
+            <data key="source">186</data>
+            <data key="target">192</data>
+            <data key="source_original">M_pep_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247318" target="247309">
+            <data key="SUID">247952</data>
+            <data key="selected">false</data>
+            <data key="id">456</data>
+            <data key="source">186</data>
+            <data key="target">195</data>
+            <data key="source_original">M_pep_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247318" target="247306">
+            <data key="SUID">247949</data>
+            <data key="selected">false</data>
+            <data key="id">459</data>
+            <data key="source">186</data>
+            <data key="target">198</data>
+            <data key="source_original">M_pep_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247315" target="247336">
+            <data key="SUID">247946</data>
+            <data key="selected">false</data>
+            <data key="id">462</data>
+            <data key="source">189</data>
+            <data key="target">168</data>
+            <data key="source_original">M_amp_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247312" target="247297">
+            <data key="SUID">247943</data>
+            <data key="selected">false</data>
+            <data key="id">465</data>
+            <data key="source">192</data>
+            <data key="target">207</data>
+            <data key="source_original">M_coa_c</data>
+            <data key="target_original">M_accoa_c</data>
+        </edge>
+        <edge source="247312" target="247294">
+            <data key="SUID">247940</data>
+            <data key="selected">false</data>
+            <data key="id">468</data>
+            <data key="source">192</data>
+            <data key="target">210</data>
+            <data key="source_original">M_coa_c</data>
+            <data key="target_original">M_for_c</data>
+        </edge>
+        <edge source="247312" target="247333">
+            <data key="SUID">247937</data>
+            <data key="selected">false</data>
+            <data key="id">471</data>
+            <data key="source">192</data>
+            <data key="target">171</data>
+            <data key="source_original">M_coa_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247312" target="247309">
+            <data key="SUID">247934</data>
+            <data key="selected">false</data>
+            <data key="id">474</data>
+            <data key="source">192</data>
+            <data key="target">195</data>
+            <data key="source_original">M_coa_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247312" target="247321">
+            <data key="SUID">247931</data>
+            <data key="selected">false</data>
+            <data key="id">477</data>
+            <data key="source">192</data>
+            <data key="target">183</data>
+            <data key="source_original">M_coa_c</data>
+            <data key="target_original">M_co2_c</data>
+        </edge>
+        <edge source="247312" target="247303">
+            <data key="SUID">247928</data>
+            <data key="selected">false</data>
+            <data key="id">480</data>
+            <data key="source">192</data>
+            <data key="target">201</data>
+            <data key="source_original">M_coa_c</data>
+            <data key="target_original">M_succoa_c</data>
+        </edge>
+        <edge source="247312" target="247336">
+            <data key="SUID">247925</data>
+            <data key="selected">false</data>
+            <data key="id">483</data>
+            <data key="source">192</data>
+            <data key="target">168</data>
+            <data key="source_original">M_coa_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247312" target="247324">
+            <data key="SUID">247922</data>
+            <data key="selected">false</data>
+            <data key="id">486</data>
+            <data key="source">192</data>
+            <data key="target">180</data>
+            <data key="source_original">M_coa_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247309" target="247333">
+            <data key="SUID">247919</data>
+            <data key="selected">false</data>
+            <data key="id">489</data>
+            <data key="source">195</data>
+            <data key="target">171</data>
+            <data key="source_original">M_nadh_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247309" target="247252">
+            <data key="SUID">247916</data>
+            <data key="selected">false</data>
+            <data key="id">492</data>
+            <data key="source">195</data>
+            <data key="target">252</data>
+            <data key="source_original">M_nadh_c</data>
+            <data key="target_original">M_nad_c</data>
+        </edge>
+        <edge source="247309" target="247264">
+            <data key="SUID">247913</data>
+            <data key="selected">false</data>
+            <data key="id">495</data>
+            <data key="source">195</data>
+            <data key="target">240</data>
+            <data key="source_original">M_nadh_c</data>
+            <data key="target_original">M_nadph_c</data>
+        </edge>
+        <edge source="247309" target="247231">
+            <data key="SUID">247910</data>
+            <data key="selected">false</data>
+            <data key="id">498</data>
+            <data key="source">195</data>
+            <data key="target">273</data>
+            <data key="source_original">M_nadh_c</data>
+            <data key="target_original">M_q8h2_c</data>
+        </edge>
+        <edge source="247306" target="247333">
+            <data key="SUID">247907</data>
+            <data key="selected">false</data>
+            <data key="id">501</data>
+            <data key="source">198</data>
+            <data key="target">171</data>
+            <data key="source_original">M_nadp_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247306" target="247252">
+            <data key="SUID">247904</data>
+            <data key="selected">false</data>
+            <data key="id">504</data>
+            <data key="source">198</data>
+            <data key="target">252</data>
+            <data key="source_original">M_nadp_c</data>
+            <data key="target_original">M_nad_c</data>
+        </edge>
+        <edge source="247306" target="247264">
+            <data key="SUID">247901</data>
+            <data key="selected">false</data>
+            <data key="id">507</data>
+            <data key="source">198</data>
+            <data key="target">240</data>
+            <data key="source_original">M_nadp_c</data>
+            <data key="target_original">M_nadph_c</data>
+        </edge>
+        <edge source="247306" target="247285">
+            <data key="SUID">247898</data>
+            <data key="selected">false</data>
+            <data key="id">510</data>
+            <data key="source">198</data>
+            <data key="target">219</data>
+            <data key="source_original">M_nadp_c</data>
+            <data key="target_original">M_6pgl_c</data>
+        </edge>
+        <edge source="247306" target="247261">
+            <data key="SUID">247895</data>
+            <data key="selected">false</data>
+            <data key="id">513</data>
+            <data key="source">198</data>
+            <data key="target">243</data>
+            <data key="source_original">M_nadp_c</data>
+            <data key="target_original">M_nh4_c</data>
+        </edge>
+        <edge source="247306" target="247321">
+            <data key="SUID">247892</data>
+            <data key="selected">false</data>
+            <data key="id">516</data>
+            <data key="source">198</data>
+            <data key="target">183</data>
+            <data key="source_original">M_nadp_c</data>
+            <data key="target_original">M_co2_c</data>
+        </edge>
+        <edge source="247306" target="247222">
+            <data key="SUID">247889</data>
+            <data key="selected">false</data>
+            <data key="id">519</data>
+            <data key="source">198</data>
+            <data key="target">282</data>
+            <data key="source_original">M_nadp_c</data>
+            <data key="target_original">M_ru5p__D_c</data>
+        </edge>
+        <edge source="247306" target="247291">
+            <data key="SUID">247886</data>
+            <data key="selected">false</data>
+            <data key="id">522</data>
+            <data key="source">198</data>
+            <data key="target">213</data>
+            <data key="source_original">M_nadp_c</data>
+            <data key="target_original">M_pyr_c</data>
+        </edge>
+        <edge source="247303" target="247318">
+            <data key="SUID">247883</data>
+            <data key="selected">false</data>
+            <data key="id">525</data>
+            <data key="source">201</data>
+            <data key="target">186</data>
+            <data key="source_original">M_succoa_c</data>
+            <data key="target_original">M_pep_c</data>
+        </edge>
+        <edge source="247300" target="247336">
+            <data key="SUID">247880</data>
+            <data key="selected">false</data>
+            <data key="id">528</data>
+            <data key="source">204</data>
+            <data key="target">168</data>
+            <data key="source_original">M_gln__L_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247300" target="247312">
+            <data key="SUID">247877</data>
+            <data key="selected">false</data>
+            <data key="id">531</data>
+            <data key="source">204</data>
+            <data key="target">192</data>
+            <data key="source_original">M_gln__L_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247300" target="247333">
+            <data key="SUID">247874</data>
+            <data key="selected">false</data>
+            <data key="id">534</data>
+            <data key="source">204</data>
+            <data key="target">171</data>
+            <data key="source_original">M_gln__L_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247300" target="247309">
+            <data key="SUID">247871</data>
+            <data key="selected">false</data>
+            <data key="id">537</data>
+            <data key="source">204</data>
+            <data key="target">195</data>
+            <data key="source_original">M_gln__L_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247300" target="247306">
+            <data key="SUID">247868</data>
+            <data key="selected">false</data>
+            <data key="id">540</data>
+            <data key="source">204</data>
+            <data key="target">198</data>
+            <data key="source_original">M_gln__L_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247300" target="247324">
+            <data key="SUID">247865</data>
+            <data key="selected">false</data>
+            <data key="id">543</data>
+            <data key="source">204</data>
+            <data key="target">180</data>
+            <data key="source_original">M_gln__L_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247300" target="247258">
+            <data key="SUID">247862</data>
+            <data key="selected">false</data>
+            <data key="id">546</data>
+            <data key="source">204</data>
+            <data key="target">246</data>
+            <data key="source_original">M_gln__L_c</data>
+            <data key="target_original">M_glu__L_c</data>
+        </edge>
+        <edge source="247300" target="247261">
+            <data key="SUID">247859</data>
+            <data key="selected">false</data>
+            <data key="id">549</data>
+            <data key="source">204</data>
+            <data key="target">243</data>
+            <data key="source_original">M_gln__L_c</data>
+            <data key="target_original">M_nh4_c</data>
+        </edge>
+        <edge source="247297" target="247327">
+            <data key="SUID">247856</data>
+            <data key="selected">false</data>
+            <data key="id">552</data>
+            <data key="source">207</data>
+            <data key="target">177</data>
+            <data key="source_original">M_accoa_c</data>
+            <data key="target_original">M_actp_c</data>
+        </edge>
+        <edge source="247297" target="247312">
+            <data key="SUID">247853</data>
+            <data key="selected">false</data>
+            <data key="id">555</data>
+            <data key="source">207</data>
+            <data key="target">192</data>
+            <data key="source_original">M_accoa_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247297" target="247336">
+            <data key="SUID">247850</data>
+            <data key="selected">false</data>
+            <data key="id">558</data>
+            <data key="source">207</data>
+            <data key="target">168</data>
+            <data key="source_original">M_accoa_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247297" target="247333">
+            <data key="SUID">247847</data>
+            <data key="selected">false</data>
+            <data key="id">561</data>
+            <data key="source">207</data>
+            <data key="target">171</data>
+            <data key="source_original">M_accoa_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247297" target="247309">
+            <data key="SUID">247844</data>
+            <data key="selected">false</data>
+            <data key="id">564</data>
+            <data key="source">207</data>
+            <data key="target">195</data>
+            <data key="source_original">M_accoa_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247297" target="247306">
+            <data key="SUID">247841</data>
+            <data key="selected">false</data>
+            <data key="id">567</data>
+            <data key="source">207</data>
+            <data key="target">198</data>
+            <data key="source_original">M_accoa_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247297" target="247324">
+            <data key="SUID">247838</data>
+            <data key="selected">false</data>
+            <data key="id">570</data>
+            <data key="source">207</data>
+            <data key="target">180</data>
+            <data key="source_original">M_accoa_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247297" target="247270">
+            <data key="SUID">247835</data>
+            <data key="selected">false</data>
+            <data key="id">573</data>
+            <data key="source">207</data>
+            <data key="target">234</data>
+            <data key="source_original">M_accoa_c</data>
+            <data key="target_original">M_cit_c</data>
+        </edge>
+        <edge source="247297" target="247267">
+            <data key="SUID">247832</data>
+            <data key="selected">false</data>
+            <data key="id">576</data>
+            <data key="source">207</data>
+            <data key="target">237</data>
+            <data key="source_original">M_accoa_c</data>
+            <data key="target_original">M_mal__L_c</data>
+        </edge>
+        <edge source="247294" target="247210">
+            <data key="SUID">247829</data>
+            <data key="selected">false</data>
+            <data key="id">579</data>
+            <data key="source">210</data>
+            <data key="target">294</data>
+            <data key="source_original">M_for_c</data>
+            <data key="target_original">M_fum_c</data>
+        </edge>
+        <edge source="247291" target="247297">
+            <data key="SUID">247826</data>
+            <data key="selected">false</data>
+            <data key="id">582</data>
+            <data key="source">213</data>
+            <data key="target">207</data>
+            <data key="source_original">M_pyr_c</data>
+            <data key="target_original">M_accoa_c</data>
+        </edge>
+        <edge source="247291" target="247294">
+            <data key="SUID">247823</data>
+            <data key="selected">false</data>
+            <data key="id">585</data>
+            <data key="source">213</data>
+            <data key="target">210</data>
+            <data key="source_original">M_pyr_c</data>
+            <data key="target_original">M_for_c</data>
+        </edge>
+        <edge source="247291" target="247315">
+            <data key="SUID">247820</data>
+            <data key="selected">false</data>
+            <data key="id">588</data>
+            <data key="source">213</data>
+            <data key="target">189</data>
+            <data key="source_original">M_pyr_c</data>
+            <data key="target_original">M_amp_c</data>
+        </edge>
+        <edge source="247291" target="247333">
+            <data key="SUID">247817</data>
+            <data key="selected">false</data>
+            <data key="id">591</data>
+            <data key="source">213</data>
+            <data key="target">171</data>
+            <data key="source_original">M_pyr_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247291" target="247318">
+            <data key="SUID">247814</data>
+            <data key="selected">false</data>
+            <data key="id">594</data>
+            <data key="source">213</data>
+            <data key="target">186</data>
+            <data key="source_original">M_pyr_c</data>
+            <data key="target_original">M_pep_c</data>
+        </edge>
+        <edge source="247291" target="247324">
+            <data key="SUID">247811</data>
+            <data key="selected">false</data>
+            <data key="id">597</data>
+            <data key="source">213</data>
+            <data key="target">180</data>
+            <data key="source_original">M_pyr_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247291" target="247336">
+            <data key="SUID">247808</data>
+            <data key="selected">false</data>
+            <data key="id">600</data>
+            <data key="source">213</data>
+            <data key="target">168</data>
+            <data key="source_original">M_pyr_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247291" target="247312">
+            <data key="SUID">247805</data>
+            <data key="selected">false</data>
+            <data key="id">603</data>
+            <data key="source">213</data>
+            <data key="target">192</data>
+            <data key="source_original">M_pyr_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247291" target="247309">
+            <data key="SUID">247802</data>
+            <data key="selected">false</data>
+            <data key="id">606</data>
+            <data key="source">213</data>
+            <data key="target">195</data>
+            <data key="source_original">M_pyr_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247291" target="247306">
+            <data key="SUID">247799</data>
+            <data key="selected">false</data>
+            <data key="id">609</data>
+            <data key="source">213</data>
+            <data key="target">198</data>
+            <data key="source_original">M_pyr_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247291" target="247321">
+            <data key="SUID">247796</data>
+            <data key="selected">false</data>
+            <data key="id">612</data>
+            <data key="source">213</data>
+            <data key="target">183</data>
+            <data key="source_original">M_pyr_c</data>
+            <data key="target_original">M_co2_c</data>
+        </edge>
+        <edge source="247288" target="247330">
+            <data key="SUID">247793</data>
+            <data key="selected">false</data>
+            <data key="id">615</data>
+            <data key="source">216</data>
+            <data key="target">174</data>
+            <data key="source_original">M_3pg_c</data>
+            <data key="target_original">M_13dpg_c</data>
+        </edge>
+        <edge source="247288" target="247336">
+            <data key="SUID">247790</data>
+            <data key="selected">false</data>
+            <data key="id">618</data>
+            <data key="source">216</data>
+            <data key="target">168</data>
+            <data key="source_original">M_3pg_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247288" target="247312">
+            <data key="SUID">247787</data>
+            <data key="selected">false</data>
+            <data key="id">621</data>
+            <data key="source">216</data>
+            <data key="target">192</data>
+            <data key="source_original">M_3pg_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247288" target="247333">
+            <data key="SUID">247784</data>
+            <data key="selected">false</data>
+            <data key="id">624</data>
+            <data key="source">216</data>
+            <data key="target">171</data>
+            <data key="source_original">M_3pg_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247288" target="247309">
+            <data key="SUID">247781</data>
+            <data key="selected">false</data>
+            <data key="id">627</data>
+            <data key="source">216</data>
+            <data key="target">195</data>
+            <data key="source_original">M_3pg_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247288" target="247306">
+            <data key="SUID">247778</data>
+            <data key="selected">false</data>
+            <data key="id">630</data>
+            <data key="source">216</data>
+            <data key="target">198</data>
+            <data key="source_original">M_3pg_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247288" target="247324">
+            <data key="SUID">247775</data>
+            <data key="selected">false</data>
+            <data key="id">633</data>
+            <data key="source">216</data>
+            <data key="target">180</data>
+            <data key="source_original">M_3pg_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247285" target="247282">
+            <data key="SUID">247772</data>
+            <data key="selected">false</data>
+            <data key="id">636</data>
+            <data key="source">219</data>
+            <data key="target">222</data>
+            <data key="source_original">M_6pgl_c</data>
+            <data key="target_original">M_6pgc_c</data>
+        </edge>
+        <edge source="247285" target="247333">
+            <data key="SUID">247769</data>
+            <data key="selected">false</data>
+            <data key="id">639</data>
+            <data key="source">219</data>
+            <data key="target">171</data>
+            <data key="source_original">M_6pgl_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247282" target="247321">
+            <data key="SUID">247766</data>
+            <data key="selected">false</data>
+            <data key="id">642</data>
+            <data key="source">222</data>
+            <data key="target">183</data>
+            <data key="source_original">M_6pgc_c</data>
+            <data key="target_original">M_co2_c</data>
+        </edge>
+        <edge source="247282" target="247264">
+            <data key="SUID">247763</data>
+            <data key="selected">false</data>
+            <data key="id">645</data>
+            <data key="source">222</data>
+            <data key="target">240</data>
+            <data key="source_original">M_6pgc_c</data>
+            <data key="target_original">M_nadph_c</data>
+        </edge>
+        <edge source="247282" target="247222">
+            <data key="SUID">247760</data>
+            <data key="selected">false</data>
+            <data key="id">648</data>
+            <data key="source">222</data>
+            <data key="target">282</data>
+            <data key="source_original">M_6pgc_c</data>
+            <data key="target_original">M_ru5p__D_c</data>
+        </edge>
+        <edge source="247279" target="247282">
+            <data key="SUID">247757</data>
+            <data key="selected">false</data>
+            <data key="id">651</data>
+            <data key="source">225</data>
+            <data key="target">222</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_6pgc_c</data>
+        </edge>
+        <edge source="247279" target="247333">
+            <data key="SUID">247754</data>
+            <data key="selected">false</data>
+            <data key="id">654</data>
+            <data key="source">225</data>
+            <data key="target">171</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247279" target="247276">
+            <data key="SUID">247751</data>
+            <data key="selected">false</data>
+            <data key="id">657</data>
+            <data key="source">225</data>
+            <data key="target">228</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_oaa_c</data>
+        </edge>
+        <edge source="247279" target="247324">
+            <data key="SUID">247748</data>
+            <data key="selected">false</data>
+            <data key="id">660</data>
+            <data key="source">225</data>
+            <data key="target">180</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247279" target="247273">
+            <data key="SUID">247745</data>
+            <data key="selected">false</data>
+            <data key="id">663</data>
+            <data key="source">225</data>
+            <data key="target">231</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_icit_c</data>
+        </edge>
+        <edge source="247279" target="247336">
+            <data key="SUID">247742</data>
+            <data key="selected">false</data>
+            <data key="id">666</data>
+            <data key="source">225</data>
+            <data key="target">168</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247279" target="247315">
+            <data key="SUID">247739</data>
+            <data key="selected">false</data>
+            <data key="id">669</data>
+            <data key="source">225</data>
+            <data key="target">189</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_amp_c</data>
+        </edge>
+        <edge source="247279" target="247318">
+            <data key="SUID">247736</data>
+            <data key="selected">false</data>
+            <data key="id">672</data>
+            <data key="source">225</data>
+            <data key="target">186</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_pep_c</data>
+        </edge>
+        <edge source="247279" target="247312">
+            <data key="SUID">247733</data>
+            <data key="selected">false</data>
+            <data key="id">675</data>
+            <data key="source">225</data>
+            <data key="target">192</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247279" target="247309">
+            <data key="SUID">247730</data>
+            <data key="selected">false</data>
+            <data key="id">678</data>
+            <data key="source">225</data>
+            <data key="target">195</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247279" target="247306">
+            <data key="SUID">247727</data>
+            <data key="selected">false</data>
+            <data key="id">681</data>
+            <data key="source">225</data>
+            <data key="target">198</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247279" target="247270">
+            <data key="SUID">247724</data>
+            <data key="selected">false</data>
+            <data key="id">684</data>
+            <data key="source">225</data>
+            <data key="target">234</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_cit_c</data>
+        </edge>
+        <edge source="247279" target="247267">
+            <data key="SUID">247721</data>
+            <data key="selected">false</data>
+            <data key="id">687</data>
+            <data key="source">225</data>
+            <data key="target">237</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_mal__L_c</data>
+        </edge>
+        <edge source="247279" target="247300">
+            <data key="SUID">247718</data>
+            <data key="selected">false</data>
+            <data key="id">690</data>
+            <data key="source">225</data>
+            <data key="target">204</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_gln__L_c</data>
+        </edge>
+        <edge source="247279" target="247264">
+            <data key="SUID">247715</data>
+            <data key="selected">false</data>
+            <data key="id">693</data>
+            <data key="source">225</data>
+            <data key="target">240</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_nadph_c</data>
+        </edge>
+        <edge source="247279" target="247261">
+            <data key="SUID">247712</data>
+            <data key="selected">false</data>
+            <data key="id">696</data>
+            <data key="source">225</data>
+            <data key="target">243</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_nh4_c</data>
+        </edge>
+        <edge source="247279" target="247258">
+            <data key="SUID">247709</data>
+            <data key="selected">false</data>
+            <data key="id">699</data>
+            <data key="source">225</data>
+            <data key="target">246</data>
+            <data key="source_original">M_h2o_c</data>
+            <data key="target_original">M_glu__L_c</data>
+        </edge>
+        <edge source="247276" target="247336">
+            <data key="SUID">247706</data>
+            <data key="selected">false</data>
+            <data key="id">702</data>
+            <data key="source">228</data>
+            <data key="target">168</data>
+            <data key="source_original">M_oaa_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247276" target="247321">
+            <data key="SUID">247703</data>
+            <data key="selected">false</data>
+            <data key="id">705</data>
+            <data key="source">228</data>
+            <data key="target">183</data>
+            <data key="source_original">M_oaa_c</data>
+            <data key="target_original">M_co2_c</data>
+        </edge>
+        <edge source="247276" target="247318">
+            <data key="SUID">247700</data>
+            <data key="selected">false</data>
+            <data key="id">708</data>
+            <data key="source">228</data>
+            <data key="target">186</data>
+            <data key="source_original">M_oaa_c</data>
+            <data key="target_original">M_pep_c</data>
+        </edge>
+        <edge source="247276" target="247312">
+            <data key="SUID">247697</data>
+            <data key="selected">false</data>
+            <data key="id">711</data>
+            <data key="source">228</data>
+            <data key="target">192</data>
+            <data key="source_original">M_oaa_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247276" target="247333">
+            <data key="SUID">247694</data>
+            <data key="selected">false</data>
+            <data key="id">714</data>
+            <data key="source">228</data>
+            <data key="target">171</data>
+            <data key="source_original">M_oaa_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247276" target="247309">
+            <data key="SUID">247691</data>
+            <data key="selected">false</data>
+            <data key="id">717</data>
+            <data key="source">228</data>
+            <data key="target">195</data>
+            <data key="source_original">M_oaa_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247276" target="247306">
+            <data key="SUID">247688</data>
+            <data key="selected">false</data>
+            <data key="id">720</data>
+            <data key="source">228</data>
+            <data key="target">198</data>
+            <data key="source_original">M_oaa_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247276" target="247324">
+            <data key="SUID">247685</data>
+            <data key="selected">false</data>
+            <data key="id">723</data>
+            <data key="source">228</data>
+            <data key="target">180</data>
+            <data key="source_original">M_oaa_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247276" target="247270">
+            <data key="SUID">247682</data>
+            <data key="selected">false</data>
+            <data key="id">726</data>
+            <data key="source">228</data>
+            <data key="target">234</data>
+            <data key="source_original">M_oaa_c</data>
+            <data key="target_original">M_cit_c</data>
+        </edge>
+        <edge source="247273" target="247321">
+            <data key="SUID">247679</data>
+            <data key="selected">false</data>
+            <data key="id">729</data>
+            <data key="source">231</data>
+            <data key="target">183</data>
+            <data key="source_original">M_icit_c</data>
+            <data key="target_original">M_co2_c</data>
+        </edge>
+        <edge source="247273" target="247264">
+            <data key="SUID">247676</data>
+            <data key="selected">false</data>
+            <data key="id">732</data>
+            <data key="source">231</data>
+            <data key="target">240</data>
+            <data key="source_original">M_icit_c</data>
+            <data key="target_original">M_nadph_c</data>
+        </edge>
+        <edge source="247273" target="247192">
+            <data key="SUID">247673</data>
+            <data key="selected">false</data>
+            <data key="id">735</data>
+            <data key="source">231</data>
+            <data key="target">312</data>
+            <data key="source_original">M_icit_c</data>
+            <data key="target_original">M_glx_c</data>
+        </edge>
+        <edge source="247273" target="247213">
+            <data key="SUID">247670</data>
+            <data key="selected">false</data>
+            <data key="id">738</data>
+            <data key="source">231</data>
+            <data key="target">291</data>
+            <data key="source_original">M_icit_c</data>
+            <data key="target_original">M_succ_c</data>
+        </edge>
+        <edge source="247270" target="247237">
+            <data key="SUID">247667</data>
+            <data key="selected">false</data>
+            <data key="id">741</data>
+            <data key="source">234</data>
+            <data key="target">267</data>
+            <data key="source_original">M_cit_c</data>
+            <data key="target_original">M_acon_C_c</data>
+        </edge>
+        <edge source="247270" target="247279">
+            <data key="SUID">247664</data>
+            <data key="selected">false</data>
+            <data key="id">744</data>
+            <data key="source">234</data>
+            <data key="target">225</data>
+            <data key="source_original">M_cit_c</data>
+            <data key="target_original">M_h2o_c</data>
+        </edge>
+        <edge source="247267" target="247333">
+            <data key="SUID">247661</data>
+            <data key="selected">false</data>
+            <data key="id">747</data>
+            <data key="source">237</data>
+            <data key="target">171</data>
+            <data key="source_original">M_mal__L_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247267" target="247309">
+            <data key="SUID">247658</data>
+            <data key="selected">false</data>
+            <data key="id">750</data>
+            <data key="source">237</data>
+            <data key="target">195</data>
+            <data key="source_original">M_mal__L_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247267" target="247276">
+            <data key="SUID">247655</data>
+            <data key="selected">false</data>
+            <data key="id">753</data>
+            <data key="source">237</data>
+            <data key="target">228</data>
+            <data key="source_original">M_mal__L_c</data>
+            <data key="target_original">M_oaa_c</data>
+        </edge>
+        <edge source="247267" target="247321">
+            <data key="SUID">247652</data>
+            <data key="selected">false</data>
+            <data key="id">756</data>
+            <data key="source">237</data>
+            <data key="target">183</data>
+            <data key="source_original">M_mal__L_c</data>
+            <data key="target_original">M_co2_c</data>
+        </edge>
+        <edge source="247267" target="247291">
+            <data key="SUID">247649</data>
+            <data key="selected">false</data>
+            <data key="id">759</data>
+            <data key="source">237</data>
+            <data key="target">213</data>
+            <data key="source_original">M_mal__L_c</data>
+            <data key="target_original">M_pyr_c</data>
+        </edge>
+        <edge source="247267" target="247264">
+            <data key="SUID">247646</data>
+            <data key="selected">false</data>
+            <data key="id">762</data>
+            <data key="source">237</data>
+            <data key="target">240</data>
+            <data key="source_original">M_mal__L_c</data>
+            <data key="target_original">M_nadph_c</data>
+        </edge>
+        <edge source="247264" target="247336">
+            <data key="SUID">247643</data>
+            <data key="selected">false</data>
+            <data key="id">765</data>
+            <data key="source">240</data>
+            <data key="target">168</data>
+            <data key="source_original">M_nadph_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247264" target="247312">
+            <data key="SUID">247640</data>
+            <data key="selected">false</data>
+            <data key="id">768</data>
+            <data key="source">240</data>
+            <data key="target">192</data>
+            <data key="source_original">M_nadph_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247264" target="247333">
+            <data key="SUID">247637</data>
+            <data key="selected">false</data>
+            <data key="id">771</data>
+            <data key="source">240</data>
+            <data key="target">171</data>
+            <data key="source_original">M_nadph_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247264" target="247309">
+            <data key="SUID">247634</data>
+            <data key="selected">false</data>
+            <data key="id">774</data>
+            <data key="source">240</data>
+            <data key="target">195</data>
+            <data key="source_original">M_nadph_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247264" target="247306">
+            <data key="SUID">247631</data>
+            <data key="selected">false</data>
+            <data key="id">777</data>
+            <data key="source">240</data>
+            <data key="target">198</data>
+            <data key="source_original">M_nadph_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247264" target="247324">
+            <data key="SUID">247628</data>
+            <data key="selected">false</data>
+            <data key="id">780</data>
+            <data key="source">240</data>
+            <data key="target">180</data>
+            <data key="source_original">M_nadph_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247264" target="247258">
+            <data key="SUID">247625</data>
+            <data key="selected">false</data>
+            <data key="id">783</data>
+            <data key="source">240</data>
+            <data key="target">246</data>
+            <data key="source_original">M_nadph_c</data>
+            <data key="target_original">M_glu__L_c</data>
+        </edge>
+        <edge source="247261" target="247336">
+            <data key="SUID">247622</data>
+            <data key="selected">false</data>
+            <data key="id">786</data>
+            <data key="source">243</data>
+            <data key="target">168</data>
+            <data key="source_original">M_nh4_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247261" target="247300">
+            <data key="SUID">247619</data>
+            <data key="selected">false</data>
+            <data key="id">789</data>
+            <data key="source">243</data>
+            <data key="target">204</data>
+            <data key="source_original">M_nh4_c</data>
+            <data key="target_original">M_gln__L_c</data>
+        </edge>
+        <edge source="247261" target="247333">
+            <data key="SUID">247616</data>
+            <data key="selected">false</data>
+            <data key="id">792</data>
+            <data key="source">243</data>
+            <data key="target">171</data>
+            <data key="source_original">M_nh4_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247261" target="247324">
+            <data key="SUID">247613</data>
+            <data key="selected">false</data>
+            <data key="id">795</data>
+            <data key="source">243</data>
+            <data key="target">180</data>
+            <data key="source_original">M_nh4_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247258" target="247336">
+            <data key="SUID">247610</data>
+            <data key="selected">false</data>
+            <data key="id">798</data>
+            <data key="source">246</data>
+            <data key="target">168</data>
+            <data key="source_original">M_glu__L_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247258" target="247312">
+            <data key="SUID">247607</data>
+            <data key="selected">false</data>
+            <data key="id">801</data>
+            <data key="source">246</data>
+            <data key="target">192</data>
+            <data key="source_original">M_glu__L_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247258" target="247333">
+            <data key="SUID">247604</data>
+            <data key="selected">false</data>
+            <data key="id">804</data>
+            <data key="source">246</data>
+            <data key="target">171</data>
+            <data key="source_original">M_glu__L_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247258" target="247309">
+            <data key="SUID">247601</data>
+            <data key="selected">false</data>
+            <data key="id">807</data>
+            <data key="source">246</data>
+            <data key="target">195</data>
+            <data key="source_original">M_glu__L_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247258" target="247306">
+            <data key="SUID">247598</data>
+            <data key="selected">false</data>
+            <data key="id">810</data>
+            <data key="source">246</data>
+            <data key="target">198</data>
+            <data key="source_original">M_glu__L_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247258" target="247324">
+            <data key="SUID">247595</data>
+            <data key="selected">false</data>
+            <data key="id">813</data>
+            <data key="source">246</data>
+            <data key="target">180</data>
+            <data key="source_original">M_glu__L_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247258" target="247300">
+            <data key="SUID">247592</data>
+            <data key="selected">false</data>
+            <data key="id">816</data>
+            <data key="source">246</data>
+            <data key="target">204</data>
+            <data key="source_original">M_glu__L_c</data>
+            <data key="target_original">M_gln__L_c</data>
+        </edge>
+        <edge source="247258" target="247264">
+            <data key="SUID">247589</data>
+            <data key="selected">false</data>
+            <data key="id">819</data>
+            <data key="source">246</data>
+            <data key="target">240</data>
+            <data key="source_original">M_glu__L_c</data>
+            <data key="target_original">M_nadph_c</data>
+        </edge>
+        <edge source="247258" target="247261">
+            <data key="SUID">247586</data>
+            <data key="selected">false</data>
+            <data key="id">822</data>
+            <data key="source">246</data>
+            <data key="target">243</data>
+            <data key="source_original">M_glu__L_c</data>
+            <data key="target_original">M_nh4_c</data>
+        </edge>
+        <edge source="247255" target="247297">
+            <data key="SUID">247583</data>
+            <data key="selected">false</data>
+            <data key="id">825</data>
+            <data key="source">249</data>
+            <data key="target">207</data>
+            <data key="source_original">M_acald_c</data>
+            <data key="target_original">M_accoa_c</data>
+        </edge>
+        <edge source="247255" target="247333">
+            <data key="SUID">247580</data>
+            <data key="selected">false</data>
+            <data key="id">828</data>
+            <data key="source">249</data>
+            <data key="target">171</data>
+            <data key="source_original">M_acald_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247255" target="247309">
+            <data key="SUID">247577</data>
+            <data key="selected">false</data>
+            <data key="id">831</data>
+            <data key="source">249</data>
+            <data key="target">195</data>
+            <data key="source_original">M_acald_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247252" target="247297">
+            <data key="SUID">247574</data>
+            <data key="selected">false</data>
+            <data key="id">834</data>
+            <data key="source">252</data>
+            <data key="target">207</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_accoa_c</data>
+        </edge>
+        <edge source="247252" target="247333">
+            <data key="SUID">247571</data>
+            <data key="selected">false</data>
+            <data key="id">837</data>
+            <data key="source">252</data>
+            <data key="target">171</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247252" target="247309">
+            <data key="SUID">247568</data>
+            <data key="selected">false</data>
+            <data key="id">840</data>
+            <data key="source">252</data>
+            <data key="target">195</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247252" target="247255">
+            <data key="SUID">247565</data>
+            <data key="selected">false</data>
+            <data key="id">843</data>
+            <data key="source">252</data>
+            <data key="target">249</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_acald_c</data>
+        </edge>
+        <edge source="247252" target="247321">
+            <data key="SUID">247562</data>
+            <data key="selected">false</data>
+            <data key="id">846</data>
+            <data key="source">252</data>
+            <data key="target">183</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_co2_c</data>
+        </edge>
+        <edge source="247252" target="247303">
+            <data key="SUID">247559</data>
+            <data key="selected">false</data>
+            <data key="id">849</data>
+            <data key="source">252</data>
+            <data key="target">201</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_succoa_c</data>
+        </edge>
+        <edge source="247252" target="247336">
+            <data key="SUID">247556</data>
+            <data key="selected">false</data>
+            <data key="id">852</data>
+            <data key="source">252</data>
+            <data key="target">168</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247252" target="247312">
+            <data key="SUID">247553</data>
+            <data key="selected">false</data>
+            <data key="id">855</data>
+            <data key="source">252</data>
+            <data key="target">192</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247252" target="247306">
+            <data key="SUID">247550</data>
+            <data key="selected">false</data>
+            <data key="id">858</data>
+            <data key="source">252</data>
+            <data key="target">198</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247252" target="247324">
+            <data key="SUID">247547</data>
+            <data key="selected">false</data>
+            <data key="id">861</data>
+            <data key="source">252</data>
+            <data key="target">180</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247252" target="247330">
+            <data key="SUID">247544</data>
+            <data key="selected">false</data>
+            <data key="id">864</data>
+            <data key="source">252</data>
+            <data key="target">174</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_13dpg_c</data>
+        </edge>
+        <edge source="247252" target="247291">
+            <data key="SUID">247541</data>
+            <data key="selected">false</data>
+            <data key="id">867</data>
+            <data key="source">252</data>
+            <data key="target">213</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_pyr_c</data>
+        </edge>
+        <edge source="247252" target="247276">
+            <data key="SUID">247538</data>
+            <data key="selected">false</data>
+            <data key="id">870</data>
+            <data key="source">252</data>
+            <data key="target">228</data>
+            <data key="source_original">M_nad_c</data>
+            <data key="target_original">M_oaa_c</data>
+        </edge>
+        <edge source="247249" target="247333">
+            <data key="SUID">247535</data>
+            <data key="selected">false</data>
+            <data key="id">873</data>
+            <data key="source">255</data>
+            <data key="target">171</data>
+            <data key="source_original">M_akg_e</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247246" target="247288">
+            <data key="SUID">247532</data>
+            <data key="selected">false</data>
+            <data key="id">876</data>
+            <data key="source">258</data>
+            <data key="target">216</data>
+            <data key="source_original">M_2pg_c</data>
+            <data key="target_original">M_3pg_c</data>
+        </edge>
+        <edge source="247246" target="247279">
+            <data key="SUID">247529</data>
+            <data key="selected">false</data>
+            <data key="id">879</data>
+            <data key="source">258</data>
+            <data key="target">225</data>
+            <data key="source_original">M_2pg_c</data>
+            <data key="target_original">M_h2o_c</data>
+        </edge>
+        <edge source="247246" target="247318">
+            <data key="SUID">247526</data>
+            <data key="selected">false</data>
+            <data key="id">882</data>
+            <data key="source">258</data>
+            <data key="target">186</data>
+            <data key="source_original">M_2pg_c</data>
+            <data key="target_original">M_pep_c</data>
+        </edge>
+        <edge source="247243" target="247255">
+            <data key="SUID">247523</data>
+            <data key="selected">false</data>
+            <data key="id">885</data>
+            <data key="source">261</data>
+            <data key="target">249</data>
+            <data key="source_original">M_etoh_c</data>
+            <data key="target_original">M_acald_c</data>
+        </edge>
+        <edge source="247243" target="247333">
+            <data key="SUID">247520</data>
+            <data key="selected">false</data>
+            <data key="id">888</data>
+            <data key="source">261</data>
+            <data key="target">171</data>
+            <data key="source_original">M_etoh_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247243" target="247309">
+            <data key="SUID">247517</data>
+            <data key="selected">false</data>
+            <data key="id">891</data>
+            <data key="source">261</data>
+            <data key="target">195</data>
+            <data key="source_original">M_etoh_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247240" target="247327">
+            <data key="SUID">247514</data>
+            <data key="selected">false</data>
+            <data key="id">894</data>
+            <data key="source">264</data>
+            <data key="target">177</data>
+            <data key="source_original">M_ac_c</data>
+            <data key="target_original">M_actp_c</data>
+        </edge>
+        <edge source="247240" target="247336">
+            <data key="SUID">247511</data>
+            <data key="selected">false</data>
+            <data key="id">897</data>
+            <data key="source">264</data>
+            <data key="target">168</data>
+            <data key="source_original">M_ac_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247237" target="247273">
+            <data key="SUID">247508</data>
+            <data key="selected">false</data>
+            <data key="id">900</data>
+            <data key="source">267</data>
+            <data key="target">231</data>
+            <data key="source_original">M_acon_C_c</data>
+            <data key="target_original">M_icit_c</data>
+        </edge>
+        <edge source="247234" target="247210">
+            <data key="SUID">247505</data>
+            <data key="selected">false</data>
+            <data key="id">903</data>
+            <data key="source">270</data>
+            <data key="target">294</data>
+            <data key="source_original">M_q8_c</data>
+            <data key="target_original">M_fum_c</data>
+        </edge>
+        <edge source="247234" target="247231">
+            <data key="SUID">247502</data>
+            <data key="selected">false</data>
+            <data key="id">906</data>
+            <data key="source">270</data>
+            <data key="target">273</data>
+            <data key="source_original">M_q8_c</data>
+            <data key="target_original">M_q8h2_c</data>
+        </edge>
+        <edge source="247234" target="247252">
+            <data key="SUID">247499</data>
+            <data key="selected">false</data>
+            <data key="id">909</data>
+            <data key="source">270</data>
+            <data key="target">252</data>
+            <data key="source_original">M_q8_c</data>
+            <data key="target_original">M_nad_c</data>
+        </edge>
+        <edge source="247231" target="247279">
+            <data key="SUID">247496</data>
+            <data key="selected">false</data>
+            <data key="id">912</data>
+            <data key="source">273</data>
+            <data key="target">225</data>
+            <data key="source_original">M_q8h2_c</data>
+            <data key="target_original">M_h2o_c</data>
+        </edge>
+        <edge source="247231" target="247234">
+            <data key="SUID">247493</data>
+            <data key="selected">false</data>
+            <data key="id">915</data>
+            <data key="source">273</data>
+            <data key="target">270</data>
+            <data key="source_original">M_q8h2_c</data>
+            <data key="target_original">M_q8_c</data>
+        </edge>
+        <edge source="247231" target="247213">
+            <data key="SUID">247490</data>
+            <data key="selected">false</data>
+            <data key="id">918</data>
+            <data key="source">273</data>
+            <data key="target">291</data>
+            <data key="source_original">M_q8h2_c</data>
+            <data key="target_original">M_succ_c</data>
+        </edge>
+        <edge source="247228" target="247336">
+            <data key="SUID">247487</data>
+            <data key="selected">false</data>
+            <data key="id">921</data>
+            <data key="source">276</data>
+            <data key="target">168</data>
+            <data key="source_original">M_e4p_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247228" target="247312">
+            <data key="SUID">247484</data>
+            <data key="selected">false</data>
+            <data key="id">924</data>
+            <data key="source">276</data>
+            <data key="target">192</data>
+            <data key="source_original">M_e4p_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247228" target="247333">
+            <data key="SUID">247481</data>
+            <data key="selected">false</data>
+            <data key="id">927</data>
+            <data key="source">276</data>
+            <data key="target">171</data>
+            <data key="source_original">M_e4p_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247228" target="247309">
+            <data key="SUID">247478</data>
+            <data key="selected">false</data>
+            <data key="id">930</data>
+            <data key="source">276</data>
+            <data key="target">195</data>
+            <data key="source_original">M_e4p_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247228" target="247306">
+            <data key="SUID">247475</data>
+            <data key="selected">false</data>
+            <data key="id">933</data>
+            <data key="source">276</data>
+            <data key="target">198</data>
+            <data key="source_original">M_e4p_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247228" target="247324">
+            <data key="SUID">247472</data>
+            <data key="selected">false</data>
+            <data key="id">936</data>
+            <data key="source">276</data>
+            <data key="target">180</data>
+            <data key="source_original">M_e4p_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247228" target="247225">
+            <data key="SUID">247469</data>
+            <data key="selected">false</data>
+            <data key="id">939</data>
+            <data key="source">276</data>
+            <data key="target">279</data>
+            <data key="source_original">M_e4p_c</data>
+            <data key="target_original">M_g3p_c</data>
+        </edge>
+        <edge source="247225" target="247336">
+            <data key="SUID">247466</data>
+            <data key="selected">false</data>
+            <data key="id">942</data>
+            <data key="source">279</data>
+            <data key="target">168</data>
+            <data key="source_original">M_g3p_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247225" target="247312">
+            <data key="SUID">247463</data>
+            <data key="selected">false</data>
+            <data key="id">945</data>
+            <data key="source">279</data>
+            <data key="target">192</data>
+            <data key="source_original">M_g3p_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247225" target="247333">
+            <data key="SUID">247460</data>
+            <data key="selected">false</data>
+            <data key="id">948</data>
+            <data key="source">279</data>
+            <data key="target">171</data>
+            <data key="source_original">M_g3p_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247225" target="247309">
+            <data key="SUID">247457</data>
+            <data key="selected">false</data>
+            <data key="id">951</data>
+            <data key="source">279</data>
+            <data key="target">195</data>
+            <data key="source_original">M_g3p_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247225" target="247306">
+            <data key="SUID">247454</data>
+            <data key="selected">false</data>
+            <data key="id">954</data>
+            <data key="source">279</data>
+            <data key="target">198</data>
+            <data key="source_original">M_g3p_c</data>
+            <data key="target_original">M_nadp_c</data>
+        </edge>
+        <edge source="247225" target="247324">
+            <data key="SUID">247451</data>
+            <data key="selected">false</data>
+            <data key="id">957</data>
+            <data key="source">279</data>
+            <data key="target">180</data>
+            <data key="source_original">M_g3p_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247225" target="247228">
+            <data key="SUID">247448</data>
+            <data key="selected">false</data>
+            <data key="id">960</data>
+            <data key="source">279</data>
+            <data key="target">276</data>
+            <data key="source_original">M_g3p_c</data>
+            <data key="target_original">M_e4p_c</data>
+        </edge>
+        <edge source="247225" target="247330">
+            <data key="SUID">247445</data>
+            <data key="selected">false</data>
+            <data key="id">963</data>
+            <data key="source">279</data>
+            <data key="target">174</data>
+            <data key="source_original">M_g3p_c</data>
+            <data key="target_original">M_13dpg_c</data>
+        </edge>
+        <edge source="247222" target="247219">
+            <data key="SUID">247442</data>
+            <data key="selected">false</data>
+            <data key="id">966</data>
+            <data key="source">282</data>
+            <data key="target">285</data>
+            <data key="source_original">M_ru5p__D_c</data>
+            <data key="target_original">M_xu5p__D_c</data>
+        </edge>
+        <edge source="247219" target="247225">
+            <data key="SUID">247439</data>
+            <data key="selected">false</data>
+            <data key="id">969</data>
+            <data key="source">285</data>
+            <data key="target">279</data>
+            <data key="source_original">M_xu5p__D_c</data>
+            <data key="target_original">M_g3p_c</data>
+        </edge>
+        <edge source="247219" target="247204">
+            <data key="SUID">247436</data>
+            <data key="selected">false</data>
+            <data key="id">972</data>
+            <data key="source">285</data>
+            <data key="target">300</data>
+            <data key="source_original">M_xu5p__D_c</data>
+            <data key="target_original">M_s7p_c</data>
+        </edge>
+        <edge source="247216" target="247279">
+            <data key="SUID">247433</data>
+            <data key="selected">false</data>
+            <data key="id">975</data>
+            <data key="source">288</data>
+            <data key="target">225</data>
+            <data key="source_original">M_o2_c</data>
+            <data key="target_original">M_h2o_c</data>
+        </edge>
+        <edge source="247216" target="247234">
+            <data key="SUID">247430</data>
+            <data key="selected">false</data>
+            <data key="id">978</data>
+            <data key="source">288</data>
+            <data key="target">270</data>
+            <data key="source_original">M_o2_c</data>
+            <data key="target_original">M_q8_c</data>
+        </edge>
+        <edge source="247213" target="247333">
+            <data key="SUID">247427</data>
+            <data key="selected">false</data>
+            <data key="id">981</data>
+            <data key="source">291</data>
+            <data key="target">171</data>
+            <data key="source_original">M_succ_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247213" target="247210">
+            <data key="SUID">247424</data>
+            <data key="selected">false</data>
+            <data key="id">984</data>
+            <data key="source">291</data>
+            <data key="target">294</data>
+            <data key="source_original">M_succ_c</data>
+            <data key="target_original">M_fum_c</data>
+        </edge>
+        <edge source="247213" target="247231">
+            <data key="SUID">247421</data>
+            <data key="selected">false</data>
+            <data key="id">987</data>
+            <data key="source">291</data>
+            <data key="target">273</data>
+            <data key="source_original">M_succ_c</data>
+            <data key="target_original">M_q8h2_c</data>
+        </edge>
+        <edge source="247213" target="247336">
+            <data key="SUID">247418</data>
+            <data key="selected">false</data>
+            <data key="id">990</data>
+            <data key="source">291</data>
+            <data key="target">168</data>
+            <data key="source_original">M_succ_c</data>
+            <data key="target_original">M_adp_c</data>
+        </edge>
+        <edge source="247213" target="247324">
+            <data key="SUID">247415</data>
+            <data key="selected">false</data>
+            <data key="id">993</data>
+            <data key="source">291</data>
+            <data key="target">180</data>
+            <data key="source_original">M_succ_c</data>
+            <data key="target_original">M_pi_c</data>
+        </edge>
+        <edge source="247213" target="247303">
+            <data key="SUID">247412</data>
+            <data key="selected">false</data>
+            <data key="id">996</data>
+            <data key="source">291</data>
+            <data key="target">201</data>
+            <data key="source_original">M_succ_c</data>
+            <data key="target_original">M_succoa_c</data>
+        </edge>
+        <edge source="247210" target="247234">
+            <data key="SUID">247409</data>
+            <data key="selected">false</data>
+            <data key="id">999</data>
+            <data key="source">294</data>
+            <data key="target">270</data>
+            <data key="source_original">M_fum_c</data>
+            <data key="target_original">M_q8_c</data>
+        </edge>
+        <edge source="247210" target="247213">
+            <data key="SUID">247406</data>
+            <data key="selected">false</data>
+            <data key="id">1002</data>
+            <data key="source">294</data>
+            <data key="target">291</data>
+            <data key="source_original">M_fum_c</data>
+            <data key="target_original">M_succ_c</data>
+        </edge>
+        <edge source="247210" target="247267">
+            <data key="SUID">247403</data>
+            <data key="selected">false</data>
+            <data key="id">1005</data>
+            <data key="source">294</data>
+            <data key="target">237</data>
+            <data key="source_original">M_fum_c</data>
+            <data key="target_original">M_mal__L_c</data>
+        </edge>
+        <edge source="247207" target="247243">
+            <data key="SUID">247400</data>
+            <data key="selected">false</data>
+            <data key="id">1008</data>
+            <data key="source">297</data>
+            <data key="target">261</data>
+            <data key="source_original">M_etoh_e</data>
+            <data key="target_original">M_etoh_c</data>
+        </edge>
+        <edge source="247207" target="247333">
+            <data key="SUID">247397</data>
+            <data key="selected">false</data>
+            <data key="id">1011</data>
+            <data key="source">297</data>
+            <data key="target">171</data>
+            <data key="source_original">M_etoh_e</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247204" target="247228">
+            <data key="SUID">247394</data>
+            <data key="selected">false</data>
+            <data key="id">1014</data>
+            <data key="source">300</data>
+            <data key="target">276</data>
+            <data key="source_original">M_s7p_c</data>
+            <data key="target_original">M_e4p_c</data>
+        </edge>
+        <edge source="247201" target="247225">
+            <data key="SUID">247391</data>
+            <data key="selected">false</data>
+            <data key="id">1017</data>
+            <data key="source">303</data>
+            <data key="target">279</data>
+            <data key="source_original">M_dhap_c</data>
+            <data key="target_original">M_g3p_c</data>
+        </edge>
+        <edge source="247198" target="247291">
+            <data key="SUID">247388</data>
+            <data key="selected">false</data>
+            <data key="id">1020</data>
+            <data key="source">306</data>
+            <data key="target">213</data>
+            <data key="source_original">M_fru_e</data>
+            <data key="target_original">M_pyr_c</data>
+        </edge>
+        <edge source="247195" target="247291">
+            <data key="SUID">247385</data>
+            <data key="selected">false</data>
+            <data key="id">1023</data>
+            <data key="source">309</data>
+            <data key="target">213</data>
+            <data key="source_original">M_glc__D_e</data>
+            <data key="target_original">M_pyr_c</data>
+        </edge>
+        <edge source="247192" target="247312">
+            <data key="SUID">247382</data>
+            <data key="selected">false</data>
+            <data key="id">1026</data>
+            <data key="source">312</data>
+            <data key="target">192</data>
+            <data key="source_original">M_glx_c</data>
+            <data key="target_original">M_coa_c</data>
+        </edge>
+        <edge source="247192" target="247333">
+            <data key="SUID">247379</data>
+            <data key="selected">false</data>
+            <data key="id">1029</data>
+            <data key="source">312</data>
+            <data key="target">171</data>
+            <data key="source_original">M_glx_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247192" target="247267">
+            <data key="SUID">247376</data>
+            <data key="selected">false</data>
+            <data key="id">1032</data>
+            <data key="source">312</data>
+            <data key="target">237</data>
+            <data key="source_original">M_glx_c</data>
+            <data key="target_original">M_mal__L_c</data>
+        </edge>
+        <edge source="247159" target="247333">
+            <data key="SUID">247373</data>
+            <data key="selected">false</data>
+            <data key="id">1035</data>
+            <data key="source">315</data>
+            <data key="target">171</data>
+            <data key="source_original">M_lac__D_c</data>
+            <data key="target_original">M_h_c</data>
+        </edge>
+        <edge source="247159" target="247309">
+            <data key="SUID">247370</data>
+            <data key="selected">false</data>
+            <data key="id">1038</data>
+            <data key="source">315</data>
+            <data key="target">195</data>
+            <data key="source_original">M_lac__D_c</data>
+            <data key="target_original">M_nadh_c</data>
+        </edge>
+        <edge source="247159" target="247291">
+            <data key="SUID">247342</data>
+            <data key="selected">false</data>
+            <data key="id">1041</data>
+            <data key="source">315</data>
+            <data key="target">213</data>
+            <data key="source_original">M_lac__D_c</data>
+            <data key="target_original">M_pyr_c</data>
+        </edge>
+    </graph>
+</graphml>
